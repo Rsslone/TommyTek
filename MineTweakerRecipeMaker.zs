@@ -12,6 +12,17 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.remove(<immersiveengineering:metal_device0>);
+recipes.remove(<mekanism:transmitter>);
+recipes.remove(<mekanism:transmitter>);
+recipes.remove(<mekanism:transmitter>);
+recipes.remove(<mekanism:transmitter>);
+recipes.remove(<mekanism:energytablet>);
+recipes.remove(<mekanism:basicblock:8>);
+recipes.remove(<libvulpes:structuremachine>);
+recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -27,4 +38,17 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<immersiveengineering:connector:1> * 8, [[null, <ore:ingotCopper>, null], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>]]);
+recipes.addShaped(<immersiveengineering:connector> * 4, [[null, <ore:ingotCopper>, null], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>]]);
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<ore:wireElectrum>, null, <ore:wireElectrum>], [<ore:blockElectrum>, <immersiveengineering:metal_device0:1>, <ore:blockElectrum>], [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [[<ore:wireAluminium>, null, <ore:wireAluminium>], [<ore:ingotElectrum>, <immersiveengineering:metal_device0>, <ore:ingotElectrum>], [<immersiveengineering:treated_wood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:metal_device0>, [[<ore:wireCopper>, null, <ore:wireCopper>], [<ore:ingotIron>, <ore:blockLead>, <ore:ingotIron>], [<immersiveengineering:treated_wood>, <minecraft:redstone_block>, <immersiveengineering:treated_wood>]]);
+recipes.addShaped(<mekanism:transmitter> * 8, [[<mekanism:transmitter>, <ore:universalCable>, <ore:universalCable>], [<ore:universalCable>, <draconicevolution:draconium_block:1>, <ore:universalCable>], [<mekanism:transmitter>, <ore:universalCable>, <ore:universalCable>]]);
+recipes.addShaped(<mekanism:transmitter> * 8, [[<ore:universalCable>, <ore:universalCable>, <ore:universalCable>], [<mekanism:transmitter>, <ore:ingotPlutonium238>, <ore:universalCable>], [<ore:universalCable>, <mekanism:transmitter>, <ore:universalCable>]]);
+recipes.addShaped(<mekanism:transmitter> * 8, [[<ore:universalCable>, <ore:universalCable>, <ore:universalCable>], [<mekanism:transmitter>, <avaritia:resource>, <mekanism:transmitter>], [<ore:universalCable>, <mekanism:transmitter>, <ore:universalCable>]]);
+recipes.addShaped(<mekanism:transmitter> * 8, [[<mekanism:polyethene:1>, <ore:blockRedstone>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <immersiveengineering:metal_decoration0:2>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <minecraft:redstone_block>, <mekanism:polyethene:1>]]);
+recipes.addShaped(<mekanism:energytablet>, [[<ore:itemCompressedRedstone>, <minecraft:redstone_block>, <ore:itemCompressedRedstone>], [<ore:itemEnrichedAlloy>, <immersiveengineering:metal_decoration0:1>, <ore:itemEnrichedAlloy>], [<ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>, <mekanism:compressedredstone>]]);
+recipes.addShaped(<mekanism:basicblock:8>, [[null, <ore:plateOsmium>, null], [<ore:plateOsmium>, <mekanism:basicblock:5>, <ore:plateOsmium>], [null, <ore:plateOsmium>, null]]);
+recipes.addShaped(<libvulpes:structuremachine> * 4, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], [<immersiveengineering:metal:39>, null, <ore:plateIron>], [<ore:stickIron>, <immersiveengineering:metal:39>, <libvulpes:productrod:1>]]);
+recipes.addShaped(<libvulpes:structuremachine>, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], [<ore:plateIron>, null, <ore:plateIron>], [<libvulpes:productrod:1>, <ore:plateIron>, <ore:stickIron>]]);
 
