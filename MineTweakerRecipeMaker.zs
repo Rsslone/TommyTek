@@ -12,16 +12,37 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<powersuits:tinkertable>);
+recipes.remove(<powersuits:powerarmorcomponent:20>);
+recipes.remove(<powersuits:powerarmorcomponent:21>);
+recipes.remove(<powersuits:powerarmorcomponent:18>);
+recipes.remove(<powersuits:powerarmorcomponent:16>);
+recipes.remove(<powersuits:powerarmorcomponent:14>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
+recipes.remove(<powersuits:powerarmorcomponent:8>);
+recipes.remove(<powersuits:powerarmorcomponent:10>);
+recipes.remove(<powersuits:powerarmorcomponent:11>);
+recipes.remove(<powersuits:powerarmorcomponent:7>);
+recipes.remove(<powersuits:powerarmorcomponent:6>);
+recipes.remove(<powersuits:powerarmorcomponent:5>);
+recipes.remove(<powersuits:powerarmorcomponent:12>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:9>);
+recipes.remove(<powersuits:powerarmorcomponent:3>);
+recipes.remove(<powersuits:powerarmorcomponent:2>);
+recipes.remove(<powersuits:power_fist>);
+recipes.remove(<powersuits:powerarmor_feet>);
+recipes.remove(<powersuits:powerarmor_legs>);
+recipes.remove(<powersuits:powerarmor_torso>);
+recipes.remove(<powersuits:powerarmor_head>);
+recipes.remove(<mob_grinding_utils:absorption_hopper>);
+recipes.remove(<minecraft:hopper>);
+recipes.remove(<tconstruct:wooden_hopper>);
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.remove(<immersiveengineering:metal_device0>);
-recipes.remove(<mekanism:transmitter>);
-recipes.remove(<mekanism:transmitter>);
-recipes.remove(<mekanism:transmitter>);
-recipes.remove(<mekanism:transmitter>);
 recipes.remove(<mekanism:energytablet>);
 recipes.remove(<mekanism:basicblock:8>);
-recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
@@ -38,17 +59,38 @@ recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<powersuits:tinkertable>, [[<bibliocraft:handdrill>, <buildcraftcore:wrench>, <immersiveengineering:tool>], [<immersiveengineering:material:20>, <minecraft:crafting_table>, <immersiveengineering:material:20>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:20>, [[null, <mekanism:controlcircuit:2>], [<mekanism:controlcircuit>, <mekanism:controlcircuit>], [null, <immersiveengineering:material:20>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:21>, [[<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>], [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:18>, [[<nuclearcraft:solar_panel_elite>, <nuclearcraft:solar_panel_elite>, <nuclearcraft:solar_panel_elite>], [<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:16>, [[null, <industrialforegoing:dryrubber>, null], [<industrialforegoing:dryrubber>, <tconstruct:edible:30>, <industrialforegoing:dryrubber>], [<industrialforegoing:dryrubber>, <tconstruct:edible:30>, <industrialforegoing:dryrubber>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:14>, [[<nuclearcraft:gem_dust:7>, <immersiveengineering:material:4>, <nuclearcraft:gem_dust:7>], [<nuclearcraft:gem_dust:7>, <immersiveengineering:material:4>, <nuclearcraft:gem_dust:7>], [<nuclearcraft:gem_dust:7>, <immersiveengineering:material:4>, <nuclearcraft:gem_dust:7>]]);
+recipes.addShaped(<advancedrocketry:satelliteprimaryfunction>, [[null, <powersuits:powerarmorcomponent:13>, null], [<projectred-illumination:lamp:30>, <projectred-illumination:lamp:29>, <projectred-illumination:lamp:27>], [<mekanism:ingot:3>, <mekanism:ingot:3>, <mekanism:ingot:3>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:8>, [[<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>], [<powersuits:powerarmorcomponent:7>, <powersuits:powerarmorcomponent:20>, <powersuits:powerarmorcomponent:7>], [<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:10>, [[<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>], [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>], [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:11>, [[<avaritia:resource>, <avaritia:resource>], [<avaritia:resource>, <avaritia:resource>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:7>, [[null, <immersiveengineering:wirecoil:2>, null], [<immersiveengineering:wirecoil:2>, <immersiveengineering:metal_device0:2>, <immersiveengineering:wirecoil:2>], [null, <powersuits:powerarmorcomponent:20>, null]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:6>, [[null, <immersiveengineering:wirecoil:1>, null], [<immersiveengineering:wirecoil:1>, <immersiveengineering:metal_device0:1>, <immersiveengineering:wirecoil:1>], [null, <powersuits:powerarmorcomponent:20>, null]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:5>, [[null, <immersiveengineering:wirecoil>, null], [<immersiveengineering:wirecoil>, <immersiveengineering:metal_device0>, <immersiveengineering:wirecoil>], [null, <powersuits:powerarmorcomponent:20>, null]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:12>, [[<immersiveengineering:metal:31>, <avaritia:resource>, <immersiveengineering:metal:31>], [<avaritia:resource>, <draconicevolution:draconium_block:1>, <avaritia:resource>], [<immersiveengineering:metal:31>, <avaritia:resource>, <immersiveengineering:metal:31>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:4>, [[<immersiveengineering:material:1>, <powersuits:powerarmorcomponent:12>, <powersuits:powerarmorcomponent:1>], [null, <mekanism:ingot:3>, null], [null, <powersuits:powerarmorcomponent:12>, <powersuits:powerarmorcomponent:1>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:9>, [[<projectred-core:resource_item:420>, <projectred-core:resource_item:420>, <projectred-core:resource_item:420>], [<projectred-core:resource_item:420>, <projectred-core:resource_item:420>, <projectred-core:resource_item:420>], [<minecraft:string>, <projectred-core:resource_item:420>, <minecraft:string>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:3>, [[<immersiveengineering:metal:31>, <immersiveengineering:metal:31>, null], [null, <immersiveengineering:metal:31>, <immersiveengineering:metal:31>], [null, null, <immersiveengineering:metal:31>]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:2>, [[<immersiveengineering:wirecoil>, <minecraft:iron_ingot>, <immersiveengineering:wirecoil>], [<immersiveengineering:wirecoil>, <minecraft:iron_ingot>, <immersiveengineering:wirecoil>], [null, <minecraft:iron_ingot>, null]]);
+recipes.addShaped(<powersuits:powerarmorcomponent:1>, [[<alternatingflux:material>, <minecraft:iron_ingot>, <alternatingflux:material>], [<alternatingflux:material>, <minecraft:iron_ingot>, <alternatingflux:material>], [<alternatingflux:material>, <minecraft:iron_ingot>, <alternatingflux:material>]]);
+recipes.addShaped(<powersuits:power_fist>, [[null, <immersiveengineering:metal:33>, null], [<immersiveengineering:metal:33>, <avaritia:resource>, <immersiveengineering:material:21>], [null, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>]]);
+recipes.addShaped(<powersuits:powerarmor_feet>, [[<immersiveengineering:material:21>, <immersiveengineering:material:21>], [<avaritia:resource>, <avaritia:resource>], [<immersiveengineering:metal:33>, <immersiveengineering:metal:33>]]);
+recipes.addShaped(<powersuits:powerarmor_legs>, [[<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>], [<avaritia:resource>, <immersiveengineering:material:21>, <avaritia:resource>], [<immersiveengineering:metal:33>, null, <immersiveengineering:metal:33>]]);
+recipes.addShaped(<powersuits:powerarmor_torso>, [[<immersiveengineering:metal:33>, <immersiveengineering:material:21>, <immersiveengineering:metal:33>], [<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>], [<immersiveengineering:metal:33>, <avaritia:resource>, <immersiveengineering:metal:33>]]);
+recipes.addShaped(<powersuits:powerarmor_head>, [[<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>], [<immersiveengineering:metal:33>, <avaritia:resource>, <immersiveengineering:metal:33>]]);
+recipes.addShaped(<mob_grinding_utils:absorption_hopper>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
+recipes.addShaped(<minecraft:hopper>, [[null, <ore:obsidian>, null], [<ore:obsidian>, <mob_grinding_utils:absorption_hopper>, <ore:obsidian>], [null, <ore:obsidian>, null]]);
 recipes.addShaped(<immersiveengineering:connector:1> * 8, [[null, <ore:ingotCopper>, null], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>]]);
 recipes.addShaped(<immersiveengineering:connector> * 4, [[null, <ore:ingotCopper>, null], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ore:ingotCopper>, <ceramics:unfired_clay:5>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<ore:wireElectrum>, null, <ore:wireElectrum>], [<ore:blockElectrum>, <immersiveengineering:metal_device0:1>, <ore:blockElectrum>], [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:1>, [[<ore:wireAluminium>, null, <ore:wireAluminium>], [<ore:ingotElectrum>, <immersiveengineering:metal_device0>, <ore:ingotElectrum>], [<immersiveengineering:treated_wood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0>, [[<ore:wireCopper>, null, <ore:wireCopper>], [<ore:ingotIron>, <ore:blockLead>, <ore:ingotIron>], [<immersiveengineering:treated_wood>, <minecraft:redstone_block>, <immersiveengineering:treated_wood>]]);
-recipes.addShaped(<mekanism:transmitter> * 8, [[<mekanism:transmitter>, <ore:universalCable>, <ore:universalCable>], [<ore:universalCable>, <draconicevolution:draconium_block:1>, <ore:universalCable>], [<mekanism:transmitter>, <ore:universalCable>, <ore:universalCable>]]);
-recipes.addShaped(<mekanism:transmitter> * 8, [[<ore:universalCable>, <ore:universalCable>, <ore:universalCable>], [<mekanism:transmitter>, <ore:ingotPlutonium238>, <ore:universalCable>], [<ore:universalCable>, <mekanism:transmitter>, <ore:universalCable>]]);
-recipes.addShaped(<mekanism:transmitter> * 8, [[<ore:universalCable>, <ore:universalCable>, <ore:universalCable>], [<mekanism:transmitter>, <avaritia:resource>, <mekanism:transmitter>], [<ore:universalCable>, <mekanism:transmitter>, <ore:universalCable>]]);
-recipes.addShaped(<mekanism:transmitter> * 8, [[<mekanism:polyethene:1>, <ore:blockRedstone>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <immersiveengineering:metal_decoration0:2>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <minecraft:redstone_block>, <mekanism:polyethene:1>]]);
 recipes.addShaped(<mekanism:energytablet>, [[<ore:itemCompressedRedstone>, <minecraft:redstone_block>, <ore:itemCompressedRedstone>], [<ore:itemEnrichedAlloy>, <immersiveengineering:metal_decoration0:1>, <ore:itemEnrichedAlloy>], [<ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>, <mekanism:compressedredstone>]]);
 recipes.addShaped(<mekanism:basicblock:8>, [[null, <ore:plateOsmium>, null], [<ore:plateOsmium>, <mekanism:basicblock:5>, <ore:plateOsmium>], [null, <ore:plateOsmium>, null]]);
-recipes.addShaped(<libvulpes:structuremachine> * 4, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], [<immersiveengineering:metal:39>, null, <ore:plateIron>], [<ore:stickIron>, <immersiveengineering:metal:39>, <libvulpes:productrod:1>]]);
 recipes.addShaped(<libvulpes:structuremachine>, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], [<ore:plateIron>, null, <ore:plateIron>], [<libvulpes:productrod:1>, <ore:plateIron>, <ore:stickIron>]]);
 
