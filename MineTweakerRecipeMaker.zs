@@ -59,6 +59,8 @@ recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<buildcraftbuilders:quarry>, [[<ore:componentServo>, <ore:gearGold>, <ore:componentServo>], [<ore:gearGold>, <avaritia:singularity:12>, <ore:gearGold>], [<ore:gearDiamond>, <industrialforegoing:laser_drill>, <ore:gearDiamond>]]);
+recipes.addShaped(<wearablebackpacks:backpack>, [[<survivalist:tanned_leather>, <ore:nuggetGold>, <survivalist:tanned_leather>], [<survivalist:tanned_leather>, <multibags:third_fabric>, <survivalist:tanned_leather>], [<survivalist:tanned_leather>, <survivalist:tanned_leather>, <survivalist:tanned_leather>]]);
 recipes.addShaped(<powersuits:tinkertable>, [[<bibliocraft:handdrill>, <buildcraftcore:wrench>, <immersiveengineering:tool>], [<immersiveengineering:material:20>, <minecraft:crafting_table>, <immersiveengineering:material:20>]]);
 recipes.addShaped(<powersuits:powerarmorcomponent:20>, [[null, <mekanism:controlcircuit:2>], [<mekanism:controlcircuit>, <mekanism:controlcircuit>], [null, <immersiveengineering:material:20>]]);
 recipes.addShaped(<powersuits:powerarmorcomponent:21>, [[<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>], [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>]]);
