@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<similsaxtranstructors:similsaxtranstructoradvanced>);
+recipes.remove(<similsaxtranstructors:similsaxtranstructorbasic>);
+recipes.remove(<waterstrainer:bait_pot>);
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.remove(<wct:magnet_card>);
 recipes.remove(<powersuits:tinkertable>);
 recipes.remove(<powersuits:powerarmorcomponent:20>);
 recipes.remove(<powersuits:powerarmorcomponent:21>);
@@ -59,6 +64,10 @@ recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<similsaxtranstructors:similsaxtranstructoradvanced>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <similsaxtranstructors:similsaxtranstructorbasic>, <minecraft:diamond>], [null, <minecraft:ender_pearl>, null]]);
+recipes.addShaped(<similsaxtranstructors:similsaxtranstructorbasic>, [[<minecraft:iron_ingot>, <minecraft:ender_pearl>, <minecraft:iron_ingot>], [null, <betterbuilderswands:wandiron>, null], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<waterstrainer:bait_pot>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:flower_pot>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+recipes.addShaped(<wct:magnet_card>, [[<minecraft:lapis_block>, <appliedenergistics2:part:300>, <minecraft:redstone_block>], [<minecraft:diamond_block>, <appliedenergistics2:material:28>, <minecraft:gold_block>], [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
 recipes.addShaped(<buildcraftbuilders:quarry>, [[<ore:componentServo>, <ore:gearGold>, <ore:componentServo>], [<ore:gearGold>, <avaritia:singularity:12>, <ore:gearGold>], [<ore:gearDiamond>, <industrialforegoing:laser_drill>, <ore:gearDiamond>]]);
 recipes.addShaped(<wearablebackpacks:backpack>, [[<survivalist:tanned_leather>, <ore:nuggetGold>, <survivalist:tanned_leather>], [<survivalist:tanned_leather>, <multibags:third_fabric>, <survivalist:tanned_leather>], [<survivalist:tanned_leather>, <survivalist:tanned_leather>, <survivalist:tanned_leather>]]);
 recipes.addShaped(<powersuits:tinkertable>, [[<bibliocraft:handdrill>, <buildcraftcore:wrench>, <immersiveengineering:tool>], [<immersiveengineering:material:20>, <minecraft:crafting_table>, <immersiveengineering:material:20>]]);
