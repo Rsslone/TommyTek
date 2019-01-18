@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ironchest:iron_chest:5>);
+recipes.remove(<ironchest:iron_chest:5>);
+recipes.remove(<spartanshields:shield_botania_manasteel>);
+recipes.remove(<danknull:dank_null:2>);
+recipes.remove(<danknull:dank_null:1>);
+recipes.remove(<danknull:dank_null>);
 recipes.remove(<similsaxtranstructors:similsaxtranstructoradvanced>);
 recipes.remove(<similsaxtranstructors:similsaxtranstructorbasic>);
 recipes.remove(<waterstrainer:bait_pot>);
@@ -64,6 +70,20 @@ recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<spartanshields:shield_basic_enderium>, [[<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>], [<thebetweenlands:items_misc:17>, <spartanshields:shield_basic_diamond>, <thebetweenlands:items_misc:17>], [<ore:endstone>, <minecraft:ender_eye>, <minecraft:end_stone>]]);
+recipes.addShaped(<spartanshields:shield_basic_diamond>, [[null, <avaritia:resource>, null], [<avaritia:resource>, <spartanshields:shield_basic_stone>, <avaritia:resource>], [null, <avaritia:resource>, null]]);
+recipes.addShaped(<spartanshields:shield_botania_terrasteel>, [[null, <thebetweenlands:green_middle_gem>, null], [<ore:gemGreenMiddleGem>, <ore:blockSteel>, <ore:gemGreenMiddleGem>], [null, <thebetweenlands:green_middle_gem>, null]]);
+recipes.addShaped(<spartanshields:shield_basic_soulforged_steel>, [[null, <minecraft:soul_sand>, null], [<minecraft:soul_sand>, <spartanshields:shield_basic_iron>, <minecraft:soul_sand>], [null, <minecraft:soul_sand>, null]]);
+recipes.addShaped(<spartanshields:shield_basic_signalum>, [[null, <ore:blockArdite>, null], [<ore:blockArdite>, <spartanshields:shield_basic_stone>, <ore:blockArdite>], [null, <ore:blockArdite>, null]]);
+recipes.addShaped(<spartanshields:shield_basic_platinum>, [[null, <ore:ingotElectrotineAlloy>, null], [<ore:ingotElectrotineAlloy>, <spartanshields:shield_basic_stone>, <ore:ingotElectrotineAlloy>], [null, <ore:ingotElectrotineAlloy>, null]]);
+recipes.addShaped(<spartanshields:shield_basic_lumium>, [[null, <ore:blockRefinedGlowstone>, null], [<ore:blockRefinedGlowstone>, <spartanshields:shield_basic_stone>, <ore:blockRefinedGlowstone>], [null, <mekanism:basicblock:4>, null]]);
+recipes.addShaped(<spartanshields:shield_botania_manasteel>, [[null, <ore:blockLapis>, null], [<minecraft:lapis_block>, <spartanshields:shield_basic_stone>, <ore:blockLapis>], [null, <ore:blockLapis>, null]]);
+recipes.addShaped(<danknull:dank_null:5>, [[<thebetweenlands:octine_block>, <ore:blockEmerald>, <ore:blockOctine>], [<ore:blockEmerald>, <danknull:dank_null:4>, <ore:blockEmerald>], [<ore:blockOctine>, <ore:blockEmerald>, <thebetweenlands:octine_block>]]);
+recipes.addShaped(<danknull:dank_null:4>, [[<ore:gemEmerald>, <ore:blockDiamond>, <minecraft:emerald>], [<ore:blockDiamond>, <danknull:dank_null:3>, <ore:blockDiamond>], [<ore:gemEmerald>, <minecraft:diamond_block>, <ore:gemEmerald>]]);
+recipes.addShaped(<danknull:dank_null:3>, [[<ore:blockDiamond>, <minecraft:gold_block>, <ore:blockDiamond>], [<ore:blockGold>, <danknull:dank_null:2>, <minecraft:gold_block>], [<minecraft:diamond_block>, <minecraft:gold_block>, <ore:blockDiamond>]]);
+recipes.addShaped(<danknull:dank_null:2>, [[<ore:gemDiamond>, <immersiveengineering:storage:3>, <minecraft:diamond>], [<ore:blockSilver>, <danknull:dank_null:1>, <immersiveengineering:storage:3>], [<minecraft:diamond>, <ore:blockSilver>, <minecraft:diamond>]]);
+recipes.addShaped(<danknull:dank_null:1>, [[<ore:blockRedstone>, <ore:blockLapis>, <minecraft:redstone_block>], [<minecraft:lapis_block>, <danknull:dank_null>, <minecraft:lapis_block>], [<ore:blockRedstone>, <minecraft:lapis_block>, <minecraft:redstone_block>]]);
+recipes.addShaped(<danknull:dank_null>, [[<minecraft:coal_block>, <minecraft:redstone_block>, <ore:blockCoal>], [<minecraft:redstone_block>, <minecraft:glass>, <ore:blockRedstone>], [<minecraft:coal_block>, <minecraft:redstone_block>, <ore:blockCoal>]]);
 recipes.addShaped(<similsaxtranstructors:similsaxtranstructoradvanced>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <similsaxtranstructors:similsaxtranstructorbasic>, <minecraft:diamond>], [null, <minecraft:ender_pearl>, null]]);
 recipes.addShaped(<similsaxtranstructors:similsaxtranstructorbasic>, [[<minecraft:iron_ingot>, <minecraft:ender_pearl>, <minecraft:iron_ingot>], [null, <betterbuilderswands:wandiron>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<waterstrainer:bait_pot>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:flower_pot>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
