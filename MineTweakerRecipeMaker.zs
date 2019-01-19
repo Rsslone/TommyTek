@@ -12,9 +12,39 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<ironchest:iron_chest:5>);
+recipes.remove(<betterbuilderswands:wanddiamond>);
+recipes.remove(<bibliocraft:bell>);
+recipes.remove(<cookingforblockheads:cooking_table>);
+recipes.remove(<industrialforegoing:infinity_drill>);
+recipes.remove(<appliedenergistics2:inscriber>);
+recipes.remove(<mob_grinding_utils:fan>);
+recipes.remove(<mob_grinding_utils:saw>);
+recipes.remove(<ironchest:iron_shulker_box_black:5>);
+recipes.remove(<ironchest:iron_shulker_box_red:5>);
+recipes.remove(<ironchest:iron_shulker_box_green:5>);
+recipes.remove(<ironchest:iron_shulker_box_brown:5>);
+recipes.remove(<ironchest:iron_shulker_box_blue:5>);
+recipes.remove(<ironchest:iron_shulker_box_purple:5>);
+recipes.remove(<ironchest:iron_shulker_box_cyan:5>);
+recipes.remove(<ironchest:iron_shulker_box_silver:5>);
+recipes.remove(<ironchest:iron_shulker_box_gray:5>);
+recipes.remove(<ironchest:iron_shulker_box_pink:5>);
+recipes.remove(<ironchest:iron_shulker_box_lime:5>);
+recipes.remove(<ironchest:iron_shulker_box_yellow:5>);
+recipes.remove(<ironchest:iron_shulker_box_light_blue:5>);
+recipes.remove(<ironchest:iron_shulker_box_magenta:5>);
+recipes.remove(<ironchest:iron_shulker_box_orange:5>);
+recipes.remove(<ironchest:iron_shulker_box_white:5>);
+recipes.remove(<teastory:clay_cup>);
+recipes.remove(<immersiveengineering:shield>);
+recipes.remove(<spartanshields:shield_abyssalcraft_darkstone>);
+recipes.remove(<spartanshields:shield_abyssalcraft_dreadium>);
+recipes.remove(<spartanshields:shield_basic_diamond>);
 recipes.remove(<ironchest:iron_chest:5>);
 recipes.remove(<spartanshields:shield_botania_manasteel>);
+recipes.remove(<danknull:dank_null:5>);
+recipes.remove(<danknull:dank_null:4>);
+recipes.remove(<danknull:dank_null:3>);
 recipes.remove(<danknull:dank_null:2>);
 recipes.remove(<danknull:dank_null:1>);
 recipes.remove(<danknull:dank_null>);
@@ -70,17 +100,24 @@ recipes.remove(<libvulpes:structuremachine>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<spartanshields:shield_basic_enderium>, [[<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>], [<thebetweenlands:items_misc:17>, <spartanshields:shield_basic_diamond>, <thebetweenlands:items_misc:17>], [<ore:endstone>, <minecraft:ender_eye>, <minecraft:end_stone>]]);
+recipes.addShaped(<betterbuilderswands:wanddiamond>, [[null, null, <avaritia:resource>], [null, <ore:stickIron>, null], [<ore:stickIron>, null, null]]);
+recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotSteel>, <immersiveengineering:metal_decoration0:5>, <ore:ingotSteel>], [<ore:gemFluix>, null, <ore:ingotSteel>], [<mekanism:ingot:4>, <immersiveengineering:metal_decoration0:5>, <ore:ingotSteel>]]);
+recipes.addShaped(<mob_grinding_utils:fan>, [[<minecraft:stone_slab>, <ore:ingotSteel>, <minecraft:stone_slab>], [<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>], [<minecraft:stone_slab>, <ore:ingotSteel>, <minecraft:stone_slab>]]);
+recipes.addShaped(<mob_grinding_utils:saw>, [[<minecraft:diamond_sword>, <ore:gemDiamond>, <minecraft:diamond_sword>], [<mob_grinding_utils:spikes>, <ore:blockRedstone>, <mob_grinding_utils:spikes>], [<ore:gemDiamond>, <ore:blockSteel>, <minecraft:diamond>]]);
+recipes.addShaped(<teastory:clay_cup>, [[<minecraft:clay>, null, <minecraft:clay>], [<ceramics:unfired_clay:4>, <ore:blockClay>, <ore:clayPorcelain>]]);
+recipes.addShaped(<spartanshields:shield_abyssalcraft_darkstone>, [[null, <appliedenergistics2:sky_stone_block>, null], [<appliedenergistics2:sky_stone_block>, <spartanshields:shield_basic_stone>, <appliedenergistics2:sky_stone_block>], [null, <appliedenergistics2:sky_stone_block>, null]]);
+recipes.addShaped(<spartanshields:shield_abyssalcraft_dreadium>, [[null, <minecraft:nether_wart_block>, null], [<minecraft:nether_wart_block>, <spartanshields:shield_basic_stone>, <ore:blockNetherWart>], [null, <minecraft:nether_wart_block>, null]]);
+recipes.addShaped(<spartanshields:shield_basic_enderium>, [[<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>], [<thebetweenlands:items_misc:17>, <spartanshields:shield_basic_diamond>, <thebetweenlands:items_misc:17>], [<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>]]);
 recipes.addShaped(<spartanshields:shield_basic_diamond>, [[null, <avaritia:resource>, null], [<avaritia:resource>, <spartanshields:shield_basic_stone>, <avaritia:resource>], [null, <avaritia:resource>, null]]);
 recipes.addShaped(<spartanshields:shield_botania_terrasteel>, [[null, <thebetweenlands:green_middle_gem>, null], [<ore:gemGreenMiddleGem>, <ore:blockSteel>, <ore:gemGreenMiddleGem>], [null, <thebetweenlands:green_middle_gem>, null]]);
 recipes.addShaped(<spartanshields:shield_basic_soulforged_steel>, [[null, <minecraft:soul_sand>, null], [<minecraft:soul_sand>, <spartanshields:shield_basic_iron>, <minecraft:soul_sand>], [null, <minecraft:soul_sand>, null]]);
 recipes.addShaped(<spartanshields:shield_basic_signalum>, [[null, <ore:blockArdite>, null], [<ore:blockArdite>, <spartanshields:shield_basic_stone>, <ore:blockArdite>], [null, <ore:blockArdite>, null]]);
 recipes.addShaped(<spartanshields:shield_basic_platinum>, [[null, <ore:ingotElectrotineAlloy>, null], [<ore:ingotElectrotineAlloy>, <spartanshields:shield_basic_stone>, <ore:ingotElectrotineAlloy>], [null, <ore:ingotElectrotineAlloy>, null]]);
 recipes.addShaped(<spartanshields:shield_basic_lumium>, [[null, <ore:blockRefinedGlowstone>, null], [<ore:blockRefinedGlowstone>, <spartanshields:shield_basic_stone>, <ore:blockRefinedGlowstone>], [null, <mekanism:basicblock:4>, null]]);
-recipes.addShaped(<spartanshields:shield_botania_manasteel>, [[null, <ore:blockLapis>, null], [<minecraft:lapis_block>, <spartanshields:shield_basic_stone>, <ore:blockLapis>], [null, <ore:blockLapis>, null]]);
+recipes.addShaped(<spartanshields:shield_botania_manasteel>, [[null, <ore:blockLapis>, null], [<ore:blockLapis>, <spartanshields:shield_basic_stone>, <ore:blockLapis>], [null, <ore:blockLapis>, null]]);
 recipes.addShaped(<danknull:dank_null:5>, [[<thebetweenlands:octine_block>, <ore:blockEmerald>, <ore:blockOctine>], [<ore:blockEmerald>, <danknull:dank_null:4>, <ore:blockEmerald>], [<ore:blockOctine>, <ore:blockEmerald>, <thebetweenlands:octine_block>]]);
-recipes.addShaped(<danknull:dank_null:4>, [[<ore:gemEmerald>, <ore:blockDiamond>, <minecraft:emerald>], [<ore:blockDiamond>, <danknull:dank_null:3>, <ore:blockDiamond>], [<ore:gemEmerald>, <minecraft:diamond_block>, <ore:gemEmerald>]]);
-recipes.addShaped(<danknull:dank_null:3>, [[<ore:blockDiamond>, <minecraft:gold_block>, <ore:blockDiamond>], [<ore:blockGold>, <danknull:dank_null:2>, <minecraft:gold_block>], [<minecraft:diamond_block>, <minecraft:gold_block>, <ore:blockDiamond>]]);
+recipes.addShaped(<danknull:dank_null:4>, [[<ore:gemEmerald>, <minecraft:diamond_block>, <minecraft:emerald>], [<minecraft:diamond_block>, <danknull:dank_null:3>, <minecraft:diamond_block>], [<ore:gemEmerald>, <minecraft:diamond_block>, <ore:gemEmerald>]]);
+recipes.addShaped(<danknull:dank_null:3>, [[<minecraft:diamond_block>, <minecraft:gold_block>, <minecraft:diamond_block>], [<ore:blockGold>, <danknull:dank_null:2>, <minecraft:gold_block>], [<minecraft:diamond_block>, <minecraft:gold_block>, <minecraft:diamond_block>]]);
 recipes.addShaped(<danknull:dank_null:2>, [[<ore:gemDiamond>, <immersiveengineering:storage:3>, <minecraft:diamond>], [<ore:blockSilver>, <danknull:dank_null:1>, <immersiveengineering:storage:3>], [<minecraft:diamond>, <ore:blockSilver>, <minecraft:diamond>]]);
 recipes.addShaped(<danknull:dank_null:1>, [[<ore:blockRedstone>, <ore:blockLapis>, <minecraft:redstone_block>], [<minecraft:lapis_block>, <danknull:dank_null>, <minecraft:lapis_block>], [<ore:blockRedstone>, <minecraft:lapis_block>, <minecraft:redstone_block>]]);
 recipes.addShaped(<danknull:dank_null>, [[<minecraft:coal_block>, <minecraft:redstone_block>, <ore:blockCoal>], [<minecraft:redstone_block>, <minecraft:glass>, <ore:blockRedstone>], [<minecraft:coal_block>, <minecraft:redstone_block>, <ore:blockCoal>]]);
