@@ -2,7 +2,7 @@
 #author: DarethMC
 #Fermenter
 #OutputStack, OutputFluid, InputStack, Time in Ticks
-print("Initializing '04_pams_hc_ie_fermenter.zs...");
+print("Initializing 'ImmersiveSeedsCompat.zs...");
 
 val ethanol = <liquid:ethanol>;
 val seed = <immersiveengineering:seed>;
@@ -226,4 +226,4 @@ mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:wintersquashseeditem>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:zucchiniitem>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:zucchiniseeditem>, 80);
-print("Initialized '04_pams_hc_ie_fermenter.zs...");
+print("Initialized 'ImmersiveSeedsCompat.zs...");
