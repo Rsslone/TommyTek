@@ -1,3 +1,4 @@
+
 //Rename
 <cfm:item_crow_bar>.displayName = "Freeman's Crowbar";
 <advancedrocketry:concrete>.displayName = "Steel Reinforced Concrete";
@@ -7,6 +8,7 @@
 <minecraft:hopper>.addTooltip(format.red("Please if possible do not use this over the absorption hopper!"));
 <akashictome:tome>.addTooltip(format.green("RightClick to open, Left click to reset."));
 <industrialforegoing:tree_fluid_extractor>.addTooltip(format.green("Attach to base of tree to produce latex!"));
+<multistorage:ender_chest>.addTooltip(format.green("Shift+RightClick with item to upgrade | Diamond=private Emerald=team EnderPearl=+3cap EnderEye=+9cap"));
 
 //Vault items
 <industrialwires:ic2_connector:6>.addTooltip(format.green("Used for Vault Forge Power"));
@@ -24,4 +26,3 @@
 //BANNED ITEMS
 <bibliocraft:bell>.addTooltip(format.red("Removed due to bug!"));
 <immersiveengineering:shield>.addTooltip(format.red("WDYM it negates infinite damage?! - Banned!"));
-<multistorage:ender_chest>.addTooltip(format.green("Shift+RightClick with item to upgrade | Diamond=private Emerald=team EnderPearl=+3cap EnderEye=+9cap"));
