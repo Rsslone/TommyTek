@@ -34,6 +34,7 @@ recipes.remove(<bibliocraft:bell>);
 recipes.remove(<cookingforblockheads:cooking_table>);
 recipes.remove(<conarm:travel_sneak>);
 recipes.remove(<conarm:travel_night>);
+recipes.remove(<mekanism:walkietalkie>);
 
 //Tea Story
 recipes.remove(<teastory:clay_cup>);
