@@ -15,7 +15,7 @@ recipes.remove(<mekanism:machineblock2:13>);
 recipes.remove(<mekanism:machineblock:13>);
 recipes.remove(<mekanism:robit>);
 recipes.remove(<mekanism:armoredjetpack>);
-recipes.remove(<mekanism:jetpack>);
+recipes.remove(<mekanism:jetpack>.withTag({mekData: {}}));
 recipes.remove(<mekanism:machineblock:10>);
 recipes.remove(<mekanism:machineblock2:5>);
 recipes.remove(<mekanism:machineblock3:5>);
@@ -70,7 +70,7 @@ recipes.addShaped(<mekanism:machineblock2:13>, [[<ore:alloyUltimate>, <ore:batte
 recipes.addShaped(<mekanism:machineblock:13>, [[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>], [<ore:circuitBasic>, <ironchest:iron_chest:2>, <ore:circuitBasic>], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:robit>, [[null, <ore:circuitUltimate>, null], [<mekanism:energytablet>, <mekanism:machineblock:13>, <mekanism:energytablet>], [<stevescarts:modulecomponents:23>, null, <stevescarts:modulecomponents:23>]]);
 recipes.addShaped(<mekanism:armoredjetpack>, [[<advancedrocketry:productplate>, <mekanism:controlcircuit:3>, <advancedrocketry:productplate>], [<advancedrocketry:productplate>, <mekanism:jetpack>, <advancedrocketry:productplate>]]);
-recipes.addShaped(<mekanism:jetpack>, [[<ore:plateAluminium>, <ore:circuitElite>, <ore:plateAluminium>], [<ore:componentGliderWing>, <mekanism:gastank>.withTag({tier: 1, mekData: {}}), <ore:componentGliderWing>]]);
+recipes.addShaped(<mekanism:jetpack>.withTag({mekData: {}}), [[<ore:plateAluminium>, <ore:circuitElite>, <ore:plateAluminium>], [<ore:componentGliderWing>, <mekanism:gastank>.withTag({tier: 1, mekData: {}}), <ore:componentGliderWing>]]);
 recipes.addShaped(<mekanism:machineblock:10>, [[<mekanism:compressedcarbon>, <mekanism:basicblock2:5>, <mekanism:compressedcarbon>], [<mekanism:compressedcarbon>, <mekanism:basicblock:8>, <mekanism:compressedcarbon>], [<mekanism:compressedcarbon>, <mekanism:controlcircuit>, <mekanism:compressedcarbon>]]);
 recipes.addShaped(<mekanism:machineblock2:5>, [[<ore:ingotSteel>, <advancedrocketry:sawbladeiron>, <ore:ingotSteel>], [<ore:alloyElite>, <mekanism:basicblock:8>, <ore:alloyElite>], [<ore:ingotSteel>, <ore:alloyElite>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:5>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:gearDiamond>, <immersiveengineering:metal_decoration0:5>, <ore:gearDiamond>], [<ore:circuitAdvanced>, <buildcraftsilicon:assembly_table>, <ore:circuitAdvanced>]]);
