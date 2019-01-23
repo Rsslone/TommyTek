@@ -1,4 +1,4 @@
-<mekanism:machineblock:1>.withTag({mekData: {}})
+
 //REMOVE
 recipes.remove(<mekanism:basicblock:6>);
 recipes.remove(<mekanism:basicblock2:1>);
