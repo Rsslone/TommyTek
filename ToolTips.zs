@@ -5,6 +5,7 @@
 <akashictome:tome>.displayName = "The big book of LEARNING";
 
 //INFO TOOLTIPS
+<avaritia:endest_pearl>.addTooltip(format.red("DO NOT THROW INDOORS!!"));
 <minecraft:hopper>.addTooltip(format.red("Please if possible do not use this over the absorption hopper!"));
 <akashictome:tome>.addTooltip(format.green("RightClick to open, Left click to reset."));
 <industrialforegoing:tree_fluid_extractor>.addTooltip(format.green("Attach to base of tree to produce latex!"));
