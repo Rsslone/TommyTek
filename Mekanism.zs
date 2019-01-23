@@ -1,9 +1,9 @@
-
+<mekanism:machineblock:1>.withTag({mekData: {}})
 //REMOVE
 recipes.remove(<mekanism:basicblock:6>);
 recipes.remove(<mekanism:basicblock2:1>);
 recipes.remove(<mekanism:basicblock2:2>);
-recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 0, mekData: {}}));
+recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 0}));
 recipes.remove(<mekanism:energycube>);
 recipes.remove(<mekanism:atomicdisassembler>);
 recipes.remove(<mekanism:electricbow>);
@@ -22,6 +22,7 @@ recipes.remove(<mekanism:machineblock3:5>);
 recipes.remove(<mekanism:machineblock:4>);
 recipes.remove(<mekanism:machineblock:3>);
 recipes.remove(<mekanism:machineblock:8>);
+recipes.remove(<mekanism:machineblock>);
 recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<mekanism:walkietalkie>);
 recipes.remove(<mekanism:teleportationcore>);
@@ -84,8 +85,8 @@ recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 3}), [[<ore:circuitUlt
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 2}), [[<ore:circuitElite>, <mekanism:basicblock2:4>.withTag({tier: 1}), <ore:circuitElite>], [<mekanism:basicblock2:4>.withTag({tier: 1}), <nuclearcraft:cooler:12>, <mekanism:basicblock2:4>.withTag({tier: 1})], [<ore:circuitElite>, <mekanism:basicblock2:4>.withTag({tier: 1}), <ore:circuitElite>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 1}), [[<ore:circuitAdvanced>, <mekanism:basicblock2:4>.withTag({tier: 0}), <ore:circuitAdvanced>], [<mekanism:basicblock2:4>.withTag({tier: 0}), <nuclearcraft:cooler:7>, <mekanism:basicblock2:4>.withTag({tier: 0})], [<ore:circuitAdvanced>, <mekanism:basicblock2:4>.withTag({tier: 0}), <ore:circuitAdvanced>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 0}), [[<ore:circuitBasic>, <alternatingflux:connector>, <ore:circuitBasic>], [<immersiveengineering:connector:8>, <nuclearcraft:cooler:1>, <immersiveengineering:connector:8>], [<ore:circuitBasic>, <alternatingflux:wirecoil>, <ore:circuitBasic>]]);
-recipes.addShaped(<mekanism:transmitter:5>.withTag({tier: 0}) * 6, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:circuitAdvanced>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
-recipes.addShaped(<mekanism:transmitter:4>.withTag({tier: 0}) * 6, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<ore:ingotSteel>, <ore:circuitAdvanced>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 6, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 0}) * 6, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<mekanism:ingot:4>, <ore:blockGlassColorless>, <mekanism:ingot:4>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 0}) * 6, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<ore:ingotSteel>, <buildcrafttransport:waterproof>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
+recipes.addShaped(<mekanism:transmitter:5>.withTag({tier: 0}) * 8, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:circuitAdvanced>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
+recipes.addShaped(<mekanism:transmitter:4>.withTag({tier: 0}) * 8, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<ore:ingotSteel>, <ore:circuitAdvanced>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
+recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 0}) * 8, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<mekanism:ingot:4>, <ore:blockGlassColorless>, <mekanism:ingot:4>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
+recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 0}) * 8, [[<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>], [<ore:ingotSteel>, <buildcrafttransport:waterproof>, <ore:ingotSteel>], [<buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>, <buildcrafttransport:pipe_cobble_item>]]);
