@@ -15,7 +15,7 @@ recipes.remove(<mekanism:machineblock2:13>);
 recipes.remove(<mekanism:machineblock:13>);
 recipes.remove(<mekanism:robit>);
 recipes.remove(<mekanism:armoredjetpack>);
-recipes.remove(<mekanism:jetpack>.withTag({mekData: {}}));
+recipes.remove(<mekanism:jetpack>);
 recipes.remove(<mekanism:machineblock:10>);
 recipes.remove(<mekanism:machineblock2:5>);
 recipes.remove(<mekanism:machineblock3:5>);
