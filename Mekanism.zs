@@ -1,4 +1,10 @@
 
+//Enrichment Chamber
+//Carbon Mirofiber to Compressed Carbon
+mods.mekanism.enrichment.removeRecipe(<minecraft:coal>, <mekanism:compressedcarbon>);
+mods.mekanism.enrichment.removeRecipe(<minecraft:coal:1>, <mekanism:compressedcarbon>);
+mods.mekanism.enrichment.addRecipe(<powersuits:powerarmorcomponent:14>, <mekanism:compressedcarbon>);
+
 //##Induction Matrix##
 //Casing
 recipes.remove(<mekanism:basicblock2:1>);

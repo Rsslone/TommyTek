@@ -4,6 +4,10 @@
 mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput(<nuclearcraft:alloy:2> * 2);
 mods.immersiveengineering.ArcFurnace.addRecipe(<nuclearcraft:alloy:2>, <minecraft:diamond>, <immersiveengineering:material:7>, 8000, 2048, [<immersiveengineering:material:19>, <immersiveengineering:material:19>], "Alloying");
 
+//Redstone Connector
+recipes.remove(<immersiveengineering:connector:12>);
+recipes.addShaped(<immersiveengineering:connector:12>, [[<ore:nuggetIron>, <immersiveengineering:metal:27>, <ore:nuggetIron>], [<ore:nuggetIron>, <immersiveengineering:metal:27>, <ore:nuggetIron>], [<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]]);
+
 //Remove
 recipes.remove(<immersiveengineering:shield>);
 recipes.remove(<immersiveengineering:metal_device0:2>);
