@@ -10,6 +10,7 @@
 <akashictome:tome>.addTooltip(format.green("RightClick to open, Left click to reset."));
 <industrialforegoing:tree_fluid_extractor>.addTooltip(format.green("Attach to base of tree to produce latex!"));
 <multistorage:ender_chest>.addTooltip(format.green("Shift+RightClick with item to upgrade | Diamond=private Emerald=team EnderPearl=+3cap EnderEye=+9cap"));
+<advancedrocketry:fuelingstation>.addTooltip(format.green("Accepted Fuels: Napalm"));
 
 //Vault items
 <industrialwires:ic2_connector:6>.addTooltip(format.green("Used for Vault Forge Power"));
