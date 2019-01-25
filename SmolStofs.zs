@@ -42,6 +42,15 @@ mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
 mods.jei.JEI.removeAndHide(<conarm:travel_night>);
 mods.jei.JEI.removeAndHide(<mekanism:walkietalkie>);
 
+//Removed Ore
+mods.jei.JEI.removeAndHide(<mekanism:oreblock:2>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:ore>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:ore:2>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:ore:1>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:ore:5>);
+mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
+mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
+
 //Tea Story
 recipes.remove(<teastory:clay_cup>);
 recipes.remove(<teastory:clay_kettle>);
