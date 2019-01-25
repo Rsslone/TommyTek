@@ -1,4 +1,10 @@
 
+//Native Travel Disables
+recipes.remove(<erebus:gaean_keystone>);
+recipes.remove(<erebus:portal_activator>);
+<erebus:portal_activator>.addTooltip(format.red("Disabled, Must travel to via Rocket"));
+<erebus:gaean_keystone>.addTooltip(format.red("Disabled, Must travel to via Rocket"));
+
 //Wireless Terminal
 recipes.remove(<wct:magnet_card>);
 recipes.addShaped(<wct:magnet_card>, [[<minecraft:lapis_block>, <appliedenergistics2:part:300>, <minecraft:redstone_block>], [<minecraft:diamond_block>, <appliedenergistics2:material:28>, <minecraft:gold_block>], [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
@@ -38,4 +44,8 @@ recipes.remove(<mekanism:walkietalkie>);
 
 //Tea Story
 recipes.remove(<teastory:clay_cup>);
-recipes.addShaped(<teastory:clay_cup>, [[<minecraft:clay>, null, <minecraft:clay>], [<ceramics:unfired_clay:4>, <ore:blockClay>, <ore:clayPorcelain>]]);
+recipes.remove(<teastory:clay_kettle>);
+recipes.remove(<teastory:pot_clay>);
+recipes.addShaped(<teastory:clay_cup>, [[<ore:clayPorcelain>, <ceramics:unfired_clay:4>, null], [null, <ceramics:clay_barrel_unfired:2>, <ceramics:unfired_clay:4>]]);
+recipes.addShaped(<teastory:clay_cup>, [[null, <ore:clayPorcelain>, null], [<ceramics:unfired_clay:4>, null, <ceramics:unfired_clay:4>], [<ore:clayPorcelain>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>]]);
+recipes.addShaped(<teastory:clay_cup>, [[<ore:clayPorcelain>, null, <ore:clayPorcelain>], [null, <ore:clayPorcelain>, null]]);
