@@ -1,9 +1,4 @@
 
-//Solar Panels
-//Large
-recipes.remove(<advancedrocketry:satellitepowersource:1>);
-recipes.addShaped(<advancedrocketry:satellitepowersource:1>, [[<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>], [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]]);
-
 //Fuel Tank
 recipes.remove(<advancedrocketry:fueltank>);
 recipes.addShaped(<advancedrocketry:fueltank>, [[<ore:stickSteel>, <mekanism:compressedcarbon>, <ore:stickSteel>], [<ore:plateAluminium>, null, <ore:plateAluminium>], [<ore:stickSteel>, <ore:itemCompressedCarbon>, <ore:stickSteel>]]);
