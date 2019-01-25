@@ -36,11 +36,11 @@ recipes.addShaped(<similsaxtranstructors:similsaxtranstructoradvanced>, [[<minec
 recipes.addShaped(<similsaxtranstructors:similsaxtranstructorbasic>, [[<minecraft:iron_ingot>, <minecraft:ender_pearl>, <minecraft:iron_ingot>], [null, <betterbuilderswands:wandiron>, null], [null, <ore:stickWood>, null]]);
 
 //Banned Items
-recipes.remove(<bibliocraft:bell>);
-recipes.remove(<cookingforblockheads:cooking_table>);
-recipes.remove(<conarm:travel_sneak>);
-recipes.remove(<conarm:travel_night>);
-recipes.remove(<mekanism:walkietalkie>);
+mods.jei.JEI.removeAndHide(<bibliocraft:bell>);
+mods.jei.JEI.removeAndHide(<cookingforblockheads:cooking_table>);
+mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
+mods.jei.JEI.removeAndHide(<conarm:travel_night>);
+mods.jei.JEI.removeAndHide(<mekanism:walkietalkie>);
 
 //Tea Story
 recipes.remove(<teastory:clay_cup>);
