@@ -41,6 +41,7 @@ mods.jei.JEI.removeAndHide(<cookingforblockheads:cooking_table>);
 mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
 mods.jei.JEI.removeAndHide(<conarm:travel_night>);
 mods.jei.JEI.removeAndHide(<mekanism:walkietalkie>);
+mods.jei.JEI.removeAndHide(<mekanism:obsidiantnt>);
 
 //Removed Ore
 mods.jei.JEI.removeAndHide(<mekanism:oreblock:2>);
@@ -55,6 +56,6 @@ mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
 recipes.remove(<teastory:clay_cup>);
 recipes.remove(<teastory:clay_kettle>);
 recipes.remove(<teastory:pot_clay>);
-recipes.addShaped(<teastory:clay_cup>, [[<ore:clayPorcelain>, <ceramics:unfired_clay:4>, null], [null, <ceramics:clay_barrel_unfired:2>, <ceramics:unfired_clay:4>]]);
-recipes.addShaped(<teastory:clay_cup>, [[null, <ore:clayPorcelain>, null], [<ceramics:unfired_clay:4>, null, <ceramics:unfired_clay:4>], [<ore:clayPorcelain>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>]]);
+recipes.addShaped(<teastory:clay_kettle>, [[<ore:clayPorcelain>, <ceramics:unfired_clay:4>, null], [null, <ceramics:clay_barrel_unfired:2>, <ceramics:unfired_clay:4>]]);
+recipes.addShaped(<teastory:pot_clay>, [[null, <ore:clayPorcelain>, null], [<ceramics:unfired_clay:4>, null, <ceramics:unfired_clay:4>], [<ore:clayPorcelain>, <ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>]]);
 recipes.addShaped(<teastory:clay_cup>, [[<ore:clayPorcelain>, null, <ore:clayPorcelain>], [null, <ore:clayPorcelain>, null]]);
