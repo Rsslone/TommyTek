@@ -130,3 +130,9 @@ recipes.addShaped(<mekanism:transmitter:4>.withTag({tier: 0}) * 8, [[<minecraft:
 //Diversion
 recipes.remove(<mekanism:transmitter:5>.withTag({tier: 0}));
 recipes.addShaped(<mekanism:transmitter:5>.withTag({tier: 0}) * 8, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:circuitAdvanced>, <ore:ingotSteel>], [<buildcrafttransport:pipe_iron_item>, <buildcrafttransport:pipe_iron_item>, <buildcrafttransport:pipe_iron_item>]]);
+
+//##Mekanism Gen##
+recipes.remove(<mekanismgenerators:solarpanel>);
+recipes.remove(<mekanismgenerators:generator>);
+recipes.addShaped(<mekanismgenerators:solarpanel>, [[<minecraft:dye:4>, <nuclearcraft:gem_dust:7>, <minecraft:dye:4>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<immersiveengineering:metal:40>, <immersiveengineering:metal:40>, <immersiveengineering:metal:40>]]);
+recipes.addShaped(<mekanismgenerators:generator>, [[<ore:stickSteel>, <ore:ingotOsmium>, <ore:stickSteel>], [<teslacorelib:machine_case>, <ore:ingotOsmium>, <ore:ingotOsmium>], [<ore:plateCopper>, <immersiveengineering:metal_device1:3>, <ore:plateCopper>]]);
