@@ -8,7 +8,6 @@ recipes.remove(<danknull:dank_null:1>);
 recipes.remove(<danknull:dank_null>);
 
 //Add
-recipes.addShaped(<danknull:dank_null:5>, [[<thebetweenlands:octine_block>, <ore:blockEmerald>, <ore:blockOctine>], [<ore:blockEmerald>, <danknull:dank_null:4>, <ore:blockEmerald>], [<ore:blockOctine>, <ore:blockEmerald>, <thebetweenlands:octine_block>]]);
 recipes.addShaped(<danknull:dank_null:4>, [[<ore:gemEmerald>, <minecraft:diamond_block>, <minecraft:emerald>], [<minecraft:diamond_block>, <danknull:dank_null:3>, <minecraft:diamond_block>], [<ore:gemEmerald>, <minecraft:diamond_block>, <ore:gemEmerald>]]);
 recipes.addShaped(<danknull:dank_null:3>, [[<minecraft:diamond_block>, <minecraft:gold_block>, <minecraft:diamond_block>], [<ore:blockGold>, <danknull:dank_null:2>, <minecraft:gold_block>], [<minecraft:diamond_block>, <minecraft:gold_block>, <minecraft:diamond_block>]]);
 recipes.addShaped(<danknull:dank_null:2>, [[<ore:gemDiamond>, <immersiveengineering:storage:3>, <minecraft:diamond>], [<ore:blockSilver>, <danknull:dank_null:1>, <immersiveengineering:storage:3>], [<minecraft:diamond>, <ore:blockSilver>, <minecraft:diamond>]]);

@@ -12,4 +12,4 @@ recipes.remove(<industrialforegoing:laser_base>);
 recipes.addShaped(<industrialforegoing:laser_base>, [[<industrialforegoing:plastic>, <immersiveengineering:metal_device0:2>, <industrialforegoing:plastic>], [<ore:itemLens>, <mekanism:machineblock2:13>, <ore:itemLens>], [<ore:gearDiamond>, <mekanism:basicblock:8>, <ore:gearDiamond>]]);
 //Drill
 recipes.remove(<industrialforegoing:laser_drill>);
-recipes.addShaped(<industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <immersiveengineering:wooden_device0:3>, <industrialforegoing:plastic>], [<ore:gearDiamond>, <mekanism:machineblock2:14>, <ore:gearDiamond>], [<ore:gearDiamond>, <advancedrocketry:lens>, <ore:gearDiamond>]]);
+recipes.addShaped(<industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <immersiveengineering:wooden_device0:3>, <industrialforegoing:plastic>], [<ore:gearDiamond>, <buildcraftsilicon:laser>, <ore:gearDiamond>], [<ore:gearDiamond>, <advancedrocketry:lens>, <ore:gearDiamond>]]);

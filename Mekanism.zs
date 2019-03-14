@@ -31,10 +31,10 @@ recipes.addShaped(<mekanism:energycube>.withTag({tier: 0, mekData: {}}), [[<ore:
 
 //Universal Cables
 recipes.remove(<mekanism:transmitter>);
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 3}) * 8, [[<mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2})], [<mekanism:transmitter>.withTag({tier: 2}), <draconicevolution:draconium_block:1>, <mekanism:transmitter>.withTag({tier: 2})], [<mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2})]]);
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 2}) * 8, [[<mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1})], [<mekanism:transmitter>.withTag({tier: 1}), <ore:ingotPlutonium238>, <mekanism:transmitter>.withTag({tier: 1})], [<mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1})]]);
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 3}) * 8, [[<mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2})], [<mekanism:transmitter>.withTag({tier: 2}), <draconicevolution:draconium_block>, <mekanism:transmitter>.withTag({tier: 2})], [<mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2})]]);
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 2}) * 8, [[<mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1})], [<mekanism:transmitter>.withTag({tier: 1}), <avaritia:resource>, <mekanism:transmitter>.withTag({tier: 1})], [<mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1})]]);
 recipes.addShaped(<mekanism:transmitter>.withTag({tier: 1}) * 8, [[<mekanism:transmitter>.withTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0})], [<mekanism:transmitter>.withTag({tier: 0}), <avaritia:resource>, <mekanism:transmitter>.withTag({tier: 0})], [<mekanism:transmitter>.withTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0})]]);
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<mekanism:polyethene:1>, <ore:blockRedstone>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <immersiveengineering:metal_decoration0:2>, <mekanism:polyethene:1>], [<mekanism:polyethene:1>, <minecraft:redstone_block>, <mekanism:polyethene:1>]]);
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<immersiveengineering:metal:38>, <minecraft:redstone_block>, <immersiveengineering:metal:38>], [<immersiveengineering:metal:38>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal:38>], [<immersiveengineering:metal:38>, <minecraft:redstone_block>, <immersiveengineering:metal:38>]]);
 
 //##Tools##
 //Atomic Disassembler
@@ -46,6 +46,8 @@ recipes.addShaped(<mekanism:electricbow>, [[null, <ore:alloyElite>, <ore:wireSte
 //FlameThrower
 recipes.remove(<mekanism:flamethrower>);
 recipes.addShaped(<mekanism:flamethrower>, [[null, <jaopca:item_plateardite>, <jaopca:item_plateardite>], [<immersiveengineering:graphite_electrode>, <mekanism:gastank>.withTag({tier: 0, mekData: {}}), <immersiveengineering:material:13>], [<immersiveengineering:material:9>, <industrialwires:panel_component>, null]]);
+//Configurator
+recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:redstone>, null], [<minecraft:dye:4>, <ore:ingotIron>, <minecraft:dye:4>], [null, <ore:stickIron>, null]]);
 
 //##MachineBlocks##
 //Enrichment Chamber
@@ -53,13 +55,13 @@ recipes.remove(<mekanism:machineblock>);
 recipes.addShaped(<mekanism:machineblock>, [[<ore:alloyElite>, <ore:gearDiamond>, <ore:alloyElite>], [<ore:gearDiamond>, <mekanism:basicblock:8>, <ore:gearDiamond>], [<ore:blockSteel>, <ore:alloyElite>, <ore:blockSteel>]]);
 //Crusher
 recipes.remove(<mekanism:machineblock:3>);
-recipes.addShaped(<mekanism:machineblock:3>, [[<ore:gearDiamond>, <ore:gearDiamond>, <ore:gearDiamond>], [<ore:blockSteel>, <mekanism:basicblock:8>, <ore:blockSteel>], [<immersiveengineering:metal_decoration0:5>, <ore:componentServo>, <immersiveengineering:metal_decoration0:5>]]);
+recipes.addShaped(<mekanism:machineblock:3>, [[<ore:gearDiamond>, <ore:gearDiamond>, <ore:gearDiamond>], [<immersiveengineering:sheetmetal:8>, <mekanism:basicblock:8>, <immersiveengineering:sheetmetal:8>], [<immersiveengineering:sheetmetal:8>, <ore:componentServo>, <immersiveengineering:sheetmetal:8>]]);
 //DigitalMiner
 recipes.remove(<mekanism:machineblock:4>);
-recipes.addShaped(<mekanism:machineblock:4>, [[<mekanism:teleportationcore>, <ore:alloyUltimate>, <mekanism:teleportationcore>], [<immersiveengineering:wooden_device0:3>, <mekanism:basicblock:8>, <immersiveengineering:wooden_device0:3>], [<industrialforegoing:laser_drill>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_drill>]]);
+recipes.addShaped(<mekanism:machineblock:4>, [[<mekanism:teleportationcore>, <buildcraftbuilders:quarry>, <mekanism:teleportationcore>], [<immersiveengineering:wooden_device0:3>, <mekanism:basicblock:8>, <immersiveengineering:wooden_device0:3>], [<mekanism:basicblock:5>, <draconicevolution:draconium_block:1>, <mekanism:basicblock:5>]]);
 //Metallurgic Infuser
 recipes.remove(<mekanism:machineblock:8>);
-recipes.addShaped(<mekanism:machineblock:8>, [[<ore:plateOsmium>, <immersiveengineering:metal_device1:1>, <ore:plateOsmium>], [<immersiveengineering:metal_device1>, <immersiveengineering:wooden_device0:7>, <immersiveengineering:metal_device1>], [<ore:plateOsmium>, <ore:gearDiamond>, <ore:plateOsmium>]]);
+recipes.addShaped(<mekanism:machineblock:8>, [[<ore:plateOsmium>, <ore:gearDiamond>, <ore:plateOsmium>], [<immersiveengineering:metal_device1>, <mekanism:basicblock:8>, <immersiveengineering:metal_device1>], [<ore:plateOsmium>, <ore:gearDiamond>, <ore:plateOsmium>]]);
 //Energized Smelter
 recipes.remove(<mekanism:machineblock:10>);
 recipes.addShaped(<mekanism:machineblock:10>, [[<mekanism:compressedcarbon>, <mekanism:basicblock2:5>, <mekanism:compressedcarbon>], [<mekanism:compressedcarbon>, <mekanism:basicblock:8>, <mekanism:compressedcarbon>], [<mekanism:compressedcarbon>, <mekanism:controlcircuit>, <mekanism:compressedcarbon>]]);
@@ -106,10 +108,10 @@ recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 0, mekData: {}}), [[<mi
 //##Core Items##
 //Steel Casing
 recipes.remove(<mekanism:basicblock:8>);
-recipes.addShaped(<mekanism:basicblock:8>, [[<ore:electronTube>, <ore:plateOsmium>, <ore:electronTube>], [<ore:plateOsmium>, <immersiveengineering:metal_decoration0:5>, <ore:plateOsmium>], [<immersiveengineering:material:27>, <ore:plateOsmium>, <immersiveengineering:material:27>]]);
+recipes.addShaped(<mekanism:basicblock:8>, [[<mekanism:ingot:1>, <immersiveengineering:metal:38>, <mekanism:ingot:1>], [<immersiveengineering:metal:38>, <immersiveengineering:material:27>, <immersiveengineering:metal:38>], [<mekanism:ingot:1>, <immersiveengineering:metal:38>, <mekanism:ingot:1>]]);
 //Energy Tablet
 recipes.remove(<mekanism:energytablet>);
-recipes.addShaped(<mekanism:energytablet>, [[<ore:itemCompressedRedstone>, <minecraft:redstone_block>, <ore:itemCompressedRedstone>], [<ore:itemEnrichedAlloy>, <immersiveengineering:metal_decoration0:1>, <ore:itemEnrichedAlloy>], [<ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>, <mekanism:compressedredstone>]]);
+recipes.addShaped(<mekanism:energytablet>, [[<ore:itemCompressedRedstone>, <minecraft:redstone_block>, <ore:itemCompressedRedstone>], [<ore:itemEnrichedAlloy>, <immersiveengineering:storage:7>, <ore:itemEnrichedAlloy>], [<ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>, <mekanism:compressedredstone>]]);
 //Teleportation Core
 recipes.remove(<mekanism:teleportationcore>);
 recipes.addShaped(<mekanism:teleportationcore>, [[<ore:alloyUltimate>, <avaritia:resource>, <ore:alloyUltimate>], [<minecraft:nether_star>, <avaritia:endest_pearl>, <minecraft:nether_star>], [<ore:alloyUltimate>, <avaritia:resource>, <ore:alloyUltimate>]]);

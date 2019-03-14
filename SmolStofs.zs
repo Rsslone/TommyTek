@@ -1,10 +1,3 @@
-
-//Native Travel Disables
-recipes.remove(<erebus:gaean_keystone>);
-recipes.remove(<erebus:portal_activator>);
-<erebus:portal_activator>.addTooltip(format.red("Disabled, Must travel to via Rocket"));
-<erebus:gaean_keystone>.addTooltip(format.red("Disabled, Must travel to via Rocket"));
-
 //Wireless Terminal
 recipes.remove(<wct:magnet_card>);
 recipes.addShaped(<wct:magnet_card>, [[<minecraft:lapis_block>, <appliedenergistics2:part:300>, <minecraft:redstone_block>], [<minecraft:diamond_block>, <appliedenergistics2:material:28>, <minecraft:gold_block>], [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
@@ -19,8 +12,8 @@ recipes.addShaped(<mob_grinding_utils:saw>, [[<minecraft:diamond_sword>, <ore:ge
 //MobGrindingUtils - Hopper Changes
 recipes.remove(<minecraft:hopper>);
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
-recipes.addShaped(<mob_grinding_utils:absorption_hopper>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
-recipes.addShaped(<minecraft:hopper>, [[null, <ore:obsidian>, null], [<ore:obsidian>, <mob_grinding_utils:absorption_hopper>, <ore:obsidian>], [null, <ore:obsidian>, null]]);
+recipes.addShaped(<mob_grinding_utils:absorption_hopper>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
+recipes.addShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [null, <mob_grinding_utils:absorption_hopper>, null], [null, null, null]]);
 recipes.remove(<tconstruct:wooden_hopper>);
 
 //WaterStrainer
@@ -37,7 +30,6 @@ recipes.addShaped(<similsaxtranstructors:similsaxtranstructorbasic>, [[<minecraf
 
 //Banned Items
 mods.jei.JEI.removeAndHide(<bibliocraft:bell>);
-mods.jei.JEI.removeAndHide(<cookingforblockheads:cooking_table>);
 mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
 mods.jei.JEI.removeAndHide(<conarm:travel_night>);
 mods.jei.JEI.removeAndHide(<mekanism:walkietalkie>);
