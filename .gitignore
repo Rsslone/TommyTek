@@ -2,6 +2,8 @@
 /config/magibridge/
 /config/nucleus/
 /config/oxygen/data
+/config/multimob/modinformation/
+/config/jei/worldsettings.cfg
 /config/AppliedEnergistics2/CustomRecipes.cfg
 /config/AppliedEnergistics2/items.csv
 /config/AppliedEnergistics2/VersionChecker.cfg
