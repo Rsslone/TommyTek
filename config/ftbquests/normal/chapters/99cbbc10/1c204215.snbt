@@ -1,0 +1,28 @@
+{
+	title: "HOLY SMOKES GUS!",
+	x: -6.0d,
+	y: 0.5d,
+	text: [
+		"Gus gus.. I bet you didn't expect that gus."
+	],
+	dependencies: [
+		"1c57282a"
+	],
+	tasks: [{
+		uid: "34bbfebc",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "43a622f6",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "6b455ebe",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

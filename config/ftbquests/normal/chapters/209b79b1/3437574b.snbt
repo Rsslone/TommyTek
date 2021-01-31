@@ -1,0 +1,30 @@
+{
+	icon: "biomesoplenty:earth",
+	x: -4.0d,
+	y: -2.5d,
+	dependencies: [
+		"b4d3df5e",
+		"0c0ed6d0",
+		"efaafc54"
+	],
+	rewards: [{
+		uid: "cd6d4919",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "fbac0ab6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "f1321018",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "9f235d62",
+		type: "item",
+		item: "biomesoplenty:record_wanderer"
+	}]
+}

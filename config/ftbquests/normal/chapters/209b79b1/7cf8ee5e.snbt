@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -4.5d,
+	description: "&fUncommon",
+	tasks: [{
+		uid: "b0a26095",
+		type: "item",
+		items: [{
+			item: "treasure2:iron_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5593c61a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

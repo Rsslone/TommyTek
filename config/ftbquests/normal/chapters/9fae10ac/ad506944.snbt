@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "4fdfdd08",
+		type: "item",
+		items: [{
+			item: "minecraft:totem_of_undying"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af612f15",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1722e816",
+		type: "loot",
+		table: 0
+	}]
+}

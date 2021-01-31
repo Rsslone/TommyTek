@@ -1,0 +1,23 @@
+{
+	title: "Tower Guardian",
+	x: -2.5d,
+	y: -9.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "99f5b66b",
+		type: "kill",
+		icon: "chisel:certus1 1 8",
+		entity: "dungeontactics:towerguardian",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "015c6010",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e9b24529",
+		type: "random",
+		table: 11
+	}]
+}

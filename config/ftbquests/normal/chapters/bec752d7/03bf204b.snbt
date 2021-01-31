@@ -1,0 +1,18 @@
+{
+	title: "Flux Cleanup",
+	x: 26.0d,
+	y: 10.0d,
+	text: [
+		"Flux Condensers! Very useful for when you mess up with Flux. Flux Condensers use any kind of essentia (except vitium,) to turn flux in the aura into Vitium! Pipe essentia into the bottom, Vitium outputs from the top."
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "0042708e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+  "guiScale": 2,
+  "hudScale": 2,
+  "tooltipScale": 2,
+  "customIndividualGuiScales": {},
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "net.minecraftforge.fml.client.GuiModList",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "com.kamesuta.mc.signpic.gui.OverlayFrame",
+    "lumien.custommainmenu.gui.GuiCustom",
+    "net.minecraft.client.gui.GuiMultiplayer",
+    "net.minecraft.client.multiplayer.GuiConnecting",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [],
+  "dynamicGuiScales": []
+}

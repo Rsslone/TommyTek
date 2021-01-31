@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Toss in a wishing well."
+	],
+	tasks: [{
+		uid: "c5b0f150",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "b23d4159",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

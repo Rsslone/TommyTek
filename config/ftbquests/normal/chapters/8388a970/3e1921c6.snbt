@@ -1,0 +1,25 @@
+{
+	title: "Engineers Decor",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		"Immersive Engineering Themed Decor",
+		"",
+		"&2@EngineersDecor"
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "da3e87c5",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_hotwire"
+		}]
+	}],
+	rewards: [{
+		uid: "53274228",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

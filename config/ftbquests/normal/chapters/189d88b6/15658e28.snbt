@@ -1,0 +1,24 @@
+{
+	title: "Key Binds",
+	icon: "projectred-illumination:light_button",
+	x: -2.5d,
+	y: -5.0d,
+	text: [
+		"You can check button conflicts with F8. I've done my best to make sure everything works but there may be things I've missed.",
+		"",
+		"Use this panel to learn about buttons and/or rebind things. Just let me know about broken things and I'll see if I can't make it the future default."
+	],
+	dependencies: [
+		"b9464520"
+	],
+	tasks: [{
+		uid: "02a2b4bd",
+		type: "checkmark",
+		title: "Neat!"
+	}],
+	rewards: [{
+		uid: "675b470b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

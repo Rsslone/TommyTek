@@ -1,0 +1,25 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "420fb74a",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:creeper"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "97414cab",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "9d661c9e",
+		type: "loot",
+		table: 11
+	}]
+}

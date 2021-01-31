@@ -1,0 +1,54 @@
+{
+	title: "StarGates!",
+	x: -7.0d,
+	y: -1.0d,
+	text: [
+		"Assemble a 5x5 Ring with Cevrons on the corners and middle (top,right,left) and a base bottom middle. Fill the spaces with Ring blocks. The direction the blue dot on the base block is which way the gate will open.",
+		"",
+		"The controller must be within 5 blocks of the base block of the ring. The middle orb will glow orange if valid, otherwise gray.",
+		"",
+		"The Stargate Base Block emits a redstone signal whenever the stargate is active (dialling or connected). Solid blocks can be placed in the GUI for Camouflage to make it appear burried.",
+		"",
+		"Visit https://tgdgaming.fandom.com/wiki/SGCraft_(Stargate)"
+	],
+	tasks: [{
+		uid: "0d6a1bf9",
+		type: "item",
+		items: [{
+			item: "sgcraft:stargatering"
+		}],
+		count: 8L
+	},
+	{
+		uid: "24d3746e",
+		type: "item",
+		items: [{
+			item: "sgcraft:stargatering 1 1"
+		}],
+		count: 7L
+	},
+	{
+		uid: "b41921e2",
+		type: "item",
+		items: [{
+			item: "sgcraft:stargatebase"
+		}]
+	},
+	{
+		uid: "c5e0a79d",
+		type: "item",
+		items: [{
+			item: "sgcraft:stargatecontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "0915084f",
+		type: "random",
+		table: 11
+	},
+	{
+		uid: "2a8926e8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

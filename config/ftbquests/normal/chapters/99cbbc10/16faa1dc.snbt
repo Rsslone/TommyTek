@@ -1,0 +1,25 @@
+{
+	title: "Tea!",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"Besides the obvious, Tea has very powerful effects gained by drinking it. ",
+		"",
+		"&2The effects are omitted on purpose. Find out for yourself ;p"
+	],
+	dependencies: [
+		"6aba0a76"
+	],
+	tasks: [{
+		uid: "200fae68",
+		type: "item",
+		items: [{
+			item: "teastory:tea_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "5fbe43c4",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

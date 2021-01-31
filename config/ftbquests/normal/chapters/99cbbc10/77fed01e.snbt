@@ -1,0 +1,26 @@
+{
+	x: -10.5d,
+	y: -5.0d,
+	dependencies: [
+		"595fa1a4"
+	],
+	tasks: [{
+		uid: "87705240",
+		type: "item",
+		items: [{
+			item: "teastory:chicken_rice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "011e130d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6c414608",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 26.5d,
+	y: 14.0d,
+	text: [
+		"The Lamp of Growth is a special arcane lamp that grows crops using Herba essentia! Feed from the bottom and it will grow crops nearby."
+	],
+	dependencies: [
+		"75ab97c8"
+	],
+	tasks: [{
+		uid: "a8af0bb2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}],
+	rewards: [{
+		uid: "8d0a5540",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "97f6fada",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			Count: 10b,
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "herba"
+				}]
+			},
+			Damage: 1s
+		}
+	}]
+}

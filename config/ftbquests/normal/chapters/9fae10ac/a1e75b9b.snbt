@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -12.0d,
+	shape: "pentagon",
+	can_repeat: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "202dac90",
+		type: "kill",
+		icon: "mowziesmobs:wrought_helmet",
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "133678f7",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b415df68",
+		type: "loot",
+		table: 0
+	}]
+}

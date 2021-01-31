@@ -1,0 +1,30 @@
+{
+	title: "Starting Artifice",
+	x: 28.0d,
+	y: 15.5d,
+	text: [
+		"Artifice is where Thaumcraft gets tech-y, paired with Alchemy. The Goggles of Revealing will allow you to see the essentia count on entities and essentia containers such as warded jars, crucibles, and essentia pipes! "
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "c75563a5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10e9cdaa",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ed88e708",
+		type: "loot",
+		table: 16
+	}]
+}

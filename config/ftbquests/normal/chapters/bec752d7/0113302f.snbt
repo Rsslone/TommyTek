@@ -1,0 +1,24 @@
+{
+	x: 31.5d,
+	y: 15.0d,
+	text: [
+		"The \"Motherboard\" so-to-speak of any spell, Foci! Higher levels of Foci can store more energy, making better and stronger spells."
+	],
+	dependencies: [
+		"c014c016"
+	],
+	tasks: [{
+		uid: "fcd13e1d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea33ccc7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Diamond in the rough",
+	x: -2.5d,
+	y: -2.5d,
+	text: [
+		"MY PRECIOUS!"
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "028c712b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "ba056345",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7cc9a961",
+		type: "loot",
+		table: 0
+	}]
+}

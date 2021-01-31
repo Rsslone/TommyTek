@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Scanner will show visually where blocks and entities are.",
+		"",
+		"Requires modules to function. Shift+R-Click air to open GUI."
+	],
+	tasks: [{
+		uid: "ce72fa2c",
+		type: "item",
+		items: [{
+			item: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97fe188f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b96b4455",
+		type: "item",
+		item: "scannable:module_blank"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 18.5d,
+	y: 10.5d,
+	text: [
+		"Adamantite Smelteries break down items into essenta at a rate of 120% essentia, 0% flux."
+	],
+	dependencies: [
+		"f542d7c2"
+	],
+	tasks: [{
+		uid: "3b8985bb",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "f42385c6",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "bfb8de17",
+		type: "random",
+		table: 18
+	}]
+}

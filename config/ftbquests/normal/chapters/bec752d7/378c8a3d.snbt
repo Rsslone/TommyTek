@@ -1,0 +1,29 @@
+{
+	x: 26.0d,
+	y: 8.5d,
+	text: [
+		"The Legs piece of the Thaumium Fortress Armor Set. More Armor pieces provides more armor."
+	],
+	dependencies: [
+		"90afc4fe"
+	],
+	tasks: [{
+		uid: "fb81fb5a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "383c963d",
+		type: "ftbmoney:money",
+		ftb_money: 210L
+	},
+	{
+		uid: "074a2a1f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

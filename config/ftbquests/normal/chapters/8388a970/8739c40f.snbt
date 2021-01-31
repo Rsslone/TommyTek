@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	text: [
+		"Construction paste is really neat! It allows you to paste blocks without using those blocks, fake your way to riches by pasting mimic diamond blocks for your floor and gold for your walls! WOW!",
+		"",
+		"&2Place next to water. Its possible to automate with block placers, breakers, and some logic."
+	],
+	dependencies: [
+		"3271148c"
+	],
+	tasks: [{
+		uid: "d9cd260e",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionblockpowder"
+		}]
+	},
+	{
+		uid: "219ea70f",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpaste"
+		}]
+	}],
+	rewards: [{
+		uid: "dcfa8984",
+		type: "item",
+		item: "buildinggadgets:constructionpastecontainer"
+	},
+	{
+		uid: "415e92be",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

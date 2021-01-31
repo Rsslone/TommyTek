@@ -1,0 +1,24 @@
+{
+	x: 20.5d,
+	y: 13.5d,
+	dependencies: [
+		"e242ab42"
+	],
+	tasks: [{
+		uid: "13e167a7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "47bfa612",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6280dab0",
+		type: "loot",
+		table: 17
+	}]
+}

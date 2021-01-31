@@ -1,0 +1,29 @@
+{
+	x: 26.0d,
+	y: 7.5d,
+	text: [
+		"The Boots of the Traveler! Grants greatly decreased fall damage and greatly increased jump height, faster swim and walk/sprint speed, as well as faster horizontal movement while mid-air!"
+	],
+	dependencies: [
+		"19aa9d2f"
+	],
+	tasks: [{
+		uid: "18ab214d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8d9c43c",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "4a8f4a50",
+		type: "item",
+		item: "thaumcraft:curio 10 1"
+	}]
+}

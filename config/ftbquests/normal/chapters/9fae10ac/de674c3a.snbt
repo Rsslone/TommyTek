@@ -1,0 +1,57 @@
+{
+	title: "Factory Assembly",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"With the Tier I selected, place these blocks where they show up.",
+		"",
+		"&4NOTE : You will have one missing block on top. This will be placed later."
+	],
+	dependencies: [
+		"2b577079"
+	],
+	tasks: [{
+		uid: "d0415a83",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 1"
+		}],
+		count: 14L
+	},
+	{
+		uid: "ec908169",
+		type: "item",
+		items: [{
+			item: "woot:structure"
+		}],
+		count: 10L
+	},
+	{
+		uid: "1fc9fd67",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0ea6650c",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2b9230e9",
+		type: "item",
+		items: [{
+			item: "woot:factory"
+		}]
+	}],
+	rewards: [{
+		uid: "ca6af180",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

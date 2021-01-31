@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "bb0939a9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eaf88caf",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

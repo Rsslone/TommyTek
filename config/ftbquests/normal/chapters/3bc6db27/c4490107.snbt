@@ -1,0 +1,25 @@
+{
+	title: "Latex",
+	x: 7.0d,
+	y: 3.5d,
+	dependencies: [
+		"38b7f581"
+	],
+	tasks: [{
+		uid: "a7969a50",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "a193988c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1c2bdfdc",
+		type: "loot",
+		table: 0
+	}]
+}

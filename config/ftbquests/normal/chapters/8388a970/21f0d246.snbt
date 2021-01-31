@@ -1,0 +1,48 @@
+{
+	x: 7.5d,
+	y: -4.0d,
+	text: [
+		"Tables hold items, crazy right? ",
+		"",
+		"To rotate items use Tape Measure on any 4 sides of the table. (A wrench will also work from compatable mods)"
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "9da79daf",
+		type: "item",
+		title: "Tables!",
+		items: [{
+			item: "bibliocraft:table"
+		},
+		{
+			item: "bibliocraft:table 1 1"
+		},
+		{
+			item: "bibliocraft:table 1 2"
+		},
+		{
+			item: "bibliocraft:table 1 3"
+		},
+		{
+			item: "bibliocraft:table 1 4"
+		},
+		{
+			item: "bibliocraft:table 1 5"
+		},
+		{
+			item: "bibliocraft:table 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2512855c",
+		type: "item",
+		item: "bibliocraft:dinnerplate"
+	},
+	{
+		uid: "a88920a9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

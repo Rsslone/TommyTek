@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "33891120",
+		type: "item",
+		items: [{
+			item: "harvestcraft:broccoliseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "6c27d00b",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

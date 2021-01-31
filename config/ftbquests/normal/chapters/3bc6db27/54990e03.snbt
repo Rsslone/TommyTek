@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 13.0d,
+	dependencies: [
+		"7705c82d"
+	],
+	tasks: [{
+		uid: "4decb8c5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plant_interactor"
+		}]
+	}],
+	rewards: [{
+		uid: "2d840995",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

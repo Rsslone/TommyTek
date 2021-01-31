@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 5.5d,
+	dependencies: [
+		"b94f4d9d"
+	],
+	tasks: [{
+		uid: "3e25a311",
+		type: "item",
+		items: [{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "5a66d55b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"Want a pickle and lime sandwich? NO PROBLEM!",
+		"",
+		"Slap what you got between some bread and call it a day.",
+		"",
+		"&4Bread not Included."
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "95ff4933",
+		type: "item",
+		items: [{
+			item: "culinaryconstruct:sandwich_station"
+		}]
+	}],
+	rewards: [{
+		uid: "ed2680a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "96b6c19f",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	description: "&cSpecial",
+	text: [
+		"Opens ALL Metal."
+	],
+	tasks: [{
+		uid: "d1e8d380",
+		type: "item",
+		items: [{
+			item: "treasure2:metallurgists_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40aae6bd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

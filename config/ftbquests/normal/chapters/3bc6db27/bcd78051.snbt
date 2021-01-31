@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: 9.5d,
+	text: [
+		"Measure throughput on a line."
+	],
+	dependencies: [
+		"39f29f62"
+	],
+	tasks: [{
+		uid: "a2bdef12",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "883fc4bb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

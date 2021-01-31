@@ -1,0 +1,297 @@
+<galaxy>
+    <star name="Sol" temp="50" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Mercury" DIMID="1001">
+            <skyColor>0.7,0.7,0.7</skyColor>
+			<fogColor>0.74,0.74,0.74</fogColor>
+			<atmosphereDensity>20</atmosphereDensity>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>80</orbitalDistance>
+			<rotationalPeriod>1400000</rotationalPeriod>
+        </planet>
+		<planet name="Venus" DIMID="1002">
+            <skyColor>0.8,0.8,0.8</skyColor>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<atmosphereDensity>195</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>90</orbitalDistance>
+			<rotationalPeriod>2784000</rotationalPeriod>
+        </planet>
+		<planet name="Earth" DIMID="0" dimMapping="">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>72000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="Luna" DIMID="3">
+				<isKnown>true</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<orbitalDistance>150</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>128000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Mars" DIMID="1003">
+            <skyColor>1,0.2,0</skyColor>
+			<fogColor>0.9,0.6,0.1</fogColor>
+			<atmosphereDensity>20</atmosphereDensity>
+			<orbitalDistance>105</orbitalDistance>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+            <planet name="Phobos" DIMID="1004">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>70</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>10000</rotationalPeriod>
+            </planet>
+			<planet name="Deimos" DIMID="1005">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>130</orbitalDistance>
+				<orbitalPhi>180</orbitalPhi>
+				<rotationalPeriod>14000</rotationalPeriod>
+            </planet>
+        </planet>
+        <planet name="Ceres" DIMID="1006">
+            <skyColor>0.2,0.2,0.2</skyColor>
+			<atmosphereDensity>0</atmosphereDensity>
+			<orbitalDistance>110</orbitalDistance>
+			<gravitationalMultiplier>15</gravitationalMultiplier>
+			<rotationalPeriod>8880</rotationalPeriod>
+        </planet>
+		<planet name="Jupiter" DIMID="1007">
+            <GasGiant>true</GasGiant>
+			<orbitalDistance>120</orbitalDistance>
+			<rotationalPeriod>9900</rotationalPeriod>
+			<planet name="Io" DIMID="1008">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>70</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>8000</rotationalPeriod>
+            </planet>
+			<planet name="Europa" DIMID="1009">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>90</orbitalDistance>
+				<orbitalPhi>90</orbitalPhi>
+				<rotationalPeriod>10000</rotationalPeriod>
+            </planet>
+            <planet name="Ganymede" DIMID="1010">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>110</orbitalDistance>
+				<orbitalPhi>180</orbitalPhi>
+				<rotationalPeriod>12000</rotationalPeriod>
+            </planet>
+			<planet name="Callisto" DIMID="1011">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>130</orbitalDistance>
+				<orbitalPhi>270</orbitalPhi>
+				<rotationalPeriod>14000</rotationalPeriod>
+            </planet>
+        </planet>
+		<planet name="Saturn" DIMID="1012">
+            <GasGiant>true</GasGiant>
+			<orbitalDistance>135</orbitalDistance>
+			<rotationalPeriod>10600</rotationalPeriod>
+			<planet name="Rhea" DIMID="1013">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>70</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>9000</rotationalPeriod>
+            </planet>
+			<planet name="Titan" DIMID="1014">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<orbitalPhi>120</orbitalPhi>
+				<rotationalPeriod>12000</rotationalPeriod>
+				<oreGen>
+					<ore block="libvulpes:ore0" meta="8" minHeight="1" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+				</oreGen>
+            </planet>
+			<planet name="Iapetus" DIMID="1015">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>130</orbitalDistance>
+				<orbitalPhi>240</orbitalPhi>
+				<rotationalPeriod>15000</rotationalPeriod>
+            </planet>
+        </planet>
+		<planet name="Uranus" DIMID="1016">
+			<GasGiant>true</GasGiant>
+			<skyColor>0,0.9,1</skyColor>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<atmosphereDensity>10</atmosphereDensity>
+			<orbitalDistance>145</orbitalDistance>
+			<gravitationalMultiplier>89</gravitationalMultiplier>
+			<rotationalPeriod>17250</rotationalPeriod>
+			<planet name="Titania" DIMID="1017">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>80</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>9000</rotationalPeriod>
+				<oreGen>
+					<ore block="libvulpes:ore0" meta="8" minHeight="1" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+				</oreGen>
+            </planet>
+			<planet name="Oberon" DIMID="1018">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>120</orbitalDistance>
+				<orbitalPhi>180</orbitalPhi>
+				<rotationalPeriod>13000</rotationalPeriod>
+            </planet>
+        </planet>
+		<planet name="Neptune" DIMID="1019">
+            <skyColor>0,0.5,1</skyColor>
+			<GasGiant>true</GasGiant>
+			<atmosphereDensity>0</atmosphereDensity>
+			<orbitalDistance>175</orbitalDistance>
+			<gravitationalMultiplier>110</gravitationalMultiplier>
+			<rotationalPeriod>16100</rotationalPeriod>
+			<planet name="Triton" DIMID="1020">
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>140</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>17000</rotationalPeriod>
+            </planet>
+        </planet>
+        <planet name="Pluto" DIMID="1021">
+			<atmosphereDensity>0</atmosphereDensity>
+			<orbitalDistance>200</orbitalDistance>
+			<gravitationalMultiplier>20</gravitationalMultiplier>
+			<rotationalPeriod>153000</rotationalPeriod>
+        </planet>
+    </star>
+	<star name="Alpha Centauri" temp="40" x="-20" y="-10" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Melmac" DIMID="1100">
+            <skyColor>0,1,0</skyColor>
+			<fogColor>0,1,0</fogColor>
+			<atmosphereDensity>0</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>60</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+        </planet>
+		<planet name="Rigel VII" DIMID="1101">
+			<skyColor>1,0,1</skyColor>
+			<fogColor>1,0,0.5</fogColor>
+			<atmosphereDensity>0</atmosphereDensity>
+			<gravitationalMultiplier>50</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>40</orbitalPhi>
+			<rotationalPeriod>18000</rotationalPeriod>
+        </planet>
+		<planet name="Caprica" DIMID="1102">
+			<skyColor>0,0,1</skyColor>
+			<fogColor>0,0,1</fogColor>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>125</orbitalDistance>
+			<orbitalPhi>72</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+        </planet>
+		<planet name="Vogsphere" DIMID="1103">
+			<skyColor>0,0,0</skyColor>
+			<fogColor>0,0,0</fogColor>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>185</orbitalDistance>
+			<orbitalPhi>108</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>	
+        </planet>
+	</star>
+	<star name="Sirius" temp="900" x="0" y="80" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Tatooine" DIMID="1200">
+			<skyColor>0,0,1</skyColor>
+			<fogColor>0.6,0.6,0.5</fogColor>
+			<atmosphereDensity>185</atmosphereDensity>
+			<gravitationalMultiplier>85</gravitationalMultiplier>
+			<orbitalDistance>40</orbitalDistance>
+			<orbitalPhi>252</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+        </planet>
+		<planet name="Krypton" DIMID="1201">
+			<skyColor>0.8,0,0</skyColor>
+			<fogColor>0.8,0,0</fogColor>
+			<atmosphereDensity>180</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>160</orbitalDistance>
+			<orbitalPhi>216</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+        </planet>
+		<planet name="Miranda" DIMID="1202">
+			<skyColor>0,0,1</skyColor>
+			<fogColor>0,0,1</fogColor>
+			<atmosphereDensity>60</atmosphereDensity>
+			<gravitationalMultiplier>80</gravitationalMultiplier>
+			<orbitalDistance>185</orbitalDistance>
+			<orbitalPhi>144</orbitalPhi>
+			<rotationalPeriod>52000</rotationalPeriod>
+        </planet>
+	</star>
+	<star name="RX J1131-1231" temp="0" x="90" y="90" numPlanets="0" numGasGiants="0" blackHole="true">
+		<planet name="Spatial Anomaly" DIMID="1300">
+			<skyColor>0,0,0</skyColor>
+			<fogColor>0,0,0</fogColor>
+			<atmosphereDensity>200</atmosphereDensity>
+			<gravitationalMultiplier>110</gravitationalMultiplier>
+			<orbitalDistance>5</orbitalDistance>
+			<orbitalPhi>180</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+			<spawnable weight="1" groupMin="1" groupMax="5">minecraft:villager</spawnable>
+			<!-->PLEASE ADD TOUGH MOBS HERE<!-->
+        </planet>
+	</star>
+	<star name="Canopus" temp="80" x="-50" y="40" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Cybertron" DIMID="1400">
+			<skyColor>0.82,0.15,0</skyColor>
+			<fogColor>0.82,0.15,0</fogColor>
+			<atmosphereDensity>180</atmosphereDensity>
+			<gravitationalMultiplier>105</gravitationalMultiplier>
+			<orbitalDistance>20</orbitalDistance>
+			<orbitalPhi>288</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+			<biomeIds>biomesoplenty:volcanic_island</biomeIds>
+        </planet>
+	</star>
+	<star name="Arcturus" temp="40" x="60" y="50" numPlanets="0" numGasGiants="0" blackHole="false">
+	<!-->
+	This small asteroid plantoid should give some valuable materials.
+	<!-->
+		<planet name="AB-426" DIMID="1500">
+			<skyColor>0,0,0</skyColor>
+			<fogColor>0,0,0.5</fogColor>
+			<atmosphereDensity>0</atmosphereDensity>
+			<gravitationalMultiplier>9</gravitationalMultiplier>
+			<orbitalDistance>8</orbitalDistance>
+			<orbitalPhi>324</orbitalPhi>
+			<rotationalPeriod>5000</rotationalPeriod>
+        </planet>
+	</star>
+	<star name="Antares" temp="30" x="-40" y="-80" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Antar Proxima" DIMID="1600">
+			<skyColor>1,0.62,0.4</skyColor>
+			<fogColor>0.2,0,1</fogColor>
+			<atmosphereDensity>180</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>10</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+        </planet>
+	</star>
+</galaxy>

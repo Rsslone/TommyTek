@@ -1,0 +1,36 @@
+{
+	title: "Seed Growth Accelerators",
+	x: 1.0d,
+	y: 8.5d,
+	text: [
+		"Crystal Growth Chambers",
+		"The Three crystal variants, Quartz, Fluix, and Certus Quartz, can be crafted into 'seeds,' which, when thrown into water, will turn into pure variants of the respecitve crystals. ",
+		"These seeds ordinarily would take quite a long time to turn into their pure variants, which is where these Growth accelerators come in. Given power, they speed up the growth of the seeds given they surround a the block of water the seeds are in."
+	],
+	dependencies: [
+		"fe7bc09d"
+	],
+	tasks: [{
+		uid: "086f8477",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "70c371a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2123dbfb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "f0540b06",
+		type: "loot",
+		table: 0
+	}]
+}

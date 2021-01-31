@@ -1,0 +1,40 @@
+{
+	title: "Starting Alchemy",
+	x: 23.5d,
+	y: 9.5d,
+	text: [
+		"Alchemy starts with a good ol' Crucible, not to be confused with cauldrons. Witches use those. Essentia is used in all of thaumcraft, and Alchemy is where we begin to manipulate it."
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "95131fb0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "67bcc680",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "7829fa46",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5b10352b",
+		type: "item",
+		item: "thaumcraft:nugget 64 9"
+	},
+	{
+		uid: "f98915fb",
+		type: "loot",
+		table: 16
+	}]
+}

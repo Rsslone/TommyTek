@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	dependencies: [
+		"df66e4c8"
+	],
+	tasks: [{
+		uid: "65989a6f",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfield"
+		}]
+	}]
+}

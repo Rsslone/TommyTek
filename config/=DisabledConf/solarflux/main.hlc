@@ -1,0 +1,83 @@
+# Main configuration file fur Solar Flux Reborn!
+# To implement custom panels, look for the custom_panels.js file!
+~ Saved With Solar Flux 12.3.8
+
++C:Solar Panels={
+  # How much energy (percent) will get lost while picking up the solar panel? (Default: 5.0, Range: [0.0;100.0])
+  +F:Pickup Energy Loss=5.0
+
+  +C:Solar Panel 1={
+    +L:Capacity=16
+
+    +L:Generation Rate=1
+
+    +L:Transfer Rate=8
+
+  }
+
+  +C:Solar Panel 2={
+    +L:Capacity=32
+
+    +L:Generation Rate=8
+
+    +L:Transfer Rate=16
+
+  }
+
+  +C:Solar Panel 3={
+    +L:Capacity=96
+
+    +L:Generation Rate=24
+
+    +L:Transfer Rate=48
+
+  }
+
+  +C:Solar Panel 4={
+    +L:Capacity=288
+
+    +L:Generation Rate=72
+
+    +L:Transfer Rate=144
+
+  }
+
+  +C:Solar Panel 5={
+    +L:Capacity=864
+
+    +L:Generation Rate=216
+
+    +L:Transfer Rate=432
+
+  }
+
+  +C:Solar Panel 6={
+    +L:Capacity=2592
+
+    +L:Generation Rate=648
+
+    +L:Transfer Rate=1296
+
+  }
+
+  +C:Solar Panel 7={
+    +L:Capacity=7776
+
+    +L:Generation Rate=1944
+
+    +L:Transfer Rate=3888
+
+  }
+
+  +C:Solar Panel 8={
+    +L:Capacity=23328
+
+    +L:Generation Rate=5832
+
+    +L:Transfer Rate=11664
+
+  }
+
+}
+
+

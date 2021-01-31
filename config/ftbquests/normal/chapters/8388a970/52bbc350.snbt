@@ -1,0 +1,35 @@
+{
+	title: "Minecraft Radio",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"Jam out to custom music! NOTE: Music distance is heavily influenced by both Master Volume and Jukebox Volumes. The bigger the range you make the less noticable that issue becomes."
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "f0d8d204",
+		type: "item",
+		items: [{
+			item: "betterrecords:speaker"
+		}]
+	},
+	{
+		uid: "fc2d54ce",
+		type: "item",
+		items: [{
+			item: "betterrecords:wire"
+		}]
+	}],
+	rewards: [{
+		uid: "cf24e3f5",
+		type: "item",
+		item: "betterrecords:wirecutters"
+	},
+	{
+		uid: "a3518da0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

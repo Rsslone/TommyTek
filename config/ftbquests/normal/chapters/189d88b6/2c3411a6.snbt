@@ -1,0 +1,21 @@
+{
+	title: "Recipe Conflicts?",
+	icon: "minecraft:crafting_table",
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"Recipe conflicts happen, you can report them but in the meantime just click the arrow below the crafting output to cycle between the options."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "1808dbf4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1df78c0d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

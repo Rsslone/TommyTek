@@ -1,0 +1,67 @@
+{
+	title: "Tea Tools",
+	x: -3.5d,
+	y: -4.0d,
+	text: [
+		"Tea Table for pouring Tea with style of course.",
+		"",
+		"Tea Pan for drying, fermenting, and wetting tea leaves.",
+		"",
+		"Mortar for grinding. Whisk for whisking."
+	],
+	dependencies: [
+		"16faa1dc"
+	],
+	tasks: [{
+		uid: "3a02d2ff",
+		type: "item",
+		items: [{
+			item: "teastory:tea_table"
+		}]
+	},
+	{
+		uid: "9e8fc59d",
+		type: "item",
+		items: [{
+			item: "teastory:teapan"
+		}]
+	},
+	{
+		uid: "758d27f3",
+		type: "item",
+		items: [{
+			item: "teastory:tea_whisk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f628cce",
+		type: "item",
+		items: [{
+			item: "teastory:wooden_mortar_and_pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77afd825",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "0684b445",
+		type: "item",
+		item: "teastory:porkchop_rice"
+	},
+	{
+		uid: "0e1f2a54",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "9ba4c770",
+		type: "item",
+		item: "teastory:empty_tea_bag 10"
+	}]
+}

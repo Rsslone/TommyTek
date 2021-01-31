@@ -1,0 +1,40 @@
+{
+	title: "Remote I/O",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"These blocks are the I/O of the factory. You can place them in a vertical row directly below the factory heart (Or where your factory layout block might still be).",
+		"",
+		"&2Max Distance Away from Heart : 10 Blocks"
+	],
+	dependencies: [
+		"de674c3a"
+	],
+	tasks: [{
+		uid: "2d6df5f3",
+		type: "item",
+		items: [{
+			item: "woot:cell"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "740456b2",
+		type: "item",
+		items: [{
+			item: "woot:exporter"
+		}]
+	},
+	{
+		uid: "b89128af",
+		type: "item",
+		items: [{
+			item: "woot:importer"
+		}]
+	}],
+	rewards: [{
+		uid: "12a6a728",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

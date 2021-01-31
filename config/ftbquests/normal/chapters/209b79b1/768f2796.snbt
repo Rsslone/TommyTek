@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Wither Bones can be turned into Wither Dust, Useful as an ink alternative!"
+	],
+	dependencies: [
+		"67039193"
+	],
+	tasks: [{
+		uid: "bd127b1a",
+		type: "item",
+		items: [{
+			item: "netherex:wither_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "1513f332",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

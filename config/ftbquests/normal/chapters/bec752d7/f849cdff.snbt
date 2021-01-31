@@ -1,0 +1,27 @@
+{
+	x: 20.5d,
+	y: 17.5d,
+	text: [
+		"Auxillery slurry pumps process essentia on the side of an essentia smelter faster!"
+	],
+	dependencies: [
+		"e242ab42"
+	],
+	tasks: [{
+		uid: "427cfdf1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_aux"
+		}]
+	}],
+	rewards: [{
+		uid: "8d68af71",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7696594a",
+		type: "loot",
+		table: 0
+	}]
+}

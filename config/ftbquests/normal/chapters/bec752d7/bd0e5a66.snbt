@@ -1,0 +1,29 @@
+{
+	x: 25.0d,
+	y: 8.0d,
+	text: [
+		"The Chest piece of the Thaumium Fortress Armor Set. More Armor pieces provides more armor."
+	],
+	dependencies: [
+		"90afc4fe"
+	],
+	tasks: [{
+		uid: "74356cde",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5ace4f0",
+		type: "ftbmoney:money",
+		ftb_money: 210L
+	},
+	{
+		uid: "9fdb4c49",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

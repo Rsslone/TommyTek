@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: 5.0d,
+	dependencies: [
+		"d3b7d3cb",
+		"071732a5"
+	],
+	tasks: [{
+		uid: "989e4ce5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "f183d7fd",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "EPIC"
+			}
+		}
+	}]
+}

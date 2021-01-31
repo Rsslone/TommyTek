@@ -1,0 +1,54 @@
+{
+	title: "Matching Furniture!",
+	x: 5.5d,
+	y: -2.5d,
+	text: [
+		"The Furnature Paneler allows you to texture any solid block to any bibliocraft framed block. Very stylish!",
+		"Can be used with or without the GUI. Right clicking the square with a compatable item with place it there. Neato!"
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "bb66dd81",
+		type: "item",
+		title: "Make a Furniture Paneler",
+		items: [{
+			item: "bibliocraft:furniturepaneler"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 1"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 2"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 3"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 4"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 5"
+		},
+		{
+			item: "bibliocraft:furniturepaneler 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "3c0910e7",
+		type: "item",
+		item: "minecraft:planks",
+		count: 32
+	},
+	{
+		uid: "5a1c3820",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "0c8546c9",
+		type: "item",
+		item: "bibliocraft:framingsaw"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 25.5d,
+	y: 14.0d,
+	text: [
+		"The Lamp of Fertility is a special Arcane lamp that compels animals to breed using Desiderium Essentia! Feed from the bottom and it will breed nearby animals."
+	],
+	dependencies: [
+		"75ab97c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b36b1738",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_fertility"
+		}]
+	}],
+	rewards: [{
+		uid: "037723ec",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "65f3ad89",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			Count: 10b,
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "desiderium"
+				}]
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	dependencies: [
+		"ad9ad2ba"
+	],
+	tasks: [{
+		uid: "b2b59b2b",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:war"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "443ae833",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "82ef77bf",
+		type: "loot",
+		table: 0
+	}]
+}

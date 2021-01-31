@@ -1,0 +1,27 @@
+{
+	x: 27.0d,
+	y: 11.5d,
+	text: [
+		"The Crafting Table of Thaumcraft! Used to make plenty of items. Vis crystals can be put in each of their respective slots."
+	],
+	dependencies: [
+		"f1193812"
+	],
+	tasks: [{
+		uid: "59069f64",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "728293af",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9f54d498",
+		type: "loot",
+		table: 16
+	}]
+}

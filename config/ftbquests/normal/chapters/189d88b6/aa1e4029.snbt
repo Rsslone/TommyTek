@@ -1,0 +1,31 @@
+{
+	title: "Got Milk?",
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"c94cc661"
+	],
+	tasks: [{
+		uid: "4dad1d19",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllmilk",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Get some dairy"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "baacf406",
+		type: "item",
+		item: "minecraft:cake"
+	}]
+}

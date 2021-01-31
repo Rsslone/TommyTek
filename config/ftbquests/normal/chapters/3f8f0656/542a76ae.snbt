@@ -1,0 +1,29 @@
+{
+	title: "Smart Fluix Cables",
+	x: 3.0d,
+	y: 13.0d,
+	text: [
+		"Smart fluix cables display both on themselves and on the tooltip in the top middle of the screen how many channels they are using. "
+	],
+	dependencies: [
+		"f15c28c2"
+	],
+	tasks: [{
+		uid: "d0cdede7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "506221e4",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "53e65125",
+		type: "loot",
+		table: 0
+	}]
+}

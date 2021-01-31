@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -4.5d,
+	dependencies: [
+		"d63de0a7"
+	],
+	tasks: [{
+		uid: "652c56ee",
+		type: "item",
+		items: [{
+			item: "teastory:tea_drying_pan"
+		}]
+	}],
+	rewards: [{
+		uid: "3f0e0cb7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b0548266",
+		type: "item",
+		item: "teastory:chicken_rice"
+	}]
+}

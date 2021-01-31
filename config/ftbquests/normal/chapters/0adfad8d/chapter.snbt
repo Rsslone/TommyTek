@@ -1,0 +1,7 @@
+{
+	title: "Magical Emporium",
+	icon: "thaumcraft:enchanted_placeholder",
+	always_invisible: false,
+	group: -822777581,
+	default_quest_shape: ""
+}

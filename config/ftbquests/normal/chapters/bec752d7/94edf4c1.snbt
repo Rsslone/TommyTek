@@ -1,0 +1,29 @@
+{
+	title: "Liquid Essentia: The Beginning ",
+	x: 23.5d,
+	y: 12.0d,
+	text: [
+		"The Essentia Smelter is like a furnace, but instead of cooking items into things, it breaks them down into their essentia, which can then be pumped through pipes into things such as Warded Jars or other contraptions requiring Essentia."
+	],
+	dependencies: [
+		"2f99fe5f",
+		"ce4124b6"
+	],
+	tasks: [{
+		uid: "be0f7679",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "6b41e250",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a467f522",
+		type: "loot",
+		table: 0
+	}]
+}

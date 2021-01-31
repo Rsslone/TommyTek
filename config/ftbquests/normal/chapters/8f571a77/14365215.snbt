@@ -1,0 +1,25 @@
+{
+	icon: {
+		id: "tconstruct:fletching",
+		tag: {
+			Material: "feather"
+		},
+		Count: 1b
+	},
+	x: 4.5d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f9355618",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "56a07223",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

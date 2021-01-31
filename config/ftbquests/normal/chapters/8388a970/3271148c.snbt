@@ -1,0 +1,37 @@
+{
+	title: "Architectural Engineer!",
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"Level up your building with this nifty tool! Its like world edit but we pretend its not cheating!",
+		"",
+		"Shift R-Click and Holding G opens sub menus."
+	],
+	dependencies: [
+		"5006b59c"
+	],
+	tasks: [{
+		uid: "9cfe74d3",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a700774c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "cdb6122a",
+		type: "random",
+		table: 0
+	}]
+}

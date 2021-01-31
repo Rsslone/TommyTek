@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"aa690e30"
+	],
+	tasks: [{
+		uid: "08354912",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "250fb002",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	icon: "tombstone:decorative_grave_simple",
+	x: 4.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "125c1d87",
+		type: "stat",
+		icon: "tombstone:decorative_grave_simple",
+		stat: "stat.timeSinceDeath",
+		value: 990000
+	}],
+	rewards: [{
+		uid: "f974697f",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "b209ab07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Unclaimed Black Market Container "
+				},
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

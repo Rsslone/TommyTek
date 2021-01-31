@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7dd395a8",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "e3e22849",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

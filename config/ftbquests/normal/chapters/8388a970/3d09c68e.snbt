@@ -1,0 +1,67 @@
+{
+	title: "Modern Bathroom",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		"Need to wash off that blood? Need to drop a load? Crayfish Industries has you covered!",
+		"",
+		"&2Semi-\"functional\" blocks."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "7bdfbd2c",
+		type: "item",
+		items: [{
+			item: "cfm:mirror"
+		}]
+	},
+	{
+		uid: "abd7db87",
+		type: "item",
+		items: [{
+			item: "cfm:shower_head_off"
+		}]
+	},
+	{
+		uid: "ddb97d36",
+		type: "item",
+		items: [{
+			item: "cfm:shower_bottom"
+		}]
+	},
+	{
+		uid: "4a78735a",
+		type: "item",
+		items: [{
+			item: "cfm:bath_bottom"
+		}]
+	},
+	{
+		uid: "14acdc61",
+		type: "item",
+		items: [{
+			item: "cfm:wall_cabinet"
+		}]
+	},
+	{
+		uid: "cf5a2f20",
+		type: "item",
+		items: [{
+			item: "cfm:basin"
+		}]
+	},
+	{
+		uid: "c1d5ee02",
+		type: "item",
+		items: [{
+			item: "cfm:toilet"
+		}]
+	}],
+	rewards: [{
+		uid: "5d12fa6e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

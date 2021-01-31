@@ -1,0 +1,32 @@
+{
+	title: "Useful byproducts",
+	x: 3.0d,
+	y: 4.5d,
+	dependencies: [
+		"e48ae31c"
+	],
+	tasks: [{
+		uid: "8f2e3f14",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candledeco1"
+		}]
+	},
+	{
+		uid: "b16a28d6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatheritem"
+		}]
+	}],
+	rewards: [{
+		uid: "48d1ffdf",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "702160f1",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

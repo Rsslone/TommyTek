@@ -1,0 +1,375 @@
+{
+	title: "Unclaimed Blackmarket Cache",
+	icon: "treasure2:dread_pirate_chest",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "treasure2:compressor_chest"
+	},
+	{
+		item: "mekanism:machineblock 1 4"
+	},
+	{
+		item: "minecraft:bedrock"
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 16
+	},
+	{
+		item: "minecraft:diamond",
+		count: 32
+	},
+	{
+		item: "minecraft:dragon_breath",
+		count: 3
+	},
+	{
+		item: {
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "hydrogen"
+					}
+				}
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: "witherskelefix:fragment 19"
+	},
+	{
+		ftb_money: 2000L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 1L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 3000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_lootbox"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "adventuring_master_cache_4000"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_spell_book"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "master_spell_book"
+			}
+		}
+	},
+	{
+		item: "ebwizardry:advanced_necromancy_wand"
+	},
+	{
+		item: "ebwizardry:ring_condensing"
+	},
+	{
+		item: "ebwizardry:ring_defender"
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "SipsCo. Quality Dirt"
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "mowziesmobs:wrought_axe"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 3
+	},
+	{
+		item: "mod_lavacow:goldenheart"
+	},
+	{
+		item: "witherskelefix:blade2"
+	},
+	{
+		item: "witherskelefix:blade"
+	},
+	{
+		item: {
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 25046,
+					Defense: 50.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 25046,
+					Defense: 50.0f
+				},
+				TinkerData: {
+					Materials: [
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				}],
+				Traits: [
+					"xu_withering"
+				]
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cyclicmagic:healthboost"
+			}
+		}
+	},
+	{
+		item: "minecraft:sponge"
+	},
+	{
+		xp_levels: 100,
+		type: "xp_levels"
+	},
+	{
+		ftb_money: 20000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: "ebwizardry:spell_book 1 101"
+	},
+	{
+		item: "ebwizardry:spell_book 1 105"
+	},
+	{
+		item: "ebwizardry:spell_book 1 100"
+	},
+	{
+		item: "ebwizardry:spell_book 1 98"
+	},
+	{
+		item: "ebwizardry:spell_book 1 94"
+	},
+	{
+		item: "ebwizardry:spell_book 1 55"
+	},
+	{
+		item: "ebwizardry:spell_book 1 169"
+	},
+	{
+		item: "ebwizardry:charm_stop_time"
+	},
+	{
+		item: "ebwizardry:ring_hammer"
+	},
+	{
+		item: "ebwizardry:amulet_resurrection"
+	},
+	{
+		item: "ebwizardry:charm_haggler"
+	},
+	{
+		item: "ebwizardry:master_lightning_wand"
+	},
+	{
+		command: "/summon giant",
+		type: "command"
+	},
+	{
+		item: "mekanism:ingot 16"
+	},
+	{
+		item: {
+			id: "culinaryconstruct:sandwich",
+			tag: {
+				Size: 5,
+				Saturation: 1.0f,
+				Ingredients: {
+					Items: [{
+						Slot: 0b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					}]
+				},
+				Bonus: 2,
+				Depth: 0,
+				Food: 20
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluidmethane",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: "bibliocraft:cookiejar"
+	},
+	{
+		item: "minecraft:dragon_breath"
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:railgun"
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "dragonsteel_ice"
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: "minecraft:diamond",
+		count: 32
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 16
+	},
+	{
+		item: "stevescarts:cartmodule 1 76"
+	},
+	{
+		item: "mod_lavacow:piranhalauncher"
+	},
+	{
+		item: "lootgames:gol_master"
+	},
+	{
+		item: "mowziesmobs:grant_suns_blessing"
+	},
+	{
+		item: "mowziesmobs:earth_talisman"
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 80000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "RARE"
+			}
+		}
+	},
+	{
+		item: "thaumcraft:cloud_ring"
+	}],
+	loot_crate: {
+		string_id: "unclaimed_black_market_container",
+		item_name: "Unclaimed Black Market Container",
+		color: 0,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

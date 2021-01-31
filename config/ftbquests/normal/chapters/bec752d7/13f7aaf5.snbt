@@ -1,0 +1,28 @@
+{
+	title: "Making Spells",
+	x: 33.5d,
+	y: 14.5d,
+	text: [
+		"The Focal Manipulator is where you actually MAKE the spells to be cast from the caster's gauntlet. Spells are placed onto Foci are explained in the Thaumonomicon."
+	],
+	dependencies: [
+		"c014c016"
+	],
+	tasks: [{
+		uid: "40ceb45f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "7716ac7e",
+		type: "loot",
+		table: 17
+	},
+	{
+		uid: "e01a3db6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

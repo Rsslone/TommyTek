@@ -1,0 +1,29 @@
+{
+	title: "Top Tier Food: Corned Beef Breakfast",
+	x: 3.0d,
+	y: 10.5d,
+	text: [
+		"What about second breakfast?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5aaf295b"
+	],
+	tasks: [{
+		uid: "699bc640",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cornedbeefbreakfastitem"
+		}]
+	}],
+	rewards: [{
+		uid: "809c963c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "68e26f0b",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

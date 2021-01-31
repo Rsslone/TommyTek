@@ -1,0 +1,45 @@
+{
+	title: "Concentrated Solar Plant",
+	x: -9.0d,
+	y: 2.0d,
+	text: [
+		"The Solar Tower produces steam from water to turn your tubines, however obviously it only works during the day!"
+	],
+	dependencies: [
+		"4815ae2c"
+	],
+	tasks: [{
+		uid: "5f55518c",
+		type: "observation",
+		title: "Build a Solar Tower",
+		icon: "minecraft:double_plant",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "solar_tower_slave"
+		},
+		timer: 0L
+	},
+	{
+		uid: "7524fda1",
+		type: "observation",
+		title: "Build a Solar Reflector (At least One)",
+		icon: "railcraft:metal 1 4",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "solar_reflector_slave"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "955f3098",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "fb1c1f93",
+		type: "loot",
+		table: 11
+	}]
+}

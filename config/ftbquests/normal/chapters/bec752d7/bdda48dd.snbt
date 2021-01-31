@@ -1,0 +1,41 @@
+{
+	x: 26.5d,
+	y: 3.0d,
+	text: [
+		"The Sword of the Zephyr! Attacks arc between enemies doing a portion of the damage! Right click to gain a burst into the air!"
+	],
+	dependencies: [
+		"ebdb320b"
+	],
+	tasks: [{
+		uid: "c5afc6ba",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08de0985",
+		type: "item",
+		item: "thaumcraft:curio 10 1"
+	},
+	{
+		uid: "766c9340",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d9065730",
+		type: "random",
+		table: 17
+	}]
+}

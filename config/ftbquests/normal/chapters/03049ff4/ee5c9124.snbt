@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "80f77fff",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0b66bb55",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "57ca7fad",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "482d79e0",
+		type: "loot",
+		table: 18
+	}]
+}

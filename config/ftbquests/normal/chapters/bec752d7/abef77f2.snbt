@@ -1,0 +1,30 @@
+{
+	title: "Belt of the Traveler",
+	x: 30.0d,
+	y: 8.5d,
+	text: [
+		"The Belt of the Traveler functions like the Boots of the Traveler, but as a bauble! This does not provide step assist, however. "
+	],
+	dependencies: [
+		"27223c90"
+	],
+	tasks: [{
+		uid: "7333011d",
+		type: "item",
+		items: [{
+			item: "thaumadditions:traveller_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb95ad42",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6b3ad7a7",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

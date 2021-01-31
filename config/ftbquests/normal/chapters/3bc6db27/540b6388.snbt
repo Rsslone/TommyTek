@@ -1,0 +1,23 @@
+{
+	title: "Hand Held Tools",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"Tools... That you... Hold."
+	],
+	dependencies: [
+		"f5813136"
+	],
+	tasks: [{
+		uid: "4467139a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "3d4362e4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

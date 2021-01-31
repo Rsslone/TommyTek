@@ -1,0 +1,34 @@
+{
+	title: "Enhanced Automatic Crossbows",
+	x: 27.0d,
+	y: 19.0d,
+	text: [
+		"This improved variant of the automated crossbow is abit smarter with the help of a weird brain. You can restrict or specify what they can/cannot shoot arrows at!"
+	],
+	dependencies: [
+		"478200b1"
+	],
+	tasks: [{
+		uid: "38be762e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6d5254a7",
+		type: "item",
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "2c1d8bcb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

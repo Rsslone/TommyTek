@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "87e306db",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:rabbit"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "2f98e8a0",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "6d4cd880",
+		type: "loot",
+		table: 11
+	}]
+}

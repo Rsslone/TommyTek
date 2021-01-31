@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: "528bd99e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:void_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "375f6c26",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "72a5f715",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "5f3881c1",
+		type: "loot",
+		table: 18
+	}]
+}

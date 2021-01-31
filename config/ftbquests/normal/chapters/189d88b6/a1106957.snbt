@@ -1,0 +1,26 @@
+{
+	title: "Garbage Collection",
+	icon: "cfm:bin",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"Fend off the temptation to horde everything, fight the urge to throw trash on the ground! Type &3/trash&r or press the \"trash\" button top left of your inventory! <3"
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "d8a1add7",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "dfc4ede2",
+		type: "item",
+		item: "cfm:bin"
+	},
+	{
+		uid: "4caf558c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

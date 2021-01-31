@@ -1,0 +1,28 @@
+{
+	x: 28.5d,
+	y: 18.5d,
+	text: [
+		"Automated crossbows are exactly what they sound like. They shoot things with arrows. "
+	],
+	dependencies: [
+		"52e34088"
+	],
+	tasks: [{
+		uid: "5124e0b7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret"
+		}]
+	}],
+	rewards: [{
+		uid: "00ab8172",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "81ce227c",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 64
+	}]
+}

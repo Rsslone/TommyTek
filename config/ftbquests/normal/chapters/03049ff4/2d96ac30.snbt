@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "f5c6f36d",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager_golem"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "aac233b5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "0cc0636d",
+		type: "loot",
+		table: 11
+	}]
+}

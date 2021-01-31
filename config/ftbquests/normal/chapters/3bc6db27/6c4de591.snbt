@@ -1,0 +1,40 @@
+{
+	title: "Immersive Automation",
+	x: -0.5d,
+	y: 4.0d,
+	text: [
+		"Right cick with Engineers Hammer to toggle input/output modes. Shift-R-Click to change the color (channel)."
+	],
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "2fb30c53",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 12"
+		}]
+	},
+	{
+		uid: "2b54c588",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e0d2d7b2",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "UNCOMMON"
+			}
+		}
+	},
+	{
+		uid: "9480aeee",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

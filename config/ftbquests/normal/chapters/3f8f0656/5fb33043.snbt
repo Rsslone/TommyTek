@@ -1,0 +1,28 @@
+{
+	title: "The Cleanup Crew!",
+	x: -10.5d,
+	y: -8.0d,
+	text: [
+		"Emergency Radiation Cleanup"
+	],
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "5bfbf09b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radiation_scrubber"
+		}]
+	}],
+	rewards: [{
+		uid: "a56938f4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2cf6c65c",
+		type: "loot",
+		table: 0
+	}]
+}

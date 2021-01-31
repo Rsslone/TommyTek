@@ -1,0 +1,30 @@
+{
+	title: "Storage Cells",
+	x: -1.5d,
+	y: 12.5d,
+	text: [
+		"Storage cells are what store your items in an ME System. Storage capacity is measured in Bytes, being the total amount of items you can store in one cell."
+	],
+	dependencies: [
+		"3f8f8fb8"
+	],
+	tasks: [{
+		uid: "60638899",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:storage_cell_1k"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e47dd42",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0818a956",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

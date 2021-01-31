@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"8a0b391e"
+	],
+	tasks: [{
+		uid: "9cb480a5",
+		type: "item",
+		items: [{
+			item: "ompd:camo_trap"
+		}]
+	}]
+}

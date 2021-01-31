@@ -1,0 +1,34 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"iChisel is the vastly improved version of the chisel.",
+		"",
+		"&2Features include Connected Texture Preview Window(TM), More shape options, and easy stack chiseling."
+	],
+	dependencies: [
+		"a7859882"
+	],
+	tasks: [{
+		uid: "39c37692",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8322d3e4",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "0f4fe450",
+		type: "random",
+		table: 0
+	}]
+}

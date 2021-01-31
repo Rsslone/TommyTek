@@ -1,0 +1,32 @@
+{
+	x: -9.5d,
+	y: 9.5d,
+	text: [
+		"Improved wind output. Attach to the blades. (You need one for each blade.)"
+	],
+	dependencies: [
+		"a4f141e4"
+	],
+	tasks: [{
+		uid: "7081eadf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "1bfc2c3c",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		}
+	},
+	{
+		uid: "43bbc35e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

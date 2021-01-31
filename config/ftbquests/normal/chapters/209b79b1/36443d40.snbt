@@ -1,0 +1,88 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "ad09356c",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "ead7921f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "c57c5476",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1fcc39f7",
+		type: "item",
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "Rsslone",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						id: "bibliocraft:atlasbook",
+						Count: 1b,
+						tag: {
+							atlasID: 603693978
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "bibliocraft:compass",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "appliedenergistics2:certus_quartz_sword",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:written_book",
+						Count: 1b,
+						tag: {
+							pages: [
+								"{\"text\":\"This is the story of a man who found great riches. Once upon a time, there was a man who worked hard all his life. One day, after returning from the mines he found a pathway in one of his tunnels which didn\\u0027t look natural. He was very interested in what\"}",
+								"{\"text\":\"it was, so he put down his ore and went in. It wasn\\u0027t long before a light appeared through the darkness ahead, when he made it to the source of the light he was amazed. There was a large room filled with runes that was beyond his comprehension.\"}",
+								"{\"text\":\"Among the runes were boxes, crates, and stacked ingots of gold and diamond filled in the room. He could not believe his eyes. His days working as a common miner were over, he knew this within moments of looking upon the riches.\"}",
+								"{\"text\":\"However the man knew of the struggle, so thankful for what the world has given him, he decided to leave some of it for the day another man find his way there. Legend has it the only remaining clue to the location was some letters which nobody has found\"}",
+								"{\"text\":\"the purpose of. The letters of legend is AGA3-BHL-9K i\\u0027m sure one day a young worker just like that man will figure it out. Riches await you.\\n\\n\\nThe End.\"}"
+							],
+							author: "Rsslone",
+							title: "Riches of Old",
+							resolved: 1b
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:lingering_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "treasure2:extra_strong_healing"
+						},
+						Damage: 0s
+					}]
+				}
+			}
+		}
+	}]
+}

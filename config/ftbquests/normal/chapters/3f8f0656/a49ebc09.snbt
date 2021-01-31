@@ -1,0 +1,30 @@
+{
+	title: "Fluid Storage Cells",
+	x: 1.5d,
+	y: 12.5d,
+	text: [
+		"Fluid Storage cells store five different kinds of fluid, with their capacity depending on the amount of bytes. "
+	],
+	dependencies: [
+		"3f8f8fb8"
+	],
+	tasks: [{
+		uid: "463ec5be",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_storage_cell_1k"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69a165da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1c94ead0",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

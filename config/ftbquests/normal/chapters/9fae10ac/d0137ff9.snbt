@@ -1,0 +1,29 @@
+{
+	x: -10.5d,
+	y: 5.0d,
+	dependencies: [
+		"5ac0df15"
+	],
+	tasks: [{
+		uid: "b6aa1a20",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "enderio:block_alloy",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Count: 1b
+		}]
+	},
+	{
+		uid: "cbd69c27",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}]
+	}]
+}

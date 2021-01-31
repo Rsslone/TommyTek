@@ -1,0 +1,42 @@
+{
+	x: -5.0d,
+	y: 4.5d,
+	text: [
+		"Creative-Like flight between the points."
+	],
+	dependencies: [
+		"2eb3972e"
+	],
+	tasks: [{
+		uid: "e7e4f51e",
+		type: "item",
+		items: [{
+			id: "hooked:hook",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8272109498050918241L,
+						UUIDLeast: -6124570524305805799L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.strengthening.name"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f5bd2d3",
+		type: "ftbmoney:money",
+		ftb_money: 160L
+	}]
+}

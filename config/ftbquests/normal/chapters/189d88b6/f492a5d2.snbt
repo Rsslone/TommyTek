@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"Allows capturing things above it in the area defined by which capsule you have.",
+		"",
+		"&2Required for newly crafted capsules only."
+	],
+	dependencies: [
+		"d8668e52"
+	],
+	tasks: [{
+		uid: "08d660d6",
+		type: "item",
+		items: [{
+			item: "capsule:capsulemarker"
+		}]
+	}]
+}

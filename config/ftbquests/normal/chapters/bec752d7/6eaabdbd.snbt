@@ -1,0 +1,27 @@
+{
+	x: 22.0d,
+	y: 7.5d,
+	text: [
+		"Used to reduce warp and insanity. Follow book instructions for more detail and uses."
+	],
+	dependencies: [
+		"c7b455f0"
+	],
+	tasks: [{
+		uid: "b904e3a6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "03b9362f",
+		type: "item",
+		item: "thaumcraft:nugget 16 9"
+	},
+	{
+		uid: "354586c8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

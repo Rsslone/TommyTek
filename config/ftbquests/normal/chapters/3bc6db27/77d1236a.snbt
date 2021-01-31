@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	text: [
+		"Turbo charge your crops! You will have so much you won't know what to do with them."
+	],
+	dependencies: [
+		"f5813136"
+	],
+	tasks: [{
+		uid: "8ace9726",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "c919a3ee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bb6b39d4",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "UNCOMMON"
+			}
+		}
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	icon: "immersiveengineering:metal 1 29",
+	x: -2.0d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8c8cc740",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e8da28c2",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

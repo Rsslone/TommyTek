@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	dependencies: [
+		"b2c76e56"
+	],
+	tasks: [{
+		uid: "1fd08ecb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86c9c762",
+		type: "toast",
+		title: "Congratulations, You win Thaumcraft"
+	}]
+}

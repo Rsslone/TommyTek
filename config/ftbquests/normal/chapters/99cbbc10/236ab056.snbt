@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 10.5d,
+	tasks: [{
+		uid: "bb660959",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shrimpcocktailitem"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "f162e031",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "dde91e44",
+		type: "loot",
+		table: 0
+	}]
+}

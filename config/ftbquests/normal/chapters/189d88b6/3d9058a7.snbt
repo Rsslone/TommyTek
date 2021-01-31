@@ -1,0 +1,25 @@
+{
+	title: "Serious mining",
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"For mining those tough blocks!"
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "5f69a776",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f2d5929",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

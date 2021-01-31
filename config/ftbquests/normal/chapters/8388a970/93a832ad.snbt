@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Every feel like pulling your hair out with the NetherPortal sound? How about the villiger HMMMMM!?",
+		"",
+		"&2Place this down and set mode to blacklist and add the sounds you hate to it. Or block ALL sounds with whitelist."
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "4a144142",
+		type: "item",
+		items: [{
+			item: "supersoundmuffler:sound_muffler"
+		}]
+	}],
+	rewards: [{
+		uid: "5133b5da",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "764326d3",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

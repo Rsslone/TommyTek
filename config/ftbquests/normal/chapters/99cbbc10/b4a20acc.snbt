@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 12.5d,
+	tasks: [{
+		uid: "856f3526",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:moresmore"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ea4debec",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Descension",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"&2Place on the side of a block, and keep placing to \"drop\" the rope down. Breaking the top rope works the same way (but in reverse)."
+	],
+	tasks: [{
+		uid: "c74f79ee",
+		type: "item",
+		items: [{
+			item: "literalascension:climbing_rope"
+		}]
+	}],
+	rewards: [{
+		uid: "4fa86a8b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "f991616b",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

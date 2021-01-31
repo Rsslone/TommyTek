@@ -1,0 +1,24 @@
+{
+	title: "The Beginning of Automation",
+	x: 0.0d,
+	y: 14.5d,
+	text: [
+		"This is where the Automation side of Applied Energistics begins. ME interfaces are able to take recipes made in a Pattern Terminal (Elaborated on next) and place the materials where they need to be in order to complete a recipe. "
+	],
+	dependencies: [
+		"3f8f8fb8"
+	],
+	tasks: [{
+		uid: "f24a8f4c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e307eec3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

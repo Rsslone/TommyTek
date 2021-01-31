@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: 6.0d,
+	dependencies: [
+		"2082c16d"
+	],
+	tasks: [{
+		uid: "3725176b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "492b8350",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "02762cee",
+		type: "item",
+		item: "harvestcraft:meatpieitem"
+	}]
+}

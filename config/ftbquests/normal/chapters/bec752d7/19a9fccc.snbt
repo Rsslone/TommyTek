@@ -1,0 +1,34 @@
+{
+	x: 28.0d,
+	y: 4.5d,
+	text: [
+		"The Hoe of Growth! Right click to hoe a 3x3 area. Right click plants to bonemeal them in exchange for durability! Mending works quite well on this."
+	],
+	dependencies: [
+		"ebdb320b"
+	],
+	tasks: [{
+		uid: "5f6ae26a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:elemental_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4d5f924",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "3bff65be",
+		type: "item",
+		item: "thaumcraft:curio 10 1"
+	},
+	{
+		uid: "20c3c565",
+		type: "random",
+		table: 17
+	}]
+}

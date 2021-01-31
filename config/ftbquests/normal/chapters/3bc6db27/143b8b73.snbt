@@ -1,0 +1,34 @@
+{
+	x: -13.5d,
+	y: 4.5d,
+	text: [
+		"Who has time to sit around and lube up machines all day. I sure don't.",
+		"",
+		"&2Must be placed in right location. While holding there will be a highlight, if none exist after checking, the machine likely doesn't support it. (The Pumpjack does for sure if you want to see what it looks like.)"
+	],
+	dependencies: [
+		"07886e78"
+	],
+	tasks: [{
+		uid: "a3d4d1fa",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:metal_device"
+		}]
+	}],
+	rewards: [{
+		uid: "4367312e",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		}
+	},
+	{
+		uid: "37d9b7e4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

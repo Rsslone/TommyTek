@@ -1,0 +1,32 @@
+{
+	x: -24.0d,
+	y: -6.5d,
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "fb5bdf4c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	},
+	{
+		uid: "80021fde",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_idle"
+		}],
+		count: 96L
+	}],
+	rewards: [{
+		uid: "06782d72",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e2ad4c21",
+		type: "loot",
+		table: 12
+	}]
+}

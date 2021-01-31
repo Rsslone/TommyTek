@@ -1,0 +1,41 @@
+{
+	title: "Peculiar Meteors ",
+	x: -1.0d,
+	y: 8.5d,
+	text: [
+		"Across the world, you will find large black meteors that have crashed to the earth made out of Sky Stone. This sky stone is important for later recipes in Applied Energistics, so make sure to gather some."
+	],
+	dependencies: [
+		"fe7bc09d"
+	],
+	tasks: [{
+		uid: "cab4cef6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f1cdf328",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "0906a28a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3b6658d2",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "e1d5f979",
+		type: "loot",
+		table: 0
+	}]
+}

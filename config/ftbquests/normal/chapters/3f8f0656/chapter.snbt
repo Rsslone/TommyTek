@@ -1,0 +1,7 @@
+{
+	title: "Advanced Science",
+	icon: "enderio:item_material 1 13",
+	always_invisible: false,
+	group: 1002887975,
+	default_quest_shape: ""
+}

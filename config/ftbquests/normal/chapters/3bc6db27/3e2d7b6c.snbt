@@ -1,0 +1,42 @@
+{
+	title: "More Redstone",
+	x: 1.0d,
+	y: 6.0d,
+	text: [
+		"Probes, Switches, and Breakers... Oh no!"
+	],
+	dependencies: [
+		"6c4de591"
+	],
+	tasks: [{
+		uid: "e48b3925",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 13"
+		}]
+	},
+	{
+		uid: "ca83ea16",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 9"
+		}]
+	},
+	{
+		uid: "91401097",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "efe41a5e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "88186499",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Make Venom Proud",
+	x: -1.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "e9ab8e1f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5a0624b0",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	},
+	{
+		uid: "84668c28",
+		type: "loot",
+		table: 12
+	}]
+}

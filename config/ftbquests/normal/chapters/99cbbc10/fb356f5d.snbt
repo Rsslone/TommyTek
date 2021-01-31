@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"Become a 4 star chef in Minecraft. Create dishes with almost anything, you're the master of the kitchen.",
+		"",
+		"(WIP)"
+	],
+	dependencies: [
+		"735f8993"
+	],
+	tasks: [{
+		uid: "63ac829c",
+		type: "item",
+		items: [{
+			item: "cuisine:manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "588acb3c",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "0c5469ea",
+		type: "random",
+		table: 0
+	}]
+}

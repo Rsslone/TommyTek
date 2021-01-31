@@ -1,0 +1,19 @@
+{
+	title: "Lapis x16",
+	x: -8.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0c4003f2",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d8770f87",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Creosote Oil Production",
+	x: -1.5d,
+	y: 7.5d,
+	text: [
+		"Create a 3x3x3 cube with these and R-Click the center of any of the facing sides to create a Coke Oven."
+	],
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "92c86373",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "d7698272",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "09ea1640",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	}]
+}

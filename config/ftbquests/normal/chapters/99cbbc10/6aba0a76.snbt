@@ -1,0 +1,41 @@
+{
+	title: "Cultured",
+	x: -1.5d,
+	y: -1.0d,
+	text: [
+		"Getting started with the tools you need for growing rice and tea!",
+		"",
+		"&2R-Click soil with the meter to get some important information."
+	],
+	dependencies: [
+		"735f8993"
+	],
+	tasks: [{
+		uid: "a33a7ad8",
+		type: "item",
+		items: [{
+			item: "teastory:soil_detection_meter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03d24afd",
+		type: "item",
+		items: [{
+			item: "teastory:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf9da10d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b978bf2f",
+		type: "item",
+		item: "teastory:steak_rice"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Seasons? Who cares, I've got a greenhouse!"
+	],
+	dependencies: [
+		"e0f7e847"
+	],
+	tasks: [{
+		uid: "1f1a82cd",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "d66bf95f",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "702351d5",
+		type: "random",
+		table: 11
+	}]
+}

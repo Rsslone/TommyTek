@@ -1,0 +1,83 @@
+{
+	title: "Vis Crystals",
+	x: 33.0d,
+	y: 9.5d,
+	text: [
+		"Vis Crystals. They're found all throughout the world in caves, on cliffsides, sometimes ontop of mountains. It's the base material for Thaumcraft used everywhere. Sleep for more information."
+	],
+	tasks: [{
+		uid: "9c2aa28d",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			},
+			Count: 1b
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "e16b50b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f58b058d",
+		type: "item",
+		item: "minecraft:bookshelf"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Fun-In-The-Sun",
+	x: -7.0d,
+	y: -3.0d,
+	text: [
+		"Endless bouncing action!",
+		"",
+		"(Not designed for human use. Must be used at your own risk. Crayfish Industries is not responsable.)"
+	],
+	dependencies: [
+		"f6564614"
+	],
+	tasks: [{
+		uid: "efdad704",
+		type: "item",
+		items: [{
+			item: "cfm:divingboard_base"
+		}]
+	},
+	{
+		uid: "b8c398e7",
+		type: "item",
+		items: [{
+			item: "cfm:trampoline"
+		}]
+	}],
+	rewards: [{
+		uid: "3324db2f",
+		type: "item",
+		item: "cfm:inflatable_castle 1 4",
+		count: 64
+	},
+	{
+		uid: "7903d6e9",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Not JUST a sign.",
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Signs can now be pictures... or is the picture a sign.... *THONK*",
+		"",
+		"Simply hover a sign to learn how."
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "df7d3c5a",
+		type: "item",
+		items: [{
+			item: "minecraft:sign"
+		}]
+	}],
+	rewards: [{
+		uid: "b6474193",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

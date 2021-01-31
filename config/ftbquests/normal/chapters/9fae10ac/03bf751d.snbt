@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: 4.5d,
+	dependencies: [
+		"9513d28a"
+	],
+	tasks: [{
+		uid: "b3ffe109",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:scythe_claw"
+		}]
+	}],
+	rewards: [{
+		uid: "8ba82486",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ef3a6448",
+		type: "loot",
+		table: 0
+	}]
+}

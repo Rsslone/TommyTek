@@ -1,0 +1,41 @@
+{
+	title: "Lights and Fans!",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Clap on Clap off, or something like that.",
+		"",
+		"(Lights require manual intervention via the switch to funcion. Clapping is optional.)",
+		"",
+		"&2Right click lights and fans with a switch before you place it to link."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "1f757d1d",
+		type: "item",
+		items: [{
+			item: "cfm:ceiling_fan"
+		}]
+	},
+	{
+		uid: "d7dcecaa",
+		type: "item",
+		items: [{
+			item: "cfm:light_switch_off"
+		}]
+	},
+	{
+		uid: "3464e708",
+		type: "item",
+		items: [{
+			item: "cfm:modern_light_off"
+		}]
+	}],
+	rewards: [{
+		uid: "2e484ebb",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

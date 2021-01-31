@@ -1,0 +1,36 @@
+{
+	title: "Rare Jars",
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"Right Click liquid honey found inside of wasp hives with a jar to get Honey Jar.",
+		"",
+		"Right Click blue flames with a jar to pick up blue flames."
+	],
+	tasks: [{
+		uid: "b880d83f",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:jar_filled"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f85576d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:jar_filled 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26d5bb0d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "82bfb752",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

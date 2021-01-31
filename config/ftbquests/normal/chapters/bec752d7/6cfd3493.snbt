@@ -1,0 +1,24 @@
+{
+	x: 25.0d,
+	y: 16.5d,
+	text: [
+		"Magical hand mirrors function like Magical mirrors, but it's remote! If you want to toss an item through, right click a mirror to bind the handheld magical mirror to it, and place any items you need to go through."
+	],
+	dependencies: [
+		"f8ec6d77"
+	],
+	tasks: [{
+		uid: "2f262183",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hand_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2798e84",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

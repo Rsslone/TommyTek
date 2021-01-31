@@ -1,0 +1,24 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	text: [
+		"If you need to visit gates in other dimensions, you need the extra 2 chevrons that you could normally ignore. Sneak R-Click them on your ring to install.",
+		"",
+		"If your destination is in the same dimension, you don't need to type out the last 2 letters."
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "4b3cc0fa",
+		type: "item",
+		items: [{
+			item: "sgcraft:sgchevronupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "25d719d8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

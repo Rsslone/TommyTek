@@ -1,0 +1,29 @@
+{
+	title: "The Thaumcraft Guide book",
+	x: 30.0d,
+	y: 11.0d,
+	text: [
+		"A guide to all things Thaumcraft! Has Step by step instructions on how to progress. Why is there a questline for this, then? I'unno."
+	],
+	dependencies: [
+		"3452ecee"
+	],
+	tasks: [{
+		uid: "78264902",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6323140",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "acc779aa",
+		type: "item",
+		item: "minecraft:crafting_table"
+	}]
+}

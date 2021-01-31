@@ -1,0 +1,24 @@
+{
+	title: "Woot : A Server Friendly Mob Spawner",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"Firsly, you're gonna need yet another hammer. YA HAMMER for short. See what they did there.",
+		"",
+		"&2Multitool for anvil useage and multiblock validation. Shift R-Click to switch validation modes."
+	],
+	tasks: [{
+		uid: "e5d0046d",
+		type: "item",
+		items: [{
+			item: "woot:yahhammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ffb2980",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

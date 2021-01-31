@@ -1,0 +1,32 @@
+{
+	title: "Engineer Ladders",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Neat Engineer Ladders",
+		"",
+		"&2Go fast up or down by looking in that direction"
+	],
+	dependencies: [
+		"3e1921c6"
+	],
+	tasks: [{
+		uid: "6c95fa9d",
+		type: "item",
+		title: "Ladders",
+		items: [{
+			item: "engineersdecor:treated_wood_ladder"
+		},
+		{
+			item: "engineersdecor:metal_rung_ladder"
+		},
+		{
+			item: "engineersdecor:metal_rung_steps"
+		}]
+	}],
+	rewards: [{
+		uid: "ad21e4be",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

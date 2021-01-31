@@ -1,0 +1,18 @@
+{
+	title: "The Arcane Ear",
+	x: 29.0d,
+	y: 17.0d,
+	text: [
+		"The Arcane ear is a neat redstone supplement that listens for certain notes from noteblocks and outputs a redstone signal when it hears them. Not too useful, but it's neat I guess."
+	],
+	dependencies: [
+		"e9969a2b"
+	],
+	tasks: [{
+		uid: "b6eeb72a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_ear"
+		}]
+	}]
+}

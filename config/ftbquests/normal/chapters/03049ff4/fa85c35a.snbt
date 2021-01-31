@@ -1,0 +1,22 @@
+{
+	title: "The Millionare",
+	x: 1.0d,
+	y: 1.0d,
+	description: "*\"I've earned this fortune fair and square! You should just try a little harder!\"*",
+	tasks: [{
+		uid: "ef34bac9",
+		type: "ftbmoney:money",
+		value: 3500000L
+	}],
+	rewards: [{
+		uid: "5ac9d2a1",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "91ff0734",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 16
+	}]
+}

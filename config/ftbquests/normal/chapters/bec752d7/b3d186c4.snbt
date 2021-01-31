@@ -1,0 +1,28 @@
+{
+	title: "Vis Generator: Meager RF generation ",
+	x: 27.5d,
+	y: 17.0d,
+	text: [
+		"The Vis Generator...! Makes an astounding.. 20RF/T! At the cost of Vis in the aura! It's not that worth it, but if you need power.. I guess it Technically works..?"
+	],
+	dependencies: [
+		"e9969a2b"
+	],
+	tasks: [{
+		uid: "22a99ba0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "447ce863",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4ae05b49",
+		type: "loot",
+		table: 0
+	}]
+}

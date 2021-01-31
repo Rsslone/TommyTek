@@ -1,0 +1,25 @@
+{
+	title: "Main Controller",
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"18465903"
+	],
+	tasks: [{
+		uid: "f8415bde",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "235f4a61",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "301b2210",
+		type: "random",
+		table: 11
+	}]
+}

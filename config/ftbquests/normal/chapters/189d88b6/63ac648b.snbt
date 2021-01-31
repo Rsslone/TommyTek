@@ -1,0 +1,27 @@
+{
+	title: "SoyBoi",
+	x: 2.5d,
+	y: -3.5d,
+	dependencies: [
+		"c94cc661"
+	],
+	tasks: [{
+		uid: "d21ba4f0",
+		type: "item",
+		title: "Get some Vegetables",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllveggie",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "c6d56762",
+		type: "item",
+		item: "harvestcraft:vegetablesoupitem 2"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Building the Estate",
+	icon: "cfm:upgraded_fence_birch",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

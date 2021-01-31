@@ -1,0 +1,34 @@
+{
+	title: "Green Thumb",
+	icon: "harvestcraft:greengrapeseeditem",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Farming is a bit tougher than you're used to, but it also has a higher reward ceiling! Be aware of the seasons you're in!"
+	],
+	tasks: [{
+		uid: "b90d758c",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03ccf0b3",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 10
+	},
+	{
+		uid: "dafab60e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4b9fa8f0",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

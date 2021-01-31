@@ -1,0 +1,13 @@
+{
+	x: -5.0d,
+	y: -7.0d,
+	description: "*Under maintenance*",
+	tasks: [{
+		uid: "c3a2cc68",
+		type: "item",
+		icon: "jaopca:item_nuggetcoal",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

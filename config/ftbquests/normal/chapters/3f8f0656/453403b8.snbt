@@ -1,0 +1,30 @@
+{
+	title: "Quantifiable Decay",
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"Ever wish you knew how fast you were dying, well now you can with this state of the art noise maker, now you can be sure with every tick."
+	],
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "2db929cd",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:geiger_counter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21f0bb1f",
+		type: "item",
+		item: "nuclearcraft:radaway_slow"
+	},
+	{
+		uid: "4b935fd3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

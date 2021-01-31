@@ -1,0 +1,132 @@
+{
+	title: "Kitchen",
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"The multiblock kitchen allows crafting food with the ingredients you put inside the fridges or cabniets.",
+		"",
+		"&2Think of the Cooking Table as the Hub, and the other parts add capabilities."
+	],
+	dependencies: [
+		"7eee0151"
+	],
+	tasks: [{
+		uid: "1354a1ec",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "a22b74cb",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd3e3fc0",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "550905c6",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	},
+	{
+		uid: "a6693fa7",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "7fe78a53",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "2c46dd45",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	},
+	{
+		uid: "404011a4",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	},
+	{
+		uid: "87d1a11a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50905059",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "5603c4d5",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "d92fd38e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a82bc11a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "1966cee6",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "3515edf8",
+		type: "item",
+		item: "cookingforblockheads:recipe_book"
+	},
+	{
+		uid: "4fcaba1f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "20d62ccc",
+		type: "loot",
+		table: 0
+	}]
+}

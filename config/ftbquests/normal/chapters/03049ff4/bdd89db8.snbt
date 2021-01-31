@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "18d69f3e",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:squid"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "81ee37ed",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "73ab5924",
+		type: "loot",
+		table: 11
+	}]
+}

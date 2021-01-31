@@ -1,0 +1,22 @@
+{
+	x: 29.5d,
+	y: 15.5d,
+	text: [
+		"The Thaumic Dioptra! Very useful for viewing how much Vis you have in neighboring chunks. Spikes in the 'hills' on the dioptra indicate high Vis, and valleys indicate high Flux or low vis count."
+	],
+	dependencies: [
+		"e9969a2b"
+	],
+	tasks: [{
+		uid: "f7b4ee4b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:dioptra"
+		}]
+	}],
+	rewards: [{
+		uid: "2f0bbdf7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

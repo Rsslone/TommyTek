@@ -1,0 +1,42 @@
+{
+	title: "Basic Connectors",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		"Standard cables for network connections."
+	],
+	dependencies: [
+		"e6c3c455"
+	],
+	tasks: [{
+		uid: "c9c01359",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			},
+			Count: 1b
+		}]
+	},
+	{
+		uid: "fd8d4a3d",
+		type: "item",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "fb03ec6f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

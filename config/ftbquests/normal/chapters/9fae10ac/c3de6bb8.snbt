@@ -1,0 +1,164 @@
+{
+	title: "Battle Tower Master",
+	icon: {
+		id: "tconstruct:battlesign",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.4f,
+				FreeModifiers: 3,
+				Durability: 678,
+				HarvestLevel: 3,
+				Attack: 4.95f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.4f,
+				FreeModifiers: 3,
+				Durability: 678,
+				HarvestLevel: 3,
+				Attack: 4.95f
+			},
+			Special: {
+				Categories: [
+					"weapon",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"fierymetal",
+					"fierymetal"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "twilit",
+				color: -142243,
+				level: 1
+			},
+			{
+				identifier: "flammable",
+				color: -142243,
+				level: 1
+			},
+			{
+				identifier: "autosmelt",
+				color: -142243,
+				level: 1
+			},
+			{
+				identifier: "superheat",
+				color: -142243,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"twilit",
+				"flammable",
+				"autosmelt",
+				"superheat",
+				"toolleveling"
+			]
+		},
+		Count: 1b
+	},
+	x: -2.5d,
+	y: -8.0d,
+	shape: "pentagon",
+	dependencies: [
+		"38f72577"
+	],
+	tasks: [{
+		uid: "9bebe127",
+		type: "kill",
+		icon: {
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.4f,
+					FreeModifiers: 3,
+					Durability: 822,
+					HarvestLevel: 3,
+					Attack: 5.45f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.4f,
+					FreeModifiers: 3,
+					Durability: 822,
+					HarvestLevel: 3,
+					Attack: 5.45f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"fierymetal",
+						"fierymetal",
+						"fierymetal"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "twilit",
+					color: -142243,
+					level: 1
+				},
+				{
+					identifier: "flammable",
+					color: -142243,
+					level: 1
+				},
+				{
+					identifier: "autosmelt",
+					color: -142243,
+					level: 1
+				},
+				{
+					identifier: "superheat",
+					color: -142243,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"twilit",
+					"flammable",
+					"autosmelt",
+					"superheat",
+					"toolleveling"
+				]
+			},
+			Count: 1b
+		},
+		entity: "battletowers:golem",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "381a8c3f",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "bad21e92",
+		type: "random",
+		table: 11
+	}]
+}

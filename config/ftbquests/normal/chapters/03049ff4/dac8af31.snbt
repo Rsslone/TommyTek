@@ -1,0 +1,46 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "72c17d1b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50daf08a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "19025d32",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81fa4652",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "c816d633",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "b930c70d",
+		type: "loot",
+		table: 18
+	}]
+}

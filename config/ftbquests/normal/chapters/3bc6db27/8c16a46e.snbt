@@ -1,0 +1,34 @@
+{
+	title: "Airships",
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"Sail the skies! FREEDOM!"
+	],
+	tasks: [{
+		uid: "ddfbcce8",
+		type: "item",
+		items: [{
+			item: "vc:airship_workbench"
+		}]
+	},
+	{
+		uid: "6e311a50",
+		type: "item",
+		items: [{
+			item: "vc:item_guidebook_main"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58aa7104",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "cd65ab74",
+		type: "random",
+		table: 7
+	}]
+}

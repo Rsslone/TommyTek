@@ -1,0 +1,237 @@
+{
+	title: "Modern Living Room",
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Escape real life with our line of flat screen TVs! Comes with 3 whole channels! WOW!",
+		"",
+		"&2TV displays .gif files (up to 3) and controlled with the remote."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "5bba2b36",
+		type: "item",
+		items: [{
+			item: "cfm:tv_remote"
+		}]
+	},
+	{
+		uid: "8cca5c88",
+		type: "item",
+		title: "Photo Frames",
+		items: [{
+			item: "cfm:photo_frame"
+		},
+		{
+			item: "cfm:photo_frame 1 1"
+		},
+		{
+			item: "cfm:photo_frame 1 2"
+		},
+		{
+			item: "cfm:photo_frame 1 3"
+		},
+		{
+			item: "cfm:photo_frame 1 4"
+		},
+		{
+			item: "cfm:photo_frame 1 5"
+		},
+		{
+			item: "cfm:photo_frame 1 6"
+		},
+		{
+			item: "cfm:photo_frame 1 7"
+		},
+		{
+			item: "cfm:photo_frame 1 8"
+		},
+		{
+			item: "cfm:photo_frame 1 9"
+		},
+		{
+			item: "cfm:photo_frame 1 10"
+		},
+		{
+			item: "cfm:photo_frame 1 11"
+		},
+		{
+			item: "cfm:photo_frame 1 12"
+		},
+		{
+			item: "cfm:photo_frame 1 13"
+		},
+		{
+			item: "cfm:photo_frame 1 14"
+		},
+		{
+			item: "cfm:photo_frame 1 15"
+		}],
+		count: 2L
+	},
+	{
+		uid: "cda26842",
+		type: "item",
+		items: [{
+			item: "cfm:modern_tv"
+		}]
+	},
+	{
+		uid: "ed537d42",
+		type: "item",
+		items: [{
+			item: "cfm:mantel_piece"
+		}]
+	},
+	{
+		uid: "47acafe4",
+		type: "item",
+		title: "Lamps",
+		items: [{
+			item: "cfm:lamp_off"
+		},
+		{
+			item: "cfm:lamp_off 1 1"
+		},
+		{
+			item: "cfm:lamp_off 1 2"
+		},
+		{
+			item: "cfm:lamp_off 1 3"
+		},
+		{
+			item: "cfm:lamp_off 1 4"
+		},
+		{
+			item: "cfm:lamp_off 1 5"
+		},
+		{
+			item: "cfm:lamp_off 1 6"
+		},
+		{
+			item: "cfm:lamp_off 1 7"
+		},
+		{
+			item: "cfm:lamp_off 1 8"
+		},
+		{
+			item: "cfm:lamp_off 1 9"
+		},
+		{
+			item: "cfm:lamp_off 1 10"
+		},
+		{
+			item: "cfm:lamp_off 1 11"
+		},
+		{
+			item: "cfm:lamp_off 1 12"
+		},
+		{
+			item: "cfm:lamp_off 1 13"
+		},
+		{
+			item: "cfm:lamp_off 1 14"
+		},
+		{
+			item: "cfm:lamp_off 1 15"
+		}]
+	},
+	{
+		uid: "c55f6f3b",
+		type: "item",
+		title: "Couch",
+		items: [{
+			item: "cfm:couch"
+		},
+		{
+			item: "cfm:couch 1 1"
+		},
+		{
+			item: "cfm:couch 1 2"
+		},
+		{
+			item: "cfm:couch 1 3"
+		},
+		{
+			item: "cfm:couch 1 4"
+		},
+		{
+			item: "cfm:couch 1 5"
+		},
+		{
+			item: "cfm:couch 1 6"
+		},
+		{
+			item: "cfm:couch 1 7"
+		},
+		{
+			item: "cfm:couch 1 8"
+		},
+		{
+			item: "cfm:couch 1 9"
+		},
+		{
+			item: "cfm:couch 1 10"
+		},
+		{
+			item: "cfm:couch 1 11"
+		},
+		{
+			item: "cfm:couch 1 12"
+		},
+		{
+			item: "cfm:couch 1 13"
+		},
+		{
+			item: "cfm:couch 1 14"
+		},
+		{
+			item: "cfm:couch 1 15"
+		}]
+	},
+	{
+		uid: "7986984f",
+		type: "item",
+		title: "Coffee Table",
+		items: [{
+			item: "cfm:coffee_table_oak"
+		},
+		{
+			item: "cfm:coffee_table_spruce"
+		},
+		{
+			item: "cfm:coffee_table_birch"
+		},
+		{
+			item: "cfm:coffee_table_jungle"
+		},
+		{
+			item: "cfm:coffee_table_acacia"
+		},
+		{
+			item: "cfm:coffee_table_dark_oak"
+		},
+		{
+			item: "cfm:coffee_table_stone"
+		},
+		{
+			item: "cfm:coffee_table_granite"
+		},
+		{
+			item: "cfm:coffee_table_diorite"
+		},
+		{
+			item: "cfm:coffee_table_andesite"
+		},
+		{
+			item: "cfm:modern_coffee_table"
+		}]
+	}],
+	rewards: [{
+		uid: "34a2a6a4",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Killing the Wither",
+	x: 5.0d,
+	y: -1.5d,
+	description: "Gearing up is important",
+	text: [
+		"*The Wither is slightly stronger, and will become even stronger everytime you kill one*"
+	],
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "04d57182",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ce2085c4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f5e86730",
+		type: "random",
+		table: 11
+	}]
+}

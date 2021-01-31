@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 10.0d,
+	tasks: [{
+		uid: "926a3a01",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}]
+}

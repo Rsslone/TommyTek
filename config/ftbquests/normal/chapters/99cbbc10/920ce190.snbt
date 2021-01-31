@@ -1,0 +1,35 @@
+{
+	title: "Rice Tools",
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"Get ya tools!"
+	],
+	dependencies: [
+		"bc7067c4"
+	],
+	tasks: [{
+		uid: "4e803713",
+		type: "item",
+		items: [{
+			item: "teastory:tea_drying_pan"
+		}]
+	},
+	{
+		uid: "15965150",
+		type: "item",
+		items: [{
+			item: "teastory:wooden_lid"
+		}]
+	}],
+	rewards: [{
+		uid: "676b68aa",
+		type: "item",
+		item: "teastory:rabbit_rice"
+	},
+	{
+		uid: "e728db87",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

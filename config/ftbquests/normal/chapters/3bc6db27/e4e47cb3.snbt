@@ -1,0 +1,58 @@
+{
+	title: "Mining carts",
+	x: 7.0d,
+	y: -3.5d,
+	text: [
+		"A cart that mines for you, neato!"
+	],
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "bfd8173c",
+		type: "item",
+		title: "Drills",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 42s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 8s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 43s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "c9d6714c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "136fe205",
+		type: "random",
+		table: 0
+	}]
+}

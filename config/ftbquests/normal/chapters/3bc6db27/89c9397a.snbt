@@ -1,0 +1,40 @@
+{
+	title: "Wireless Transfer Links",
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"Allowed you to connect two networks from a distance."
+	],
+	dependencies: [
+		"e6c3c455"
+	],
+	tasks: [{
+		uid: "5a004008",
+		type: "item",
+		items: [{
+			item: "xnet:wireless_router"
+		}]
+	},
+	{
+		uid: "c1a2e911",
+		type: "item",
+		items: [{
+			item: "xnet:antenna_base"
+		}]
+	},
+	{
+		uid: "370b6bb6",
+		type: "item",
+		items: [{
+			item: "xnet:antenna_dish"
+		},
+		{
+			item: "xnet:antenna"
+		}]
+	}],
+	rewards: [{
+		uid: "5310d627",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Fruity Tooty",
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"c94cc661"
+	],
+	tasks: [{
+		uid: "28a3137a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfruit",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Get some fruit"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a984e662",
+		type: "item",
+		item: "harvestcraft:strawberrymilkshakeitem 6"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Thermal Electric",
+	x: -8.5d,
+	y: 8.5d,
+	text: [
+		"Violating the First law of thermodynamics.",
+		"",
+		"(Convert heat to power, while never using up that heat source block)"
+	],
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "f6b6498e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "9547fdd0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "72dbc75f",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	}]
+}

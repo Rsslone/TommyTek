@@ -1,0 +1,42 @@
+{
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"2 Hooks, Allows floating between them."
+	],
+	dependencies: [
+		"64a06f7f"
+	],
+	tasks: [{
+		uid: "a0b8d3fc",
+		type: "item",
+		items: [{
+			id: "hooked:hook",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4556257072503475492L,
+						UUIDLeast: -8836475074313787003L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98069304",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

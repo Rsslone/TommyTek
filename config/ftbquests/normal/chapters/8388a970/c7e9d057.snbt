@@ -1,0 +1,30 @@
+{
+	title: "Storage Solutions!",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"Hey hey, stone can be good storage materials too.",
+		"",
+		"Stone Junkboxes are just like the real deal, toss stuff inside without a care in the world, then rummage through looking for that one thing you KNOW is in there somwhere."
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "e0c3591c",
+		type: "item",
+		items: [{
+			item: "multistorage:stone_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "afe6f364",
+		type: "item",
+		item: "multistorage:stone_storage"
+	},
+	{
+		uid: "e545bcac",
+		type: "item",
+		item: "multistorage:stone_storage 1 5"
+	}]
+}

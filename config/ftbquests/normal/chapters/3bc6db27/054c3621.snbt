@@ -1,0 +1,52 @@
+{
+	title: "Bio Diesel",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "biodiesel",
+			Amount: 1000
+		}
+	},
+	x: -10.0d,
+	y: 4.0d,
+	text: [
+		"Bio Diesel is a alternative to diesel using fermented plants and seed oils."
+	],
+	dependencies: [
+		"4815ae2c"
+	],
+	tasks: [{
+		uid: "403120e5",
+		type: "observation",
+		title: "Build a Fermenter",
+		icon: "minecraft:reeds",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "fermenter"
+		},
+		timer: 0L
+	},
+	{
+		uid: "e1c55d23",
+		type: "observation",
+		title: "Build a Squeezer",
+		icon: "minecraft:wheat_seeds",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "squeezer"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5a608d0f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5121c4c8",
+		type: "loot",
+		table: 0
+	}]
+}

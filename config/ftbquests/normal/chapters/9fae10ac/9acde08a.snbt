@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	dependencies: [
+		"b102924c"
+	],
+	tasks: [{
+		uid: "ea447a55",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:piranhalauncher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b083fa76",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "58f890e0",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -4.5d,
+	text: [
+		"When the cart reaches the end of a track it will look if it isn't a block under the location of where a track should go and if there isn't any it will place a block."
+	],
+	dependencies: [
+		"674337f5"
+	],
+	tasks: [{
+		uid: "4037af2d",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "7fad4148",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

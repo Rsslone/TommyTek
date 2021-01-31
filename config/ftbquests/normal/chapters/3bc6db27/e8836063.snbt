@@ -1,0 +1,25 @@
+{
+	title: "Fueling this thing.",
+	x: -6.5d,
+	y: 0.5d,
+	dependencies: [
+		"d6d9ea07"
+	],
+	tasks: [{
+		uid: "64c64bec",
+		type: "item",
+		items: [{
+			item: "vc:item_viesoline_pellets"
+		}]
+	}],
+	rewards: [{
+		uid: "0ff3f41d",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		}
+	}]
+}

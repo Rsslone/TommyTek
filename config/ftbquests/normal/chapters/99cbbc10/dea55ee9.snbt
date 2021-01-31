@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "f68b8fbb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ryeseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "382ef7a0",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

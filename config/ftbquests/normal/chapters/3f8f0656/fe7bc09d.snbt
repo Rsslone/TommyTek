@@ -1,0 +1,44 @@
+{
+	title: "Connectors & Power",
+	x: 0.0d,
+	y: 7.0d,
+	text: [
+		"Fluix Cables are used to connect everything in Applied Energistics. They transfer power and channels, the latter being elaborated on later."
+	],
+	dependencies: [
+		"1230774a"
+	],
+	tasks: [{
+		uid: "be30a28a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f73dfeaf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 140"
+		}],
+		count: 16L
+	},
+	{
+		uid: "309b0ccc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "96aa36b5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "64188888",
+		type: "loot",
+		table: 0
+	}]
+}

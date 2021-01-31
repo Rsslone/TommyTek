@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"Right click on a map frame with a map in it to make a new waypoint."
+	],
+	dependencies: [
+		"acdd4f11"
+	],
+	tasks: [{
+		uid: "591ac5f9",
+		type: "item",
+		items: [{
+			item: "bibliocraft:maptool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60b2671f",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

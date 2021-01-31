@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: -3.5d,
+	text: [
+		"The seedlings will need to be transplanted to a rice patty. Use a shovel with right click on some farmland (hoed) to make them. Flood it with water and transplant them."
+	],
+	dependencies: [
+		"789c4c40"
+	],
+	tasks: [{
+		uid: "ef208843",
+		type: "item",
+		items: [{
+			item: "teastory:xian_rice_seeds"
+		}]
+	},
+	{
+		uid: "bfe4be72",
+		type: "item",
+		items: [{
+			item: "teastory:straw"
+		}]
+	}],
+	rewards: [{
+		uid: "479fc220",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

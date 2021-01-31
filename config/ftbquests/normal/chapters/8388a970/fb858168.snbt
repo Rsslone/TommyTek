@@ -1,0 +1,105 @@
+{
+	title: "Dining Room",
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"Bring the family together with our Dining Room collection. Sit like a king on our premium chair as your family eats on our finest stone slab seats, sanded down to prevent only minor butt cramps."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "48d167ae",
+		type: "item",
+		items: [{
+			item: "cfm:candle"
+		}]
+	},
+	{
+		uid: "eba59afb",
+		type: "item",
+		items: [{
+			item: "cfm:grand_chair_bottom"
+		}]
+	},
+	{
+		uid: "3aa8d155",
+		type: "item",
+		title: "Dining Chairs",
+		items: [{
+			item: "cfm:chair_oak"
+		},
+		{
+			item: "cfm:chair_spruce"
+		},
+		{
+			item: "cfm:chair_birch"
+		},
+		{
+			item: "cfm:chair_jungle"
+		},
+		{
+			item: "cfm:chair_acacia"
+		},
+		{
+			item: "cfm:chair_dark_oak"
+		},
+		{
+			item: "cfm:chair_stone"
+		},
+		{
+			item: "cfm:chair_granite"
+		},
+		{
+			item: "cfm:chair_diorite"
+		},
+		{
+			item: "cfm:chair_andesite"
+		},
+		{
+			item: "cfm:modern_chair"
+		}]
+	},
+	{
+		uid: "aba9ebea",
+		type: "item",
+		items: [{
+			item: "cfm:table_oak"
+		},
+		{
+			item: "cfm:table_spruce"
+		},
+		{
+			item: "cfm:table_birch"
+		},
+		{
+			item: "cfm:table_jungle"
+		},
+		{
+			item: "cfm:table_acacia"
+		},
+		{
+			item: "cfm:table_dark_oak"
+		},
+		{
+			item: "cfm:table_stone"
+		},
+		{
+			item: "cfm:table_granite"
+		},
+		{
+			item: "cfm:table_diorite"
+		},
+		{
+			item: "cfm:table_andesite"
+		},
+		{
+			item: "cfm:modern_table"
+		}]
+	}],
+	rewards: [{
+		uid: "bbc994d3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

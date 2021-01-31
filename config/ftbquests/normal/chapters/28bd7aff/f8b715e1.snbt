@@ -1,0 +1,37 @@
+{
+	title: "Genocide",
+	icon: "treasure2:skull_chest",
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"You monster. You've gone so far down the dark path, you are feared by your citizens. They know if you look them directly in the eyes you'll kill them, or if they look away you'll think they're insulting you, and kill them.",
+		"",
+		"Either way, they're screwed."
+	],
+	dependencies: [
+		"eff24e31"
+	],
+	tasks: [{
+		uid: "14f6f0ac",
+		type: "kill",
+		title: "Murder 50 Innocent Citizens",
+		icon: "minecraft:skull 1 3",
+		entity: "minecolonies:citizen",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "a897b305",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "ec3ce099",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

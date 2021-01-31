@@ -1,0 +1,230 @@
+{
+	title: "Becoming A God",
+	x: -7.5d,
+	y: 0.0d,
+	text: [
+		"Poseidon would be proud."
+	],
+	dependencies: [
+		"1c204215",
+		"fa9f5885"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a9e669cc",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_helmet",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73c8569e",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_chestplate",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f449b678",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 8267543295408032277L,
+						UUIDLeast: -5536641202660041341L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5bf303e",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_boots",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 8113584642618968755L,
+						UUIDLeast: -7305149288201568835L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3799944856879841739L,
+						UUIDLeast: -4988114219830350188L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d3811162",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_pickaxe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -1930615293213389645L,
+						UUIDLeast: -8707375979243415657L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8830531787716738097L,
+						UUIDLeast: -5360698294821482832L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7d2c950",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_shovel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2780d4a8",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_axe",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c06c2635",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -1815001649927796263L,
+						UUIDLeast: -6429082022518715167L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5235704753545723440L,
+						UUIDLeast: -5792477132959485380L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.chipped.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a3f410a",
+		type: "item",
+		items: [{
+			id: "aquaculture:neptunium_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 1615076279487319236L,
+						UUIDLeast: -4921893341969028537L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04d64f95",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "44302a4a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "daa8470f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	x: 20.5d,
+	y: 15.5d,
+	text: [
+		"Essentia Tubes are one way to transport essentia aside from simply putting essentia in jars and lugging them around. Very helpful!"
+	],
+	dependencies: [
+		"a7e899d9"
+	],
+	tasks: [{
+		uid: "0ae44fcc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}]
+	},
+	{
+		uid: "96e73f58",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_valve"
+		}]
+	},
+	{
+		uid: "4649bc70",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_restrict"
+		}]
+	},
+	{
+		uid: "b7aa2aad",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_oneway"
+		}]
+	},
+	{
+		uid: "af8bd5ba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_filter"
+		}]
+	},
+	{
+		uid: "666bd8f3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_buffer"
+		}]
+	}],
+	rewards: [{
+		uid: "e280297f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3361fa2d",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	text: [
+		"The cargo manager is a block that allows passing carts to load and unload items in the Steve's Carts 2 mod. In order to use the cargo manager an Advanced Detector Rail needs to be placed directly beside the cargo manager."
+	],
+	dependencies: [
+		"72a9e8c2"
+	],
+	tasks: [{
+		uid: "aa97fbf9",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcargomanager"
+		}]
+	},
+	{
+		uid: "d5830a98",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockadvdetector"
+		}]
+	}],
+	rewards: [{
+		uid: "08ba3840",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

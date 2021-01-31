@@ -1,0 +1,36 @@
+{
+	title: "All the Wrenches",
+	x: -3.5d,
+	y: 6.5d,
+	text: [
+		"and sandwiches"
+	],
+	dependencies: [
+		"9cf75e22"
+	],
+	tasks: [{
+		uid: "c1f03037",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:toolbox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fddc7ea",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "110257a2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

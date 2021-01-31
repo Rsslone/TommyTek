@@ -1,0 +1,42 @@
+{
+	title: "The ME Controller",
+	x: 0.0d,
+	y: 11.5d,
+	text: [
+		"This is the start of the meat of Applied Energistics: The ME System. The ME Controller is the heart of any ME system, spreading power and channels across cables, connecting other machines, and eventually leading to mass automation and storage."
+	],
+	dependencies: [
+		"c0c86071"
+	],
+	tasks: [{
+		uid: "3af43c3a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "b0a57e37",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 120"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "aec74697",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "deaba29a",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 8
+	},
+	{
+		uid: "0c892948",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "You win. We can all go home now.",
+	x: 11.0d,
+	y: -1.5d,
+	text: [
+		"&cLiterally no reason for anyone to continue playing right?"
+	],
+	dependencies: [
+		"61200761",
+		"d84177f2",
+		"3169ee1c",
+		"13e7c7b2",
+		"a95d5148",
+		"7a3322a4",
+		"0a45b48d",
+		"9cc89161",
+		"195e0103",
+		"93afe421"
+	],
+	tasks: [{
+		uid: "59941f06",
+		type: "checkmark",
+		title: "You win."
+	}],
+	rewards: [{
+		uid: "daf1408f",
+		type: "command",
+		title: "We all can go home.",
+		command: "/stop"
+	}]
+}

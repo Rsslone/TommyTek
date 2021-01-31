@@ -1,0 +1,30 @@
+{
+	title: "Online Radio",
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"To find a radio station go to dir.xiph.org and find a station. Download the \"M3U\" from the tune area. Open with a Text Editor and copy that URL to the Freq Etcher. (Tested with MP3 format streams)"
+	],
+	dependencies: [
+		"52bbc350"
+	],
+	tasks: [{
+		uid: "36d52d65",
+		type: "item",
+		items: [{
+			item: "betterrecords:frequencytuner"
+		}]
+	},
+	{
+		uid: "08aaae21",
+		type: "item",
+		items: [{
+			item: "betterrecords:radio"
+		}]
+	}],
+	rewards: [{
+		uid: "c32500fc",
+		type: "item",
+		item: "betterrecords:frequencycrystal"
+	}]
+}

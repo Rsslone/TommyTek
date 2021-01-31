@@ -1,0 +1,50 @@
+{
+	title: "Carts for the tReEs",
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"The Woodcuter cuts down trees, plant saplings and remove leaves around the tools area."
+	],
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "80a97e61",
+		type: "item",
+		title: "Cutters",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 15s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 79s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 80s
+		}]
+	}],
+	rewards: [{
+		uid: "4c1a1ccb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "bee589fe",
+		type: "random",
+		table: 0
+	}]
+}

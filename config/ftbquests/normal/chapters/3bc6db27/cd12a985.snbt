@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 10.5d,
+	dependencies: [
+		"c0c5277c"
+	],
+	tasks: [{
+		uid: "be1fd922",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:hydrator"
+		}]
+	}],
+	rewards: [{
+		uid: "4ab868d1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

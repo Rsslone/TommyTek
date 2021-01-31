@@ -1,0 +1,28 @@
+{
+	title: "Vis Batteries",
+	x: 38.5d,
+	y: 15.0d,
+	text: [
+		"Vis Batteries! They Store vis that recharges in the local aura when a chunk reaches its maximum vis. When Vis is used, The vis batteries kick in to add extra if necessary."
+	],
+	dependencies: [
+		"84bed23e"
+	],
+	tasks: [{
+		uid: "004a1672",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "09ead6f9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8e9169ae",
+		type: "loot",
+		table: 17
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"This attachment module let you put tracks in front of the cart when it moves."
+	],
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "0e15a351",
+		type: "item",
+		title: "Railers",
+		items: [{
+			item: "stevescarts:cartmodule 1 10"
+		},
+		{
+			item: "stevescarts:cartmodule 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "80621558",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

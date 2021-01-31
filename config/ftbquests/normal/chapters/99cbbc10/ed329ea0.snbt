@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -3.5d,
+	text: [
+		"Rice can be washed by dropping it in water."
+	],
+	dependencies: [
+		"620945c1"
+	],
+	tasks: [{
+		uid: "435f7bb8",
+		type: "item",
+		items: [{
+			item: "teastory:washed_rice"
+		}]
+	}],
+	rewards: [{
+		uid: "7c8610e8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

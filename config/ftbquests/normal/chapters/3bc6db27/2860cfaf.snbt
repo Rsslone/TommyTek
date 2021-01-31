@@ -1,0 +1,47 @@
+{
+	title: "Propulsion",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"Carts can move with gravity but what if you want to go up?"
+	],
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "10014b63",
+		type: "item",
+		title: "Engines",
+		items: [{
+			item: "stevescarts:cartmodule 1 44"
+		},
+		{
+			item: "stevescarts:cartmodule"
+		},
+		{
+			item: "stevescarts:cartmodule 1 45"
+		},
+		{
+			item: "stevescarts:cartmodule 1 1"
+		},
+		{
+			item: "stevescarts:cartmodule 1 56"
+		},
+		{
+			item: "stevescarts:cartmodule 1 69"
+		},
+		{
+			item: "stevescarts:cartmodule 1 70"
+		}]
+	}],
+	rewards: [{
+		uid: "d2c61ae1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "463aa0f2",
+		type: "random",
+		table: 0
+	}]
+}

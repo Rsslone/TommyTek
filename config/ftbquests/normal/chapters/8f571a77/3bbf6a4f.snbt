@@ -1,0 +1,19 @@
+{
+	icon: "multistorage:ender_bag 1 2",
+	x: 8.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d198428d",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "97f7e6b0",
+		type: "ftbmoney:money",
+		ftb_money: 240L
+	}]
+}

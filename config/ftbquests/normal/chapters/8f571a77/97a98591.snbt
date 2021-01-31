@@ -1,0 +1,18 @@
+{
+	icon: "minecraft:gold_nugget",
+	x: -3.5d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "84750764",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ffc37165",
+		type: "ftbmoney:money",
+		ftb_money: 7L
+	}]
+}

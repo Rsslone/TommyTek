@@ -1,0 +1,32 @@
+{
+	x: 20.5d,
+	y: 10.5d,
+	text: [
+		"Mithminite Smelteries break down items into essenta at a rate of 150% essentia, 0% flux."
+	],
+	dependencies: [
+		"1b8aecd3"
+	],
+	tasks: [{
+		uid: "59adb457",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "a8266604",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "0b825c54",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "1db430ca",
+		type: "random",
+		table: 12
+	}]
+}

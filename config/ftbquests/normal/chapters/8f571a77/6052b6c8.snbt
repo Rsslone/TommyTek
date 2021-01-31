@@ -1,0 +1,19 @@
+{
+	icon: "immersiveengineering:wooden_device0 1 4",
+	x: 4.5d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3640eecf",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5efe18f2",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

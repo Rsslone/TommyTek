@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"ccf148fa"
+	],
+	tasks: [{
+		uid: "7e46fe90",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 38"
+		}]
+	}],
+	rewards: [{
+		uid: "ae2b77fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

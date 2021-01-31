@@ -1,0 +1,35 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "1ea4fe58",
+		type: "item",
+		title: "Fluid Tanks",
+		items: [{
+			item: "stevescarts:cartmodule 1 64"
+		},
+		{
+			item: "stevescarts:cartmodule 1 67"
+		},
+		{
+			item: "stevescarts:cartmodule 1 65"
+		},
+		{
+			item: "stevescarts:cartmodule 1 63"
+		},
+		{
+			item: "stevescarts:cartmodule 1 66"
+		},
+		{
+			item: "stevescarts:cartmodule 1 73"
+		}]
+	}],
+	rewards: [{
+		uid: "c401a199",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

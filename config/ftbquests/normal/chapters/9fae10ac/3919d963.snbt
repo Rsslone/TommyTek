@@ -1,0 +1,13 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "f2a48ff3",
+		type: "item",
+		items: [{
+			item: "tconstruct:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

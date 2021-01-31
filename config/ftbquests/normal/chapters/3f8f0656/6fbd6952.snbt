@@ -1,0 +1,35 @@
+{
+	title: "Automation Terminals",
+	x: -1.5d,
+	y: 15.5d,
+	text: [
+		"These terminals are used for creating recipes and placing them in interfaces connected to the system. "
+	],
+	dependencies: [
+		"f6d9d524"
+	],
+	tasks: [{
+		uid: "bad3e506",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "a37b0962",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 480"
+		}]
+	}],
+	rewards: [{
+		uid: "a89c714a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a61c4350",
+		type: "loot",
+		table: 0
+	}]
+}

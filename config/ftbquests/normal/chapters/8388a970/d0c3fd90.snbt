@@ -1,0 +1,42 @@
+{
+	title: "Better Doors",
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"Vanilla Doors are boring. Use Malisis Doors to spice the place up!",
+		"",
+		"&2@malisisdoors"
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "3bd33a7b",
+		type: "item",
+		title: "Malisis Basics",
+		items: [{
+			item: "malisisdoors:wood_sliding_door"
+		},
+		{
+			item: "malisisdoors:iron_sliding_door"
+		},
+		{
+			item: "malisisdoors:shoji_door"
+		}]
+	}],
+	rewards: [{
+		uid: "420a0afb",
+		type: "item",
+		item: "malisisdoors:rustyladder 64"
+	},
+	{
+		uid: "a6ad2348",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "6c37f798",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

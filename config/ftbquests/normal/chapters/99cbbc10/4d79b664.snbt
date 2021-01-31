@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "5aa47934",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gourmetvenisonburgeritem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "74a91195",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "44bbf5a7",
+		type: "loot",
+		table: 0
+	}]
+}

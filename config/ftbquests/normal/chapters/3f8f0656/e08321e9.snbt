@@ -1,0 +1,29 @@
+{
+	title: "Molecular Assemblers",
+	x: -0.5d,
+	y: 16.5d,
+	text: [
+		"Molecular Assemblers can automatically craft whatever crafting recipe you specify that would take place in an ordinary crafting table. "
+	],
+	dependencies: [
+		"f6d9d524"
+	],
+	tasks: [{
+		uid: "f3cd8f7c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2406e59f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "0dc54791",
+		type: "loot",
+		table: 0
+	}]
+}

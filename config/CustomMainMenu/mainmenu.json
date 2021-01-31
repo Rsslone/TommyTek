@@ -1,0 +1,210 @@
+{
+    "images":
+    {
+	
+		"back":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 125,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 51,
+            "posY" : -100,
+            "width" : 123,
+            "height" : 62,
+            "alignment" : "left_center"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "Singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 16497685,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 51,
+            "posY" : -30,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "Multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 16497685,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 51,
+            "posY" : -10,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "Options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 16497685,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 51,
+            "posY" : 10,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 51,
+            "posY" : 30,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"Changelogs":
+        {
+            "text" : "Changelog",
+			"normalTextColor" : 6710886,
+			"texture" : "mainmenu:textures/btn.png",
+			"alignment" : "left_center",
+            "posX" : 51,
+            "posY" : 80,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			imageWidth : 100,
+			imageHeight : 50,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "http://www.technicpack.net/modpack/tommytek-1122.1228216/changelog"
+            }	
+        },
+		
+		"Discord":
+        {
+            "text" : "Discord",
+			"normalTextColor" : 6710886,
+			"texture" : "mainmenu:textures/btn.png",
+			"alignment" : "left_center",
+            "posX" : 51,
+            "posY" : 60,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			imageWidth : 100,
+			imageHeight : 50,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "http://discord.gg/aaRrpyb"
+            }	
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 51,
+            "posY" : 100,
+            "width" : 123,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        }
+	},
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+	
+	"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "mainmenu:title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

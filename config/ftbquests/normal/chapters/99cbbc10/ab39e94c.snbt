@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 12.5d,
+	description: "Are you sure they aren't steamed?",
+	tasks: [{
+		uid: "ef6c3f83",
+		type: "item",
+		items: [{
+			item: "harvestcraft:clamcookeditem"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "da99a824",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "2545992c",
+		type: "item",
+		item: "harvestcraft:hamburgeritem"
+	}]
+}

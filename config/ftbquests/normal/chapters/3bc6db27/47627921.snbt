@@ -1,0 +1,41 @@
+{
+	title: "Distilled Water",
+	x: -10.5d,
+	y: 3.0d,
+	text: [
+		"Using distilled water improves your steam output!",
+		"",
+		"&2(0.5 -> 0.75)"
+	],
+	dependencies: [
+		"191ad820",
+		"cf7bb751"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d3518be4",
+		type: "observation",
+		title: "Build a Distiller",
+		icon: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "distwater",
+					Amount: 16000
+				}
+			},
+			Count: 1b
+		},
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "distiller_slave"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "03e5a5e8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: -1.5d,
+	text: [
+		"Burns all skeletons on death. (Drops Nether Skeleton Skulls)"
+	],
+	dependencies: [
+		"f40cdc52"
+	],
+	tasks: [{
+		uid: "6f35a84e",
+		type: "item",
+		items: [{
+			item: "avaritia:skullfire_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1c80448",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "fea2a938",
+		type: "random",
+		table: 11
+	}]
+}

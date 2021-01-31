@@ -1,0 +1,33 @@
+{
+	icon: "harvestcraft:orangeitem",
+	x: 1.5d,
+	y: -4.5d,
+	text: [
+		"Nutrition is important. Check your health by clicking on the carrot icon below your crafting grid in the inventory.",
+		"",
+		"&2High nutrition results in higher max HP, low nutrition results in slowness, mining fatigue, and death!"
+	],
+	dependencies: [
+		"b9464520"
+	],
+	tasks: [{
+		uid: "bcd9487e",
+		type: "checkmark",
+		title: "Don't catch the scurvy!"
+	}],
+	rewards: [{
+		uid: "7e3614d4",
+		type: "item",
+		item: "minecraft:golden_carrot"
+	},
+	{
+		uid: "06431139",
+		type: "item",
+		item: "harvestcraft:honeyglazedcarrotsitem"
+	},
+	{
+		uid: "c1f26c21",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "51129773",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "70df7ea4",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "40e9a4ac",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "b8bc7da2",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "48e7dea9",
+		type: "xp_levels",
+		xp_levels: 60
+	},
+	{
+		uid: "07af8a75",
+		type: "item",
+		item: "buildcraftcore:engine 1 3"
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Clocks!",
+	x: 8.0d,
+	y: -1.5d,
+	text: [
+		"It tells minecraft time. 6 o'clock is sunrise, 18 o'clock is sundown. It is also configurable to emit redstone signals and tones at specified times.",
+		"",
+		"Two can be stacked to make a grandfather clock!"
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "cc941987",
+		type: "item",
+		title: "Clocks!",
+		items: [{
+			item: "bibliocraft:clock"
+		},
+		{
+			item: "bibliocraft:clock 1 1"
+		},
+		{
+			item: "bibliocraft:clock 1 2"
+		},
+		{
+			item: "bibliocraft:clock 1 3"
+		},
+		{
+			item: "bibliocraft:clock 1 4"
+		},
+		{
+			item: "bibliocraft:clock 1 5"
+		},
+		{
+			item: "bibliocraft:clock 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "334662f0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

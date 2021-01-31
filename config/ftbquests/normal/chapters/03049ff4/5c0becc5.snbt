@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "bead8ac3",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66976a6c",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d168f9a5",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "a04d550f",
+		type: "loot",
+		table: 18
+	}]
+}

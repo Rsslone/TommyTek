@@ -1,0 +1,27 @@
+{
+	x: 26.0d,
+	y: 15.5d,
+	text: [
+		"Arcane Lamps are a special kind of lamp that places small, invisible lights around a 16 block radius that still consist even if you place a block where they are."
+	],
+	dependencies: [
+		"e9969a2b"
+	],
+	tasks: [{
+		uid: "274c6646",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "6296dbba",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "60e07b97",
+		type: "loot",
+		table: 0
+	}]
+}

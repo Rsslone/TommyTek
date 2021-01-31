@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "032ab9e7",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_pigman"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "8e710984",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "14d79404",
+		type: "loot",
+		table: 11
+	}]
+}

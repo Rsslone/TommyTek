@@ -1,0 +1,51 @@
+{
+	title: "Little Tiles",
+	x: -1.5d,
+	y: 4.5d,
+	dependencies: [
+		"27ef67e4"
+	],
+	tasks: [{
+		uid: "5cb5a4f3",
+		type: "item",
+		items: [{
+			id: "littletiles:hammer",
+			tag: {},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f87f5dba",
+		type: "item",
+		items: [{
+			item: "littletiles:container"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "291d0f6b",
+		type: "item",
+		items: [{
+			id: "littletiles:chisel",
+			tag: {
+				preview: {
+					bBox: [I;
+						0,
+						0,
+						0,
+						1,
+						1,
+						1
+					],
+					tile: {
+						block: "minecraft:stone"
+					}
+				}
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	}]
+}

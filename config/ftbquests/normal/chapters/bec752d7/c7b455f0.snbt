@@ -1,0 +1,20 @@
+{
+	title: "Hedge Alchemy",
+	x: 21.5d,
+	y: 8.5d,
+	text: [
+		"Hedge Alchemy is a required step in the Thaumcraft progression tree. Check mark this when you complete it, other quests linked to it depend on its completion."
+	],
+	dependencies: [
+		"02586a5d"
+	],
+	tasks: [{
+		uid: "edf59fa6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d0a32c72",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

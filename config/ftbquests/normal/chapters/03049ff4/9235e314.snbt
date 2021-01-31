@@ -1,0 +1,35 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "5c9486d8",
+		type: "stat",
+		icon: "treasure2:emerald_lock",
+		stat: "stat.tradedWithVillager",
+		value: 500
+	}],
+	rewards: [{
+		uid: "dcfa2705",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "a4704410",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 16
+	},
+	{
+		uid: "f234096e",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		},
+		count: 3
+	}]
+}

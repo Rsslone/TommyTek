@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8583278d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cucumberitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1c5679d9",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

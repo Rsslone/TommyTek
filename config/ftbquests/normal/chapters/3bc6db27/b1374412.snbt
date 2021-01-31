@@ -1,0 +1,42 @@
+{
+	title: "Farming Carts",
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		" It is basically a combine, a hoe and a planter combined since it can harvest crops, till the land and plant seeds. It's has a 3x3 range which means it can only work on the blocks adjacent to the rail."
+	],
+	dependencies: [
+		"1765f2cf"
+	],
+	tasks: [{
+		uid: "ae1ab1b2",
+		type: "item",
+		title: "Farmers",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 14s
+		},
+		{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Count: 1b,
+			Damage: 84s
+		}]
+	}],
+	rewards: [{
+		uid: "85757ead",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "6610b531",
+		type: "random",
+		table: 0
+	}]
+}

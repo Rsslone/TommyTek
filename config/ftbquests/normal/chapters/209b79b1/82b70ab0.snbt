@@ -1,0 +1,31 @@
+{
+	title: "Custom Nether Portals",
+	x: 5.0d,
+	y: -3.0d,
+	text: [
+		"Bored of the same sized, shaped, horizontal portal? Use this to light custom portal designs!",
+		"",
+		"A minimum of 2x1 in size. No maximum. | Both Vertical and Horizontal",
+		"",
+		"Allows for circular and other non standard shapes",
+		"",
+		"Use obsidian added by other mods as a frame as long as that mod has its obsidian registered with Ore Dictionary. You can also mix and match obsidian blocks for a single portal frame rather then use just one."
+	],
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "2330cf09",
+		type: "item",
+		items: [{
+			item: "netherex:rime_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7690af7e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

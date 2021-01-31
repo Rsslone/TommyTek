@@ -1,0 +1,29 @@
+{
+	x: 25.0d,
+	y: 7.0d,
+	text: [
+		"The Helmet Piece of the Thaumium Fortress Armor Set. More Armor pieces provides more armor."
+	],
+	dependencies: [
+		"90afc4fe"
+	],
+	tasks: [{
+		uid: "ee6eedde",
+		type: "item",
+		items: [{
+			item: "thaumcraft:fortress_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7d853a9",
+		type: "ftbmoney:money",
+		ftb_money: 210L
+	},
+	{
+		uid: "e8b4e13c",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

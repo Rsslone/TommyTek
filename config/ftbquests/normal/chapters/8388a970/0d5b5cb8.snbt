@@ -1,0 +1,267 @@
+{
+	title: "Modern Bedroom",
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		"Crayfish Industries is proud to present you with our bedroom line of products. Waste away the day playing minecraft on our high end 16 bit personal computer, or blow of steam on minehub using our 64k modem!",
+		"",
+		"&2Computer features MineBay."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "0e656baa",
+		type: "item",
+		title: "Bedside Cabinet",
+		items: [{
+			item: "cfm:bedside_cabinet_oak"
+		},
+		{
+			item: "cfm:bedside_cabinet_spruce"
+		},
+		{
+			item: "cfm:bedside_cabinet_birch"
+		},
+		{
+			item: "cfm:bedside_cabinet_jungle"
+		},
+		{
+			item: "cfm:bedside_cabinet_acacia"
+		},
+		{
+			item: "cfm:bedside_cabinet_dark_oak"
+		},
+		{
+			item: "cfm:bedside_cabinet_stone"
+		},
+		{
+			item: "cfm:bedside_cabinet_granite"
+		},
+		{
+			item: "cfm:bedside_cabinet_diorite"
+		},
+		{
+			item: "cfm:bedside_cabinet_andesite"
+		}]
+	},
+	{
+		uid: "3a93437c",
+		type: "item",
+		title: "Bedside Desk and/or Bedside Cabinet",
+		items: [{
+			item: "cfm:desk_oak"
+		},
+		{
+			item: "cfm:desk_spruce"
+		},
+		{
+			item: "cfm:desk_birch"
+		},
+		{
+			item: "cfm:desk_jungle"
+		},
+		{
+			item: "cfm:desk_acacia"
+		},
+		{
+			item: "cfm:desk_dark_oak"
+		},
+		{
+			item: "cfm:desk_stone"
+		},
+		{
+			item: "cfm:desk_granite"
+		},
+		{
+			item: "cfm:desk_diorite"
+		},
+		{
+			item: "cfm:desk_andesite"
+		},
+		{
+			item: "cfm:desk_cabinet_oak"
+		},
+		{
+			item: "cfm:desk_cabinet_spruce"
+		},
+		{
+			item: "cfm:desk_cabinet_birch"
+		},
+		{
+			item: "cfm:desk_cabinet_jungle"
+		},
+		{
+			item: "cfm:desk_cabinet_acacia"
+		},
+		{
+			item: "cfm:desk_cabinet_dark_oak"
+		},
+		{
+			item: "cfm:desk_cabinet_stone"
+		},
+		{
+			item: "cfm:desk_cabinet_granite"
+		},
+		{
+			item: "cfm:desk_cabinet_diorite"
+		},
+		{
+			item: "cfm:desk_cabinet_andesite"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4c87ff8f",
+		type: "item",
+		title: "Desk Chairs",
+		items: [{
+			item: "cfm:chair_spruce"
+		},
+		{
+			item: "cfm:chair_oak"
+		},
+		{
+			item: "cfm:chair_birch"
+		},
+		{
+			item: "cfm:chair_jungle"
+		},
+		{
+			item: "cfm:chair_acacia"
+		},
+		{
+			item: "cfm:chair_dark_oak"
+		},
+		{
+			item: "cfm:chair_stone"
+		},
+		{
+			item: "cfm:chair_granite"
+		},
+		{
+			item: "cfm:chair_diorite"
+		},
+		{
+			item: "cfm:chair_andesite"
+		}]
+	},
+	{
+		uid: "2e8dec47",
+		type: "item",
+		title: "Digital Clock",
+		items: [{
+			item: "cfm:digital_clock"
+		},
+		{
+			item: "cfm:digital_clock 1 1"
+		},
+		{
+			item: "cfm:digital_clock 1 2"
+		},
+		{
+			item: "cfm:digital_clock 1 3"
+		},
+		{
+			item: "cfm:digital_clock 1 4"
+		},
+		{
+			item: "cfm:digital_clock 1 5"
+		},
+		{
+			item: "cfm:digital_clock 1 6"
+		},
+		{
+			item: "cfm:digital_clock 1 7"
+		},
+		{
+			item: "cfm:digital_clock 1 8"
+		},
+		{
+			item: "cfm:digital_clock 1 9"
+		},
+		{
+			item: "cfm:digital_clock 1 10"
+		},
+		{
+			item: "cfm:digital_clock 1 11"
+		},
+		{
+			item: "cfm:digital_clock 1 12"
+		},
+		{
+			item: "cfm:digital_clock 1 13"
+		},
+		{
+			item: "cfm:digital_clock 1 14"
+		},
+		{
+			item: "cfm:digital_clock 1 15"
+		}]
+	},
+	{
+		uid: "4868095c",
+		type: "item",
+		title: "Modern Bed",
+		items: [{
+			item: "cfm:modern_bed_bottom"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 1"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 2"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 3"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 4"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 5"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 6"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 7"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 8"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 9"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 10"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 11"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 12"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 13"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 14"
+		},
+		{
+			item: "cfm:modern_bed_bottom 1 15"
+		}]
+	},
+	{
+		uid: "f735e213",
+		type: "item",
+		items: [{
+			item: "cfm:computer"
+		}]
+	}],
+	rewards: [{
+		uid: "424a9dab",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

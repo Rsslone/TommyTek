@@ -1,0 +1,27 @@
+{
+	x: 18.5d,
+	y: 12.0d,
+	text: [
+		"Mithrillium Smelteries break items down essentia at a rate of 100% essentia and 0% flux."
+	],
+	dependencies: [
+		"9052377c"
+	],
+	tasks: [{
+		uid: "90980cf9",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "17cde9ae",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "e780296d",
+		type: "loot",
+		table: 18
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"The Cart Assembler is used to design and assemble your carts. It allows you to put whatever modules you would like together.",
+		"",
+		"Documentation is mostly in the form of tooltips.",
+		"",
+		"It's possible to make 1,140,776,321 different carts!"
+	],
+	tasks: [{
+		uid: "8ea70e7f",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcartassembler"
+		}]
+	}],
+	rewards: [{
+		uid: "cb80c7b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

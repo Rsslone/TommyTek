@@ -1,0 +1,15 @@
+{
+	x: -18.0d,
+	y: -8.5d,
+	shape: "gear",
+	text: [
+		"WARNING : This questline is not complete!",
+		"",
+		"It may have inaccurate progression or no rewards."
+	],
+	tasks: [{
+		uid: "d3e806f4",
+		type: "checkmark",
+		title: "I accept"
+	}]
+}

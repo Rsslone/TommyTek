@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Too many tools? Attach them to a belt ya nugget.",
+		"",
+		"&2While you can open like a backpack to put tools in, you can do it through the UI too by pressing R.",
+		"",
+		"&2To wear it, put inside any bauble slot or press Ctrl+R to open the special slot (which doesn't take a bauble slot)."
+	],
+	dependencies: [
+		"cc3f3c37"
+	],
+	tasks: [{
+		uid: "c9769568",
+		type: "item",
+		items: [{
+			item: "toolbelt:belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7313b781",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "e844534d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

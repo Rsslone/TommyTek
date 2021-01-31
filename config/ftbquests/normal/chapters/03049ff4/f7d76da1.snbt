@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "cb577121",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:cave_spider"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "32a207bb",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "3f367eef",
+		type: "loot",
+		table: 11
+	}]
+}

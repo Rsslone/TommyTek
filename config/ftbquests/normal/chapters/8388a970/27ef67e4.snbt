@@ -1,0 +1,23 @@
+{
+	title: "Miniaturization",
+	icon: "minecraft:stone_button",
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		"The following mods are very similar but different in ways that make their use case better.",
+		"",
+		"For example for small build or ease of use, Chisel + Bits is your choice. However Little Tiles has animated and functional blocks, also works well with large builds without much lag."
+	],
+	dependencies: [
+		"a7859882"
+	],
+	tasks: [{
+		uid: "79e1e3bd",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "cc01fc64",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

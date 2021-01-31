@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -8.5d,
+	description: "&dEpic",
+	tasks: [{
+		uid: "71a55cee",
+		type: "item",
+		items: [{
+			item: "treasure2:sapphire_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a527a001",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

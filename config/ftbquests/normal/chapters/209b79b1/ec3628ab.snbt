@@ -1,0 +1,25 @@
+{
+	title: "Minesweeper!",
+	icon: "lootgames:ms_activator",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"You've found Minesweeper! So that's where windows 10 hid it, I thought it was hidden in 1997 but here it is in minecraft.",
+		"",
+		"&2Right click to clear tile. Shift+R-Click to Flag."
+	],
+	tasks: [{
+		uid: "43957c03",
+		type: "observation",
+		title: "Minesweeper!",
+		icon: "lootgames:ms_activator",
+		match_type: "block_id",
+		match: "lootgames:smart_subordinate",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c10c649a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

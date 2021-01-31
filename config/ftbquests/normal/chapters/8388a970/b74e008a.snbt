@@ -1,0 +1,28 @@
+{
+	title: "REALFAKEDOORS.COM",
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		"Create custom doors out of any block and combine any animation you want to create the perfect personalised door!"
+	],
+	dependencies: [
+		"d0c3fd90"
+	],
+	tasks: [{
+		uid: "54c3e03d",
+		type: "item",
+		items: [{
+			item: "malisisdoors:door_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "3486d963",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "836acf23",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 20.5d,
+	y: 9.0d,
+	text: [
+		"The Everfull Urn! Fills containers such as fluid tanks, cauldrons, crucibles or water bottles with water! Draws Vis from the chunk it is in to do so."
+	],
+	dependencies: [
+		"c7b455f0"
+	],
+	tasks: [{
+		uid: "7d36f5ed",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "270a6393",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "85e525fa",
+		type: "loot",
+		table: 17
+	}]
+}

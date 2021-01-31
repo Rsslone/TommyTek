@@ -1,0 +1,11 @@
+{
+	title: "Chiseled Armor Manual",
+	icon: "cfm:computer",
+	x: -5.0d,
+	y: 5.5d,
+	description: "(WebPage)",
+	custom_click: "https://www.curseforge.com/minecraft/mc-mods/extra-bit-manipulation/pages/chiseled-armor",
+	dependencies: [
+		"035f2e9c"
+	]
+}

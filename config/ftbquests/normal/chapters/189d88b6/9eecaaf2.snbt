@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"You may have noticed certain qualities put on your sword/tool/armor, some of them good, some of them bad.",
+		"",
+		"You can re-roll for a different quality by reforging it! The materials range from their logical counterparts (WoodPlanks, Iron, Gold, Diamond, Emerald). If none of these work, Silver Ingots are a catch all material that can be used on anything!"
+	],
+	dependencies: [
+		"cd766471",
+		"3d9058a7"
+	],
+	tasks: [{
+		uid: "c27837c0",
+		type: "item",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "35b77e0d",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "0631b924",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

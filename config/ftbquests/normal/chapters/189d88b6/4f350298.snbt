@@ -1,0 +1,37 @@
+{
+	title: "Iron Chests",
+	x: -3.0d,
+	y: 2.0d,
+	text: [
+		"Wood chests are lame, and for kids. Here, bigger is better so get to it buttercup.",
+		"",
+		"You can either create a Iron Chest, or upgrade a standard chest with the upgrade by right clicking with it. (No need to empty it first)",
+		"",
+		"&2@IronChests"
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "3dc29ffd",
+		type: "item",
+		items: [{
+			item: "ironchest:wood_iron_chest_upgrade"
+		},
+		{
+			item: "ironchest:iron_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d00fdb5d",
+		type: "item",
+		item: "ironchest:iron_chest 1 7"
+	},
+	{
+		uid: "bb123f1c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

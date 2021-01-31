@@ -1,0 +1,28 @@
+{
+	title: "Alumentum: Coal but slightly better",
+	x: 23.0d,
+	y: 11.0d,
+	text: [
+		"Exactly what the title suggests. Alumentum burns three times as many items (24,) as coal! Otherwise, it can be thrown for a mini tnt-like explosion."
+	],
+	dependencies: [
+		"02586a5d"
+	],
+	tasks: [{
+		uid: "dd1f4703",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "6cdf69d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9b38a5f3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

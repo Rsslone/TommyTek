@@ -1,0 +1,29 @@
+{
+	title: "Amulet of Vis",
+	x: 37.5d,
+	y: 17.5d,
+	text: [
+		"The Amulet of Vis! Draws Vis from the local aura to recharge your vis-charged armor, tools or other baubles! Completely invalidates the recharge pedestal while you have it. I can hear its cries in the other room."
+	],
+	dependencies: [
+		"84bed23e"
+	],
+	tasks: [{
+		uid: "7b2423b3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amulet_vis 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98198a74",
+		type: "ftbmoney:money",
+		ftb_money: 110L
+	},
+	{
+		uid: "e911a603",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

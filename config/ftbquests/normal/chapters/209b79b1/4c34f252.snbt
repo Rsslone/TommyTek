@@ -1,0 +1,41 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	shape: "diamond",
+	text: [
+		"The Dull Mirror is for those who hate dying, and walking all the way back. With it you can set your respawn point.",
+		"",
+		"&2Shift+R-click sets the mirror to your location. Doing it again clears it."
+	],
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "a88406c1",
+		type: "item",
+		items: [{
+			id: "netherex:dull_mirror",
+			tag: {
+				BedDimension: 0,
+				BedPoint: {
+					X: 228,
+					Y: 89,
+					Z: 158
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a8bd962",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "0ef2941c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

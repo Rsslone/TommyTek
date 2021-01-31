@@ -1,0 +1,26 @@
+{
+	x: -8.5d,
+	y: -3.0d,
+	text: [
+		"A open gate is a security risk since anyone with your gate code can dial it. With one of these bad bois its no longer a problem!",
+		"",
+		"(Anything attempting to come through will die, all inventory items will be LOST!)",
+		"",
+		"Open/Close with redstone to the base block or use a remote!"
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "295bfcfe",
+		type: "item",
+		items: [{
+			item: "sgcraft:sgirisupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "6ccee0b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,108 @@
+{
+	title: "Modern Windows",
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"Stare at the outside world with these framed pieces of glass, or block out the sun with our blinds and curtains!"
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "8092ed68",
+		type: "item",
+		items: [{
+			item: "cfm:modern_window"
+		}]
+	},
+	{
+		uid: "868ec724",
+		type: "item",
+		items: [{
+			item: "cfm:modern_sliding_door"
+		}]
+	},
+	{
+		uid: "ca1507be",
+		type: "item",
+		title: "Blinds!",
+		items: [{
+			item: "cfm:blinds_open"
+		},
+		{
+			item: "cfm:blinds_spruce_open"
+		},
+		{
+			item: "cfm:blinds_birch_open"
+		},
+		{
+			item: "cfm:blinds_jungle_open"
+		},
+		{
+			item: "cfm:blinds_acacia_open"
+		},
+		{
+			item: "cfm:blinds_dark_oak_open"
+		}],
+		count: 2L
+	},
+	{
+		uid: "184e4355",
+		type: "item",
+		title: "Curtains",
+		items: [{
+			item: "cfm:curtains_open"
+		},
+		{
+			item: "cfm:curtains_open 1 1"
+		},
+		{
+			item: "cfm:curtains_open 1 2"
+		},
+		{
+			item: "cfm:curtains_open 1 3"
+		},
+		{
+			item: "cfm:curtains_open 1 4"
+		},
+		{
+			item: "cfm:curtains_open 1 5"
+		},
+		{
+			item: "cfm:curtains_open 1 6"
+		},
+		{
+			item: "cfm:curtains_open 1 7"
+		},
+		{
+			item: "cfm:curtains_open 1 8"
+		},
+		{
+			item: "cfm:curtains_open 1 9"
+		},
+		{
+			item: "cfm:curtains_open 1 10"
+		},
+		{
+			item: "cfm:curtains_open 1 11"
+		},
+		{
+			item: "cfm:curtains_open 1 12"
+		},
+		{
+			item: "cfm:curtains_open 1 13"
+		},
+		{
+			item: "cfm:curtains_open 1 14"
+		},
+		{
+			item: "cfm:curtains_open 1 15"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "f2a36264",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

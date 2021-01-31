@@ -1,0 +1,10 @@
+{
+	x: -4.5d,
+	y: -9.0d,
+	tasks: [{
+		uid: "be7df704",
+		type: "kill",
+		entity: "primitivemobs:mimic",
+		value: 5L
+	}]
+}

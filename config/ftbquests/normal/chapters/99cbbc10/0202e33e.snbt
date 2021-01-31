@@ -1,0 +1,29 @@
+{
+	title: "Top Tier Food: Gourmet Vension Burger",
+	x: 0.0d,
+	y: 11.0d,
+	text: [
+		"Bet you can’t eat 5 of them! No no! Stop, don’t eat 5 of them! "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5aaf295b"
+	],
+	tasks: [{
+		uid: "5639618b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gourmetvenisonburgeritem"
+		}]
+	}],
+	rewards: [{
+		uid: "3619b8a6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6f3d6a57",
+		type: "loot",
+		table: 0
+	}]
+}

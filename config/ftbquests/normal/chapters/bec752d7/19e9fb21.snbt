@@ -1,0 +1,31 @@
+{
+	x: 34.0d,
+	y: 18.5d,
+	dependencies: [
+		"e2c29000"
+	],
+	tasks: [{
+		uid: "4c82abe9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a29986d",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8ef2282f",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "55a01af8",
+		type: "random",
+		table: 18
+	}]
+}

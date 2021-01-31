@@ -1,0 +1,27 @@
+{
+	title: "Quest. Accepted.",
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"Accept a quest at the Bounty Board in a village."
+	],
+	tasks: [{
+		uid: "18d9490d",
+		type: "item",
+		items: [{
+			item: "bountiful:bounty"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5463ba8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4cf5c2ef",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

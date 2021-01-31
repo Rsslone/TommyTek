@@ -1,0 +1,34 @@
+{
+	title: "Low Voltage",
+	x: -11.0d,
+	y: 7.5d,
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "0ab0fd2b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "2e9eb7ae",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		}]
+	},
+	{
+		uid: "924ebeff",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}]
+	}],
+	rewards: [{
+		uid: "d51e4e75",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

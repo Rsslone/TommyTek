@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: 3.5d,
+	dependencies: [
+		"540b6388"
+	],
+	tasks: [{
+		uid: "71deec6c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:chemthrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a632f0d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b359918f",
+		type: "loot",
+		table: 0
+	}]
+}

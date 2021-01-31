@@ -1,0 +1,36 @@
+{
+	title: "Fluix Crystals",
+	x: 0.0d,
+	y: 5.5d,
+	text: [
+		"Fluix Crystals are a core resource for Applied Energistics, you will need alot of them. To make some, drop equal parts Charged Certus Quartz, redstone, and nether quartz into a water source block, and wait a moment. ",
+		"After a moment, the three ingredients will turn into Fluix Crystals at a ratio of 2:1 per ingredient. One Charged Certus Quartz, redstone, and nether quartz will yield 2 fluix crystals."
+	],
+	dependencies: [
+		"64852bdb"
+	],
+	tasks: [{
+		uid: "4204f8d2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9fb30d7d",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 4
+	},
+	{
+		uid: "16c23e9c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e65054f0",
+		type: "loot",
+		table: 0
+	}]
+}

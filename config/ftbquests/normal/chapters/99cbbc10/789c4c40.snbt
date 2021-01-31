@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"Plant rice seeds just like any other crop. Make sure the soil is good with your tester!"
+	],
+	dependencies: [
+		"920ce190"
+	],
+	tasks: [{
+		uid: "181d81c9",
+		type: "item",
+		items: [{
+			item: "teastory:item_xian_rice_seedling"
+		}]
+	}],
+	rewards: [{
+		uid: "cb35778a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,135 @@
+{
+	title: "Kitchen Additions",
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"Crayfish Industries is offering a liquidation sale on select kitchen appliances!"
+	],
+	dependencies: [
+		"ca2e3096",
+		"37c121dc"
+	],
+	tasks: [{
+		uid: "f5335ec5",
+		type: "item",
+		title: "Bar Stools",
+		items: [{
+			item: "cfm:bar_stool"
+		},
+		{
+			item: "cfm:bar_stool 1 1"
+		},
+		{
+			item: "cfm:bar_stool 1 2"
+		},
+		{
+			item: "cfm:bar_stool 1 3"
+		},
+		{
+			item: "cfm:bar_stool 1 4"
+		},
+		{
+			item: "cfm:bar_stool 1 5"
+		},
+		{
+			item: "cfm:bar_stool 1 6"
+		},
+		{
+			item: "cfm:bar_stool 1 7"
+		},
+		{
+			item: "cfm:bar_stool 1 8"
+		},
+		{
+			item: "cfm:bar_stool 1 9"
+		},
+		{
+			item: "cfm:bar_stool 1 10"
+		},
+		{
+			item: "cfm:bar_stool 1 11"
+		},
+		{
+			item: "cfm:bar_stool 1 12"
+		},
+		{
+			item: "cfm:bar_stool 1 13"
+		},
+		{
+			item: "cfm:bar_stool 1 14"
+		},
+		{
+			item: "cfm:bar_stool 1 15"
+		}],
+		count: 3L
+	},
+	{
+		uid: "cebe7133",
+		type: "item",
+		items: [{
+			item: "cfm:fire_alarm_on"
+		}]
+	},
+	{
+		uid: "bef92b92",
+		type: "item",
+		items: [{
+			item: "cfm:range_hood"
+		}]
+	},
+	{
+		uid: "357a25a7",
+		type: "item",
+		items: [{
+			item: "cfm:plate"
+		}]
+	},
+	{
+		uid: "7f37aa98",
+		type: "item",
+		items: [{
+			item: "cfm:cookie_jar"
+		}]
+	},
+	{
+		uid: "1bf26f0f",
+		type: "item",
+		items: [{
+			item: "cfm:chopping_board"
+		}]
+	},
+	{
+		uid: "c2ef977f",
+		type: "item",
+		items: [{
+			item: "cfm:item_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1718e4bb",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "981f1b93",
+		type: "random",
+		table: 7
+	},
+	{
+		uid: "2f065753",
+		type: "item",
+		item: "cfm:microwave"
+	},
+	{
+		uid: "109c34f9",
+		type: "item",
+		item: "cfm:dishwasher"
+	},
+	{
+		uid: "ea456180",
+		type: "item",
+		item: "cfm:blender"
+	}]
+}

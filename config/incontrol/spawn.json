@@ -1,0 +1,10 @@
+[
+  {
+    "mob": "mowziesmobs:lantern",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

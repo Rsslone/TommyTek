@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "9855fa26",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}],
+	rewards: [{
+		uid: "414ded22",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "a2fd548a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "df1f2862",
+		type: "random",
+		table: 11
+	}]
+}

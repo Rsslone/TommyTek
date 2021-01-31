@@ -1,0 +1,25 @@
+{
+	x: -9.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "a4369138",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:witch"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "fb15ed61",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "3b4bfc42",
+		type: "loot",
+		table: 11
+	}]
+}

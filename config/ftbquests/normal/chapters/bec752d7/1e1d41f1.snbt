@@ -1,0 +1,45 @@
+{
+	x: 27.5d,
+	y: 3.5d,
+	text: [
+		"The Axe of the Stream! Functions as a treecapitator, cutting down trees in one chop! Right Clicking will break the tree from top to bottom, for trees like Notch Trees!"
+	],
+	dependencies: [
+		"ebdb320b"
+	],
+	tasks: [{
+		uid: "a71eacf3",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a8feeb3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "6ec1d6e4",
+		type: "item",
+		item: "thaumcraft:curio 10 1"
+	},
+	{
+		uid: "b0599be5",
+		type: "loot",
+		table: 17
+	}]
+}

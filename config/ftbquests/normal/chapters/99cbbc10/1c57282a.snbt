@@ -1,0 +1,62 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"In order to catch special fish (and loot), you need the right bait. Convert your wooden rod into a Aquaculture rod or craft a new one.",
+		"",
+		"&2A vanilla rod converts by itself in a crafting grid."
+	],
+	dependencies: [
+		"dc36ffd1"
+	],
+	tasks: [{
+		uid: "d54dc766",
+		type: "item",
+		title: "Aquaculture Fishingrods",
+		items: [{
+			id: "aquaculture:fishing_rod",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -2638962328688373963L,
+						UUIDLeast: -5626103026274568216L,
+						Amount: -0.5d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.unlucky.name"
+				}
+			}
+		},
+		{
+			id: "aquaculture:iron_fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		},
+		{
+			id: "aquaculture:gold_fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		},
+		{
+			id: "aquaculture:diamond_fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6994551",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

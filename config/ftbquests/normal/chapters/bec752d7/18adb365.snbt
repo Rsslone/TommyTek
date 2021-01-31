@@ -1,0 +1,22 @@
+{
+	x: 22.0d,
+	y: 16.0d,
+	text: [
+		"The highest capacity Warded Jar! Holds 4000 Essentia!"
+	],
+	dependencies: [
+		"4047910e"
+	],
+	tasks: [{
+		uid: "03e48e45",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_mithminite"
+		}]
+	}],
+	rewards: [{
+		uid: "eb2d37d6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

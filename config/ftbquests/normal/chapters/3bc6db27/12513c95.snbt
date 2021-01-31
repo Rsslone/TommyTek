@@ -1,0 +1,174 @@
+{
+	title: "BUTTONS!",
+	x: 1.0d,
+	y: 4.5d,
+	text: [
+		"Custom button panels! Control things from afar all in one place and even have feedback with lights and meters! WOW!",
+		"",
+		"Place an Unfinished Control Panel into the slot on the Panel Creator and drag buttons and components onto the editor. You can R-Click components outside of the editor in the air, and you will open a config screen for that part.",
+		"",
+		"Each redstone color has a number of channels to transmit to, you can change the channel by pressing the color grid in the component screen (this is not the same as the color sliders). ",
+		"",
+		"The panel controller must be touching the Control Panel or a Panel Connector. Then you may wire it up to any Immersive Engineering Redstone Connector."
+	],
+	dependencies: [
+		"6c4de591"
+	],
+	tasks: [{
+		uid: "ecb17dc1",
+		type: "item",
+		items: [{
+			item: "industrialwires:control_panel 1 3"
+		}]
+	},
+	{
+		uid: "304c8b60",
+		type: "item",
+		items: [{
+			item: "industrialwires:control_panel 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "789c4e9a",
+		type: "item",
+		items: [{
+			item: "industrialwires:control_panel 1 1"
+		}]
+	},
+	{
+		uid: "96640bbb",
+		type: "item",
+		items: [{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					color: 16711680,
+					rsChannel: 0b,
+					rsId: 0,
+					latching: 0b
+				}
+			}
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					color: 8421504,
+					text: "Test"
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					color: 65280,
+					rsChannel: 0b,
+					rsId: 0
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					rsChannel2: 0b,
+					horizontal: 0b,
+					color: 16776960,
+					rsChannel: 0b,
+					length: 0.5f,
+					rsId: 0,
+					rsId2: -1
+				}
+			},
+			Damage: 3s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					rsChannel2: 0b,
+					rsChannel: 0b,
+					rsId: 0,
+					rsId2: -1
+				}
+			},
+			Damage: 4s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					rsChannel: 0b,
+					rsId: 0
+				}
+			},
+			Damage: 5s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					color: 16711680,
+					rsChannel: 0b,
+					rsId: 0
+				}
+			},
+			Damage: 6s
+		},
+		{
+			item: "industrialwires:panel_component 1 7"
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					rsChannel2: 0b,
+					wide: 1b,
+					rsChannel: 0b,
+					rsId: 0,
+					rsId2: -1
+				}
+			},
+			Damage: 8s
+		},
+		{
+			id: "industrialwires:panel_component",
+			tag: {
+				data: {
+					color: 65280,
+					rsChannel: 0b,
+					rsId: 0
+				}
+			},
+			Damage: 9s
+		},
+		{
+			item: "industrialwires:panel_component 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b578e67",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "EPIC"
+			}
+		}
+	},
+	{
+		uid: "86c90c8c",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "02b8e71c",
+		type: "random",
+		table: 12
+	}]
+}

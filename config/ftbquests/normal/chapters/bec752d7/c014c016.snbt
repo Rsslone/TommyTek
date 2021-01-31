@@ -1,0 +1,30 @@
+{
+	title: "Starting Auromancy",
+	x: 30.5d,
+	y: 13.0d,
+	text: [
+		"Do you want to finally cast SPELLS? Well that's where this starts. Spells in thaumcraft are highly modular and strong. Follow the book for more details."
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "2d1e39dd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ce7577b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bcc8f188",
+		type: "loot",
+		table: 16
+	}]
+}

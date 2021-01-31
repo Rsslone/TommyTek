@@ -1,0 +1,34 @@
+{
+	title: "High Voltage",
+	x: -13.0d,
+	y: 7.5d,
+	dependencies: [
+		"16c1d598"
+	],
+	tasks: [{
+		uid: "24bf036e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 4"
+		}]
+	},
+	{
+		uid: "ed8e49fc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 5"
+		}]
+	},
+	{
+		uid: "bd5d0a73",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "43ac7892",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

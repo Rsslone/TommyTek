@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 6.0d,
+	text: [
+		"Hemp Fiber is very useful for upgraded machines and much more!"
+	],
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "1889ffda",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 4"
+		}]
+	},
+	{
+		uid: "5a4091fd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:seed"
+		}]
+	}],
+	rewards: [{
+		uid: "ffabfaf4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

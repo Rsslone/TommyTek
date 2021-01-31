@@ -1,0 +1,24 @@
+{
+	title: "VanillaLinked",
+	x: 1.5d,
+	y: 3.5d,
+	text: [
+		"Access your vanilla EnderChest anyyywhereee...!"
+	],
+	dependencies: [
+		"c7e9d057"
+	],
+	tasks: [{
+		uid: "8fc0eafa",
+		type: "item",
+		items: [{
+			item: "multistorage:ender_bag 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cda16bb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

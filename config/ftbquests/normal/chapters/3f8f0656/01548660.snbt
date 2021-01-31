@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 16.5d,
+	text: [
+		"On each side of an ME Controller, there are 8 channels being outputted. Ordinary Fluix cables can only connect eight channels themselves, and each device you connect to an ME system, be it an interface or terminal, take up once channel.",
+		"",
+		"There is a way to bypass this restriction of channels, using Dense ME Cables. Dense ME Cables contain 32 channels, and can have normal fluix cables strung off of them in order to spread more channels wherever you need. "
+	],
+	dependencies: [
+		"f6d9d524"
+	],
+	tasks: [{
+		uid: "e85d5034",
+		type: "checkmark",
+		title: "Note: ME System Channels"
+	}],
+	rewards: [{
+		uid: "2919c6ed",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Accelerated Construction",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"Build fast with these wands. You are able to construct walls in a breeze!"
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "fef445e3",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wandstone"
+		},
+		{
+			item: "betterbuilderswands:wandiron"
+		},
+		{
+			item: "betterbuilderswands:wanddiamond"
+		},
+		{
+			item: "betterbuilderswands:wandunbreakable 1 12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3af4a2d9",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "497e5fea",
+		type: "xp",
+		xp: 100
+	}]
+}

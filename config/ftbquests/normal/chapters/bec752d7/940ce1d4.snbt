@@ -1,0 +1,17 @@
+{
+	x: 26.0d,
+	y: 6.0d,
+	text: [
+		"Infusion Stabilizers! Stabilize your infusions by wiring these up to pedestals. Bursts of Flux will instead of making liquid taint or popping items off pedestals turn into flux in the aura!"
+	],
+	dependencies: [
+		"19aa9d2f"
+	],
+	tasks: [{
+		uid: "a63eed5b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	}]
+}

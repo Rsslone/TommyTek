@@ -1,0 +1,19 @@
+{
+	title: "Diamond x16",
+	x: -6.5d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "666c6c9e",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "18294d58",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

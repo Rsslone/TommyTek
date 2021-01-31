@@ -1,0 +1,29 @@
+{
+	title: "Liquid Death: USE CAUTION",
+	x: 20.0d,
+	y: 8.0d,
+	text: [
+		"Liquid Death! It's exactly what it sounds like. It kills things that come into contact with it EXTREMELY fast. Be VERY careful with this. Entities killed from this drop essentia crystals based on what essentia the entity has."
+	],
+	dependencies: [
+		"c7b455f0"
+	],
+	tasks: [{
+		uid: "f7f8ec21",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e1b73af",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

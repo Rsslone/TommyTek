@@ -1,0 +1,26 @@
+{
+	icon: "thaumcraft:goggles",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"You can visually see lag by running a profile and inspecting the latest, you can find this by pressing Insert (INS) on your keyboard."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "d9d26750",
+		type: "checkmark",
+		title: "Row Row, Fight the Lag!"
+	}],
+	rewards: [{
+		uid: "e6dbf3c6",
+		type: "ftbmoney:money",
+		ftb_money: 90L
+	},
+	{
+		uid: "dfa5f561",
+		type: "random",
+		table: 0
+	}]
+}

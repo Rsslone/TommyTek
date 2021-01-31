@@ -1,0 +1,31 @@
+{
+	title: "Fuel Burning Boiler",
+	x: -12.0d,
+	y: 4.0d,
+	text: [
+		"The boiler takes a fuel and water to make steam. The known supported fuel types is Diesel, Biodiesel, and Gasoline."
+	],
+	dependencies: [
+		"139f0197",
+		"054c3621"
+	],
+	tasks: [{
+		uid: "79742aa7",
+		type: "observation",
+		title: "Build a Boiler",
+		icon: "immersiveengineering:sheetmetal 1 9",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1aa2387a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ed4cfd8e",
+		type: "loot",
+		table: 0
+	}]
+}

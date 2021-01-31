@@ -1,0 +1,35 @@
+{
+	title: "Fueling and Dialing",
+	x: -9.0d,
+	y: -1.0d,
+	text: [
+		"Stargates run on naquadah, the fuel access is located on the lower half of the DHD (Controller). Fuel is used for each use and over time, it will automatically close after 5 minutes however. Energy usage varies with the distance between the stargates",
+		"",
+		"Fuel is only used by the stargate initiating the connection. No fuel is required to receive a connection or maintain a received connection.",
+		"",
+		"To find out the address of a stargate, right-click somewhere on the ring. When you open the GUI the address is automatically copied to your clipboard! The hyphens are purely for readability – you do not need to enter them when dialling the address.",
+		"",
+		"If you are connecting to a stargate in the same dimension, you only need to enter the first 7 characters, otherwise you need the Chevron upgrade and dial all 9 characters!"
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "eb5fa33b",
+		type: "item",
+		items: [{
+			item: "sgcraft:naquadah"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "cd270030",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d2dcc617",
+		type: "random",
+		table: 0
+	}]
+}

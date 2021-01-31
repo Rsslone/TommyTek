@@ -1,0 +1,47 @@
+{
+	title: "Wireless ME system Access",
+	x: -4.5d,
+	y: 13.5d,
+	text: [
+		"The Wireless ME Terminal can be used to access the ME system it is linked to depending on the amount of upgrades placed in the connected ME Wireless Access point.",
+		"",
+		"Note: The Wireless access point, depending on the amount of upgrades placed in it, can end up being quite expensive RF/T wise. "
+	],
+	dependencies: [
+		"03d5fe37"
+	],
+	tasks: [{
+		uid: "470b781f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "85cbc994",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 42"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0f93f16f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_terminal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96b0c8e3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "589ddd62",
+		type: "loot",
+		table: 0
+	}]
+}

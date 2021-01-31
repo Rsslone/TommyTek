@@ -1,0 +1,22 @@
+{
+	x: 23.5d,
+	y: 16.0d,
+	text: [
+		"An Upgraded Variant of the Warded jar. Holds 270 Essentia."
+	],
+	dependencies: [
+		"a7e899d9"
+	],
+	tasks: [{
+		uid: "234fc9ca",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_brass"
+		}]
+	}],
+	rewards: [{
+		uid: "f364ab7c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

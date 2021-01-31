@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 11.5d,
+	text: [
+		"She's my cherry pie"
+	],
+	tasks: [{
+		uid: "5f5df9eb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cherrypieitem"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "a10f054a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d63162dc",
+		type: "loot",
+		table: 0
+	}]
+}

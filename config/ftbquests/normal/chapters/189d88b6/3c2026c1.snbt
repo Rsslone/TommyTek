@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"Still too many tools?",
+		"",
+		"&2You can add an additional pouch to your belt by combining your belt with a pouch on an anvil."
+	],
+	dependencies: [
+		"50ea369a"
+	],
+	tasks: [{
+		uid: "9a0b8b50",
+		type: "item",
+		items: [{
+			item: "toolbelt:pouch"
+		}]
+	}],
+	rewards: [{
+		uid: "4aa3613a",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "80be7f6e",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

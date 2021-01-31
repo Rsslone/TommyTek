@@ -1,0 +1,30 @@
+{
+	title: "Under new leadership.",
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"Combine Royal Jelly with a Grub to create a new Queen!"
+	],
+	dependencies: [
+		"e48ae31c"
+	],
+	tasks: [{
+		uid: "8366c631",
+		type: "item",
+		items: [{
+			item: "harvestcraft:royaljellyitem"
+		}]
+	},
+	{
+		uid: "c9e0e2f6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grubitem"
+		}]
+	}],
+	rewards: [{
+		uid: "38079044",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

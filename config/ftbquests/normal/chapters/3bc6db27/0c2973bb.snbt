@@ -1,0 +1,43 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	dependencies: [
+		"eefba21f"
+	],
+	tasks: [{
+		uid: "b1f3fbeb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fdf36aab",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d393821",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ec857872",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "ca8e7e42",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	}]
+}

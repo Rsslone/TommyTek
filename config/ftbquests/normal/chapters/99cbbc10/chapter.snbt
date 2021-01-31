@@ -1,0 +1,7 @@
+{
+	title: "Agriculture and Cooking",
+	icon: "harvestcraft:seedsoupitem",
+	always_invisible: false,
+	group: -2088195728,
+	default_quest_shape: ""
+}

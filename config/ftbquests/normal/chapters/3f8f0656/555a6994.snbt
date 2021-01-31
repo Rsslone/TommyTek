@@ -1,0 +1,35 @@
+{
+	title: "Crystal Chargers",
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		"These chargers are used to.. well, charge Certus Quartz crystals into their charged variants after a moment."
+	],
+	dependencies: [
+		"2f7ba17f"
+	],
+	tasks: [{
+		uid: "30e96292",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	}],
+	rewards: [{
+		uid: "52aa4071",
+		type: "item",
+		item: "appliedenergistics2:material",
+		count: 16
+	},
+	{
+		uid: "23c7920d",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 16
+	},
+	{
+		uid: "f68e3961",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 30.0d,
+	y: 7.0d,
+	text: [
+		"Verdant Charms! There are two variants of these magical pendants: Lifegiver, which grants health regen at a much quicker rate, and Sustainer: Makes you consume less hunger/saturation while doing mostly everything, and recharges your hunger using Vis!"
+	],
+	dependencies: [
+		"27223c90"
+	],
+	tasks: [{
+		uid: "81369a06",
+		type: "item",
+		items: [{
+			item: "thaumcraft:verdant_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d386969",
+		type: "item",
+		item: "minecraft:milk_bucket"
+	},
+	{
+		uid: "25542f7d",
+		type: "item",
+		item: "minecraft:golden_apple"
+	},
+	{
+		uid: "fc3994ce",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "84d07db7",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

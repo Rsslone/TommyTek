@@ -1,0 +1,38 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"You cannot afford my Diamond Sword."
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "0a163dc7",
+		type: "item",
+		title: "Patent Get",
+		items: [{
+			item: "minecraft:diamond_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68e557d0",
+		type: "item",
+		item: "minecraft:planks 1 1"
+	},
+	{
+		uid: "482a7468",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 16s
+				}]
+			}
+		}
+	}]
+}

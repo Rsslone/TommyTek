@@ -1,0 +1,18 @@
+{
+	icon: "jaopca:item_dusttinylapis",
+	x: -8.0d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "db124768",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "31e3bc46",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

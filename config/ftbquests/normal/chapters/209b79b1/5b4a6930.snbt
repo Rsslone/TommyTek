@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -7.5d,
+	description: "&eEpic",
+	tasks: [{
+		uid: "b367bed9",
+		type: "item",
+		items: [{
+			item: "treasure2:diamond_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11a54100",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

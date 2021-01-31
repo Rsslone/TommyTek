@@ -1,0 +1,35 @@
+{
+	title: "Vis Scribing Tools",
+	x: 28.0d,
+	y: 10.5d,
+	text: [
+		"The Vis Scribing Tools use Vis from the aura to write research instead of squid ink!"
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "cb62103a",
+		type: "item",
+		items: [{
+			id: "thaumadditions:vis_scribing_tools",
+			tag: {
+				tc.charge: 0
+			},
+			Count: 1b,
+			Damage: 150s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee77bdd8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8afe6804",
+		type: "loot",
+		table: 16
+	}]
+}

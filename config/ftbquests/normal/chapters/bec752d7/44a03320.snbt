@@ -1,0 +1,30 @@
+{
+	title: "The Focus Pouch",
+	x: 34.5d,
+	y: 13.5d,
+	text: [
+		"The Focus Pouch! Hocus Pocus Pouch! Skibibble Pouch! It stores Foci. It's really not that interesting. Useful, not interesting."
+	],
+	dependencies: [
+		"13f7aaf5"
+	],
+	tasks: [{
+		uid: "beaaec73",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0e439b8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0e72219e",
+		type: "item",
+		item: "thaumcraft:focus_1"
+	}]
+}

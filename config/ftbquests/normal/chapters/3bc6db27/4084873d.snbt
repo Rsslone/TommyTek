@@ -1,0 +1,75 @@
+{
+	title: "Electrical Poles",
+	x: -5.5d,
+	y: 8.5d,
+	text: [
+		"I mean, sure you could just wire things to the ground, but how UN-ENGINEER like of you."
+	],
+	dependencies: [
+		"9cf75e22"
+	],
+	tasks: [{
+		uid: "0fbb79f8",
+		type: "item",
+		title: "Electrical Poles",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 3"
+		},
+		{
+			item: "immersiveengineering:metal_decoration2 1 2"
+		},
+		{
+			item: "immersiveengineering:metal_decoration2"
+		}]
+	},
+	{
+		uid: "c8aff7f5",
+		type: "item",
+		title: "Wall Mounts",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 4"
+		},
+		{
+			item: "immersiveengineering:metal_decoration2 1 3"
+		},
+		{
+			item: "immersiveengineering:metal_decoration2 1 1"
+		}]
+	},
+	{
+		uid: "aff8c603",
+		type: "item",
+		title: "Custom Poles",
+		items: [{
+			item: "engineersdecor:treated_wood_pole_head"
+		},
+		{
+			item: "engineersdecor:treated_wood_pole"
+		},
+		{
+			item: "engineersdecor:treated_wood_pole_support"
+		},
+		{
+			item: "engineersdecor:thick_steel_pole"
+		},
+		{
+			item: "engineersdecor:thin_steel_pole"
+		},
+		{
+			item: "engineersdecor:thin_steel_pole_head"
+		},
+		{
+			item: "engineersdecor:thick_steel_pole_head"
+		}]
+	}],
+	rewards: [{
+		uid: "406ce142",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c8fd88db",
+		type: "loot",
+		table: 0
+	}]
+}

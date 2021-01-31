@@ -1,0 +1,35 @@
+{
+	title: "Custom Records",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"To import a custom track, upload a .MP3 file to a host like dropbox or Opendrive then paste the URL. (The URL must link directly to the sound file! URL should end with .mp3)"
+	],
+	dependencies: [
+		"52bbc350"
+	],
+	tasks: [{
+		uid: "adbbf710",
+		type: "item",
+		items: [{
+			item: "betterrecords:recordplayer"
+		}]
+	},
+	{
+		uid: "08d5bed1",
+		type: "item",
+		items: [{
+			item: "betterrecords:recordetcher"
+		}]
+	}],
+	rewards: [{
+		uid: "bee88dc2",
+		type: "item",
+		item: "betterrecords:record"
+	},
+	{
+		uid: "d9d2350b",
+		type: "item",
+		item: "bibliocraft:discrack"
+	}]
+}

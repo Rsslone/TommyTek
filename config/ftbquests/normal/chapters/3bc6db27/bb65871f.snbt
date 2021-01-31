@@ -1,0 +1,33 @@
+{
+	title: "Basic Energy",
+	x: -8.5d,
+	y: 7.5d,
+	text: [
+		"The base block for mechanical to electrical transfer."
+	],
+	dependencies: [
+		"9cf75e22"
+	],
+	tasks: [{
+		uid: "da936948",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "69cebc8a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5ed8ce91",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	}]
+}

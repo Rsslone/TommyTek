@@ -1,0 +1,36 @@
+{
+	title: "Improved steel production",
+	x: 0.0d,
+	y: 9.0d,
+	text: [
+		"Efficient Steel production."
+	],
+	dependencies: [
+		"bd3f7971"
+	],
+	tasks: [{
+		uid: "390d4534",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "57a40c4e",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "a7e292f1",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "a913dd97",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

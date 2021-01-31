@@ -1,0 +1,43 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"Map frames hold and display maps. They can be rotated by sneak clicking with empty hand. Remove the maps with the Screw gun.",
+		"",
+		"You can place waypoint pins with the Drafting Compass, see next quest for more detail."
+	],
+	dependencies: [
+		"93c0b87a"
+	],
+	tasks: [{
+		uid: "8022c1e1",
+		type: "item",
+		title: "Map Frames",
+		items: [{
+			item: "bibliocraft:mapframe"
+		},
+		{
+			item: "bibliocraft:mapframe 1 1"
+		},
+		{
+			item: "bibliocraft:mapframe 1 2"
+		},
+		{
+			item: "bibliocraft:mapframe 1 3"
+		},
+		{
+			item: "bibliocraft:mapframe 1 4"
+		},
+		{
+			item: "bibliocraft:mapframe 1 5"
+		},
+		{
+			item: "bibliocraft:mapframe 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "4d50cac7",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

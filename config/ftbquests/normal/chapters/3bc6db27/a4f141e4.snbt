@@ -1,0 +1,23 @@
+{
+	title: "Wind Farms",
+	x: -9.5d,
+	y: 8.5d,
+	text: [
+		"Attach to your Dynamo and wire up to your electrical system."
+	],
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "8c16593e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "19bbc4a2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

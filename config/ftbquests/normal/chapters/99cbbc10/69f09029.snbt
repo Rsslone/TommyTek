@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -6.5d,
+	dependencies: [
+		"d63de0a7"
+	],
+	tasks: [{
+		uid: "173fc483",
+		type: "item",
+		items: [{
+			item: "teastory:puer_tea_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "c4c4996e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

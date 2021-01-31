@@ -1,0 +1,19 @@
+{
+	title: "Diamond x1",
+	icon: "jaopca:item_dusttinydiamond",
+	x: -6.5d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3cce256b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "4e32fc90",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

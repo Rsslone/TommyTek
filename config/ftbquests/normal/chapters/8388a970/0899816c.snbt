@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -5.5d,
+	text: [
+		"Tired of getting Milk? Put a cow inside a jar. Don't think about it."
+	],
+	dependencies: [
+		"37c121dc"
+	],
+	tasks: [{
+		uid: "94c921cc",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "0bf7866e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e7d9f9de",
+		type: "loot",
+		table: 0
+	}]
+}

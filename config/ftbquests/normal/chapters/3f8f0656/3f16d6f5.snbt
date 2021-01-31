@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: -10.5d,
+	dependencies: [
+		"8abd040a"
+	],
+	tasks: [{
+		uid: "562b56cf",
+		type: "item",
+		items: [{
+			item: "networksmanager:terminal"
+		}]
+	},
+	{
+		uid: "629a022c",
+		type: "item",
+		items: [{
+			item: "networksmanager:controller"
+		}]
+	}]
+}

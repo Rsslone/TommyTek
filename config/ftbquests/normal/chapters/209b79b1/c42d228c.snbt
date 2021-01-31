@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -6.5d,
+	description: "&aScarce",
+	tasks: [{
+		uid: "41e99f6d",
+		type: "item",
+		items: [{
+			item: "treasure2:spider_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "885b4160",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

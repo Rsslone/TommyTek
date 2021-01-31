@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "3cfd97f0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "af936fb1",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	title: "Beginner Thaumcraft Kit",
+	icon: "thaumcraft:nitor_white",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 16b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}
+	},
+	{
+		item: "thaumcraft:amber 8"
+	},
+	{
+		item: "thaumcraft:quicksilver 16"
+	},
+	{
+		item: "thaumcraft:curio 1 1"
+	},
+	{
+		item: "thaumcraft:nugget 4 10"
+	}],
+	loot_crate: {
+		string_id: "beginner_thaumcraft_kit",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

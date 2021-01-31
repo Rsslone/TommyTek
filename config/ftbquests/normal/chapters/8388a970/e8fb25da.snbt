@@ -1,0 +1,39 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	text: [
+		"Neat paintings Biblio style! You print on the blank canvas then place it on a frame (many sizes and styles)."
+	],
+	dependencies: [
+		"93c0b87a"
+	],
+	tasks: [{
+		uid: "1ce53be1",
+		type: "item",
+		items: [{
+			item: "bibliocraft:paintingcanvas"
+		}]
+	},
+	{
+		uid: "fc563486",
+		type: "item",
+		items: [{
+			item: "bibliocraft:paintingpress"
+		}]
+	}],
+	rewards: [{
+		uid: "a5c6bf91",
+		type: "item",
+		item: "bibliocraft:paintingframeflat"
+	},
+	{
+		uid: "5b7b84ec",
+		type: "item",
+		item: "bibliocraft:paintingframesimple"
+	},
+	{
+		uid: "d02ea457",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

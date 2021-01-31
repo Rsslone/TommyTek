@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "91757c1d",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d5b769e3",
+		type: "ftbmoney:money",
+		ftb_money: 4000000L
+	}]
+}

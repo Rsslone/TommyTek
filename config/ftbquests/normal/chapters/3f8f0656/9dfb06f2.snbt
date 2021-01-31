@@ -1,0 +1,34 @@
+{
+	title: "The ME I/O Port",
+	x: -1.5d,
+	y: 10.5d,
+	text: [
+		"The ME I/O Port allows you to transfer items between storage cells, in case you want to sort them in a specific way. "
+	],
+	dependencies: [
+		"251f923c"
+	],
+	tasks: [{
+		uid: "3d48a6d9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:io_port"
+		}]
+	}],
+	rewards: [{
+		uid: "55a40f39",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "16b69257",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 16
+	},
+	{
+		uid: "61c348a1",
+		type: "loot",
+		table: 0
+	}]
+}

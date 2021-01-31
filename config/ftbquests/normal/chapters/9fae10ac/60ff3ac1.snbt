@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -12.0d,
+	dependencies: [
+		"a1e75b9b"
+	],
+	tasks: [{
+		uid: "bd01af82",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:wrought_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c36f992a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "510806c9",
+		type: "loot",
+		table: 0
+	}]
+}

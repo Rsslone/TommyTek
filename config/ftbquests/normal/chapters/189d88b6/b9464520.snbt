@@ -1,0 +1,25 @@
+{
+	title: "Getting Started",
+	x: -0.5d,
+	y: -6.0d,
+	shape: "diamond",
+	text: [
+		"As you might have noticed somethings have changed around here, but don't worry we shall take you on a tour around the basic mechanics for keeping you alive. Hopefully...",
+		"",
+		"&2It's recommended to AT LEAST finish this questline."
+	],
+	tasks: [{
+		uid: "9d68fbd3",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "24ea0488",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b4fbdd73",
+		type: "random",
+		table: 13
+	}]
+}

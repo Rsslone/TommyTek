@@ -1,0 +1,54 @@
+{
+	title: "Exoskeleton",
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "ba0cd5e2",
+		type: "item",
+		items: [{
+			item: "netherex:wither_bone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04746299",
+		type: "item",
+		items: [{
+			item: "netherex:wither_bone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b91d5b1",
+		type: "item",
+		items: [{
+			item: "netherex:wither_bone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5f035b7",
+		type: "item",
+		items: [{
+			item: "netherex:wither_bone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6a7d6a5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6e8a7be7",
+		type: "random",
+		table: 11
+	}]
+}

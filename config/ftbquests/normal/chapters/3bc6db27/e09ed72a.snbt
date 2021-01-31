@@ -1,0 +1,24 @@
+{
+	title: "Times 3!",
+	x: 1.5d,
+	y: 9.0d,
+	text: [
+		"Placing one or two Blast Furnace Preheaters on the adjacent sides will double or triple speed respectively. REQUIRES POWER!"
+	],
+	dependencies: [
+		"83b42207"
+	],
+	tasks: [{
+		uid: "cc6f4532",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0b56e28c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

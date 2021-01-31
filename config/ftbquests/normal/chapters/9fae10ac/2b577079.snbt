@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: 1.5d,
+	text: [
+		"This block is used in visualizing the location of the blocks you need to place in order to form the top multiblock.",
+		"",
+		"&2R-Click to change Tier modes"
+	],
+	dependencies: [
+		"21d63d08"
+	],
+	tasks: [{
+		uid: "79032f75",
+		type: "item",
+		items: [{
+			item: "woot:layout"
+		}]
+	}],
+	rewards: [{
+		uid: "1891743c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

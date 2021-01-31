@@ -1,0 +1,45 @@
+{
+	x: 25.5d,
+	y: 3.5d,
+	text: [
+		"The Pickaxe of The Core! Functions as a veinminer pickaxe that also has auto smelt! Right Clicking will show ores within a 50 block radius in exchange for durability!"
+	],
+	dependencies: [
+		"ebdb320b"
+	],
+	tasks: [{
+		uid: "72df119e",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "483af466",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "869bddf3",
+		type: "item",
+		item: "thaumcraft:curio 10 1"
+	},
+	{
+		uid: "904d7350",
+		type: "random",
+		table: 17
+	}]
+}

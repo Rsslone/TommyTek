@@ -1,0 +1,19 @@
+{
+	title: "Iron x16",
+	x: -2.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "cc2432a7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f817cd13",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

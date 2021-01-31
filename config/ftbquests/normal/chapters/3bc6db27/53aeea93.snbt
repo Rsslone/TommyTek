@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 12.0d,
+	dependencies: [
+		"c0c5277c"
+	],
+	tasks: [{
+		uid: "e32dd146",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "752eff2b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

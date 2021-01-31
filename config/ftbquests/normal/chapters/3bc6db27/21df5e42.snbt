@@ -1,0 +1,30 @@
+{
+	title: "Multiblock Projector",
+	x: -0.5d,
+	y: 6.0d,
+	text: [
+		"To use the projector, go to the page of the multiblock you want to create, then craft the projector and Manual together."
+	],
+	dependencies: [
+		"0c2973bb"
+	],
+	tasks: [{
+		uid: "7d72b288",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c585d8c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5398e9ef",
+		type: "random",
+		table: 0
+	}]
+}

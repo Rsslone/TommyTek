@@ -1,0 +1,100 @@
+{
+	title: "Pam's Cooking Tools",
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"A kitchen is useless without the tools.",
+		"",
+		"&2Place (most of) on racks to utilize in the Cooking Table."
+	],
+	dependencies: [
+		"37c121dc"
+	],
+	tasks: [{
+		uid: "dd6bb896",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mortarandpestleitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ed36019",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juiceritem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe7c015f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dda5ba35",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d16ac43e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mixingbowlitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5871a70",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bakewareitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6958cc5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1079bce",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00e2a32b",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "1e1c717a",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "dca0a1e3",
+		type: "loot",
+		table: 11
+	}]
+}

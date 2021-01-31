@@ -1,0 +1,29 @@
+{
+	icon: "sereneseasons:ss_icon",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Keeping track of the seasons is made easy with this neat clock!"
+	],
+	dependencies: [
+		"735f8993",
+		"36443d40"
+	],
+	tasks: [{
+		uid: "319103d9",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "d618eba4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "74c841b2",
+		type: "loot",
+		table: 0
+	}]
+}

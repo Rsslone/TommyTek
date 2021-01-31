@@ -1,0 +1,25 @@
+{
+	title: "HONEY!",
+	x: 2.5d,
+	y: 3.0d,
+	dependencies: [
+		"e48ae31c"
+	],
+	tasks: [{
+		uid: "0e2d72f3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:honeyitem"
+		}]
+	}],
+	rewards: [{
+		uid: "069a3c5b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a31e31dd",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "9x Vis! Hurrah!",
+	x: 34.5d,
+	y: 17.0d,
+	text: [
+		"The Workbench Charger gathers vis from the surrounding 9 chunks and allows you to craft with the sum of it all! If you are struggling to have enough vis, Toss this onto your arcane workbench!"
+	],
+	dependencies: [
+		"84bed23e"
+	],
+	tasks: [{
+		uid: "16f7b47e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "691b9a77",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "695d9a25",
+		type: "loot",
+		table: 0
+	}]
+}

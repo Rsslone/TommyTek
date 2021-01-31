@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"Chisel, your go-to mod for decorative blocks!",
+		"",
+		"&2Tons of variations of blocks!"
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "eeb46644",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c783151d",
+		type: "item",
+		item: "minecraft:stone",
+		count: 64
+	},
+	{
+		uid: "eb925151",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"The configurator allows you to customize your experience. Some grayed out fields are disabled for obvious reasons."
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "72b47499",
+		type: "item",
+		items: [{
+			item: "sgcraft:configurator"
+		}]
+	}],
+	rewards: [{
+		uid: "ce430578",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "edca401c",
+		type: "random",
+		table: 0
+	}]
+}

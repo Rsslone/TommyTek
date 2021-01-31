@@ -1,0 +1,67 @@
+{
+	title: "Professional Sculpter",
+	x: -3.0d,
+	y: 6.5d,
+	text: [
+		"Advanced Bit Manipulation Tools",
+		"",
+		"&2@ExtraBitManipulation"
+	],
+	dependencies: [
+		"8733ee07"
+	],
+	tasks: [{
+		uid: "0f5e7529",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:bit_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "423b5b43",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:sculpting_loop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "823e9193",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:sculpting_square"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b95d8a1",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:sculpting_spade_curved"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f1593f7",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:sculpting_spade_squared"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "49507f3d",
+		type: "item",
+		items: [{
+			item: "extrabitmanipulation:modeling_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

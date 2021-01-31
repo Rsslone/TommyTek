@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -1.5d,
+	text: [
+		"Get started with Framed Furniture with the framing saw. Framed Furniture can be \"painted\" with any solid block for the sake of style and class."
+	],
+	dependencies: [
+		"6d537c3d"
+	],
+	tasks: [{
+		uid: "a3a30f92",
+		type: "item",
+		items: [{
+			item: "bibliocraft:framingsaw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae83a778",
+		type: "item",
+		item: "bibliocraft:biblioglasses 1 1"
+	},
+	{
+		uid: "58e23c4b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

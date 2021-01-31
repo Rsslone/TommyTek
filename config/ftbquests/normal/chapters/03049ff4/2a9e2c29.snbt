@@ -1,0 +1,57 @@
+{
+	title: "All the Trophies! ",
+	icon: "avaritia:singularity 1 13",
+	x: -9.5d,
+	y: -2.0d,
+	dependencies: [
+		"bdd89db8",
+		"606837ce",
+		"2d96ac30",
+		"608c4d85",
+		"148e0a07",
+		"dfc25c88",
+		"917ed0f2",
+		"3421122d",
+		"27e04b4f",
+		"dc59f768",
+		"fb10a063",
+		"ebf1ac85",
+		"f3aeb25a",
+		"9f67dcf3",
+		"c789009c",
+		"0917ac82",
+		"f7d76da1",
+		"4ab265e9",
+		"efea7dd7",
+		"0b86c018"
+	],
+	tasks: [{
+		uid: "99ebe34a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "dfff2d98",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "2839984d",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "96247199",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "2e7647fd",
+		type: "toast",
+		title: "How is this man. They got every single trophy. "
+	},
+	{
+		uid: "b8b478f9",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

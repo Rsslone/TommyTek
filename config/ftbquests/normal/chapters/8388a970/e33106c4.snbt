@@ -1,0 +1,41 @@
+{
+	x: 7.5d,
+	y: -0.5d,
+	text: [
+		"Displays armor. When a redstone signal is present, the swaping feature will apply for every item."
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "162ee109",
+		type: "item",
+		title: "Armor stands!",
+		items: [{
+			item: "bibliocraft:armorstand"
+		},
+		{
+			item: "bibliocraft:armorstand 1 1"
+		},
+		{
+			item: "bibliocraft:armorstand 1 2"
+		},
+		{
+			item: "bibliocraft:armorstand 1 3"
+		},
+		{
+			item: "bibliocraft:armorstand 1 4"
+		},
+		{
+			item: "bibliocraft:armorstand 1 5"
+		},
+		{
+			item: "bibliocraft:armorstand 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "68584e70",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

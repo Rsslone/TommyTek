@@ -1,0 +1,34 @@
+{
+	title: "On the go.",
+	x: 3.0d,
+	y: 3.5d,
+	text: [
+		"Coded EnderBags, link to their chest forms. Codes link to different inventories."
+	],
+	dependencies: [
+		"c637a36e"
+	],
+	tasks: [{
+		uid: "6a69d4ca",
+		type: "item",
+		items: [{
+			id: "multistorage:ender_bag",
+			tag: {
+				owner: "all",
+				code: "000"
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc7fc8a4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "06457c97",
+		type: "loot",
+		table: 0
+	}]
+}

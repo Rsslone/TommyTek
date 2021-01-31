@@ -1,0 +1,22 @@
+{
+	x: 21.0d,
+	y: 7.0d,
+	text: [
+		"Poisons entities the bottle lands on or near with taint poison. May or May not spread flux."
+	],
+	dependencies: [
+		"c7b455f0"
+	],
+	tasks: [{
+		uid: "ba47ef35",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bottle_taint"
+		}]
+	}],
+	rewards: [{
+		uid: "292da0e9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

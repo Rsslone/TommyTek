@@ -1,0 +1,27 @@
+{
+	x: -11.5d,
+	y: -3.5d,
+	text: [
+		"Fill a cooking pan with rice and water, put the lid on and light. Wow!"
+	],
+	dependencies: [
+		"ed329ea0"
+	],
+	tasks: [{
+		uid: "36608184",
+		type: "item",
+		items: [{
+			item: "teastory:rice_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "d19416ae",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "2f438688",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -10.0d,
+	y: 3.5d,
+	dependencies: [
+		"b1b8d431"
+	],
+	tasks: [{
+		uid: "f7ca2859",
+		type: "item",
+		items: [{
+			item: "conarm:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

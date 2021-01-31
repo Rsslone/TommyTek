@@ -1,0 +1,18 @@
+{
+	title: "Interior Decorator",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"This questline features things to aid in construction of your base. Both cosmetic and fuctional."
+	],
+	tasks: [{
+		uid: "c48a4896",
+		type: "checkmark",
+		title: "Sign me up!"
+	}],
+	rewards: [{
+		uid: "90cd81bd",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Expert Thaumcraft Kit",
+	icon: "thaumcraft:nitor_lightblue",
+	loot_size: 1,
+	rewards: [{
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		item: "thaumcraft:ingot 16 1"
+	},
+	{
+		item: "thaumcraft:loot_bag 4 2"
+	},
+	{
+		item: "thaumcraft:focus_2"
+	},
+	{
+		item: "thaumcraft:focus_3"
+	},
+	{
+		item: "thaumcraft:curio 16 1"
+	},
+	{
+		item: "thaumcraft:causality_collapser"
+	},
+	{
+		item: {
+			id: "thaumadditions:vis_scribing_tools",
+			tag: {
+				tc.charge: 50
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: "thaumadditions:crystal_bag"
+	},
+	{
+		item: "thaumadditions:void_elemental_hoe"
+	},
+	{
+		item: "thaumadditions:adaminite_ingot 4"
+	},
+	{
+		item: "thaumadditions:mithminite_ingot"
+	}]
+}

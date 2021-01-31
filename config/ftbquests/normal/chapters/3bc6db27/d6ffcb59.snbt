@@ -1,0 +1,29 @@
+{
+	x: -12.0d,
+	y: 9.5d,
+	dependencies: [
+		"e08c0195"
+	],
+	tasks: [{
+		uid: "3056c9c7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f826fcf9",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		}
+	},
+	{
+		uid: "e35a0452",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

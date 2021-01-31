@@ -1,0 +1,28 @@
+{
+	title: "Essentia Mirrors",
+	x: 25.0d,
+	y: 18.5d,
+	text: [
+		"Essentia mirrors function more or less the same as magical mirrors, except they transport Essentia! A sort of caviat though- They must have somewhere to transport the essentia, such as a warded jar or infusion altar."
+	],
+	dependencies: [
+		"f8ec6d77"
+	],
+	tasks: [{
+		uid: "9c858add",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror_essentia"
+		}]
+	}],
+	rewards: [{
+		uid: "1443dd35",
+		type: "item",
+		item: "thaumcraft:phial 32"
+	},
+	{
+		uid: "2e8b3e95",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

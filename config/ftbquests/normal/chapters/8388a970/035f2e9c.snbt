@@ -1,0 +1,221 @@
+{
+	x: -4.5d,
+	y: 6.5d,
+	dependencies: [
+		"f501c45e"
+	],
+	tasks: [{
+		uid: "d1ff8063",
+		type: "item",
+		title: "Chiseled Helmet",
+		items: [{
+			id: "extrabitmanipulation:chiseled_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -6697784218026621389L,
+						UUIDLeast: -6159254458609386792L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -291038613053161472L,
+						UUIDLeast: -5879541534393430644L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.thick.name"
+				}
+			},
+			Count: 1b
+		},
+		{
+			id: "extrabitmanipulation:chiseled_helmet_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -3749661213178968334L,
+						UUIDLeast: -4937036019910247283L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a990bf5b",
+		type: "item",
+		title: "Chiseled Chestplate",
+		items: [{
+			id: "extrabitmanipulation:chiseled_chestplate",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 6419083785590293692L,
+						UUIDLeast: -6219964310142916449L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1089105574706001442L,
+						UUIDLeast: -7790011455665038043L,
+						Amount: -0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.cumbersome.name"
+				}
+			},
+			Count: 1b
+		},
+		{
+			id: "extrabitmanipulation:chiseled_chestplate_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: -4071506898940574432L,
+						UUIDLeast: -5287297028850239524L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dec1ca18",
+		type: "item",
+		title: "Chiseled Leggings",
+		items: [{
+			id: "extrabitmanipulation:chiseled_leggings",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: -7144908535085316838L,
+						UUIDLeast: -8771507120427332445L,
+						Amount: -1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8154432842300736052L,
+						UUIDLeast: -6205001963777561189L,
+						Amount: -1.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5219148110964539593L,
+						UUIDLeast: -6785456101533827037L,
+						Amount: -1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.crumbling.name"
+				}
+			},
+			Count: 1b
+		},
+		{
+			id: "extrabitmanipulation:chiseled_leggings_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"legs"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 3571559766448686992L,
+						UUIDLeast: -8623853029648942885L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.arcane.name"
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe982391",
+		type: "item",
+		title: "Chiseled Boots",
+		items: [{
+			id: "extrabitmanipulation:chiseled_boots",
+			tag: {
+				Quality: {}
+			},
+			Count: 1b
+		},
+		{
+			id: "extrabitmanipulation:chiseled_boots_iron",
+			tag: {
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 3215124789808744037L,
+						UUIDLeast: -8529968736907768936L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.dented.name"
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	text: [
+		"Builds multiblock structures for you. Its for lazy people."
+	],
+	dependencies: [
+		"3c3bc328"
+	],
+	tasks: [{
+		uid: "b58eb339",
+		type: "item",
+		items: [{
+			id: "woot:builder",
+			tag: {
+				tier: 0
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59271ee6",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Safety Torch",
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"A really large safety torch, prevents mobs from spawning in a 64 block radius! Scare those monsters away!",
+		"",
+		"&2The effects are not unlimited, you will need to relight the torch with a Flint and Steel when its burned out. This should last many hours of IRL time.",
+		"",
+		"&4Needs to be ignited initally as well."
+	],
+	dependencies: [
+		"31b29c7d"
+	],
+	tasks: [{
+		uid: "0552e9a9",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "8f34d9fc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

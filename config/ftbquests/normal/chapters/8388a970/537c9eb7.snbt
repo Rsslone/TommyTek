@@ -1,0 +1,31 @@
+{
+	title: "Lamps!",
+	x: 7.5d,
+	y: 0.5d,
+	text: [
+		"Lamp with 3 variations depending if place on the floor, wall, or ceiling.",
+		"",
+		"Screw gun can change the design."
+	],
+	dependencies: [
+		"93c0b87a"
+	],
+	tasks: [{
+		uid: "2fdcb49e",
+		type: "item",
+		items: [{
+			item: "bibliocraft:lampiron"
+		}]
+	}],
+	rewards: [{
+		uid: "9923bf8e",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 5
+	},
+	{
+		uid: "42679800",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

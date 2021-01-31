@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"Color any framed storage drawer using the Frame Bench"
+	],
+	dependencies: [
+		"6075f0d1"
+	],
+	tasks: [{
+		uid: "282a3946",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "950a7774",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

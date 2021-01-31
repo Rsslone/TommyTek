@@ -1,0 +1,39 @@
+{
+	title: "Budget AE2 Autocrafter",
+	x: 9.5d,
+	y: 2.0d,
+	text: [
+		"These thing right here, allows you to take a book and save a recipe to it, then recall it and autofill. If you have a bookcase next to it, the book storage is expanded! Its like a budget AE2 autocraft, without the auto."
+	],
+	dependencies: [
+		"dc986376"
+	],
+	tasks: [{
+		uid: "aa0c78ea",
+		type: "item",
+		title: "Fancy Workbench!",
+		items: [{
+			item: "bibliocraft:fancyworkbench"
+		},
+		{
+			item: "bibliocraft:fancyworkbench 1 1"
+		},
+		{
+			item: "bibliocraft:fancyworkbench 1 2"
+		},
+		{
+			item: "bibliocraft:fancyworkbench 1 3"
+		},
+		{
+			item: "bibliocraft:fancyworkbench 1 4"
+		},
+		{
+			item: "bibliocraft:fancyworkbench 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "5468d879",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

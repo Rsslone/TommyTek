@@ -1,0 +1,37 @@
+{
+	title: "Rock Climbing Pro",
+	x: -4.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "fb77cde8",
+		type: "item",
+		title: "Ladder Chisel",
+		items: [{
+			item: "literalascension:wood_carving_tool"
+		},
+		{
+			item: "literalascension:stone_carving_tool"
+		},
+		{
+			item: "literalascension:iron_carving_tool"
+		},
+		{
+			item: "literalascension:diamond_carving_tool"
+		},
+		{
+			item: "literalascension:gold_carving_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76b4f884",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0a8512c7",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

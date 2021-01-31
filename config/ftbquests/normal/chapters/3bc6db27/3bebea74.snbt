@@ -1,0 +1,33 @@
+{
+	title: "Hydro Power",
+	x: -7.5d,
+	y: 6.5d,
+	text: [
+		"Attach to your Dynamo and wire up to your electrical system."
+	],
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "d6d57be0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	}],
+	rewards: [{
+		uid: "f90870ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9de8131b",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "UNCOMMON"
+			}
+		}
+	}]
+}

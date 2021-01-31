@@ -1,0 +1,97 @@
+{
+	title: "Safety first!",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"You wouldn't attempt to tinker without the proper safety equipment.",
+		"",
+		"... r-right?"
+	],
+	tasks: [{
+		uid: "0cf39d6d",
+		type: "item",
+		items: [{
+			id: "industrialrenewal:safety_helmet",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "508dc723",
+		type: "item",
+		items: [{
+			id: "industrialrenewal:safety_belt",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09810792",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:medkit"
+		}]
+	},
+	{
+		uid: "3c2d2a1d",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:item_fire_extinguisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5349926e",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:button_red"
+		}]
+	},
+	{
+		uid: "87aea9b0",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:firstaid_kit"
+		}]
+	},
+	{
+		uid: "c54bfb7c",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:sign_hv"
+		}]
+	}],
+	rewards: [{
+		uid: "b10b127e",
+		type: "item",
+		item: "industrialrenewal:eotm"
+	},
+	{
+		uid: "1ce67d93",
+		type: "item",
+		item: "industrialrenewal:record_royal_entrance"
+	},
+	{
+		uid: "db169b4f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0aa6ca12",
+		type: "random",
+		table: 11
+	}]
+}

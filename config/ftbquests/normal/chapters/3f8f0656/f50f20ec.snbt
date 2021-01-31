@@ -1,0 +1,18 @@
+{
+	title: "Nobody Panic",
+	x: -11.5d,
+	y: -9.0d,
+	text: [
+		"its only my draconic evolution reactor melting down."
+	],
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "017016a5",
+		type: "item",
+		items: [{
+			item: "worldcontrol:howler_alarm"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "The ME Chest",
+	x: 1.5d,
+	y: 10.5d,
+	text: [
+		"The ME Chest is an early game option of storage, being able to hold any single storage cell."
+	],
+	dependencies: [
+		"251f923c"
+	],
+	tasks: [{
+		uid: "21b565b7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "ba5eadf0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2007fbf5",
+		type: "item",
+		item: "appliedenergistics2:material 1 35"
+	},
+	{
+		uid: "ff597bb2",
+		type: "loot",
+		table: 0
+	}]
+}

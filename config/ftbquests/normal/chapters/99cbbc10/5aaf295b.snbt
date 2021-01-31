@@ -1,0 +1,43 @@
+{
+	title: "Machines in Harvestcraft",
+	x: 0.0d,
+	y: 4.5d,
+	description: "They don’t need energy!",
+	text: [
+		""
+	],
+	dependencies: [
+		"2279e501"
+	],
+	tasks: [{
+		uid: "9ce5c9c0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grinder"
+		}]
+	},
+	{
+		uid: "18ae5e76",
+		type: "item",
+		items: [{
+			item: "harvestcraft:presser"
+		}]
+	},
+	{
+		uid: "f67da2e3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:well"
+		}]
+	}],
+	rewards: [{
+		uid: "91c449c6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a2a5d7ce",
+		type: "loot",
+		table: 0
+	}]
+}

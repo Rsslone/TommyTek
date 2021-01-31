@@ -1,0 +1,22 @@
+{
+	x: 22.0d,
+	y: 17.5d,
+	text: [
+		"Further upgraded variant of Warded Jars. Holds 2000 essentia."
+	],
+	dependencies: [
+		"e6f7e532"
+	],
+	tasks: [{
+		uid: "80e37a42",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_adaminite"
+		}]
+	}],
+	rewards: [{
+		uid: "e9babf09",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

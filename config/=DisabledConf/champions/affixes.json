@@ -1,0 +1,107 @@
+[
+  {
+    "identifier": "vortex",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 4
+  },
+  {
+    "identifier": "arctic",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "desecrator",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 3
+  },
+  {
+    "identifier": "scrapper",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "reflecting",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 2
+  },
+  {
+    "identifier": "knockback",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "jailer",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 3
+  },
+  {
+    "identifier": "dampening",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "lively",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "adaptable",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 4
+  },
+  {
+    "identifier": "infested",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 2
+  },
+  {
+    "identifier": "hasty",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "shielding",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 3
+  },
+  {
+    "identifier": "molten",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "plagued",
+    "enabled": true,
+    "entityBlacklist": ["mod_lavacow:parasite","ebwizardry:skeleton_minion","ebwizardry:vex_minion","ebwizardry:zombie_minion","ebwizardry:silverfish_minion","ebwizardry:wither_skeleton_minion","ebwizardry:husk_minion","ebwizardry:stray_minion","ebwizardry:blaze_minion","ebwizardry:spider_minion"],
+    "alwaysOnEntity": [],
+    "tier": 3
+  }
+]

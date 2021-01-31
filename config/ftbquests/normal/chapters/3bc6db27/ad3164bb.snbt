@@ -1,0 +1,52 @@
+{
+	title: "Steam Power!",
+	icon: "mekanism:basicblock 1 5",
+	x: -12.0d,
+	y: 2.0d,
+	text: [
+		"The steam turbine is loud, but it sure does the do.",
+		"",
+		"&2Note: You need to hook to all six outputs on the alternator to take full advantage of the energy buffer!",
+		"",
+		"&2Note 2: When placing the alternater, line the steel blocks up to the ones on your turbine."
+	],
+	dependencies: [
+		"cf7bb751",
+		"191ad820"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "84de2a28",
+		type: "observation",
+		title: "Build a Steam Turbine",
+		icon: "mekanismgenerators:turbineblade",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "steam_turbine_slave"
+		},
+		timer: 0L
+	},
+	{
+		uid: "8f94ec08",
+		type: "observation",
+		title: "Build a Alternator",
+		icon: "immersiveengineering:metal_device0 1 2",
+		match_type: "block_id",
+		match: "immersivetech:metal_multiblock",
+		properties: {
+			type: "alternator_slave"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "bc5c0866",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "8dfb1bbf",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

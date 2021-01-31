@@ -1,0 +1,60 @@
+{
+	title: "Cut, Copy, Paste",
+	x: 4.0d,
+	y: -3.0d,
+	text: [
+		"Advanced tools for building, does pretty much what it says on the Tin."
+	],
+	dependencies: [
+		"3271148c"
+	],
+	tasks: [{
+		uid: "ec09e672",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f80cda5",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f5530b3",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ef6bf74",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "0ebe0b3e",
+		type: "loot",
+		table: 11
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Void Jars",
+	x: 25.5d,
+	y: 12.0d,
+	text: [
+		"Void Jars are like Regular Essentia Jars, but they erase excess Essentia. Normally you wouldn't want to do this, but for essentia that is en-mass like Mettallum, you might want to get rid of it sometime."
+	],
+	dependencies: [
+		"a7e899d9"
+	],
+	tasks: [{
+		uid: "3c640d14",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_void"
+		}]
+	}]
+}

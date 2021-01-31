@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: 2.5d,
+	dependencies: [
+		"e8972c21"
+	],
+	tasks: [{
+		uid: "3b9fc0d3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "90dd41a3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

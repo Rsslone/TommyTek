@@ -1,0 +1,50 @@
+{
+	x: 18.5d,
+	y: 17.5d,
+	text: [
+		"Auxillery flux ports reduce the flux output of essentia smelters!"
+	],
+	dependencies: [
+		"f849cdff"
+	],
+	tasks: [{
+		uid: "040b8efb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "671cca35",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "be2561cb",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 32b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}
+	},
+	{
+		uid: "090836ce",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 32b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}
+	}]
+}

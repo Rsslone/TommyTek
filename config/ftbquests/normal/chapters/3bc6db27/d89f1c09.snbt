@@ -1,0 +1,20 @@
+{
+	title: "Passive Defense",
+	x: 1.5d,
+	y: 7.5d,
+	dependencies: [
+		"bd3f7971"
+	],
+	tasks: [{
+		uid: "7c106878",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration2 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "99f53d18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

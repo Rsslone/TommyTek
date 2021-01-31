@@ -1,0 +1,22 @@
+{
+	x: -8.5d,
+	y: -3.5d,
+	text: [
+		"Replant the seeds and keep the extra to grind into rice!"
+	],
+	dependencies: [
+		"5fac1b19"
+	],
+	tasks: [{
+		uid: "ea0523b7",
+		type: "item",
+		items: [{
+			item: "teastory:xian_rice"
+		}]
+	}],
+	rewards: [{
+		uid: "8be5ed8f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

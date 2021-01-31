@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	description: "&cSpecial",
+	text: [
+		"Unlocks all Jewel"
+	],
+	tasks: [{
+		uid: "a1fff965",
+		type: "item",
+		items: [{
+			item: "treasure2:jewelled_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce218504",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

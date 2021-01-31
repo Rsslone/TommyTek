@@ -1,0 +1,33 @@
+{
+	title: "Starting Thaumic Infusion",
+	x: 27.5d,
+	y: 7.0d,
+	text: [
+		"Thaumcraft Infusion! Infusion is a very large part of crafting tools, materials, weapons and armor in Thaumcraft. Be careful of the danger level stated on certain infusions!"
+	],
+	dependencies: [
+		"a368a42f"
+	],
+	tasks: [{
+		uid: "8361c818",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "ab95c26a",
+		type: "item",
+		item: "thaumcraft:pedestal_arcane 8"
+	},
+	{
+		uid: "f48473b7",
+		type: "item",
+		item: "thaumcraft:stone_arcane 32"
+	},
+	{
+		uid: "b5a3a1e7",
+		type: "random",
+		table: 16
+	}]
+}

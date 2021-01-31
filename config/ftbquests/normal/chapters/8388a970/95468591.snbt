@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"Compacting Drawers quickly convert items between Blocks and their original form."
+	],
+	dependencies: [
+		"6075f0d1"
+	],
+	tasks: [{
+		uid: "c1ea6474",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "297fe571",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

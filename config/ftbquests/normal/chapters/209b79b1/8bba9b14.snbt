@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	description: "Common",
+	tasks: [{
+		uid: "7ee7172a",
+		type: "item",
+		items: [{
+			item: "treasure2:wood_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efaffd55",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

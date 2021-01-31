@@ -1,0 +1,20 @@
+{
+	x: 22.0d,
+	y: 10.0d,
+	text: [
+		"Quartz Slivers can be used to take Essentia out of crucibles. One Quartz sliver will create One essentia crystal using two of the respective essentia in the crucible. Useful when you overflow the crucible with essentia."
+	],
+	dependencies: [
+		"02586a5d"
+	],
+	tasks: [{
+		uid: "1030ff9a",
+		type: "checkmark",
+		title: "Note: Quartz Slivers"
+	}],
+	rewards: [{
+		uid: "227e7f1b",
+		type: "item",
+		item: "thaumcraft:nugget 32 9"
+	}]
+}

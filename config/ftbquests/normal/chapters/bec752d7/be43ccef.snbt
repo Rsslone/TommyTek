@@ -1,0 +1,29 @@
+{
+	x: 29.0d,
+	y: 9.5d,
+	text: [
+		"The Headband of Curiosity! Grants research points when picking up XP points!"
+	],
+	dependencies: [
+		"27223c90"
+	],
+	tasks: [{
+		uid: "5111714c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a708f46",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "a509ed90",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

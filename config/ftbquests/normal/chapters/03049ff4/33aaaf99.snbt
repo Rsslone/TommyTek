@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "0e98cc90",
+		type: "stat",
+		icon: "harvestcraft:octopusrawitem",
+		stat: "stat.fishCaught",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "891da324",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "f6410759",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

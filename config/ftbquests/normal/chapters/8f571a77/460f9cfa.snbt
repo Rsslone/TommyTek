@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	description: "*Under maintenance*",
+	can_repeat: true,
+	tasks: [{
+		uid: "15c54278",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_block"
+		}],
+		count: 32L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 9.0d,
+	y: -2.5d,
+	text: [
+		"Boldly displays swords, emits redstone when present."
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "143d285e",
+		type: "item",
+		items: [{
+			item: "bibliocraft:swordpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "4ba1a439",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

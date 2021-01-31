@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "4c6dfd7d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cantaloupeseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "22f7063c",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"Blast Proof Glass"
+	],
+	dependencies: [
+		"3e1921c6"
+	],
+	tasks: [{
+		uid: "d4b55486",
+		type: "item",
+		items: [{
+			item: "engineersdecor:panzerglass_block"
+		}]
+	}],
+	rewards: [{
+		uid: "ce3a799d",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

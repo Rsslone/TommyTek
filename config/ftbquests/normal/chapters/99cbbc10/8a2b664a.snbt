@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 10.5d,
+	tasks: [{
+		uid: "91e4313f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bananasplititem"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d1d959ad",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ff413281",
+		type: "loot",
+		table: 0
+	}]
+}

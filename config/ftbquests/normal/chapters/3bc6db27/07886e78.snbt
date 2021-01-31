@@ -1,0 +1,31 @@
+{
+	x: -13.5d,
+	y: 6.0d,
+	text: [
+		"Don't forget to keep your machines lubed up.",
+		"",
+		"(gives 1.25x speed buff)"
+	],
+	dependencies: [
+		"139f0197"
+	],
+	tasks: [{
+		uid: "79eb36f1",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:oil_can"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df909903",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4e187077",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

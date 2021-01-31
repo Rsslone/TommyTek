@@ -1,0 +1,27 @@
+{
+	x: 36.5d,
+	y: 16.0d,
+	text: [
+		"The Recharge Pedestal. The one and only way to charge vis-charged items before the Amulet of Vis. Up until then, very useful!"
+	],
+	dependencies: [
+		"13f7aaf5"
+	],
+	tasks: [{
+		uid: "74850bc3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "f3721ed4",
+		type: "item",
+		item: "thaumcraft:baubles"
+	},
+	{
+		uid: "a5ad592f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

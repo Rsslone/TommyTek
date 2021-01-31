@@ -1,0 +1,26 @@
+{
+	title: "Low Profile Lighting",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"Lighting for those hard to reach spaces. Out of sight, out of mind."
+	],
+	dependencies: [
+		"3e1921c6"
+	],
+	tasks: [{
+		uid: "ab26c71d",
+		type: "item",
+		items: [{
+			item: "engineersdecor:iron_inset_light"
+		},
+		{
+			item: "engineersdecor:iron_floor_edge_light"
+		}]
+	}],
+	rewards: [{
+		uid: "1c823eba",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

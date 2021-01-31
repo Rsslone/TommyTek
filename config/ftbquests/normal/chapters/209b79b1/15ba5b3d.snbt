@@ -1,0 +1,24 @@
+{
+	title: "On their own turf",
+	x: 4.0d,
+	y: 3.5d,
+	dependencies: [
+		"426c4e4d"
+	],
+	tasks: [{
+		uid: "aaad8ec5",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "22eab9a6",
+		type: "random",
+		table: 11
+	},
+	{
+		uid: "f712d678",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

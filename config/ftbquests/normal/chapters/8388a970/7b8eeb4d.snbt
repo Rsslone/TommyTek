@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		"The offset wand is used to shift textures to your desired position for multiblock textures such as the \"Big Fan\" Factory Blocks."
+	],
+	dependencies: [
+		"445128ce"
+	],
+	tasks: [{
+		uid: "76986a79",
+		type: "item",
+		items: [{
+			item: "chisel:offsettool"
+		}]
+	}],
+	rewards: [{
+		uid: "404f0440",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "23356112",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

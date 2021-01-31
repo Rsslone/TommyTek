@@ -1,0 +1,102 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"The display case... well it displays one item. The color of the padding can be changed with minecraft carpet."
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "fc784529",
+		type: "item",
+		title: "Display Cases!",
+		items: [{
+			item: "bibliocraft:case"
+		},
+		{
+			item: "bibliocraft:case 1 1"
+		},
+		{
+			item: "bibliocraft:case 1 2"
+		},
+		{
+			item: "bibliocraft:case 1 3"
+		},
+		{
+			item: "bibliocraft:case 1 4"
+		},
+		{
+			item: "bibliocraft:case 1 5"
+		},
+		{
+			item: "bibliocraft:case 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b11544ab",
+		type: "item",
+		item: "minecraft:carpet 1 14"
+	},
+	{
+		uid: "d53a7162",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "c5b270bb",
+		type: "item",
+		item: {
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.7125f,
+					FreeModifiers: 3,
+					Durability: 19,
+					HarvestLevel: 1,
+					Attack: 0.59000003f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.7125f,
+					FreeModifiers: 3,
+					Durability: 19,
+					HarvestLevel: 1,
+					Attack: 0.59000003f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"rubber",
+						"rubber",
+						"rubber"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "sling",
+					color: -10727601,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"sling",
+					"toolleveling"
+				]
+			},
+			Count: 1b
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 18.5d,
+	y: 13.5d,
+	text: [
+		"Mnemotic Matrixes are used to hold recipes inside of the automated Crucible (refer to the thaumonomicon.)"
+	],
+	dependencies: [
+		"05996ec1",
+		"8d3d1bc7"
+	],
+	tasks: [{
+		uid: "3c9545ed",
+		type: "item",
+		items: [{
+			item: "thaumcraft:brain_box"
+		}]
+	}],
+	rewards: [{
+		uid: "cca3aaeb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c9260a6b",
+		type: "random",
+		table: 17
+	}]
+}

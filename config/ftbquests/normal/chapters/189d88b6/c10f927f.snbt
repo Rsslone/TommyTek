@@ -1,0 +1,27 @@
+{
+	title: "Carnivore",
+	x: 3.0d,
+	y: -4.5d,
+	dependencies: [
+		"c94cc661"
+	],
+	tasks: [{
+		uid: "71fbfea0",
+		type: "item",
+		title: "Get some cooked meat",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllmeatcooked",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "2c419eb1",
+		type: "item",
+		item: "harvestcraft:salisburysteakitem 3"
+	}]
+}

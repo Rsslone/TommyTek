@@ -1,0 +1,135 @@
+{
+	title: "Terrarium Collector",
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Indiana Jones would be proud."
+	],
+	tasks: [{
+		uid: "45f5757d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium"
+		}]
+	},
+	{
+		uid: "26730652",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 1"
+		}]
+	},
+	{
+		uid: "03ff33e9",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 2"
+		}]
+	},
+	{
+		uid: "7cadbd76",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 3"
+		}]
+	},
+	{
+		uid: "fb11583d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 4"
+		}]
+	},
+	{
+		uid: "be6359c4",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 5"
+		}]
+	},
+	{
+		uid: "4906486c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 6"
+		}]
+	},
+	{
+		uid: "367ef55c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 7"
+		}]
+	},
+	{
+		uid: "efa2044a",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 8"
+		}]
+	},
+	{
+		uid: "4bf2fe53",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 15"
+		}]
+	},
+	{
+		uid: "b04a68cb",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 14"
+		}]
+	},
+	{
+		uid: "ee882ad1",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 13"
+		}]
+	},
+	{
+		uid: "c6883486",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 12"
+		}]
+	},
+	{
+		uid: "e1117b3c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 11"
+		}]
+	},
+	{
+		uid: "78dcc92a",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 10"
+		}]
+	},
+	{
+		uid: "0b60cd57",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "4a556d67",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "9dd228ef",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "243cb42a",
+		type: "loot",
+		table: 11
+	}]
+}

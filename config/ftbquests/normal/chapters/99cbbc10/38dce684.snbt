@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "164c2405",
+		type: "item",
+		items: [{
+			item: "harvestcraft:greengrapeseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "28f07cbb",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

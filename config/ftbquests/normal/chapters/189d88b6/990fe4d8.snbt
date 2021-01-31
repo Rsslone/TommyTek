@@ -1,0 +1,39 @@
+{
+	title: "Who needs Mob Farms?",
+	icon: "minecraft:bone",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Mob Farms cause server lag, and people hate that. Instead you can achieve the same result with ma... magic.",
+		"",
+		"(Unlocks the main quest in War & Defense)"
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "b6ecb19e",
+		type: "item",
+		items: [{
+			item: "guideapi:woot-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6997d08",
+		type: "item",
+		item: "minecraft:bone",
+		count: 5
+	},
+	{
+		uid: "6531f66b",
+		type: "item",
+		item: "minecraft:stone_sword"
+	},
+	{
+		uid: "293d145f",
+		type: "xp",
+		xp: 200
+	}]
+}

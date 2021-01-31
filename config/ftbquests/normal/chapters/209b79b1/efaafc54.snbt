@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"#1 Archaeologist"
+	],
+	tasks: [{
+		uid: "7bd40a81",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrestrial_artifact"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cae4560c",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "e128c407",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

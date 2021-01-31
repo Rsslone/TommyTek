@@ -1,0 +1,14 @@
+{
+	x: -13.5d,
+	y: -9.0d,
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "4504bbf7",
+		type: "item",
+		items: [{
+			item: "fbnc:machine_fbnc"
+		}]
+	}]
+}

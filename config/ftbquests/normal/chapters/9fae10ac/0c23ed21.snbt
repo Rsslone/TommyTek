@@ -1,0 +1,50 @@
+{
+	title: "Completing the Structure",
+	x: 7.0d,
+	y: 1.5d,
+	text: [
+		"Lastly you need a controller. The controller tells the factory what mob to emulate. You first need to program a shard with the mob you want.",
+		"",
+		"To do this you need to punch a mob with the shard, then kill it with the shard in your hotbar. You may need to do this multiple times if needed in order to fully program the shard.",
+		"",
+		"&2The drops a mob will recieve is learned over time, initially the drops may be incomplete."
+	],
+	dependencies: [
+		"16fbbc9a"
+	],
+	tasks: [{
+		uid: "ac7b38df",
+		type: "item",
+		items: [{
+			item: "woot:endershard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b681008b",
+		type: "item",
+		items: [{
+			item: "woot:controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec86dac1",
+		type: "observation",
+		title: "Admire your completed multiblock",
+		match_type: "block_id",
+		match: "woot:structure",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "76aba7a8",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "f7b35596",
+		type: "loot",
+		table: 11
+	}]
+}

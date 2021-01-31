@@ -1,0 +1,34 @@
+{
+	title: "Medium Voltage",
+	x: -12.0d,
+	y: 7.5d,
+	dependencies: [
+		"3849234f"
+	],
+	tasks: [{
+		uid: "f5d1cb50",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}]
+	},
+	{
+		uid: "77953e17",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 3"
+		}]
+	},
+	{
+		uid: "42a72e44",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "aa54930d",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

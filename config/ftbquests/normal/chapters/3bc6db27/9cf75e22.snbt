@@ -1,0 +1,31 @@
+{
+	title: "Essentials",
+	x: -4.5d,
+	y: 7.5d,
+	dependencies: [
+		"e9d7985e"
+	],
+	tasks: [{
+		uid: "f6d3d6b1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6f76ca8c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "20614694",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	}]
+}

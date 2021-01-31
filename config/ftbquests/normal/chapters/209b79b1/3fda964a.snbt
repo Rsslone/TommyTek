@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"Remotely toggle your Iris!"
+	],
+	dependencies: [
+		"5142fdfc"
+	],
+	tasks: [{
+		uid: "7990f294",
+		type: "item",
+		items: [{
+			item: "sgcraft:gdo"
+		}]
+	}],
+	rewards: [{
+		uid: "cb42ace1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

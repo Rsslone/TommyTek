@@ -1,0 +1,29 @@
+{
+	title: "Magical Mirrors",
+	x: 26.0d,
+	y: 17.5d,
+	text: [
+		"Magic Mirrors are mirrors that can transport items between them when they are binded! To bind mirrors, place one where you want, right click the placed mirror with another mirror, and place the second mirror down wherever you want! ",
+		"Items that go through one mirror come out the other and vice versa. "
+	],
+	dependencies: [
+		"75ab97c8"
+	],
+	tasks: [{
+		uid: "d9a1dce6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	}],
+	rewards: [{
+		uid: "cd79d81e",
+		type: "item",
+		item: "thaumcraft:mirror 5"
+	},
+	{
+		uid: "93f169ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

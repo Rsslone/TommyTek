@@ -1,0 +1,30 @@
+{
+	title: "Tree Chopper",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"Trees can be cut down whole by chopping the base with an axe. If you rather avoid that (say for building out of wood logs) hold Shift while breaking the block to disable TreeChopper."
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "21294563",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c87759a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f675989e",
+		type: "random",
+		table: 0
+	}]
+}

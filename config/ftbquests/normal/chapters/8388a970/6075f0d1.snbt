@@ -1,0 +1,31 @@
+{
+	title: "Storage Drawers!",
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"Stores items and visualizes it.",
+		"",
+		"&2Amount of Stacks it holds depends on drawer count per block."
+	],
+	dependencies: [
+		"c7e9d057"
+	],
+	tasks: [{
+		uid: "637a4425",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "a142141d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

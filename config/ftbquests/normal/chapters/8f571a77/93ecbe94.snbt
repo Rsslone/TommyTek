@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dd46218b",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4f25612f",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

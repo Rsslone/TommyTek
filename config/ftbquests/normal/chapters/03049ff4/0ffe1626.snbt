@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "0b73c49b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "28b42098",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "7b7e6037",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "08aab6a7",
+		type: "loot",
+		table: 18
+	}]
+}

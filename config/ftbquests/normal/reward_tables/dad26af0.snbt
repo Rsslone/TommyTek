@@ -1,0 +1,854 @@
+{
+	title: "Common Lootbox",
+	icon: "treasure2:ironbound_chest",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 11.0f,
+					FreeModifiers: 3,
+					Durability: 206,
+					HarvestLevel: 1,
+					Attack: 3.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 11.0f,
+					FreeModifiers: 3,
+					Durability: 206,
+					HarvestLevel: 1,
+					Attack: 3.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"magnesium",
+						"magnesium"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -1851937,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -1851937,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"holy"
+				]
+			},
+			Count: 1b
+		},
+		weight: 22
+	},
+	{
+		item: "harvestcraft:cherrycheesecake",
+		weight: 24
+	},
+	{
+		item: "stupidthings:paper_bag_hat",
+		weight: 19
+	},
+	{
+		item: "stupidthings:reverse_tnt",
+		weight: 26
+	},
+	{
+		item: "stupidthings:propeller_hat",
+		weight: 28
+	},
+	{
+		item: "stupidthings:upside_down_goggles",
+		weight: 17
+	},
+	{
+		item: "stupidthings:cactus_sword",
+		weight: 19
+	},
+	{
+		item: "stupidthings:balloon 1 1",
+		weight: 19
+	},
+	{
+		item: "stupidthings:balloon 1 6"
+	},
+	{
+		item: "stupidthings:anvil_backpack",
+		weight: 29
+	},
+	{
+		item: "stupidthings:worlds_smallest_violin",
+		weight: 19
+	},
+	{
+		item: "stupidthings:pocket_sand",
+		weight: 28
+	},
+	{
+		item: "stupidthings:rubber_chicken",
+		weight: 28
+	},
+	{
+		item: "stupidthings:cooler",
+		weight: 19
+	},
+	{
+		item: "stupidthings:pet_rock",
+		weight: 15
+	},
+	{
+		item: "stupidthings:target_chestplate",
+		weight: 26
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels",
+		weight: 19
+	},
+	{
+		ftb_money: 250L,
+		type: "ftbmoney:money",
+		weight: 22
+	},
+	{
+		item: "mekanism:salt",
+		random_bonus: 64,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:fishandchipsitem",
+		random_bonus: 15,
+		weight: 28
+	},
+	{
+		item: "harvestcraft:cheesecake",
+		weight: 28
+	},
+	{
+		item: "harvestcraft:mobsoupitem",
+		random_bonus: 15,
+		weight: 28
+	},
+	{
+		item: "harvestcraft:cobblestonecobbleritem",
+		weight: 19
+	},
+	{
+		item: "harvestcraft:pinacoladaitem",
+		random_bonus: 20,
+		weight: 6
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money",
+		weight: 19
+	},
+	{
+		item: "ebwizardry:apprentice_wand",
+		weight: 28
+	},
+	{
+		item: "ebwizardry:large_mana_flask",
+		weight: 19
+	},
+	{
+		item: "ebwizardry:wizard_robe",
+		weight: 28
+	},
+	{
+		item: "harvestcraft:slimepieitem",
+		weight: 19
+	},
+	{
+		item: "mowziesmobs:barakoa_mask_bliss",
+		weight: 23
+	},
+	{
+		item: "mekanism:balloon 1 13",
+		weight: 19
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.gravity"
+			}
+		},
+		weight: 19
+	},
+	{
+		item: "harvestcraft:lemonsmoothieitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:starfruitjellysandwichitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:cranberryyogurtitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:strawberryjellyitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:vindalooitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "stupidthings:balloon_lava 1 15",
+		weight: 19
+	},
+	{
+		item: "harvestcraft:spagettiitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:spagettiandmeatballsitem",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:spaghettidinneritem",
+		random_bonus: 15,
+		weight: 10
+	},
+	{
+		item: "harvestcraft:squidinkspaghettiitem",
+		weight: 10
+	},
+	{
+		item: {
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 3.065f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 3.065f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: [
+						"beheading_cleaver"
+					]
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			},
+			Count: 1b
+		},
+		weight: 19
+	},
+	{
+		item: "tconstruct:smeltery_io",
+		weight: 19
+	},
+	{
+		item: {
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.7f,
+					DrawSpeed: 0.55f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 5.0f,
+					Durability: 25,
+					HarvestLevel: 2,
+					Attack: 4.0f,
+					Range: 1.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.7f,
+					DrawSpeed: 0.55f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 5.0f,
+					Durability: 25,
+					HarvestLevel: 2,
+					Attack: 4.0f,
+					Range: 1.5f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"constantan",
+						"constantan",
+						"string"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "thermalinversion",
+					color: -1015446,
+					level: 1
+				}],
+				Traits: [
+					"thermalinversion"
+				]
+			},
+			Count: 1b
+		},
+		weight: 19
+	},
+	{
+		item: "tconstruct:slime 1 2",
+		weight: 19
+	},
+	{
+		item: "tconstruct:firewood",
+		weight: 19
+	},
+	{
+		item: "tconstruct:piggybackpack",
+		weight: 19
+	},
+	{
+		item: "nuclearcraft:portable_ender_chest",
+		weight: 22
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "purpleslime",
+				Amount: 1000
+			}
+		},
+		weight: 19
+	},
+	{
+		item: "tconstruct:slimesling 1 4",
+		weight: 19
+	},
+	{
+		item: "stupidthings:mine_turtle",
+		weight: 19
+	},
+	{
+		item: "nuclearcraft:record_wanderer",
+		weight: 19
+	},
+	{
+		item: "nuclearcraft:record_end_of_the_world",
+		weight: 19
+	},
+	{
+		item: "nuclearcraft:record_money_for_nothing",
+		weight: 19
+	},
+	{
+		item: "nuclearcraft:record_hyperspace",
+		weight: 19
+	},
+	{
+		item: "tconstruct:throwball",
+		random_bonus: 8,
+		weight: 28
+	},
+	{
+		item: "harvestcraft:rainbowcurryitem",
+		random_bonus: 10,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		random_bonus: 10,
+		weight: 28
+	},
+	{
+		item: "harvestcraft:friedfeastitem",
+		random_bonus: 8,
+		weight: 19
+	},
+	{
+		item: "harvestcraft:nutellaitem",
+		random_bonus: 22,
+		weight: 15
+	},
+	{
+		item: "harvestcraft:jaffaitem",
+		weight: 28
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		},
+		weight: 19
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader",
+			tag: {
+				shader_name: "Sunstrike"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "stupidthings:improved_gold_hoe",
+		weight: 28
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 12s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 27s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 18s
+				}]
+			}
+		},
+		weight: 28
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 37s
+				}]
+			}
+		},
+		weight: 28
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 40s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 112s
+				}]
+			}
+		},
+		weight: 28
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 3s
+				}]
+			}
+		},
+		weight: 28
+	},
+	{
+		item: "harvestcraft:pizzasliceitem",
+		weight: 28
+	},
+	{
+		item: "harvestcraft:gourmetmuttonpattyitem",
+		random_bonus: 22,
+		weight: 19
+	},
+	{
+		item: "mekanism:plasticfence 1 13",
+		random_bonus: 15,
+		weight: 19
+	},
+	{
+		item: "industrialforegoing:mob_imprisonment_tool",
+		weight: 28
+	},
+	{
+		item: {
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "darkmatter"
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: "mekanism:obsidiantnt 8",
+		weight: 28
+	},
+	{
+		item: "harvestcraft:delightedmealitem 8",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:piranhalauncher",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:zombiepiranha_item",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:frozenthigh",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:hyphae",
+		weight: 28
+	},
+	{
+		item: {
+			id: "mod_lavacow:vespa_dagger",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 100s
+				}]
+			}
+		},
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:sludge_wand",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:famine",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:moltenaxe",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:potion_of_mooten_lava",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:green_bacon_and_eggs",
+		count: 16,
+		weight: 28
+	},
+	{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		weight: 28
+	},
+	{
+		item: {
+			id: "culinaryconstruct:sandwich",
+			tag: {
+				Size: 5,
+				Saturation: 1.0f,
+				Ingredients: {
+					Items: [{
+						Slot: 0b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:nether_star",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					}]
+				},
+				Bonus: 2,
+				Depth: 0,
+				Food: 20
+			},
+			Count: 1b
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "osgloglas"
+			},
+			Count: 1b
+		},
+		weight: 20
+	},
+	{
+		item: "ebwizardry:wizard_hat_lightning",
+		weight: 28
+	},
+	{
+		item: "mod_lavacow:felarmor_chestplate",
+		weight: 25
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 16,
+		weight: 28
+	},
+	{
+		item: "minecraft:gold_ore",
+		count: 8,
+		weight: 28
+	},
+	{
+		item: "minecraft:piston",
+		count: 8,
+		weight: 28
+	},
+	{
+		item: "minecraft:stained_glass 1 14",
+		count: 32,
+		weight: 28
+	},
+	{
+		item: "chisel:glassdyedmagenta 1 5",
+		count: 32,
+		weight: 28
+	},
+	{
+		item: "lootgames:gol_master",
+		weight: 28
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 8,
+		weight: 29
+	},
+	{
+		item: "minecraft:redstone",
+		count: 16,
+		weight: 29
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 8,
+		weight: 29
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 8,
+		weight: 28
+	},
+	{
+		item: "minecraft:diamond",
+		weight: 26
+	},
+	{
+		item: "minecraft:obsidian",
+		count: 8,
+		weight: 28
+	},
+	{
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		count: 16,
+		weight: 27
+	},
+	{
+		item: "immersiveengineering:metal_decoration2 1 5",
+		count: 16,
+		weight: 27
+	},
+	{
+		item: "immersiveengineering:wooden_device1",
+		weight: 27
+	},
+	{
+		item: "biomesoplenty:terrarium 1 11",
+		weight: 27
+	},
+	{
+		item: "biomesoplenty:terrarium 1 1",
+		weight: 27
+	},
+	{
+		item: "biomesoplenty:terrarium 1 6",
+		weight: 27
+	},
+	{
+		item: "mod_lavacow:undyingheart",
+		weight: 25
+	},
+	{
+		item: "witherskelefix:fragment 3",
+		weight: 18
+	},
+	{
+		item: "ebwizardry:identification_scroll",
+		weight: 27
+	},
+	{
+		item: "mowziesmobs:glowing_jelly 16",
+		weight: 26
+	},
+	{
+		item: "minecraft:quartz",
+		count: 5,
+		weight: 26
+	},
+	{
+		item: "minecraft:arrow",
+		count: 16,
+		weight: 26
+	},
+	{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"This is the story of a man who found great riches. Once upon a time, there was a man who worked hard all his life. One day, after returning from the mines he found a pathway in one of his tunnels which didn\\u0027t look natural. He was very interested in what\"}",
+					"{\"text\":\"it was, so he put down his ore and went in. It wasn\\u0027t long before a light appeared through the darkness ahead, when he made it to the source of the light he was amazed. There was a large room filled with runes that was beyond his comprehension.\"}",
+					"{\"text\":\"Among the runes were boxes, crates, and stacked ingots of gold and diamond filled in the room. He could not believe his eyes. His days working as a common miner were over, he knew this within moments of looking upon the riches.\"}",
+					"{\"text\":\"However the man knew of the struggle, so thankful for what the world has given him, he decided to leave some of it for the day another man find his way there. Legend has it the only remaining clue to the location was some letters which nobody has found\"}",
+					"{\"text\":\"the purpose of. The letters of legend is AGA3-BHL-9K i\\u0027m sure one day a young worker just like that man will figure it out. Riches await you.\\n\\n\\nThe End.\"}"
+				],
+				author: "Rsslone",
+				title: "Riches of Old",
+				resolved: 1b
+			}
+		},
+		weight: 20
+	}],
+	loot_crate: {
+		string_id: "common_lootbox",
+		color: 13434624,
+		glow: true,
+		drops: {
+			boss: 1,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

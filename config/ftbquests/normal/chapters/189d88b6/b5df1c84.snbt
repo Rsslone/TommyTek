@@ -1,0 +1,36 @@
+{
+	title: "Radiation Awareness!",
+	icon: "nuclearcraft:geiger_counter",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"Living in a Radioactive wasteland may seem neat, until your hair falls out and you puke up your liver.",
+		"",
+		"Some things are radioactive, if you @Nuclearcraft and hover over some materials like Uranium, you'll see Rads and a number.",
+		"",
+		"The color ranges from safe (white) to dangerous (red). Though ALOT of safe materials can be dangerous. So if you start feeling sick, maybe check your Geiger Counter."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "5a02868d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4f808cc0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f9130bd1",
+		type: "item",
+		item: "nuclearcraft:radaway_slow",
+		count: 2
+	},
+	{
+		uid: "08150e42",
+		type: "item",
+		item: "nuclearcraft:geiger_counter"
+	}]
+}

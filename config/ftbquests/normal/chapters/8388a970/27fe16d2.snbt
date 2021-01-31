@@ -1,0 +1,11 @@
+{
+	title: "Chisel + Bits Manual",
+	icon: "cfm:computer",
+	x: -3.5d,
+	y: 4.5d,
+	description: "(WebPage)",
+	custom_click: "https://algorithmx2.github.io/Chisels-and-Bits/",
+	dependencies: [
+		"984ec57d"
+	]
+}

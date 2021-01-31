@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "fd64c20d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:voidseer_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b573ed20",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "eaa4589b",
+		type: "item",
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		uid: "baa7d440",
+		type: "random",
+		table: 18
+	}]
+}

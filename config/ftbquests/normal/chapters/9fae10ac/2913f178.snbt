@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: -10.5d,
+	dependencies: [
+		"27898ace"
+	],
+	tasks: [{
+		uid: "2f1a728b",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:ice_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ae60a09",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f944a36c",
+		type: "loot",
+		table: 0
+	}]
+}

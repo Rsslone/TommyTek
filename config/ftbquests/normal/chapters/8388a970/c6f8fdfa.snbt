@@ -1,0 +1,33 @@
+{
+	title: "EnderLinked",
+	x: 3.0d,
+	y: 4.5d,
+	text: [
+		"Stationary Coded Chests. Links to others of the same code including the bag form."
+	],
+	dependencies: [
+		"c637a36e"
+	],
+	tasks: [{
+		uid: "6814b314",
+		type: "item",
+		items: [{
+			id: "multistorage:ender_chest",
+			tag: {
+				owner: "all",
+				code: "000"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "c35e9b5a",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	},
+	{
+		uid: "d92e3e56",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"While they don't do much, they look cool!",
+		"",
+		"(According to the wiki you can edit books, but in my testing it does not.)"
+	],
+	dependencies: [
+		"93c0b87a"
+	],
+	tasks: [{
+		uid: "e074bf53",
+		type: "item",
+		title: "Desks!",
+		items: [{
+			item: "bibliocraft:desk"
+		},
+		{
+			item: "bibliocraft:desk 1 1"
+		},
+		{
+			item: "bibliocraft:desk 1 2"
+		},
+		{
+			item: "bibliocraft:desk 1 3"
+		},
+		{
+			item: "bibliocraft:desk 1 4"
+		},
+		{
+			item: "bibliocraft:desk 1 5"
+		},
+		{
+			item: "bibliocraft:desk 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "7c5c6742",
+		type: "item",
+		item: "minecraft:writable_book"
+	},
+	{
+		uid: "d0306ea6",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

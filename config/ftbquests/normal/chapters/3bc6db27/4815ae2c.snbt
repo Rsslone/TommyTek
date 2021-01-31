@@ -1,0 +1,28 @@
+{
+	title: "Advanced Power",
+	x: -9.0d,
+	y: 6.0d,
+	text: [
+		"Windmills not good enough for ya? Well time to level up!"
+	],
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "67e77612",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3e040cf7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a93dbca3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

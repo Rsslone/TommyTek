@@ -1,0 +1,28 @@
+{
+	title: "Essentia Centrifuges ",
+	x: 18.5d,
+	y: 15.5d,
+	text: [
+		"Essentia Centrifuges combine essentia which are inputted from the bottum, the output from the top."
+	],
+	dependencies: [
+		"e242ab42"
+	],
+	tasks: [{
+		uid: "5f6e61a7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "131ecb71",
+		type: "item",
+		item: "thaumcraft:jar_normal"
+	},
+	{
+		uid: "03a85784",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

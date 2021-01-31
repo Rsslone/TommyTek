@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"A bright directional light, its a floodlight."
+	],
+	dependencies: [
+		"f5813136"
+	],
+	tasks: [{
+		uid: "db0de29b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "66bc2823",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8712c95f",
+		type: "loot",
+		table: 0
+	}]
+}

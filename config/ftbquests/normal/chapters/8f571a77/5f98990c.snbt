@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "176c7752",
+		type: "item",
+		items: [{
+			item: "harvestcraft:coconutitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "75129743",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

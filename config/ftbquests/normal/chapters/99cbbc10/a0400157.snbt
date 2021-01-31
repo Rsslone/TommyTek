@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "0260cb21",
+		type: "item",
+		items: [{
+			item: "harvestcraft:chilipepperseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "c0e03c6d",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

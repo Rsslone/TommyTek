@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b0a2a332",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7a826be4",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

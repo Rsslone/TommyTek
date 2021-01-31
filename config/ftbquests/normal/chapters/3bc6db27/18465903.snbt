@@ -1,0 +1,22 @@
+{
+	title: "Xnet Getting Started",
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"Xnet is a really powerful and simple item, liquid, and energy transfer mod that uses extremely little server time, this is because the \"cables\" are not really doing any calculations unlike mods like Mekanism."
+	],
+	tasks: [{
+		uid: "65cde964",
+		type: "item",
+		items: [{
+			item: "xnet:xnet_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60463985",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

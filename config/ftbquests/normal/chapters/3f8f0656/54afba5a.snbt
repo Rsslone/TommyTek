@@ -1,0 +1,35 @@
+{
+	title: "The Wireless Crafting Terminal",
+	x: -4.5d,
+	y: 11.5d,
+	text: [
+		"The Wireless Crafting Terminal is hopefully self explanatory. It is a Wireless Terminal with a crafting table. "
+	],
+	dependencies: [
+		"befd2dde"
+	],
+	tasks: [{
+		uid: "804e374a",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 2147483647,
+				internalCurrentPower: 1600000.0d
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfa830f3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c365a49b",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 9.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "d3d89f60",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33372bda",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	}]
+}

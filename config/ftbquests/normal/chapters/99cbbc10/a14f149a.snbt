@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "71a86c50",
+		type: "item",
+		items: [{
+			item: "harvestcraft:agaveseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "30721020",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

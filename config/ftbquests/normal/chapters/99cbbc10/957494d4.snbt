@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "fda3e7e4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gigapickleseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "f332338a",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

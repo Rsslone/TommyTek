@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	dependencies: [
+		"a4e962bd"
+	],
+	tasks: [{
+		uid: "15565ac2",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:relativistic_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "5722e48f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1508bc59",
+		type: "loot",
+		table: 0
+	}]
+}

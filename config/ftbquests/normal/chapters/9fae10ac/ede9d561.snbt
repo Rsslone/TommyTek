@@ -1,0 +1,40 @@
+{
+	x: -2.5d,
+	y: -15.0d,
+	shape: "square",
+	dependencies: [
+		"0739b5ef"
+	],
+	tasks: [{
+		uid: "5db51563",
+		type: "kill",
+		icon: "draconicevolution:chaos_shard",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a8dcd272",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "25aa00e2",
+		type: "item",
+		item: "avaritia:ultimate_stew"
+	},
+	{
+		uid: "58d72f91",
+		type: "xp_levels",
+		xp_levels: 60
+	},
+	{
+		uid: "e8f670d7",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "d5f97800",
+		type: "loot",
+		table: 12
+	}]
+}

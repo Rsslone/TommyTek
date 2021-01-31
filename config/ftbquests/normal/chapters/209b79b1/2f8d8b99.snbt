@@ -1,0 +1,23 @@
+{
+	title: "Simon Says!",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Found deep underground rarely on occasion. Complete to win a prize!",
+		"",
+		"&2Its Simon Says. R-Click the tiles it tells you to."
+	],
+	tasks: [{
+		uid: "2ba70e43",
+		type: "observation",
+		icon: "lootgames:gol_master",
+		match_type: "block_id",
+		match: "lootgames:gol_master",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a67d2a8f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

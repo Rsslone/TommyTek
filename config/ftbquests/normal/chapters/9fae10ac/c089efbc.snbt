@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -12.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "d59bfef7",
+		type: "kill",
+		entity: "netherex:ghast_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ed6dba92",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "b59049bd",
+		type: "random",
+		table: 11
+	}]
+}

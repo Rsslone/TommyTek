@@ -1,0 +1,46 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	text: [
+		"Copy Vanilla books, Enchanted books, Atlas books.",
+		"",
+		"Visit bibliocraftmod.com/wiki/printing-press/"
+	],
+	dependencies: [
+		"54b1c19a"
+	],
+	tasks: [{
+		uid: "2ef7248b",
+		type: "item",
+		items: [{
+			item: "bibliocraft:printingpress"
+		}]
+	},
+	{
+		uid: "373d4509",
+		type: "item",
+		items: [{
+			item: "bibliocraft:typesettingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "3b944df1",
+		type: "item",
+		item: {
+			id: "bibliocraft:atlasbook",
+			tag: {
+				atlasID: 1663401208
+			}
+		}
+	},
+	{
+		uid: "d59eb7ae",
+		type: "item",
+		item: "bibliocraft:bigbook"
+	},
+	{
+		uid: "b6e585d1",
+		type: "random",
+		table: 0
+	}]
+}

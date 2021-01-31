@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "fbadbed5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "07a24e7a",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

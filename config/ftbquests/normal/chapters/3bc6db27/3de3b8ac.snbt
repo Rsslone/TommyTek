@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 7.5d,
+	dependencies: [
+		"2082c16d"
+	],
+	tasks: [{
+		uid: "bc430fe1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "ab0ee3c6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

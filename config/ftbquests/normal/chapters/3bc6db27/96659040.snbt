@@ -1,0 +1,34 @@
+{
+	title: "Petroleum",
+	x: -10.5d,
+	y: 6.0d,
+	text: [
+		"Go find you some oil! Keep testing chunks until you find that crude oil!",
+		"",
+		"&2Power the Core Sampler and R-Click to Drill."
+	],
+	dependencies: [
+		"4815ae2c"
+	],
+	tasks: [{
+		uid: "78fc379d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	},
+	{
+		uid: "a127854c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:coresample"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a25f728c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

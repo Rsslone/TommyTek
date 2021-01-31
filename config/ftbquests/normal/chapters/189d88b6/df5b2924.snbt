@@ -1,0 +1,32 @@
+{
+	title: "Avoiding Constipation",
+	x: 2.5d,
+	y: -5.5d,
+	dependencies: [
+		"c94cc661"
+	],
+	tasks: [{
+		uid: "6632be7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllgrain",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Get some fiber"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dd82b722",
+		type: "item",
+		item: "minecraft:bread",
+		count: 3
+	}]
+}

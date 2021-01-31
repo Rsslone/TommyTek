@@ -1,0 +1,32 @@
+{
+	title: "Toasty Voyage",
+	x: 3.0d,
+	y: -4.5d,
+	text: [
+		"How does one paddle in molden rock....",
+		"",
+		"&2A boat that can travel in lava. Just watch your step."
+	],
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "36ff87c7",
+		type: "item",
+		items: [{
+			item: "netherex:obsidian_boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5b2e662",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "63c14ae9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

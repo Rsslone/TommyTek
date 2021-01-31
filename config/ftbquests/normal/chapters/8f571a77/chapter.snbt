@@ -1,0 +1,7 @@
+{
+	title: "Player Shop",
+	icon: "jaopca:item_coingold",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

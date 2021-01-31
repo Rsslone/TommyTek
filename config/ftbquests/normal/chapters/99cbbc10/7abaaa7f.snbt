@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 12.5d,
+	tasks: [{
+		uid: "5088e87e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pinacoladaitem"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "52aab48f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cd12fd27",
+		type: "loot",
+		table: 0
+	}]
+}

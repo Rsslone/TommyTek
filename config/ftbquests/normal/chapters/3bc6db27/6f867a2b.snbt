@@ -1,0 +1,49 @@
+{
+	title: "Alternating Flux",
+	x: -14.0d,
+	y: 7.5d,
+	text: [
+		"*praying* thank you Nikola Tesla for this wonderful blessing... amen",
+		"",
+		"(its power, but long distance)"
+	],
+	dependencies: [
+		"99c34474"
+	],
+	tasks: [{
+		uid: "a7854110",
+		type: "item",
+		items: [{
+			item: "alternatingflux:connector 1 1"
+		}]
+	},
+	{
+		uid: "abfa1354",
+		type: "item",
+		items: [{
+			item: "alternatingflux:connector"
+		}]
+	},
+	{
+		uid: "367e1ab3",
+		type: "item",
+		items: [{
+			item: "alternatingflux:wirecoil"
+		}]
+	}],
+	rewards: [{
+		uid: "04f175c9",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		}
+	},
+	{
+		uid: "5520fbd6",
+		type: "ftbmoney:money",
+		ftb_money: 160L
+	}]
+}

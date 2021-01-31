@@ -1,0 +1,20 @@
+{
+	title: "Welcome",
+	icon: "minecraft:map",
+	x: -0.5d,
+	y: -2.5d,
+	shape: "heart",
+	text: [
+		"Thanks for playing. For issues and feedback do &3/ticket&r.",
+		"",
+		"There are two types of quests, Informative, and Lore. The Lore quests are located in their own hub."
+	],
+	dependencies: [
+		"b9464520"
+	],
+	rewards: [{
+		uid: "0867227e",
+		type: "loot",
+		table: 2
+	}]
+}

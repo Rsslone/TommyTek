@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 10.0d,
+	dependencies: [
+		"effd4dd3"
+	],
+	tasks: [{
+		uid: "12aa2240",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_storage_cell_16k"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2b53076",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "39a3c5a2",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

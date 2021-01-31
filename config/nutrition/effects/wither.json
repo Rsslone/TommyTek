@@ -1,0 +1,9 @@
+{
+	"name": "Starving",
+	"potion": "minecraft:wither",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 1,
+	"detect": "all",
+	"enabled": true
+}

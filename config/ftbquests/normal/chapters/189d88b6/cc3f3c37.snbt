@@ -1,0 +1,39 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"Backpacks carry your crap, even better they're upgradeable to hold even more crap.",
+		"",
+		"Congrats, you now have a hoarding problem"
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "d92a0d46",
+		type: "item",
+		items: [{
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35e3e3bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "22266241",
+		type: "item",
+		item: "multistorage:stone_storage 1 6"
+	}]
+}

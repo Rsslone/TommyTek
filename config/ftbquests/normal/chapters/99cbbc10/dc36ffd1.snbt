@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"735f8993"
+	],
+	tasks: [{
+		uid: "3d1a5a4e",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d026e7b7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

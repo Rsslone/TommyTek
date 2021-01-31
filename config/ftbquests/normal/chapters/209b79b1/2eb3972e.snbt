@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 3.5d,
+	text: [
+		"Plenty of hooks and fast. Can't move between them!"
+	],
+	dependencies: [
+		"a3f10b92"
+	],
+	tasks: [{
+		uid: "f17305f1",
+		type: "item",
+		items: [{
+			id: "hooked:hook",
+			tag: {
+				Quality: {}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02906ef3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

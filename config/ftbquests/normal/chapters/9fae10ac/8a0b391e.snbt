@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"113c82cb"
+	],
+	tasks: [{
+		uid: "d928739c",
+		type: "item",
+		title: "Walls",
+		items: [{
+			item: "ompd:hardened"
+		},
+		{
+			item: "ompd:wall"
+		}]
+	},
+	{
+		uid: "4a7c053c",
+		type: "item",
+		items: [{
+			item: "ompd:fence"
+		}]
+	}]
+}

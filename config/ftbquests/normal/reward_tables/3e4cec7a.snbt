@@ -1,0 +1,29 @@
+{
+	title: "Thaumcraft Intermediate Kit",
+	icon: "thaumcraft:nitor_purple",
+	loot_size: 1,
+	rewards: [{
+		item: "thaumcraft:loot_bag 1 2"
+	},
+	{
+		item: "thaumcraft:everfull_urn"
+	},
+	{
+		item: "thaumcraft:morphic_resonator 4"
+	},
+	{
+		item: "thaumcraft:alumentum 16"
+	},
+	{
+		item: "thaumcraft:traveller_boots"
+	},
+	{
+		item: "thaumcraft:focus_pouch"
+	},
+	{
+		item: "thaumcraft:focus_1"
+	},
+	{
+		item: "thaumcraft:caster_basic"
+	}]
+}

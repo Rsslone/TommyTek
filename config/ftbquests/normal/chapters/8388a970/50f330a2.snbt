@@ -1,0 +1,44 @@
+{
+	title: "Seats!",
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"Customizable seats (with any vanilla carbet). Emits a redstone signal when sat on. Seat backs can be crafted seperately!",
+		"",
+		"Screw gun to remove carpet colors and seat backs."
+	],
+	dependencies: [
+		"b68742d7"
+	],
+	tasks: [{
+		uid: "f29f8b8a",
+		type: "item",
+		title: "Seats!",
+		items: [{
+			item: "bibliocraft:seat"
+		},
+		{
+			item: "bibliocraft:seat 1 1"
+		},
+		{
+			item: "bibliocraft:seat 1 2"
+		},
+		{
+			item: "bibliocraft:seat 1 3"
+		},
+		{
+			item: "bibliocraft:seat 1 4"
+		},
+		{
+			item: "bibliocraft:seat 1 5"
+		},
+		{
+			item: "bibliocraft:seat 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c8aa4287",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

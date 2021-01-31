@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -5.0d,
+	text: [
+		"The Hydrator is an attachment module used to hydrate tilled land."
+	],
+	dependencies: [
+		"61c8c6c8",
+		"b1374412"
+	],
+	tasks: [{
+		uid: "62b61683",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "ecf2d7f9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

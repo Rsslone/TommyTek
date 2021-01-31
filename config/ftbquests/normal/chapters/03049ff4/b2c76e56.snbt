@@ -1,0 +1,69 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"71943874",
+		"a7397ab8",
+		"aeceb5ef",
+		"2dfb62c9",
+		"7a2032a4",
+		"0ffe1626",
+		"ee5c9124",
+		"dac8af31",
+		"b46b7db1",
+		"73c5a7c8",
+		"ae0795e9",
+		"5c0becc5"
+	],
+	tasks: [{
+		uid: "17b8b294",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_hood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e63e975",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_robe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8936146e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93003019",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "571d6cab",
+		type: "item",
+		item: "thaumcraft:creative_flux_sponge"
+	},
+	{
+		uid: "e44915c1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "d5810a1f",
+		type: "loot",
+		table: 12
+	}]
+}

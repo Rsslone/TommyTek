@@ -1,0 +1,29 @@
+{
+	title: "The Vibration Chamber",
+	x: -2.0d,
+	y: 7.5d,
+	text: [
+		"Vibration chambers can be given solid fuels such as coal or wood to generate a small amount of Energy for Applied Energistics. Not reccomended, but it's an option I guess."
+	],
+	dependencies: [
+		"ef4129e3"
+	],
+	tasks: [{
+		uid: "b3ed552d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:vibration_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "328b9ee6",
+		type: "item",
+		item: "minecraft:coal",
+		count: 32
+	},
+	{
+		uid: "2ac340ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

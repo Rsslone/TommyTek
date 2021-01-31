@@ -1,0 +1,25 @@
+{
+	x: -12.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "0727b265",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:wither_skeleton"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "331b1d97",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "67666146",
+		type: "loot",
+		table: 11
+	}]
+}

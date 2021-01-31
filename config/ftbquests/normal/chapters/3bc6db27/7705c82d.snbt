@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 12.0d,
+	dependencies: [
+		"c0c5277c"
+	],
+	tasks: [{
+		uid: "a47981eb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "8d96852e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

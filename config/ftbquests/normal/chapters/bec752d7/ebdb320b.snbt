@@ -1,0 +1,65 @@
+{
+	x: 26.5d,
+	y: 5.0d,
+	text: [
+		"Thaumcraft Tools: Better than Iron, but not better than Diamond. Can be infused to make unique Weapons and Tools!"
+	],
+	dependencies: [
+		"19aa9d2f"
+	],
+	tasks: [{
+		uid: "20b97387",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumium_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3225d5e0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumium_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "793c5a45",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumium_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c0bd9c9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumium_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5af5d21",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumium_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70b601d7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "324c6fe8",
+		type: "loot",
+		table: 15
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"Gain special powers to prevent your death. Knowledge is Power.",
+		"",
+		"&2Press 0 (Zero) to open the knowledge of death screen. For more information read The Compendium in that screen."
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "a97d4e4a",
+		type: "item",
+		title: "Knowledge of Death",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		},
+		{
+			item: "tombstone:decorative_grave_normal"
+		},
+		{
+			item: "tombstone:decorative_grave_cross"
+		},
+		{
+			item: "tombstone:decorative_tombstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "722266fe",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "2dda20b5",
+		type: "loot",
+		table: 0
+	}]
+}

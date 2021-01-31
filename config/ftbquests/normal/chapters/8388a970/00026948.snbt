@@ -1,0 +1,163 @@
+{
+	title: "So tough, admins will struggle to get in.",
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"To build a vault, you must pour concrete onto specific blocks to harden them into a vault part.",
+		"",
+		"Vault Walls = Iron Bars",
+		"RF Energy Transfer = Immersive HV Wire Relay",
+		"FE/Tesla Energy Transfer = Yellow Xnet Connector",
+		"Fluid Transfer = Blue Xnet Connector",
+		"Item Transfer = Green Xnet Connector",
+		"Window = Any OreDict Glass Block",
+		"Redstone Signals = Red Xnet Connector",
+		"",
+		"Min Size = 4x4x4 | Max Size = 16x16x16",
+		"Door Size = 2x2 or 4x4"
+	],
+	dependencies: [
+		"c7e9d057"
+	],
+	tasks: [{
+		uid: "9c3475ea",
+		type: "item",
+		title: "Mix Vault Concrete",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_white",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_orange",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_magenta",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_light_blue",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_yellow",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_lime",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_pink",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_gray",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_silver",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_cyan",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_purple",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_blue",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_brown",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_green",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_red",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete_black",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2fe5e39d",
+		type: "item",
+		items: [{
+			item: "multistorage:vault"
+		}]
+	}],
+	rewards: [{
+		uid: "82768ef3",
+		type: "item",
+		item: "multistorage:vault 1 15"
+	},
+	{
+		uid: "d2c50808",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "3572f815",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

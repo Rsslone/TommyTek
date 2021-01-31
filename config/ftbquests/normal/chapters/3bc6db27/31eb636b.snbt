@@ -1,0 +1,36 @@
+{
+	title: "MY BUTTON!",
+	x: 2.0d,
+	y: 5.5d,
+	text: [
+		"Craft with a Lock Switch Component to code the key to that switch.",
+		"",
+		"You can name the key by right clicking the air with the key."
+	],
+	dependencies: [
+		"12513c95"
+	],
+	tasks: [{
+		uid: "051242bf",
+		type: "item",
+		items: [{
+			item: "industrialwires:key"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad7ec627",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "EPIC"
+			}
+		}
+	},
+	{
+		uid: "e6914eea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

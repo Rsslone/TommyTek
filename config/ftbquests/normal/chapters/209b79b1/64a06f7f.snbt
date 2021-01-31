@@ -1,0 +1,42 @@
+{
+	title: "Via the Sky",
+	x: -5.0d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"Specialty hooks for travel and building. Its not creative flight, but it can get close.",
+		"",
+		"&2Press C to shoot hooks. (Default)"
+	],
+	tasks: [{
+		uid: "1d102802",
+		type: "item",
+		items: [{
+			id: "hooked:hook",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8894255936559624545L,
+						UUIDLeast: -9044546525359221907L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84b11250",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

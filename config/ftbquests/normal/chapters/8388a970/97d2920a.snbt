@@ -1,0 +1,53 @@
+{
+	title: "Doors for Engineers",
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"Sure its just a thing to stop things from coming in, but its not JUST a door.",
+		"",
+		"(Its just a door) ((that looks cool))"
+	],
+	dependencies: [
+		"d0c3fd90"
+	],
+	tasks: [{
+		uid: "c3488091",
+		type: "item",
+		title: "Craft an Engineer Door",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "engineersdoors",
+					id: "mod"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "584e394c",
+		type: "item",
+		item: {
+			id: "industrialrenewal:safety_helmet",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 0s
+				}]
+			}
+		}
+	},
+	{
+		uid: "37dd2012",
+		type: "item",
+		item: {
+			id: "industrialrenewal:safety_belt",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "f205fb6e",
+		type: "item",
+		items: [{
+			item: "thaumadditions:the_beheader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

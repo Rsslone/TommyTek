@@ -1,0 +1,21 @@
+{
+	x: -6.5d,
+	y: -8.0d,
+	dependencies: [
+		"abc2373f"
+	],
+	tasks: [{
+		uid: "01bfd7e6",
+		type: "item",
+		items: [{
+			item: "teastory:yellow_tea_porcelain_kettle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "413d1d64",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

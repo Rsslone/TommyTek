@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 4.5d,
+	dependencies: [
+		"3a9d714a"
+	],
+	tasks: [{
+		uid: "303d60ab",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:swinemask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22a36422",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "BiblioTools",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"Bibliocraft is all about organization, functionality, ease of use, and looking good at the same time."
+	],
+	dependencies: [
+		"76f19c21"
+	],
+	tasks: [{
+		uid: "5a1acd1e",
+		type: "item",
+		items: [{
+			item: "bibliocraft:plumbline"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5137e019",
+		type: "item",
+		items: [{
+			item: "bibliocraft:bibliodrill"
+		},
+		{
+			item: "bibliocraft:handdrill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6309294e",
+		type: "item",
+		items: [{
+			id: "bibliocraft:tapemeasure",
+			tag: {
+				distance: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f30c0a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

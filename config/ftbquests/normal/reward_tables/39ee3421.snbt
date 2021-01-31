@@ -1,0 +1,136 @@
+{
+	title: "Rare lootbox",
+	icon: "treasure2:gold_strongbox",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:diamond_block",
+		count: 16
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money",
+		weight: 100
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 32
+	},
+	{
+		item: "tconstruct:materials 1 50",
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:nether_star",
+		random_bonus: 20,
+		only_one: true
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:hydra"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "ebonypsi"
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.74f,
+					FreeModifiers: 3,
+					Durability: 2400,
+					HarvestLevel: 4,
+					Attack: 16.07f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.74f,
+					FreeModifiers: 3,
+					Durability: 2400,
+					HarvestLevel: 4,
+					Attack: 16.07f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"no_melee",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "weee",
+					color: -1900544,
+					level: 1
+				}],
+				Traits: [
+					"weee"
+				]
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "redmatter"
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 109590,
+					Defense: 50.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 109590,
+					Defense: 50.0f
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: []
+				}
+			},
+			Count: 1b
+		}
+	},
+	{
+		item: "lootgames:ms_activator"
+	}]
+}

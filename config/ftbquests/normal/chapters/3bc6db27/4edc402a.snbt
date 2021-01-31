@@ -1,0 +1,35 @@
+{
+	title: "Diesel Generators",
+	x: -11.0d,
+	y: 5.0d,
+	text: [
+		"Crude and powerful. It may not produce as much as a steam turbine, but it also is much easier to get going."
+	],
+	dependencies: [
+		"139f0197",
+		"054c3621"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "82141c2f",
+		type: "observation",
+		title: "Build a Diesel Generator",
+		icon: "stevescarts:cartmodule",
+		match_type: "block_id",
+		match: "immersiveengineering:metal_multiblock",
+		properties: {
+			type: "diesel_generator"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fb51a480",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "44953a1e",
+		type: "loot",
+		table: 0
+	}]
+}

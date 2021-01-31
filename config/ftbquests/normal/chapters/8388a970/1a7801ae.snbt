@@ -1,0 +1,26 @@
+{
+	title: "The Free Man",
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"Store things when you don't need them, and violently unpack them when you do. That's how the Free-Man do.",
+		"",
+		"&2Technically functional storage."
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "cb9a9cee",
+		type: "item",
+		items: [{
+			item: "cfm:item_crow_bar"
+		}]
+	}],
+	rewards: [{
+		uid: "d7e57ea5",
+		type: "item",
+		item: "cfm:crate",
+		count: 10
+	}]
+}

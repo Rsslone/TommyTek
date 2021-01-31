@@ -1,0 +1,12 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	description: "*Under maintenance*",
+	tasks: [{
+		uid: "f39b048c",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

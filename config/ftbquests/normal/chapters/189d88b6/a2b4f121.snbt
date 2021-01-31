@@ -1,0 +1,38 @@
+{
+	title: "Home. Sweet, Home.",
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Set up a home with &3/sethome&r and return with &3/home&r. Craft a place to lay your head."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d8668e52"
+	],
+	tasks: [{
+		uid: "00fa1d66",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7f815bb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cf191dde",
+		type: "choice",
+		icon: "stupidthings:balloon 1 6",
+		table: 8
+	},
+	{
+		uid: "7b3cfafa",
+		type: "item",
+		item: "ftbquests:screen"
+	}]
+}

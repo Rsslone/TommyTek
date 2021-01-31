@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 10.0d,
+	dependencies: [
+		"62aaee27"
+	],
+	tasks: [{
+		uid: "d6fb8699",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:storage_cell_16k"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28380419",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "821ffcc8",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

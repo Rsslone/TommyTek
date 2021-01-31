@@ -1,0 +1,31 @@
+{
+	x: -9.5d,
+	y: -2.5d,
+	text: [
+		"Easily save and dial stargates with this \"phonebook\" device!"
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "d15a2ddb",
+		type: "item",
+		items: [{
+			id: "sgcraft:pdd",
+			tag: {
+				addresses: []
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "4dfc7891",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9c38dd6d",
+		type: "random",
+		table: 11
+	}]
+}

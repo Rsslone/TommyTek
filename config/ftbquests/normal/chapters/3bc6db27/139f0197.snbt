@@ -1,0 +1,61 @@
+{
+	title: "Diesel / Gasoline",
+	x: -12.0d,
+	y: 6.0d,
+	text: [
+		"Once you find a chunk with Crude Oil in it, you'll need to pump it out of the ground with a PumpJack.",
+		"",
+		"Then you need to pipe the crude into a Distillation Tower. The 3 Fluid outputs all leave the same port, so a Fluid Router is recommended!",
+		"",
+		"&2Check your Engineers Manual for details."
+	],
+	dependencies: [
+		"96659040"
+	],
+	tasks: [{
+		uid: "c7c3a103",
+		type: "observation",
+		title: "Build a Pumpjack",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		},
+		match_type: "block_id",
+		match: "immersivepetroleum:metal_multiblock",
+		properties: {
+			type: "pumpjack"
+		},
+		timer: 0L
+	},
+	{
+		uid: "9127dd0a",
+		type: "observation",
+		title: "Build a Distillation Tower",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "biodiesel",
+				Amount: 1000
+			}
+		},
+		match_type: "block_id",
+		match: "immersivepetroleum:metal_multiblock",
+		properties: {
+			type: "distillation_tower"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "0c32171d",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8b1448c2",
+		type: "loot",
+		table: 11
+	}]
+}

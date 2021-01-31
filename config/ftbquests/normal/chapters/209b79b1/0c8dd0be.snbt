@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -2.5d,
+	text: [
+		"If you rather power your gate with RF, attach this below your base block of the ring and feed it energy!"
+	],
+	dependencies: [
+		"69fe0f8d"
+	],
+	tasks: [{
+		uid: "1e2cd356",
+		type: "item",
+		items: [{
+			item: "sgcraft:sgpowerunit"
+		}]
+	}],
+	rewards: [{
+		uid: "86bb6117",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6f60f944",
+		type: "random",
+		table: 0
+	}]
+}

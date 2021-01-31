@@ -1,0 +1,33 @@
+{
+	title: "PA PA YA!!",
+	x: -2.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "d2cf6334",
+		type: "item",
+		items: [{
+			item: "harvestcraft:papaya_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "d7823868",
+		type: "item",
+		item: {
+			id: "betterrecords:record",
+			tag: {
+				color: 16777215,
+				songs: [{
+					size: 5,
+					author: "Rsslone",
+					name: "ベビーメタルパパや",
+					url: "https://od.lk/s/NjJfMTYyNjU4NTFf/%E3%83%91%E3%83%91%E3%82%84.mp3"
+				}]
+			}
+		}
+	},
+	{
+		uid: "adfa51ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

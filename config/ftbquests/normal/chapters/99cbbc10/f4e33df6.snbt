@@ -1,0 +1,27 @@
+{
+	title: "Rustic",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"735f8993"
+	],
+	tasks: [{
+		uid: "291ec40c",
+		type: "item",
+		items: [{
+			item: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cf4e25f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "43e1c845",
+		type: "loot",
+		table: 0
+	}]
+}

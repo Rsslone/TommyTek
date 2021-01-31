@@ -1,0 +1,41 @@
+{
+	title: "The start of Mass Storage",
+	x: 0.0d,
+	y: 13.0d,
+	text: [
+		"This is where the storage part of Applied Energistics starts. ME Drives can hold ME storage cells, which can hold up to 63 unique items and up to their byte cap in total items. ",
+		"In order to view the items in an ME Drive and its cells, you must place a ME Terminal along any wire in the system. This will allow you to see every item in the system, and take them in and out at your leisure. It's like a really big chest. "
+	],
+	dependencies: [
+		"251f923c"
+	],
+	tasks: [{
+		uid: "8cf4923b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "9a3b7a39",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "3e9a6887",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "9a94a409",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "216a3d9f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

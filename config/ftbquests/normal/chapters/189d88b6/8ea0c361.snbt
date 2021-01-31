@@ -1,0 +1,33 @@
+{
+	title: "Scaling Health",
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"The game will progressively get harder over time, but you can combat that by making a heart. The Shards can be obtained by breaking Heart Crystal Ore."
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "b12a150b",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "2f4b1d7f",
+		type: "item",
+		item: "scalinghealth:healingitem 2"
+	},
+	{
+		uid: "1ff7d959",
+		type: "item",
+		item: "scalinghealth:healingitem 1 1"
+	},
+	{
+		uid: "01c9ba15",
+		type: "item",
+		item: "scalinghealth:heartdust 64"
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Inscriber Presses",
+	x: 0.0d,
+	y: 8.5d,
+	text: [
+		"Across the world, you will find large black meteors that have crashed to the earth made out of Sky Stone. At the core of these meteors are a chest made of Sky stone with an inscriber press pattern. ",
+		"These press patterns are required to make the various processors used in Applied Energistics' crafting recipes."
+	],
+	dependencies: [
+		"fe7bc09d"
+	],
+	tasks: [{
+		uid: "170349a8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "37c1260f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "7f38a34f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "2d154da2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "5abe2bd9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "754a255e",
+		type: "loot",
+		table: 0
+	}]
+}

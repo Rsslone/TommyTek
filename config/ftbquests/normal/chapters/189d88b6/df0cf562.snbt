@@ -1,0 +1,28 @@
+{
+	icon: "ftbquests:book",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"To choose your class, Press L. To toggle skills Press Control+L.",
+		"",
+		"(Unlocks the main quest in War & Defense)"
+	],
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "55749d7a",
+		type: "checkmark",
+		title: "Choose your specialization!"
+	}],
+	rewards: [{
+		uid: "24398b93",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "50774a30",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

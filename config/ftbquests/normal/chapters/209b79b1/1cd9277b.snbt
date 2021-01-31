@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	description: "*Craftable*",
+	text: [
+		"Opens Common and Uncommon locks."
+	],
+	tasks: [{
+		uid: "178f4bcf",
+		type: "item",
+		items: [{
+			item: "treasure2:pilferers_lock_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6ce93c8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 20.5d,
+	y: 12.0d,
+	text: [
+		"The Void Essentia Smeltery is an even better version of the essentia smeltery, having an even lower ratio of essentia to flux."
+	],
+	dependencies: [
+		"8d3d1bc7"
+	],
+	tasks: [{
+		uid: "3304ae3e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}],
+	rewards: [{
+		uid: "e11cba21",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "7ce05134",
+		type: "loot",
+		table: 18
+	}]
+}

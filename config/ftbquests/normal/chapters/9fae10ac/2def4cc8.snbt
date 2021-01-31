@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	dependencies: [
+		"bb640275"
+	],
+	tasks: [{
+		uid: "07c9aa34",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:teleporter_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "585d20e4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "985fcb59",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Who put this there?",
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"Who put a crate of loot in this water... and how did I manage to catch it with a fishing rod?"
+	],
+	dependencies: [
+		"1c57282a"
+	],
+	tasks: [{
+		uid: "cbe63e78",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot 1 4"
+		}]
+	},
+	{
+		uid: "ca99098b",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot 1 5"
+		}]
+	},
+	{
+		uid: "92035f18",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "fb2f8134",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "34c84275",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

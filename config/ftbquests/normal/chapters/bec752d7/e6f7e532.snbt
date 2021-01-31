@@ -1,0 +1,22 @@
+{
+	x: 22.0d,
+	y: 19.0d,
+	text: [
+		"Further upgraded variant of Warded Jars. Holds 1000 Essentia."
+	],
+	dependencies: [
+		"20e3f57b"
+	],
+	tasks: [{
+		uid: "8e6e8469",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_mithrillium"
+		}]
+	}],
+	rewards: [{
+		uid: "3543f68b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

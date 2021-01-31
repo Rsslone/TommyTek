@@ -1,0 +1,34 @@
+{
+	title: "Portable Shelter",
+	icon: {
+		id: "capsule:capsule",
+		tag: {
+			color: 13421772,
+			size: 3
+		}
+	},
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"Capsules that totally are not from DragonBall, save their contents to be deployed later.",
+		"",
+		"Right Click to prime, Right click again to deploy. Works best on flat ground."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "8d717a02",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6c28510e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "f456a8d6",
+		type: "random",
+		table: 0
+	}]
+}

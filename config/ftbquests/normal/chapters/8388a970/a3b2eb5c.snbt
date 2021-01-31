@@ -1,0 +1,46 @@
+{
+	x: 8.0d,
+	y: 3.5d,
+	text: [
+		"Labels are useful for marking chests, it supports up to 3 item icons! Shift click with empty hand to open GUI"
+	],
+	dependencies: [
+		"93c0b87a"
+	],
+	tasks: [{
+		uid: "a61bf1af",
+		type: "item",
+		title: "Labels!",
+		items: [{
+			item: "bibliocraft:label"
+		},
+		{
+			item: "bibliocraft:label 1 1"
+		},
+		{
+			item: "bibliocraft:label 1 2"
+		},
+		{
+			item: "bibliocraft:label 1 3"
+		},
+		{
+			item: "bibliocraft:label 1 4"
+		},
+		{
+			item: "bibliocraft:label 1 5"
+		},
+		{
+			item: "bibliocraft:label 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "e5879bfc",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "937d83bc",
+		type: "xp",
+		xp: 100
+	}]
+}

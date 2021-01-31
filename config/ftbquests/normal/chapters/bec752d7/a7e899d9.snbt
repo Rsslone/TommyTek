@@ -1,0 +1,45 @@
+{
+	title: "Warded Jars: Essentia Storage!",
+	x: 23.5d,
+	y: 13.0d,
+	text: [
+		"Warded Jars are Jars that can hold liquid Essentia! There are a few variants, such as Void or more expensive materials. Labels can be placed on Jars that have essentia in them to only let that essentia in.",
+		"*Note: These base jars can store 250 of any essentia.",
+		"Note:",
+		"All infusions require essentia, which has to be stored in Warded Jars from the Alchemy tree in order to be fed to the infusion. Refer to the Thaumonomicon for more information."
+	],
+	dependencies: [
+		"94edf4c1"
+	],
+	tasks: [{
+		uid: "39b42eb5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "6cc2c283",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "b75e751d",
+		type: "item",
+		item: "thaumcraft:label 4"
+	},
+	{
+		uid: "f08a2797",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			Count: 32b,
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}
+	}]
+}

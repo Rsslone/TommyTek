@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	text: [
+		"The Fertilizer is an attachment module that will fertilize crops and saplings next to the rail."
+	],
+	dependencies: [
+		"b1374412",
+		"f0527f95"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9eb393d1",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "4949e2da",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

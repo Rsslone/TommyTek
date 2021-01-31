@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: 2.5d,
+	dependencies: [
+		"4837a5ed"
+	],
+	tasks: [{
+		uid: "a6b8f490",
+		type: "fluid",
+		fluid: "water"
+	}],
+	rewards: [{
+		uid: "3c16e7d1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a138e9f9",
+		type: "loot",
+		table: 0
+	}]
+}

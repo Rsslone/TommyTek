@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 7.0d,
+	dependencies: [
+		"6de67214"
+	],
+	tasks: [{
+		uid: "da4d893a",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:ammo_meta 1 2"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d7867f09",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

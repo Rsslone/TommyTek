@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 9.0d,
+	dependencies: [
+		"2082c16d"
+	],
+	tasks: [{
+		uid: "02c81d83",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:spores_recreator"
+		}]
+	}],
+	rewards: [{
+		uid: "c7987364",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

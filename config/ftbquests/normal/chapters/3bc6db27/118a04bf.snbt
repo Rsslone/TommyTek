@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: 8.5d,
+	text: [
+		"Place the heater behind a furnace and wire it up to power, BAM, no more fuel!"
+	],
+	dependencies: [
+		"bb65871f"
+	],
+	tasks: [{
+		uid: "8f802546",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 1"
+		}]
+	},
+	{
+		uid: "d442be22",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "6b881fb5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

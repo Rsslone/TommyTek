@@ -1,0 +1,18 @@
+{
+	title: "Arcane Crafters",
+	x: 29.0d,
+	y: 14.0d,
+	text: [
+		"Arcane pattern crafters are like autocrafters, but thaumcraft ones. They auto craft things. waow."
+	],
+	dependencies: [
+		"30e40f9b"
+	],
+	tasks: [{
+		uid: "ca15d4e9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pattern_crafter"
+		}]
+	}]
+}

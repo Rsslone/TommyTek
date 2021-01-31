@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -7.5d,
+	description: "&cSpecial",
+	text: [
+		"Opens EVERYTHING but Epic."
+	],
+	tasks: [{
+		uid: "9f9d2b79",
+		type: "item",
+		items: [{
+			item: "treasure2:skeleton_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83323eb8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

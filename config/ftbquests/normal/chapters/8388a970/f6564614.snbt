@@ -1,0 +1,70 @@
+{
+	title: "Outdoor Grille",
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"Fun for the whole family. Keep the kids busy on our bouncy contraptions while you cook sausages with the bois.",
+		"",
+		"&2To cook sausage, put coal in the grill and add the sausage. Flip with a spatula when you see smoke. Don't burn those links!"
+	],
+	dependencies: [
+		"ca2e3096"
+	],
+	tasks: [{
+		uid: "c7f9b5a5",
+		type: "item",
+		items: [{
+			item: "cfm:grill"
+		}]
+	},
+	{
+		uid: "adec6408",
+		type: "item",
+		items: [{
+			item: "cfm:item_sausage"
+		}]
+	},
+	{
+		uid: "e5e09697",
+		type: "item",
+		items: [{
+			item: "cfm:item_spatula"
+		}]
+	},
+	{
+		uid: "f431df67",
+		type: "item",
+		items: [{
+			item: "cfm:item_log"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e5f6b396",
+		type: "item",
+		title: "Park Bench",
+		items: [{
+			item: "cfm:park_bench_oak"
+		},
+		{
+			item: "cfm:park_bench_spruce"
+		},
+		{
+			item: "cfm:park_bench_birch"
+		},
+		{
+			item: "cfm:park_bench_jungle"
+		},
+		{
+			item: "cfm:park_bench_acacia"
+		},
+		{
+			item: "cfm:park_bench_dark_oak"
+		}]
+	}],
+	rewards: [{
+		uid: "32f31f79",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

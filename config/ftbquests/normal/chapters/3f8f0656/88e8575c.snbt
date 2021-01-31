@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 11.5d,
+	dependencies: [
+		"be3b0281"
+	],
+	tasks: [{
+		uid: "345cb0a1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}],
+	rewards: [{
+		uid: "a08457aa",
+		type: "ftbmoney:money",
+		ftb_money: 225L
+	},
+	{
+		uid: "f2c1ce99",
+		type: "xp_levels",
+		xp_levels: 12
+	}]
+}

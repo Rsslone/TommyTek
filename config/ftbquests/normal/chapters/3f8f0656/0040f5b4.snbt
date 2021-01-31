@@ -1,0 +1,30 @@
+{
+	title: "Dense Smart Fluix Cables",
+	disable_toast: true,
+	x: -3.0d,
+	y: 13.0d,
+	text: [
+		"Dense Smart fluix cables display both on themselves and on the tooltip in the top middle of the screen how many channels they are using. "
+	],
+	dependencies: [
+		"c0a9cd28"
+	],
+	tasks: [{
+		uid: "9526b07d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e6deb8df",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "a67616d9",
+		type: "loot",
+		table: 0
+	}]
+}

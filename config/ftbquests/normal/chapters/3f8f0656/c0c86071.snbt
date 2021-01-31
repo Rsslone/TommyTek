@@ -1,0 +1,35 @@
+{
+	title: "The Inscriber",
+	x: 0.0d,
+	y: 10.0d,
+	text: [
+		"The Inscriber is the machine used to craft Processors for the various upcoming recipes using Inscriber Presses."
+	],
+	dependencies: [
+		"2f7ba17f",
+		"ef4129e3",
+		"f3f01be7"
+	],
+	tasks: [{
+		uid: "70d40389",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "df362a8c",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "a3f122ec",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "16702145",
+		type: "loot",
+		table: 0
+	}]
+}

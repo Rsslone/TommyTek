@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: -7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "74d9b9e6",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "85e48854",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

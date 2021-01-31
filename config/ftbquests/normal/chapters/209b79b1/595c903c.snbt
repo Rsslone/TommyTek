@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -8.5d,
+	description: "&dEpic",
+	tasks: [{
+		uid: "f23a4956",
+		type: "item",
+		items: [{
+			item: "treasure2:ruby_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dec0287d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

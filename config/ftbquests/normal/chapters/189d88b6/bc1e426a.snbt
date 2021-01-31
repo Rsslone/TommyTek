@@ -1,0 +1,32 @@
+{
+	x: -4.5d,
+	y: 0.5d,
+	description: "Better than a closet!",
+	text: [
+		"/dank/null will hide all your problems",
+		"",
+		"Collects the items you set inside automatically, after its full, it deletes them. No more inventories of dirt!"
+	],
+	dependencies: [
+		"cc3f3c37"
+	],
+	tasks: [{
+		uid: "0ef50e0c",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2a9bde2",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "f2d111cb",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Impending darkness",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Its REALLY dark at night, and even darker in caves. At least be able to see what's killing you with these light emitting sticks!",
+		"",
+		"Holding torches light the area around you. Put them in your offhand for the big brain plays.",
+		"",
+		"&2There is no light minimum."
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "dcb7e800",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	}],
+	rewards: [{
+		uid: "dd07bc99",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

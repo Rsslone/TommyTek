@@ -1,0 +1,35 @@
+{
+	title: "Alchemical Brass and Thaumium",
+	x: 24.0d,
+	y: 11.0d,
+	text: [
+		"Alchemical brass and Thaum are used throughout plenty of thaumcraft's recipes, particularly in Golemancy and Artifice. "
+	],
+	dependencies: [
+		"02586a5d"
+	],
+	tasks: [{
+		uid: "c8348571",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	},
+	{
+		uid: "217d7c0b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "29a8db60",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cb35249d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

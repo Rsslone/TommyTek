@@ -1,0 +1,11 @@
+{
+	title: "Little Tiles Manual",
+	icon: "cfm:computer",
+	x: -0.5d,
+	y: 4.5d,
+	description: "(WebPage)",
+	custom_click: "https://github.com/CreativeMD/LittleTiles/wiki/Little-Workbench",
+	dependencies: [
+		"94b9f71d"
+	]
+}

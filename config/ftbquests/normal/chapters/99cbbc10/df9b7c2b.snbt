@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "f4cf5021",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wintersquashseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "ab15509b",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

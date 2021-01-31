@@ -1,0 +1,35 @@
+{
+	title: "Stardewharvestcraft!",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"With the shipping bin you can earn emeralds. With the market you can buy saplings and seeds."
+	],
+	dependencies: [
+		"735f8993"
+	],
+	tasks: [{
+		uid: "6feac7ff",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}]
+	},
+	{
+		uid: "4d45a4ec",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shippingbin"
+		}]
+	}],
+	rewards: [{
+		uid: "5706a412",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a8e74bae",
+		type: "loot",
+		table: 0
+	}]
+}

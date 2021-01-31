@@ -1,0 +1,25 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "9a24be0f",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:slime"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "601e339f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "dcd98830",
+		type: "loot",
+		table: 11
+	}]
+}
