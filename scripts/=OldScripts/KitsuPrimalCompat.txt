@@ -1,0 +1,21 @@
+//Disabled Tools
+mods.jei.JEI.removeAndHide(<repurpose:item_swift_blade_wood>);
+mods.jei.JEI.removeAndHide(<repurpose:item_swift_blade_stone>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_pickaxe>);
+mods.jei.JEI.removeAndHide(<minecraft:stone_pickaxe>);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_copper>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_lead>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_aluminum>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_bronze>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_electrum>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_nickel>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_tin>);
+mods.jei.JEI.removeAndHide(<forgecraft:leatherhelmet>);
+
+//ReplaceAll
+recipes.replaceAllOccurences(<minecraft:wooden_pickaxe>, <primal:flint_pickaxe>);
+recipes.replaceAllOccurences(<minecraft:stone_pickaxe>, <primal:bone_pickaxe>);
+recipes.replaceAllOccurences(<minecraft:diamond_pickaxe>, <primal:diamond_pickaxe>);
+

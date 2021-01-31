@@ -1,1 +1,0 @@
-recipes.addShaped(<jaopca:item_platedensegold>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);

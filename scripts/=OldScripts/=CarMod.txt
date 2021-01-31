@@ -1,0 +1,4 @@
+//TarCompat with Immersive
+recipes.remove(<car:tar>);
+recipes.addShapeless(<car:tar>, [<immersivepetroleum:stone_decoration>]);
+recipes.addShapeless(<immersivepetroleum:stone_decoration>, [<car:tar>]);

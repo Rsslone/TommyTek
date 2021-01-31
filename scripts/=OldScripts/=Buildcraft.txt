@@ -1,0 +1,3 @@
+// Quarry
+recipes.remove(<buildcraftbuilders:quarry>);
+recipes.addShaped(<buildcraftbuilders:quarry>, [[<ore:gearDiamond>, <mekanism:basicblock:8>, <ore:gearDiamond>], [<ore:gearTitaniumAluminide>, <ore:gearDiamond>, <ore:gearTitaniumAluminide>], [<ore:gearSteel>, <mekanism:machineblock2:13>, <ore:gearSteel>]]);

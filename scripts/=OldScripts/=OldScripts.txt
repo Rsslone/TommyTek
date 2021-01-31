@@ -1,0 +1,16 @@
+//WaterStrainer
+recipes.remove(<waterstrainer:bait_pot>);
+recipes.addShaped(<waterstrainer:bait_pot>, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:flower_pot>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+
+//MobGrindingUtils
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:fan>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:fan_upgrade>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:fan_upgrade:1>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:fan_upgrade:2>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade:1>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade:2>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade:3>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade:4>);
+mods.jei.JEI.removeAndHide(<mob_grinding_utils:saw_upgrade:5>);
