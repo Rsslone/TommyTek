@@ -25,7 +25,6 @@ minecraft:glowing
 minecraft:levitation
 minecraft:luck
 minecraft:unluck
-railcraft:creosote
 biomesoplenty:curse
 rustic:ironskin
 rustic:feather
@@ -40,8 +39,6 @@ teastory:life_drain
 teastory:photosynthesis
 teastory:defence
 teastory:excitement
-tetra:bleeding
-tetra:earthbound
 immersiveengineering:flammable
 immersiveengineering:slippery
 immersiveengineering:conductive
@@ -77,19 +74,7 @@ netherex:infested
 netherex:crying
 netherex:fire_burning
 netherex:soul_sucked
-pyrotech:comfort
-pyrotech:well_fed
-pyrotech:resting
-pyrotech:well_rested
-pyrotech:focused
 scalinghealth:bandaged
-cuisine:toughness
-cuisine:hot
-cuisine:cold_blood
-cuisine:sustained_release
-cuisine:effect_resistance
-cuisine:drunk
-cuisine:dispersal
 nutrition:toughness
 nutrition:nourished
 nutrition:malnourished
