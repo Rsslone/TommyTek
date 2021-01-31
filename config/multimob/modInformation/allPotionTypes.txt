@@ -67,6 +67,6 @@ treasure2:extra_strong_regeneration
 treasure2:extra_strong_strength
 treasure2:extra_strong_swiftness
 cuisine:cuisine.toughness
+cuisine:cuisine.hot
 cuisine:cuisine.dispersal
 cuisine:cuisine.cold_blood
-cuisine:cuisine.hot

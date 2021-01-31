@@ -83,13 +83,13 @@ pyrotech:resting
 pyrotech:well_rested
 pyrotech:focused
 scalinghealth:bandaged
-cuisine:sustained_release
 cuisine:effect_resistance
-cuisine:drunk
 cuisine:toughness
+cuisine:sustained_release
+cuisine:hot
 cuisine:dispersal
 cuisine:cold_blood
-cuisine:hot
+cuisine:drunk
 nutrition:toughness
 nutrition:nourished
 nutrition:malnourished

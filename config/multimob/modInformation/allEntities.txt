@@ -127,6 +127,7 @@ advancedrocketry:arhovercraft
 aquaculture:custom_fish_hook
 armourers_workshop:seat
 armourers_workshop:mannequin
+quark:chest_passenger
 quark:seat
 quark:flat_item_frame
 quark:leash_knot
@@ -141,7 +142,6 @@ quark:pirate
 quark:crab
 quark:wraith
 quark:gravisand
-quark:chest_passenger
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
