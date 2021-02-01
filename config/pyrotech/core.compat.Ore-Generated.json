@@ -36,11 +36,13 @@
       "langKey": [
         "immersiveengineering:tile.immersiveengineering.ore.copper",
         "libvulpes:material.Copper",
+        "mekanism:tile.OreBlock.CopperOre",
         "railcraft:tile.railcraft.ore.metal.copper"
       ],
       "output": [
         "immersiveengineering:metal:20",
         "libvulpes:productnugget:4",
+        "mekanism:nugget:5",
         "railcraft:nugget:1"
       ]
     },
@@ -96,6 +98,15 @@
         "railcraft:nugget:6"
       ]
     },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "mekanism:tile.OreBlock.OsmiumOre"
+      ],
+      "output": [
+        "mekanism:nugget:1"
+      ]
+    },
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
@@ -111,10 +122,12 @@
       "slagColor": "c3e9ff",
       "langKey": [
         "libvulpes:material.Tin",
+        "mekanism:tile.OreBlock.TinOre",
         "railcraft:tile.railcraft.ore.metal.tin"
       ],
       "output": [
         "libvulpes:productnugget:5",
+        "mekanism:nugget:6",
         "railcraft:nugget:2"
       ]
     },

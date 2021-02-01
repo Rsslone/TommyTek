@@ -31,7 +31,7 @@ for s in ironAge{
 
 //Steam Age
 val steamAge = [
-    
+    <railcraft:track_outfitted>
 ] as IItemStack[];
 
 for s in steamAge{
@@ -51,7 +51,8 @@ for s in electricalAge{
 
 //Computer Age
 val computerAge = [
-    
+    <ore:oc:floppy>,
+    <ore:oc:redstoneCard2>
 ] as IItemStack[];
 
 for s in computerAge{

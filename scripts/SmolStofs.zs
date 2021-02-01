@@ -83,7 +83,10 @@ mods.jei.JEI.removeAndHide(<railcraft:ore_metal:4>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:3>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:2>);
 mods.jei.JEI.removeAndHide(<levelup2:surfaceore:*>);
-
+mods.jei.JEI.removeAndHide(<cd4017be_lib:energy_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:item_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:m>);
 
 
 

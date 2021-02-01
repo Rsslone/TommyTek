@@ -17,12 +17,21 @@ val stoneAge = [
     "hooked",
     "literalascension",
     "minecolonies",
+    "structurize",
     "quark",
     "respawnablepets",
     "scalinghealth",
     "sereneseasons",
     "supersoundmuffler",
-    "treasure2"
+    "treasure2",
+    "stupidthings",
+    "spartanshields",
+    "primitivemobs",
+    "mysticalworld",
+    "mowziesmobs",
+    "mod_lavacow",
+    "openblocks",
+    "lootgames"
 ] as string[];
 
 for s in stoneAge{
@@ -50,7 +59,7 @@ val ironAge = [
     "mcwroofs",
     "mcwwindows",
     "storagedrawers",
-    "teastory"
+    "teastory",
 ] as string[];
 
 for s in ironAge{
@@ -68,7 +77,9 @@ val steamAge = [
     "rsgauges",
     "toolbelt",
     "viesmachines",
-    "jaopca"
+    "jaopca",
+    "betterbuilderswands",
+    "immersiveruins"
 ] as string[];
 
 for s in steamAge{
@@ -89,12 +100,14 @@ val electricalAge = [
     "engineersdoors",
     "engineersdecor",
     "industrialforegoing",
+    "teslacorelib",
     "industrialmeat",
     "industrialrenewal",
     "industrialwires",
     "ompd",
     "woot",
-    "worldcontrol"
+    "worldcontrol",
+    "armourers_workshop"
 ] as string[];
 
 for s in electricalAge{
@@ -115,6 +128,7 @@ val computerAge = [
     "openmodularturrets",
     "opensecurity",
     "rs_ctr",
+    "cd4017be_lib",
     "scannable",
     "sgcraft"
 ] as string[];
@@ -128,7 +142,9 @@ for s in computerAge{
 val atomicAge = [
     "nuclearcraft",
     "alchemistry",
-    "fbnc"
+    "fbnc",
+    "mekanism",
+    "mekanismgenerators"
 ] as string[];
 
 for s in atomicAge{
@@ -141,7 +157,8 @@ val spaceAge = [
     "advancedrocketry",
     "libvulpes",
     "matteroverdrive",
-    "netherex"
+    "netherex",
+    "witherskelefix"
 ] as string[];
 
 for s in spaceAge{
