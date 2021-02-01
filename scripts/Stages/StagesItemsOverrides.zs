@@ -4,7 +4,10 @@ import crafttweaker.item.IItemStack;
 
 print("Initializing 'Item Stages'...");
 
-//OOGA BOOGA (Default)
+/*
+    -- For specific item overrides per age --
+*/
+
 
 //Stone Age
 val stoneAge = [
@@ -19,7 +22,7 @@ for s in stoneAge{
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
 
-//Iron Age
+/*Iron Age
 val ironAge = [
     
 ] as IItemStack[];
@@ -27,7 +30,7 @@ val ironAge = [
 for s in ironAge{
     mods.ItemStages.addItemStage("iron", s);
     mods.recipestages.Recipes.setRecipeStage("iron", s);
-}
+}*/
 
 //Steam Age
 val steamAge = [
@@ -39,7 +42,7 @@ for s in steamAge{
     mods.recipestages.Recipes.setRecipeStage("steam", s);
 }
 
-//Electrical Age
+/*Electrical Age
 val electricalAge = [
     
 ] as IItemStack[];
@@ -47,7 +50,7 @@ val electricalAge = [
 for s in electricalAge{
     mods.ItemStages.addItemStage("electrical", s);
     mods.recipestages.Recipes.setRecipeStage("electrical", s);
-}
+}*/
 
 //Computer Age
 val computerAge = [
@@ -60,7 +63,7 @@ for s in computerAge{
     mods.recipestages.Recipes.setRecipeStage("computer", s);
 }
 
-//Atomic Age
+/*Atomic Age
 val atomicAge = [
     
 ] as IItemStack[];
@@ -68,9 +71,9 @@ val atomicAge = [
 for s in atomicAge{
     mods.ItemStages.addItemStage("atomic", s);
     mods.recipestages.Recipes.setRecipeStage("atomic", s);
-}
+}*/
 
-//Space Age
+/*Space Age
 val spaceAge = [
     
 ] as IItemStack[];
@@ -78,9 +81,9 @@ val spaceAge = [
 for s in spaceAge{
     mods.ItemStages.addItemStage("space", s);
     mods.recipestages.Recipes.setRecipeStage("space", s);
-}
+}*/
 
-//Fusion Age
+/*Fusion Age
 val fusionAge = [
     
 ] as IItemStack[];
@@ -88,9 +91,9 @@ val fusionAge = [
 for s in fusionAge{
     mods.ItemStages.addItemStage("fusion", s);
     mods.recipestages.Recipes.setRecipeStage("fusion", s);
-}
+}*/
 
-//Draconic Age
+/*Draconic Age
 val draconicAge = [
     
 ] as IItemStack[];
@@ -98,6 +101,6 @@ val draconicAge = [
 for s in draconicAge{
     mods.ItemStages.addItemStage("draconic", s);
     mods.recipestages.Recipes.setRecipeStage("draconic", s);
-}
+}*/
 
 print("Initializing 'Item Stages'... DONE!");
