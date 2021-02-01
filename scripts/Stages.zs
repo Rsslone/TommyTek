@@ -140,7 +140,8 @@ for s in atomicAge{
 val spaceAge = [
     "advancedrocketry",
     "libvulpes",
-    "matteroverdrive"
+    "matteroverdrive",
+    "netherex"
 ] as string[];
 
 for s in spaceAge{

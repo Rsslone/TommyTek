@@ -2,14 +2,14 @@ import mods.ResearchTable;
 import ResearchTable.Category;
 import ResearchTable.Builder;
 
-//Age Directory
-var stoneCat = ResearchTable.addCategory(<minecraft:stone>, "Stone Age");
-var ironCat = ResearchTable.addCategory(<minecraft:iron_ingot>, "Iron Age");
-var steamCat = ResearchTable.addCategory(<railcraft:locomotive_steam_solid>, "Steam Age");
 #Group: PSi Clan
 
 print("Initializing 'StagesResearch'...");
 
+//Age Directory
+var stoneCat = ResearchTable.addCategory(<minecraft:stone>, "Stone Age");
+var ironCat = ResearchTable.addCategory(<minecraft:iron_ingot>, "Iron Age");
+var steamCat = ResearchTable.addCategory(<railcraft:locomotive_steam_solid>, "Steam Age");
 var electCat = ResearchTable.addCategory(<immersiveengineering:tool:2>, "Electrical Age");
 var compCat = ResearchTable.addCategory(<opencomputers:storage:1>, "Computer Age");
 var atomicCat = ResearchTable.addCategory(<nuclearcraft:radaway>, "Atomic Age");

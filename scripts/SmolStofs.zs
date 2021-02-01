@@ -82,6 +82,7 @@ mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:4>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:3>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:2>);
+mods.jei.JEI.removeAndHide(<levelup2:surfaceore:*>);
 
 
 
