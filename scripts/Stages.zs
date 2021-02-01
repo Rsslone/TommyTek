@@ -18,7 +18,6 @@ val stoneAge = [
     "literalascension",
     "minecolonies",
     "quark",
-    "researchtable",
     "respawnablepets",
     "scalinghealth",
     "sereneseasons",
@@ -140,6 +139,7 @@ for s in atomicAge{
 //Space Age
 val spaceAge = [
     "advancedrocketry",
+    "libvulpes",
     "matteroverdrive"
 ] as string[];
 
