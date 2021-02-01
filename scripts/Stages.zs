@@ -33,7 +33,25 @@ for s in stoneAge{
 
 //Iron Age
 val ironAge = [
-    ""
+    "malisisblocks",
+    "malisisdoors",
+    "tetra",
+    "bibliocraft",
+    "harvestcraft",
+    "brewcraft",
+    "cookingforblockheads",
+    "cuisine",
+    "culinaryconstruct",
+    "props",
+    "cfm",
+    "improvedbackpacks",
+    "ironchest",
+    "mcwbridges",
+    "mcwdoors",
+    "mcwroofs",
+    "mcwwindows",
+    "storagedrawers",
+    "teastory"
 ] as string[];
 
 for s in ironAge{
@@ -43,7 +61,15 @@ for s in ironAge{
 
 //Steam Age
 val steamAge = [
-    ""
+    "capsule",
+    "danknull",
+    "multistorage",
+    "railcraft",
+    "stevescarts",
+    "rsgauges",
+    "toolbelt",
+    "viesmachines",
+    "jaopca"
 ] as string[];
 
 for s in steamAge{
@@ -53,7 +79,23 @@ for s in steamAge{
 
 //Electrical Age
 val electricalAge = [
-    ""
+    "immersiveengineering",
+    "immersivepetroleum",
+    "immersivetech",
+    "alternatingflux",
+    "portabledrill",
+    "betterrecords",
+    "buildinggadgets",
+    "exchangers",
+    "engineersdoors",
+    "engineersdecor",
+    "industrialforegoing",
+    "industrialmeat",
+    "industrialrenewal",
+    "industrialwires",
+    "ompd",
+    "woot",
+    "worldcontrol"
 ] as string[];
 
 for s in electricalAge{
@@ -63,7 +105,19 @@ for s in electricalAge{
 
 //Computer Age
 val computerAge = [
-    ""
+    "appliedenergistics2",
+    "extracells",
+    "ae2wtlib",
+    "wct",
+    "wft",
+    "wpt",
+    "immersivecables",
+    "opencomputers",
+    "openmodularturrets",
+    "opensecurity",
+    "rs_ctr",
+    "scannable",
+    "sgcraft"
 ] as string[];
 
 for s in computerAge{
@@ -73,7 +127,9 @@ for s in computerAge{
 
 //Atomic Age
 val atomicAge = [
-    ""
+    "nuclearcraft",
+    "alchemistry",
+    "fbnc"
 ] as string[];
 
 for s in atomicAge{
@@ -83,7 +139,8 @@ for s in atomicAge{
 
 //Space Age
 val spaceAge = [
-    ""
+    "advancedrocketry",
+    "matteroverdrive"
 ] as string[];
 
 for s in spaceAge{
@@ -101,19 +158,10 @@ for s in fustionAge{
     mods.recipestages.Recipes.setRecipeStageByMod("fusion", s);
 }
 
-//Future Age
-val futureAge = [
-    ""
-] as string[];
-
-for s in futureAge{
-    mods.ItemStages.stageModItems("future", s);
-    mods.recipestages.Recipes.setRecipeStageByMod("future", s);
-}
-
 //Draconic Age
 val draconicAge = [
-    ""
+    "draconicevolution",
+    "avaritia"
 ] as string[];
 
 for s in draconicAge{
@@ -129,3 +177,5 @@ for s in theUnknownAge{
     mods.ItemStages.stageModItems("theunknown", s);
     mods.recipestages.Recipes.setRecipeStageByMod("theunknown", s);
 }
+
+print("Initializing 'Stages'... DONE!");
