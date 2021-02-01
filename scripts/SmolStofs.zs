@@ -14,12 +14,12 @@ recipes.removeShaped(<minecraft:chainmail_chestplate>, [[<ore:ingotIron>, null, 
 recipes.removeShaped(<minecraft:chainmail_helmet>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:ingotIron>, <ore:nuggetIron>]]);
 
 //IronBackpacks
-mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}));
-mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}));
-mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}));
+//mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}));
+//mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}));
+//mods.jei.JEI.removeAndHide(<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}));
 
 //PotionFingers Reward Only
-recipes.remove(<potionfingers:ring>);
+//recipes.remove(<potionfingers:ring>);
 
 //MegaTorch
 recipes.remove(<torchmaster:mega_torch>);
@@ -27,7 +27,7 @@ recipes.addShaped(<torchmaster:mega_torch>, [[<minecraft:torch>, <minecraft:torc
 
 //Seasons
 recipes.remove(<sereneseasons:greenhouse_glass>);
-recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<tconstruct:clear_stained_glass:9>, <ore:stickTreatedWood>, <tconstruct:clear_stained_glass:9>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<tconstruct:clear_stained_glass:9>, <ore:stickTreatedWood>, <tconstruct:clear_stained_glass:9>]]);
+recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>]]);
 
 //SGCraft
 recipes.addShaped(<sgcraft:configurator>, [[<minecraft:redstone>, <ore:plateAluminum>, <minecraft:redstone>], [<ore:plateAluminum>, <ore:itemIlluminatedPanel>, <ore:plateAluminum>], [<minecraft:stone_button>, <sgcraft:sgcontrollercrystal>, <minecraft:stone_button>]]);
@@ -47,8 +47,8 @@ recipes.addShaped(<culinaryconstruct:sandwich_station>, [[<cfm:item_knife>], [<o
 
 //Banned Items
 mods.jei.JEI.removeAndHide(<bibliocraft:bell>);
-mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
-mods.jei.JEI.removeAndHide(<conarm:travel_night>);
+//mods.jei.JEI.removeAndHide(<conarm:travel_sneak>);
+//mods.jei.JEI.removeAndHide(<conarm:travel_night>);
 mods.jei.JEI.removeAndHide(<mekanism:walkietalkie>);
 mods.jei.JEI.removeAndHide(<mekanism:obsidiantnt>);
 
@@ -58,13 +58,13 @@ mods.jei.JEI.removeAndHide(<omlib:network_cable>);
 
 //Unused Ingot and Ores
 mods.jei.JEI.removeAndHide(<mysticalworld:silver_ingot>);
-mods.jei.JEI.removeAndHide(<embers:ore_copper>);
-mods.jei.JEI.removeAndHide(<embers:ore_lead>);
-mods.jei.JEI.removeAndHide(<embers:ore_silver>);
-mods.jei.JEI.removeAndHide(<embers:ore_quartz>);
-mods.jei.JEI.removeAndHide(<embers:ore_aluminum>);
-mods.jei.JEI.removeAndHide(<embers:ore_nickel>);
-mods.jei.JEI.removeAndHide(<embers:ore_tin>);
+//mods.jei.JEI.removeAndHide(<embers:ore_copper>);
+//mods.jei.JEI.removeAndHide(<embers:ore_lead>);
+//mods.jei.JEI.removeAndHide(<embers:ore_silver>);
+//mods.jei.JEI.removeAndHide(<embers:ore_quartz>);
+//mods.jei.JEI.removeAndHide(<embers:ore_aluminum>);
+//mods.jei.JEI.removeAndHide(<embers:ore_nickel>);
+//mods.jei.JEI.removeAndHide(<embers:ore_tin>);
 //mods.jei.JEI.removeAndHide(<forestry:resources:1>);
 //mods.jei.JEI.removeAndHide(<forestry:resources:2>);
 mods.jei.JEI.removeAndHide(<mekanism:oreblock:1>);
