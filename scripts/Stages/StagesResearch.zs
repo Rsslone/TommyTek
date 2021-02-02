@@ -22,11 +22,12 @@ var unknownCat = ResearchTable.addCategory(<avaritia:resource:5>, "??? Age");
 ResearchTable.builder("stoneMaster", stoneCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Stone Age!")
-  .setDescription("OOGA BOOGA! Rock smash, fire hot!")
+  .setDescription("OOGA BOOGA! Rock smash, fire hot! /n Mod Unlocks : /n Pyrotech /n Rustic /n Aquaculture /n Ceramics /n Chisel + Chisel and Bits + Extra Bit Manipulation /n Little Tiles /n Hooked /n Literal Ascension /n MineColonies /n Structurize /n Quark /n Scaling Health /n SereneSeasons /n Super Sound Muffler /n Treasure2 /n Stupid Things /n Spartian Shields /n Primitive Mobs /n MowzieMobs /n Fishes Undead Rising /n OpenBlocks /n LootGames")
   .addCondition(<ore:dirt> * 10)
   .setRewardStages("stone")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Stone Age Achieved", TrophyItem: {id: "minecraft:cobblestone", TrophyColorRed: 90, TrophyColorGreen: 90, TrophyColorBlue: 90, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();
+
 
 //Iron Age
 ResearchTable.builder("ironMaster", ironCat)
