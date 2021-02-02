@@ -6,6 +6,16 @@ print("Initializing 'Item Stages'...");
 
 /*
     -- For specific item overrides per age --
+
+    Nether Items
+        <minecraft:netherbrick>
+        <minecraft:nether_brick_fence>
+        <minecraft:nether_brick_stairs>
+        <minecraft:nether_wart>
+        <minecraft:nether_wart_block>
+        <minecraft:nether_star>
+        <minecraft:netherrack>
+        <minecraft:beacon>
 */
 
 
@@ -22,19 +32,23 @@ for s in stoneAge{
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
 
-/*Iron Age
+//Iron Age
 val ironAge = [
-    
+    <minecraft:anvil:*>,
+    <hooked:hook:1>
 ] as IItemStack[];
 
 for s in ironAge{
     mods.ItemStages.addItemStage("iron", s);
     mods.recipestages.Recipes.setRecipeStage("iron", s);
-}*/
+}
 
 //Steam Age
 val steamAge = [
-    <railcraft:track_outfitted>
+    <railcraft:track_outfitted>,
+    <minecraft:jukebox>,
+    <betterbuilderswands:wandunbreakable:*>,
+    <hooked:hook:2>
 ] as IItemStack[];
 
 for s in steamAge{
@@ -42,15 +56,15 @@ for s in steamAge{
     mods.recipestages.Recipes.setRecipeStage("steam", s);
 }
 
-/*Electrical Age
+//Electrical Age
 val electricalAge = [
-    
+    <hooked:hook:3>
 ] as IItemStack[];
 
 for s in electricalAge{
     mods.ItemStages.addItemStage("electrical", s);
     mods.recipestages.Recipes.setRecipeStage("electrical", s);
-}*/
+}
 
 //Computer Age
 val computerAge = [

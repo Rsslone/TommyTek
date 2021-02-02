@@ -1,5 +1,15 @@
+import crafttweaker.item.IItemStack;
+
 //Hooked
 recipes.remove(<hooked:hook:4>);
+
+//literal ascension
+//remove bugged carving tools
+mods.jei.JEI.removeAndHide(<literalascension:wood_carving_tool>);
+mods.jei.JEI.removeAndHide(<literalascension:stone_carving_tool>);
+mods.jei.JEI.removeAndHide(<literalascension:iron_carving_tool>);
+mods.jei.JEI.removeAndHide(<literalascension:diamond_carving_tool>);
+mods.jei.JEI.removeAndHide(<literalascension:gold_carving_tool>);
 
 //MalisisDoors
 //RemoveRustyHatchBugged
@@ -28,6 +38,9 @@ recipes.addShaped(<torchmaster:mega_torch>, [[<minecraft:torch>, <minecraft:torc
 //Seasons
 recipes.remove(<sereneseasons:greenhouse_glass>);
 recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>]]);
+recipes.remove(<sereneseasons:season_clock>);
+recipes.addShaped([null,<minecraft:iron_nugget>,null], [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>], [null,<minecraft:gold_ingot>,null]);
+
 
 //SGCraft
 recipes.addShaped(<sgcraft:configurator>, [[<minecraft:redstone>, <ore:plateAluminum>, <minecraft:redstone>], [<ore:plateAluminum>, <ore:itemIlluminatedPanel>, <ore:plateAluminum>], [<minecraft:stone_button>, <sgcraft:sgcontrollercrystal>, <minecraft:stone_button>]]);
@@ -55,8 +68,22 @@ mods.jei.JEI.removeAndHide(<mekanism:obsidiantnt>);
 //Removed or Hide
 mods.jei.JEI.removeAndHide(<omlib:fake_sword>);
 mods.jei.JEI.removeAndHide(<omlib:network_cable>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:energy_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:item_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
+mods.jei.JEI.removeAndHide(<cd4017be_lib:m>);
+
+//RemoveAndHide ORE
+val hideItem = [
+    <openblocks:heal>
+] as IItemStack[];
+
+for i in hideItem{
+    mods.jei.JEI.removeAndHide(i);
+}
 
 //Unused Ingot and Ores
+//mods.jei.JEI.removeAndHide();
 mods.jei.JEI.removeAndHide(<mysticalworld:silver_ingot>);
 //mods.jei.JEI.removeAndHide(<embers:ore_copper>);
 //mods.jei.JEI.removeAndHide(<embers:ore_lead>);
@@ -83,12 +110,24 @@ mods.jei.JEI.removeAndHide(<railcraft:ore_metal:4>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:3>);
 mods.jei.JEI.removeAndHide(<railcraft:ore_metal:2>);
 mods.jei.JEI.removeAndHide(<levelup2:surfaceore:*>);
-mods.jei.JEI.removeAndHide(<cd4017be_lib:energy_supp>);
-mods.jei.JEI.removeAndHide(<cd4017be_lib:item_supp>);
-mods.jei.JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
-mods.jei.JEI.removeAndHide(<cd4017be_lib:m>);
 
+//RemoveAndHide ORE
+val hideOre = [
+    <mysticalworld:copper_ingot>,
+    <mysticalworld:copper_nugget>,
+    <mysticalworld:copper_dust>,
+    <mysticalworld:copper_dust_tiny>,
+    <mysticalworld:silver_ingot>,
+    <mysticalworld:silver_nugget>,
+    <mysticalworld:silver_dust>,
+    <mysticalworld:silver_dust_tiny>,
+    <mysticalworld:copper_ore>,
+    <mysticalworld:silver_ore>
+] as IItemStack[];
 
+for i in hideOre{
+    mods.jei.JEI.removeAndHide(i);
+}
 
 
 

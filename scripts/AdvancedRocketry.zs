@@ -16,15 +16,15 @@ recipes.remove(<advancedrocketry:advrocketmotor>);
 recipes.addShaped(<advancedrocketry:advrocketmotor>, [[<ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>], [null, <ore:plateTitaniumIridium>, <mekanism:machineblock:12>], [<advancedrocketry:productplate:1>, null, <ore:plateTitaniumIridium>]]);
 
 
-recipes.remove(<advancedrocketry:ic:5>);
-recipes.remove(<advancedrocketry:ic:4>);
-recipes.remove(<advancedrocketry:ic:3>);
-recipes.remove(<advancedrocketry:misc>);
+//recipes.remove(<advancedrocketry:ic:5>);
+//recipes.remove(<advancedrocketry:ic:4>);
+//recipes.remove(<advancedrocketry:ic:3>);
+//recipes.remove(<advancedrocketry:misc>);
 
-recipes.addShaped(<advancedrocketry:ic:5>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <mekanism:compressedredstone>], [<projectred-core:resource_item:511>, <projectred-core:resource_item:511>, <projectred-core:resource_item:511>], [<projectred-core:resource_item:511>, null, <projectred-core:resource_item:511>]]);
-recipes.addShaped(<advancedrocketry:misc>, [[<ore:glowstone>, <ore:itemCompressedRedstone>, <ore:glowstone>], [<ore:projredIllumar>, <ore:blockGlassColorless>, <ore:projredIllumar>], [<ore:glowstone>, <ore:circuitAdvanced>, <ore:glowstone>]]);
-recipes.addShaped(<advancedrocketry:ic:4>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <ore:itemCompressedRedstone>], [<projectred-core:resource_item:504>, <projectred-core:resource_item:504>, <projectred-core:resource_item:504>], [<projectred-core:resource_item:504>, null, <projectred-core:resource_item:504>]]);
-recipes.addShaped(<advancedrocketry:ic:3>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <ore:itemCompressedRedstone>], [<projectred-core:resource_item:505>, <projectred-core:resource_item:505>, <projectred-core:resource_item:505>], [<projectred-core:resource_item:505>, null, <projectred-core:resource_item:505>]]);
+//recipes.addShaped(<advancedrocketry:ic:5>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <mekanism:compressedredstone>], [<projectred-core:resource_item:511>, <projectred-core:resource_item:511>, <projectred-core:resource_item:511>], [<projectred-core:resource_item:511>, null, <projectred-core:resource_item:511>]]);
+//recipes.addShaped(<advancedrocketry:misc>, [[<ore:glowstone>, <ore:itemCompressedRedstone>, <ore:glowstone>], [<ore:projredIllumar>, <ore:blockGlassColorless>, <ore:projredIllumar>], [<ore:glowstone>, <ore:circuitAdvanced>, <ore:glowstone>]]);
+//recipes.addShaped(<advancedrocketry:ic:4>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <ore:itemCompressedRedstone>], [<projectred-core:resource_item:504>, <projectred-core:resource_item:504>, <projectred-core:resource_item:504>], [<projectred-core:resource_item:504>, null, <projectred-core:resource_item:504>]]);
+//recipes.addShaped(<advancedrocketry:ic:3>, [[<ore:itemCompressedRedstone>, <immersiveengineering:material:27>, <ore:itemCompressedRedstone>], [<projectred-core:resource_item:505>, <projectred-core:resource_item:505>, <projectred-core:resource_item:505>], [<projectred-core:resource_item:505>, null, <projectred-core:resource_item:505>]]);
 
 
 //Remove

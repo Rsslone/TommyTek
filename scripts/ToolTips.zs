@@ -6,10 +6,11 @@ mods.jei.JEI.addDescription(<betterrecords:record>,"You must link to a file that
 <cfm:item_crow_bar>.displayName = "Freeman's Crowbar";
 <advancedrocketry:concrete>.displayName = "Steel Reinforced Concrete";
 <akashictome:tome>.displayName = "The big book of LEARNING";
+<mod_lavacow:holy_grenade>.displayName = "The Holy Hand Grenade of Antioch";
 
 //INFO TOOLTIPS
 <avaritia:endest_pearl>.addTooltip(format.red("DO NOT THROW INDOORS!!"));
-<minecraft:hopper>.addTooltip(format.red("Please if possible do not use this over the absorption hopper!"));
+<minecraft:hopper>.addTooltip(format.red("Please, use the Vacuum Hopper, save your tick time! THIS IS LAGGY!"));
 <akashictome:tome>.addTooltip(format.green("RightClick to open, Left click to reset. Craft with books/manuals to add."));
 <industrialforegoing:tree_fluid_extractor>.addTooltip(format.green("Attach to base of tree to produce latex!"));
 <advancedrocketry:fuelingstation>.addTooltip(format.green("Accepted Fuels: Napalm"));

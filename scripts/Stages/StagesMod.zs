@@ -83,13 +83,15 @@ val steamAge = [
     "viesmachines",
     "jaopca",
     "betterbuilderswands",
-    "immersiveruins"
+    "immersiveruins",
+    "torchmaster"
 ] as string[];
 
 for s in steamAge{
     mods.ItemStages.stageModItems("steam", s);
     mods.recipestages.Recipes.setRecipeStageByMod("steam", s);
 }
+mods.ItemStages.removeItemStage(<minecraft:stone:*>);
 
 //Electrical Age
 val electricalAge = [
