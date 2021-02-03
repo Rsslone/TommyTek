@@ -16,7 +16,9 @@
 /coremods/
 /discordsuite/
 /fonts/
-/journeymap/
+/journeymap/data/
+/journeymap/icon/
+/journeymap/server/
 /local/
 /logs/
 /mods/
