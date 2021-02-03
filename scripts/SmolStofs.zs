@@ -39,7 +39,7 @@ recipes.addShaped(<torchmaster:mega_torch>, [[<minecraft:torch>, <minecraft:torc
 recipes.remove(<sereneseasons:greenhouse_glass>);
 recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:blockGlass>, <ore:stickTreatedWood>, <ore:blockGlass>]]);
 recipes.remove(<sereneseasons:season_clock>);
-recipes.addShaped([null,<minecraft:iron_nugget>,null], [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>], [null,<minecraft:gold_ingot>,null]);
+recipes.addShaped(<sereneseasons:season_clock>, [[null,<minecraft:iron_nugget>,null], [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>], [null,<minecraft:gold_ingot>,null]]);
 
 
 //SGCraft

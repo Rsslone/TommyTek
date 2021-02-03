@@ -45,8 +45,8 @@ recipes.addShaped(<mekanism:atomicdisassembler>, [[<minecraft:diamond_shovel>, <
 recipes.remove(<mekanism:electricbow>);
 recipes.addShaped(<mekanism:electricbow>, [[null, <ore:alloyElite>, <ore:wireSteel>], [<ore:battery>, null, <ore:wireSteel>], [null, <ore:alloyElite>, <ore:wireSteel>]]);
 //FlameThrower
-recipes.remove(<mekanism:flamethrower>);
-recipes.addShaped(<mekanism:flamethrower>, [[null, <jaopca:item_plateardite>, <jaopca:item_plateardite>], [<immersiveengineering:graphite_electrode>, <mekanism:gastank>.withTag({tier: 0, mekData: {}}), <immersiveengineering:material:13>], [<immersiveengineering:material:9>, <industrialwires:panel_component>, null]]);
+//recipes.remove(<mekanism:flamethrower>);
+//recipes.addShaped(<mekanism:flamethrower>, [[null, <jaopca:item_plateardite>, <jaopca:item_plateardite>], [<immersiveengineering:graphite_electrode>, <mekanism:gastank>.withTag({tier: 0, mekData: {}}), <immersiveengineering:material:13>], [<immersiveengineering:material:9>, <industrialwires:panel_component>, null]]);
 //Configurator
 recipes.remove(<mekanism:configurator>);
 recipes.addShaped(<mekanism:configurator>, [[null, <minecraft:redstone>, null], [<minecraft:dye:4>, <ore:ingotIron>, <minecraft:dye:4>], [null, <ore:stickIron>, null]]);

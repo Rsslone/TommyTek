@@ -20,6 +20,7 @@ mods.jei.JEI.addDescription(<betterrecords:record>,"You must link to a file that
 <woot:endershard>.addTooltip(format.red("Cannot Capture EnderDragon, SORRY!"));
 <avaritia:infinity_hoe>.addTooltip(format.red("KNOWN CLIENT CRASH!"));
 <avaritia:infinity_axe>.addTooltip(format.green("Instant Harvest | Shift ability kills nature!"));
+<tetra:duplex_tool_modular>.addTooltip(format.green("Craft This to Begin!"));
 <avaritia:infinity_shovel>.addTooltip(format.green("Instant Harvest | Shift ability mass dig"));
 <avaritia:infinity_pickaxe>.addTooltip(format.green("Instant Harvest | Shift ability mass mine"));
 <harvestcraft:toastitem>.addTooltip(format.green("Use Cooking for Blockheads Toaster"));

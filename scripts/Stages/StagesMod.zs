@@ -63,7 +63,7 @@ val ironAge = [
     "mcwroofs",
     "mcwwindows",
     "storagedrawers",
-    "teastory",
+    "teastory"
 ] as string[];
 
 for s in ironAge{

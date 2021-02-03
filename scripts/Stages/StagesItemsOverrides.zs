@@ -21,8 +21,6 @@ print("Initializing 'Item Stages'...");
 
 //Stone Age
 val stoneAge = [
-    <ore:oreIron>,
-    <ore:blockGlass>,
     <minecraft:brick_block>,
     <minecraft:brick_stairs>
 ] as IItemStack[];
@@ -31,6 +29,10 @@ for s in stoneAge{
     mods.ItemStages.addItemStage("stone", s);
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
+mods.ItemStages.addItemStage("stone", <ore:oreIron>);
+mods.recipestages.Recipes.setRecipeStage("stone", <ore:oreIron>);
+mods.ItemStages.addItemStage("stone", <ore:blockGlass>);
+mods.recipestages.Recipes.setRecipeStage("stone", <ore:blockGlass>);
 
 //Iron Age
 val ironAge = [
@@ -58,7 +60,8 @@ for s in steamAge{
 
 //Electrical Age
 val electricalAge = [
-    <hooked:hook:3>
+    <hooked:hook:3>,
+    
 ] as IItemStack[];
 
 for s in electricalAge{
@@ -67,15 +70,16 @@ for s in electricalAge{
 }
 
 //Computer Age
+/*
 val computerAge = [
-    <ore:oc:floppy>,
-    <ore:oc:redstoneCard2>
+
 ] as IItemStack[];
 
 for s in computerAge{
     mods.ItemStages.addItemStage("computer", s);
     mods.recipestages.Recipes.setRecipeStage("computer", s);
 }
+*/
 
 /*Atomic Age
 val atomicAge = [

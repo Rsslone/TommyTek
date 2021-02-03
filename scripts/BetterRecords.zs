@@ -13,7 +13,7 @@ recipes.remove(<betterrecords:recordetcher>);
 recipes.addShaped(<betterrecords:recordetcher>, [[<ore:stickTreatedWood>, <ore:slabSheetmetalIron>, <cookingforblockheads:heating_unit>], [<ore:plankTreatedWood>, <ore:slabSheetmetalIron>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:componentServo>, <ore:plankTreatedWood>]]);
 //Radio
 recipes.remove(<betterrecords:radio>);
-recipes.addShaped(<betterrecords:radio>, [[null, <ore:slabTreatedWood>, <xnet:antenna>], [<ore:plankTreatedWood>, <immersiveengineering:toolupgrade:6>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <betterrecords:frequencycrystal>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<betterrecords:radio>, [[null, <ore:slabTreatedWood>, <quark:iron_rod>], [<ore:plankTreatedWood>, <immersiveengineering:toolupgrade:6>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <betterrecords:frequencycrystal>, <ore:plankTreatedWood>]]);
 //Frequency Tuner
 recipes.remove(<betterrecords:frequencytuner>);
 recipes.addShaped(<betterrecords:frequencytuner>, [[<ore:stickTreatedWood>, <betterrecords:frequencycrystal>, null], [<ore:plankTreatedWood>, <ore:slabTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:materialEnderPearl>, <ore:plankTreatedWood>]]);

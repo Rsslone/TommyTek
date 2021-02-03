@@ -61,7 +61,7 @@ recipes.remove(<immersiveengineering:wooden_device0:2>);
 
 //Add
 recipes.addShaped(<immersiveengineering:stone_decoration:4> * 6, [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>], [<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>], [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]]);
-recipes.addShaped(<immersiveengineering:wooden_device0:2>, [[<immersiveengineering:tool>, <bibliocraft:framingsaw>, <projectred-core:screwdriver>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:craftingTableWood>, null, <ore:fenceTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:wooden_device0:2>, [[<immersiveengineering:tool>, <bibliocraft:framingsaw>, <bibliocraft:handdrill>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:craftingTableWood>, null, <ore:fenceTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 
 //Blast Oven
