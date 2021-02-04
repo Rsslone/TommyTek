@@ -61,13 +61,17 @@ for s in steamAge{
 //Electrical Age
 val electricalAge = [
     <hooked:hook:3>,
-    
+    <bibliocraft:lampgold:*>,
+    <bibliocraft:lampiron:*>,
+    <bibliocraft:bibliodrill>
 ] as IItemStack[];
 
 for s in electricalAge{
     mods.ItemStages.addItemStage("electrical", s);
     mods.recipestages.Recipes.setRecipeStage("electrical", s);
 }
+
+
 
 //Computer Age
 /*

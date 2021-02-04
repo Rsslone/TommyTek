@@ -21,6 +21,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:StageBookName>,"Infoforbook.");
 
 
 /*
+    ==================================================================================================================
     ====STONE AGE====
 */
 
@@ -42,8 +43,7 @@ val torchCandle = [
     <rustic:candle_gold>,
     <rustic:candle_lever_gold>,
     <rustic:candle_silver>,
-    <rustic:candle_lever_silver>,
-    <minecraft:torch>
+    <rustic:candle_lever_silver>
 ] as IItemStack[];
 
 for s in torchCandle{
@@ -74,9 +74,12 @@ for s in baitTackle{
 mods.jei.JEI.addDescription(<gamestagebooks:baitntackle>,"Fish? Treasure? Its amazing what you can find at the bottom of the lakes and oceans.");
 <gamestagebooks:baitntackle>.addTooltip(format.green("Unlocks @aquaculture"));
 
+
 /*
+    ==================================================================================================================
     ====IRON AGE====
 */
+
 
 //Shield Metalworking
     //Item Locks
@@ -126,7 +129,37 @@ for s in shieldWorking{
 mods.jei.JEI.addDescription(<gamestagebooks:shieldmetalworking>,"Wood makes for a poor shield material don't you think? I wonder if we could use this metal of death to also defend.");
 <gamestagebooks:shieldmetalworking>.addTooltip(format.green("Unlocks @spartanshields Metal Shields"));
 
+
+//Sandwich Making
+    //Item Locks
+val sandoMaking = <culinaryconstruct:sandwich_station> as IItemStack;
+mods.ItemStages.addItemStage("sandomaking", sandoMaking);
+mods.recipestages.Recipes.setRecipeStage("sandomaking", sandoMaking);
+    //Book Locks + Descriptions
+mods.jei.JEI.addDescription(<gamestagebooks:sandomaking>,"Learn to put things between bread, complex concept I know.");
+<gamestagebooks:sandomaking>.addTooltip(format.green("Unlocks @CulinaryConstruct"));
+
+
+//Organized Drawers
+    //Item Locks
+val organizedDrawers = [
+    <storagedrawers:basicdrawers:1>,
+    <storagedrawers:basicdrawers:2>,
+    <storagedrawers:basicdrawers:3>,
+    <storagedrawers:basicdrawers:4>,
+    <storagedrawers:customdrawers:*>
+] as IItemStack[];
+
+for s in organizedDrawers{
+    mods.ItemStages.addItemStage("organizeddrawers", s);
+    mods.recipestages.Recipes.setRecipeStage("organizeddrawers", s);
+}
+    //Book Locks + Descriptions
+mods.jei.JEI.addDescription(<gamestagebooks:organizeddrawers>,"Organized people need less space to store the same stuff, neat.");
+<gamestagebooks:organizeddrawers>.addTooltip(format.green("Unlocks @StorageDrawers 1x2 and 2x2"));
+
 /*
+    ==================================================================================================================
     ====STEAM AGE====
 */
 
@@ -139,8 +172,26 @@ mods.ItemStages.addItemStage("steam", <gamestagebooks:improvedtorch>);
 mods.jei.JEI.addDescription(<gamestagebooks:improvedtorch>,"Weather proof torches that burn indefinately.");
 <gamestagebooks:improvedtorch>.addTooltip(format.green("Unlocks Vanilla Torch"));
 
+// Experienced Cook
+    //Item Locks
+mods.ItemStages.addItemStage("experiencedcook", <cookingforblockheads:cooking_table>);
+mods.recipestages.Recipes.setRecipeStage("experiencedcook", <cookingforblockheads:cooking_table>);
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("steam", <gamestagebooks:experiencedcook>);
+mods.jei.JEI.addDescription(<gamestagebooks:experiencedcook>,"Cooking will become second nature, so much so you'll have entire feasts in seconds.");
+<gamestagebooks:experiencedcook>.addTooltip(format.green("Unlocks @cookingforblockheads crafting table"));
+
+// Toolbelt
+    //Item Locks
+mods.ItemStages.addItemStage("toolbelt", <toolbelt:belt>);
+mods.recipestages.Recipes.setRecipeStage("toolbelt", <toolbelt:belt>);
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("steam", <gamestagebooks:toolbelt>);
+mods.jei.JEI.addDescription(<gamestagebooks:toolbelt>,"Tools, Tools, and more Tools. Easily accessable from your hip!");
+<gamestagebooks:toolbelt>.addTooltip(format.green("Unlocks @ToolBelt"));
 
 /*
+    ==================================================================================================================
     ====ELECTRICAL AGE====
 */
 

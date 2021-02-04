@@ -51,11 +51,8 @@ val ironAge = [
     "bibliocraft",
     "harvestcraft",
     "brewcraft",
-    "cookingforblockheads",
-    "cuisine",
     "culinaryconstruct",
     "props",
-    "cfm",
     "improvedbackpacks",
     "ironchest",
     "mcwbridges",
@@ -79,6 +76,8 @@ val steamAge = [
     "railcraft",
     "stevescarts",
     "rsgauges",
+    "cookingforblockheads",
+    "cuisine",
     "toolbelt",
     "viesmachines",
     "jaopca",
@@ -103,6 +102,7 @@ val electricalAge = [
     "betterrecords",
     "buildinggadgets",
     "exchangers",
+    "cfm",
     "engineersdoors",
     "engineersdecor",
     "industrialforegoing",
@@ -120,6 +120,8 @@ for s in electricalAge{
     mods.ItemStages.stageModItems("electrical", s);
     mods.recipestages.Recipes.setRecipeStageByMod("electrical", s);
 }
+mods.ItemStages.removeItemStage(<immersiveengineering:metal:0>);
+mods.ItemStages.removeItemStage(<ore:oreCopper>);
 
 //Computer Age
 val computerAge = [

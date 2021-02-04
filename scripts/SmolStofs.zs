@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack;
 //Hooked
 recipes.remove(<hooked:hook:4>);
 
+//Capsule
+recipes.remove(<capsule:capsule:*>);
+
 //literal ascension
 //remove bugged carving tools
 mods.jei.JEI.removeAndHide(<literalascension:wood_carving_tool>);
@@ -55,8 +58,8 @@ recipes.remove(<betterbuilderswands:wanddiamond>);
 recipes.addShaped(<betterbuilderswands:wanddiamond>, [[null, null, <avaritia:resource>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
 
 //Culinary Construct
-recipes.remove(<culinaryconstruct:sandwich_station>);
-recipes.addShaped(<culinaryconstruct:sandwich_station>, [[<cfm:item_knife>], [<ore:slabWood>], [<ore:workbench>]]);
+//recipes.remove(<culinaryconstruct:sandwich_station>);
+//recipes.addShaped(<culinaryconstruct:sandwich_station>, [[<cfm:item_knife>], [<ore:slabWood>], [<ore:workbench>]]);
 
 //Banned Items
 mods.jei.JEI.removeAndHide(<bibliocraft:bell>);
@@ -73,59 +76,13 @@ mods.jei.JEI.removeAndHide(<cd4017be_lib:item_supp>);
 mods.jei.JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
 mods.jei.JEI.removeAndHide(<cd4017be_lib:m>);
 
-//RemoveAndHide ORE
+
 val hideItem = [
-    <openblocks:heal>
+    <ironchest:iron_chest:5>,
+    <storagedrawers:upgrade_storage:0>
 ] as IItemStack[];
 
 for i in hideItem{
-    mods.jei.JEI.removeAndHide(i);
-}
-
-//Unused Ingot and Ores
-//mods.jei.JEI.removeAndHide();
-mods.jei.JEI.removeAndHide(<mysticalworld:silver_ingot>);
-//mods.jei.JEI.removeAndHide(<embers:ore_copper>);
-//mods.jei.JEI.removeAndHide(<embers:ore_lead>);
-//mods.jei.JEI.removeAndHide(<embers:ore_silver>);
-//mods.jei.JEI.removeAndHide(<embers:ore_quartz>);
-//mods.jei.JEI.removeAndHide(<embers:ore_aluminum>);
-//mods.jei.JEI.removeAndHide(<embers:ore_nickel>);
-//mods.jei.JEI.removeAndHide(<embers:ore_tin>);
-//mods.jei.JEI.removeAndHide(<forestry:resources:1>);
-//mods.jei.JEI.removeAndHide(<forestry:resources:2>);
-mods.jei.JEI.removeAndHide(<mekanism:oreblock:1>);
-mods.jei.JEI.removeAndHide(<mekanism:oreblock:2>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:ore>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:ore:1>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:ore:2>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:ore:4>);
-mods.jei.JEI.removeAndHide(<railcraft:ore_metal>);
-mods.jei.JEI.removeAndHide(<railcraft:ore_metal:1>);
-mods.jei.JEI.removeAndHide(<mysticalworld:amethyst_ore>);
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:5>);
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
-mods.jei.JEI.removeAndHide(<railcraft:ore_metal:4>);
-mods.jei.JEI.removeAndHide(<railcraft:ore_metal:3>);
-mods.jei.JEI.removeAndHide(<railcraft:ore_metal:2>);
-mods.jei.JEI.removeAndHide(<levelup2:surfaceore:*>);
-
-//RemoveAndHide ORE
-val hideOre = [
-    <mysticalworld:copper_ingot>,
-    <mysticalworld:copper_nugget>,
-    <mysticalworld:copper_dust>,
-    <mysticalworld:copper_dust_tiny>,
-    <mysticalworld:silver_ingot>,
-    <mysticalworld:silver_nugget>,
-    <mysticalworld:silver_dust>,
-    <mysticalworld:silver_dust_tiny>,
-    <mysticalworld:copper_ore>,
-    <mysticalworld:silver_ore>
-] as IItemStack[];
-
-for i in hideOre{
     mods.jei.JEI.removeAndHide(i);
 }
 

@@ -21,15 +21,36 @@ Book.addBook("petrespawn", "Respawnable Pets", "Pet Necronomicon", "respawnablep
 Book.addBook("torchandcandle", "Torches and Candles", "Candle Making for Dummies", "rustic:candle", 0x73634c);
 Book.addBook("baitntackle", "Bait n' Tackle", "101 Fishing Techniques", "aquaculture:fishing_rod", 0x73634c);
 
-
 //Iron Age
 Book.addBook("shieldmetalworking", "Shield Metalworking", "Guide to Shield Making", "spartanshields:shield_basic_gold", 0xa6a6a6);
+Book.addBook("sandomaking", "Sandwich Making", "9001 Sandwiches to try!", "culinaryconstruct:sandwich_station", 0xa6a6a6);
+Book.addBook("organizeddrawers", "Organized Drawers", "Organizing Tips 4U", "storagedrawers:upgrade_template", 0xa6a6a6);
 
 //Steam Age
 Book.addBook("improvedtorch", "Improved Torches", "Theories on Torches", "minecraft:torch", 0xf2f2f2);
+Book.addBook("experiencedcook", "Experienced Cook", "Cooking at Home by Gordon Ramsay", "cookingforblockheads:cooking_table", 0xf2f2f2);
+Book.addBook("toolbelt", "ToolBelts", "Why never leave home without a wrench R.2", "toolbelt:belt", 0xf2f2f2);
 
 //Electrical Age
-Book.addBook("shieldenergy", "Energy Shield", "Theories on Energy Shielding", "spartanshields:shield_flux_ra", 0xa8a232);
+Book.addBook("shieldenergy", "Energy Shield", "Theories on Energy Shielding", "spartanshields:shield_flux_ra", 0xffff37);
 
+//Computer Age
+//8eff37
+
+//Atomic Age
+//008f04
+// Torch Master Big Torch
+
+//Space Age
+//0083c9
+
+//Fusion Age
+//7f00c9
+
+//Draonic Age
+//c900a7
+
+//Unknown Age
+//ff0000
 
 print("Initializing 'StagesBooks'... DONE!");

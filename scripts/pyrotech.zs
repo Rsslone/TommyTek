@@ -9,8 +9,8 @@ recipes.addShaped(<minecolonies:blockhutfisherman>, [[<ore:plankWood>, <structur
 recipes.addShaped(<minecraft:carrot_on_a_stick>, [[<pyrotech:crude_fishing_rod>,null,null],[null,<minecraft:carrot>,null],[null,null,null]]);
 recipes.addShaped(<aquaculture:fishing_rod>, [[null, null, <ore:stickWood>], [null, <ore:stickWood>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
 
-//Ceramics Compat
-
+//Kiln Compat
+    //input
 val iArray = [
     <ceramics:unfired_clay:1>,
     <ceramics:unfired_clay:8>,
@@ -22,7 +22,7 @@ val iArray = [
     <ceramics:clay_chestplate_raw>,
     <ceramics:clay_helmet_raw>
 ] as IItemStack[];
-
+    //output
 val oArray = [
     <ceramics:clay_shears>,
     <ceramics:unfired_clay:9>,
@@ -40,3 +40,22 @@ for i in 0 to iArray.length{
     StoneKiln.addRecipe("Fired Clay " + i as string, oArray[i], iArray[i], 2 * 60 * 20, 0.15, [<pyrotech:material:17>, <pyrotech:material:17> * 2]);
     BrickKiln.addRecipe("Fired Clay " + i as string, oArray[i], iArray[i], 1 * 60 * 20, 0.05, [<pyrotech:material:17>, <pyrotech:material:17> * 2]);
 }
+
+
+/*
+// Ingredient Replacement
+
+//Shield Metalworking
+    //Item Locks
+val itemR = [
+    <bibliocraft:lanterngold>,
+    <bibliocraft:lanterniron>
+] as IItemStack[];
+
+val itemI = <minecraft:torch>;
+val itemO = <ore:blockCandle>;
+
+for s in itemR{
+    recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:blockDiamond>, s);
+}
+*/
