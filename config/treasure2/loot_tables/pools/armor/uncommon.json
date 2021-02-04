@@ -34,6 +34,30 @@
 					"type": "item",
 					"name": "minecraft:shield",
 					"weight": 20		
+				},
+				{
+					"entryName": "chainmail_helmet",
+					"type": "item",
+					"name": "minecraft:chainmail_helmet",
+					"weight": 10
+				},
+				{
+					"entryName": "chainmail_chestplate",
+					"type": "item",
+					"name": "minecraft:chainmail_chestplate",
+					"weight": 10
+				},
+				{
+					"entryName": "chainmail_leggings",
+					"type": "item",
+					"name": "minecraft:chainmail_leggings",
+					"weight": 10
+				},
+				{
+					"entryName": "chainmail_boots",
+					"type": "item",
+					"name": "minecraft:chainmail_boots",
+					"weight": 10
 				},				
 				{
 					"entryName": "golden_chestplate",

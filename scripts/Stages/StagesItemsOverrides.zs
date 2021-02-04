@@ -18,8 +18,8 @@ print("Initializing 'Item Stages'...");
         <minecraft:beacon>
 */
 
-
 //Stone Age
+/*
 val stoneAge = [
     <minecraft:brick_block>,
     <minecraft:brick_stairs>
@@ -29,10 +29,7 @@ for s in stoneAge{
     mods.ItemStages.addItemStage("stone", s);
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
-mods.ItemStages.addItemStage("stone", <ore:oreIron>);
-mods.recipestages.Recipes.setRecipeStage("stone", <ore:oreIron>);
-mods.ItemStages.addItemStage("stone", <ore:blockGlass>);
-mods.recipestages.Recipes.setRecipeStage("stone", <ore:blockGlass>);
+*/
 
 //Iron Age
 val ironAge = [
@@ -70,8 +67,6 @@ for s in electricalAge{
     mods.ItemStages.addItemStage("electrical", s);
     mods.recipestages.Recipes.setRecipeStage("electrical", s);
 }
-
-
 
 //Computer Age
 /*
