@@ -67,3 +67,4 @@ ops.json
 CustomRecipes.cfg
 *.bak
 scripts/.zsrc
+journeymap/config/5.7/journeymap.minimap.config
