@@ -69,3 +69,4 @@ CustomRecipes.cfg
 *.bak
 scripts/.zsrc
 journeymap/config/5.7/journeymap.minimap.config
+config/fantasticlib/reference/players.txt

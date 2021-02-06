@@ -20,14 +20,15 @@ val itemArray = [
     <improvedbackpacks:upgrade:2>,
     <improvedbackpacks:upgrade:3>,
     <improvedbackpacks:upgrade:4>,
-    <ironchest:iron_chest:0>, //Iron Chest
-    <ironchest:iron_chest:4>, //Silver Chest
-    <ironchest:iron_chest:1>, //Gold Chest
-    <ironchest:iron_chest:2>, //Diamond Chest
-    <ironchest:iron_chest:6> //Obsidian Chest
+    <ironchest:iron_chest:0>,
+    <ironchest:iron_chest:4>,
+    <ironchest:iron_chest:1>,
+    <ironchest:iron_chest:2>,
+    <ironchest:iron_chest:6>
 ] as IItemStack[];
 
-for i in 0 to ageArray.length{
+for i in 0 to itemArray.length{
     mods.ItemStages.addItemStage(ageArray[i], itemArray[i]);
     mods.recipestages.Recipes.setRecipeStage(ageArray[i], itemArray[i]);
+    print("StageTiers... Doing" + i as string);
 }

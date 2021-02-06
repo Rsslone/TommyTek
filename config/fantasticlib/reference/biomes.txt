@@ -136,6 +136,9 @@ biomesoplenty:visceral_heap
 jeid:error_biome
 appliedenergistics2:storage_biome
 nuclearcraft:nuclear_wasteland
+fossil:lair of darkness
+fossil:treasure
+fossil:volcano
 netherex:ruthless_sands
 netherex:fungi_forest
 netherex:torrid_wasteland

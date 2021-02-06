@@ -47,6 +47,8 @@ capsule:recall
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
 mod_lavacow:corrosive
+fossil:archeology
+fossil:paleontology
 matteroverdrive:overclock
 spartanshields:ssenchspikes
 woot:headhunter
