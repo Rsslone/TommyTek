@@ -19,7 +19,7 @@ print("Initializing 'Item Stages'...");
 */
 
 //Stone Age
-/*
+
 val stoneAge = [
     <minecraft:brick_block>,
     <minecraft:brick_stairs>
@@ -29,7 +29,7 @@ for s in stoneAge{
     mods.ItemStages.addItemStage("stone", s);
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
-*/
+
 
 //Iron Age
 val ironAge = [
@@ -56,10 +56,19 @@ for s in steamAge{
 }
 
 //Electrical Age
+    //BiblioLamps
+val iLamp1 = <bibliocraft:lampgold>.definition;
+val iLamp2 = <bibliocraft:lampiron>.definition;
+
+for i in 0 to 15{
+	mods.ItemStages.addItemStage("electrical", iLamp1.makeStack(i));
+    mods.ItemStages.addItemStage("electrical", iLamp2.makeStack(i));
+    mods.recipestages.Recipes.setRecipeStage("electrical", iLamp1.makeStack(i));
+    mods.recipestages.Recipes.setRecipeStage("electrical", iLamp2.makeStack(i));
+}
+
 val electricalAge = [
     <hooked:hook:3>,
-    <bibliocraft:lampgold:*>,
-    <bibliocraft:lampiron:*>,
     <bibliocraft:bibliodrill>
 ] as IItemStack[];
 
