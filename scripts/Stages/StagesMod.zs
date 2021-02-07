@@ -1,19 +1,6 @@
-#Group: PSi Clan
+#priority 100
 
 print("Initializing 'Stages'...");
-
-/*
-    -- Mod Wide Age --
-*/
-
-//Unfinished
-    //Pneumaticcraft
-    //ThutTech
-    //CyberWire/Rewired
-    //Fossils
-    //Fancy Fluid Storage
-    //Energy Meters
-    //Deep Resonance
 
 //Stone Age
 val stoneAge = [

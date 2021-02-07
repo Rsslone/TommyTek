@@ -1,3 +1,4 @@
+#priority 50
 import crafttweaker.item.IItemStack;
 
 #Group: PSi Clan
@@ -38,6 +39,7 @@ val ironAge = [
 ] as IItemStack[];
 
 for s in ironAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("iron", s);
     mods.recipestages.Recipes.setRecipeStage("iron", s);
 }
@@ -51,6 +53,7 @@ val steamAge = [
 ] as IItemStack[];
 
 for s in steamAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("steam", s);
     mods.recipestages.Recipes.setRecipeStage("steam", s);
 }
@@ -61,6 +64,8 @@ val iLamp1 = <bibliocraft:lampgold>.definition;
 val iLamp2 = <bibliocraft:lampiron>.definition;
 
 for i in 0 to 15{
+    mods.ItemStages.removeItemStage(iLamp1.makeStack(i));
+    mods.ItemStages.removeItemStage(iLamp2.makeStack(i));
 	mods.ItemStages.addItemStage("electrical", iLamp1.makeStack(i));
     mods.ItemStages.addItemStage("electrical", iLamp2.makeStack(i));
     mods.recipestages.Recipes.setRecipeStage("electrical", iLamp1.makeStack(i));
@@ -73,6 +78,7 @@ val electricalAge = [
 ] as IItemStack[];
 
 for s in electricalAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("electrical", s);
     mods.recipestages.Recipes.setRecipeStage("electrical", s);
 }
@@ -84,6 +90,7 @@ val computerAge = [
 ] as IItemStack[];
 
 for s in computerAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("computer", s);
     mods.recipestages.Recipes.setRecipeStage("computer", s);
 }
@@ -95,6 +102,7 @@ val atomicAge = [
 ] as IItemStack[];
 
 for s in atomicAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("atomic", s);
     mods.recipestages.Recipes.setRecipeStage("atomic", s);
 }*/
@@ -105,6 +113,7 @@ val spaceAge = [
 ] as IItemStack[];
 
 for s in spaceAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("space", s);
     mods.recipestages.Recipes.setRecipeStage("space", s);
 }*/
@@ -115,6 +124,7 @@ val fusionAge = [
 ] as IItemStack[];
 
 for s in fusionAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("fusion", s);
     mods.recipestages.Recipes.setRecipeStage("fusion", s);
 }*/
@@ -125,6 +135,7 @@ val draconicAge = [
 ] as IItemStack[];
 
 for s in draconicAge{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("draconic", s);
     mods.recipestages.Recipes.setRecipeStage("draconic", s);
 }*/

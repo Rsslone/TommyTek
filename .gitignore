@@ -10,6 +10,7 @@
 /config/cd4017be/compiled.dat
 /config/splash.properties
 /config/sponge/worlds/
+/config/fantasticlib/
 /.mixin.out/
 /armourers_workshop/
 /bin/
@@ -69,4 +70,4 @@ CustomRecipes.cfg
 *.bak
 scripts/.zsrc
 journeymap/config/5.7/journeymap.minimap.config
-config/fantasticlib/reference/players.txt
+config/brandon3055/contributors.json

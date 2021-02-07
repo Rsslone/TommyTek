@@ -1,22 +1,24 @@
+#priority 50
 import crafttweaker.item.IItemStack;
 
 /*
     ====BLUEPRINT====
 */
 /*
-//Bait n Tackle
+//COMMENTEDNAME
     //Item Locks
-val baitTackle = [
+val VARNAME = [
     
 ] as IItemStack[];
 
-for s in baitTackle{
-    mods.ItemStages.addItemStage("StageBookName", s);
-    mods.recipestages.Recipes.setRecipeStage("StageBookName", s);
+for s in VARNAME{
+    mods.ItemStages.removeItemStage(s);
+    mods.ItemStages.addItemStage("STAGEBOOKNAME", s);
+    mods.recipestages.Recipes.setRecipeStage("STAGEBOOKNAME", s);
 }
     //Book Locks + Descriptions
-mods.jei.JEI.addDescription(<gamestagebooks:StageBookName>,"Infoforbook.");
-<gamestagebooks:StageBookName>.addTooltip(format.green("subtextinfo"));
+mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
+<gamestagebooks:STAGEBOOKNAME>.addTooltip(format.green("ITEMTOOLTIPDESCRIPT."));
 */
 
 
@@ -26,7 +28,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:StageBookName>,"Infoforbook.");
 */
 
 
-//Pet Respawn Knowledge (Stone)
+//Pet Respawn Knowledge
     //Item Locks
 mods.ItemStages.addItemStage("petrespawn", <respawnablepets:etheric_gem>);
 mods.recipestages.Recipes.setRecipeStage("petrespawn", <respawnablepets:etheric_gem>);
@@ -47,14 +49,20 @@ val torchCandle = [
 ] as IItemStack[];
 
 for s in torchCandle{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("torchandcandle", s);
     mods.recipestages.Recipes.setRecipeStage("torchandcandle", s);
 }
-mods.ItemStages.addItemStage("torchandcandle", <ore:blockCandle>);
-mods.recipestages.Recipes.setRecipeStage("torchandcandle", <ore:blockCandle>);
+    //OreDict Iteration
+val candles = <ore:blockCandle>;
+for i in candles.items{
+    mods.ItemStages.removeItemStage(i);
+	mods.ItemStages.addItemStage("torchandcandle", i);
+    mods.recipestages.Recipes.setRecipeStage("torchandcandle", i);
+}
     //Book Locks + Descriptions
 mods.jei.JEI.addDescription(<gamestagebooks:torchandcandle>,"Has your pet died? Well bring them back, with some... questionable methods.");
-<gamestagebooks:torchandcandle>.addTooltip(format.green("Unlocks @respawnablepets"));
+<gamestagebooks:torchandcandle>.addTooltip(format.green("Unlocks Candles"));
 
 
 //Bait n Tackle
@@ -67,12 +75,13 @@ val baitTackle = [
 ] as IItemStack[];
 
 for s in baitTackle{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("baitntackle", s);
     mods.recipestages.Recipes.setRecipeStage("baitntackle", s);
 }
     //Book Locks + Descriptions
 mods.jei.JEI.addDescription(<gamestagebooks:baitntackle>,"Fish? Treasure? Its amazing what you can find at the bottom of the lakes and oceans.");
-<gamestagebooks:baitntackle>.addTooltip(format.green("Unlocks @aquaculture"));
+<gamestagebooks:baitntackle>.addTooltip(format.green("Unlocks @aquaculture rods"));
 
 
 /*
@@ -122,6 +131,7 @@ val shieldWorking = [
 ] as IItemStack[];
 
 for s in shieldWorking{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("shieldmetalworking", s);
     mods.recipestages.Recipes.setRecipeStage("shieldmetalworking", s);
 }
@@ -133,6 +143,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:shieldmetalworking>,"Wood makes for 
 //Sandwich Making
     //Item Locks
 val sandoMaking = <culinaryconstruct:sandwich_station> as IItemStack;
+mods.ItemStages.removeItemStage(sandoMakings);
 mods.ItemStages.addItemStage("sandomaking", sandoMaking);
 mods.recipestages.Recipes.setRecipeStage("sandomaking", sandoMaking);
     //Book Locks + Descriptions
@@ -151,6 +162,7 @@ val organizedDrawers = [
 ] as IItemStack[];
 
 for s in organizedDrawers{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("organizeddrawers", s);
     mods.recipestages.Recipes.setRecipeStage("organizeddrawers", s);
 }
@@ -163,6 +175,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:organizeddrawers>,"Organized people 
     ====STEAM AGE====
 */
 
+
 // Improved Torch (Vanilla Torch)
     //Item Locks
 mods.ItemStages.addItemStage("improvedtorch", <minecraft:torch>);
@@ -172,8 +185,10 @@ mods.ItemStages.addItemStage("steam", <gamestagebooks:improvedtorch>);
 mods.jei.JEI.addDescription(<gamestagebooks:improvedtorch>,"Weather proof torches that burn indefinately.");
 <gamestagebooks:improvedtorch>.addTooltip(format.green("Unlocks Vanilla Torch"));
 
+
 // Experienced Cook
     //Item Locks
+mods.ItemStages.removeItemStage(<cookingforblockheads:cooking_table>);
 mods.ItemStages.addItemStage("experiencedcook", <cookingforblockheads:cooking_table>);
 mods.recipestages.Recipes.setRecipeStage("experiencedcook", <cookingforblockheads:cooking_table>);
     //Book Locks + Descriptions
@@ -183,6 +198,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:experiencedcook>,"Cooking will becom
 
 // Toolbelt
     //Item Locks
+mods.ItemStages.removeItemStage(<toolbelt:belt>);
 mods.ItemStages.addItemStage("toolbelt", <toolbelt:belt>);
 mods.recipestages.Recipes.setRecipeStage("toolbelt", <toolbelt:belt>);
     //Book Locks + Descriptions
@@ -203,9 +219,10 @@ val shieldEnergy = [
 ] as IItemStack[];
 
 for s in shieldEnergy{
+    mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("shieldenergy", s);
     mods.recipestages.Recipes.setRecipeStage("shieldenergy", s);
 }
     //Book Locks + Descriptions
-mods.jei.JEI.addDescription(<gamestagebooks:shieldenergy>,"This book looks interesting, energy, matter, same thing?");
+mods.jei.JEI.addDescription(<gamestagebooks:shieldenergy>,"Energy, matter, same thing. Lets use that for a shield!");
 <gamestagebooks:shieldenergy>.addTooltip(format.green("Unlocks @spartanshields Energy Shields"));

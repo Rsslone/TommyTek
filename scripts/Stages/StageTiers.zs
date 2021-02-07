@@ -1,3 +1,5 @@
+#priority 50
+
 import crafttweaker.item.IItemStack;
 
 // Improved Backpacks Upgradesesd
@@ -28,7 +30,7 @@ val itemArray = [
 ] as IItemStack[];
 
 for i in 0 to itemArray.length{
+    mods.ItemStages.removeItemStage(itemArray[i]);
     mods.ItemStages.addItemStage(ageArray[i], itemArray[i]);
     mods.recipestages.Recipes.setRecipeStage(ageArray[i], itemArray[i]);
-    print("StageTiers... Doing" + i as string);
 }
