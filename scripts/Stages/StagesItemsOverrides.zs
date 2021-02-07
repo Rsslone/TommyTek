@@ -34,8 +34,7 @@ for s in stoneAge{
 
 //Iron Age
 val ironAge = [
-    <minecraft:anvil:*>,
-    <hooked:hook:1>
+    <minecraft:anvil:*>
 ] as IItemStack[];
 
 for s in ironAge{
@@ -49,7 +48,6 @@ val steamAge = [
     <railcraft:track_outfitted>,
     <minecraft:jukebox>,
     <betterbuilderswands:wandunbreakable:*>,
-    <hooked:hook:2>
 ] as IItemStack[];
 
 for s in steamAge{
@@ -73,7 +71,6 @@ for i in 0 to 15{
 }
 
 val electricalAge = [
-    <hooked:hook:3>,
     <bibliocraft:bibliodrill>
 ] as IItemStack[];
 

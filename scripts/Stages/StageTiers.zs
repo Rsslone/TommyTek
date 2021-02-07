@@ -13,7 +13,10 @@ val ageArray = [
     "ironchest1",
     "ironchest2",
     "ironchest3",
-    "ironchest3"
+    "ironchest3",
+    "hooked1",
+    "hooked2",
+    "hooked3"
 ] as string[];
 
 val itemArray = [
@@ -26,7 +29,10 @@ val itemArray = [
     <ironchest:iron_chest:4>,
     <ironchest:iron_chest:1>,
     <ironchest:iron_chest:2>,
-    <ironchest:iron_chest:6>
+    <ironchest:iron_chest:6>,
+    <hooked:hook:1>,
+    <hooked:hook:2>,
+    <hooked:hook:3>
 ] as IItemStack[];
 
 for i in 0 to itemArray.length{

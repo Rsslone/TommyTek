@@ -143,7 +143,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:shieldmetalworking>,"Wood makes for 
 //Sandwich Making
     //Item Locks
 val sandoMaking = <culinaryconstruct:sandwich_station> as IItemStack;
-mods.ItemStages.removeItemStage(sandoMakings);
+mods.ItemStages.removeItemStage(sandoMaking);
 mods.ItemStages.addItemStage("sandomaking", sandoMaking);
 mods.recipestages.Recipes.setRecipeStage("sandomaking", sandoMaking);
     //Book Locks + Descriptions

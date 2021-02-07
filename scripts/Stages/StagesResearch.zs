@@ -42,7 +42,7 @@ ResearchTable.builder("ironMaster", ironCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Iron Age!")
   .setDescription("YEAR : 500BC  |  We've found new ways to kill people, with this amazing material we call... IRON!
-  Mod Unlocks : Tetra, Malisis Doors, BiblioCraft, Pams Harvest and Brew, Cooking for Blockheads, Cuisine, Culinary Construct, DecoCraft, Crayfish Furniture, Improved Backpacks, Iron Chest, Bridges, Doors, Roofs, Windows, Storage Drawers, TeaStory")
+  Mod Unlocks : Tetra, Malisis Doors, BiblioCraft, Pams Harvest and Brew, Cooking for Blockheads, Cuisine, DecoCraft, Crayfish Furniture, Improved Backpacks, Iron Chest, Bridges, Doors, Roofs, Windows, Storage Drawers, TeaStory")
   .addCondition(<ore:blockIron> * 10)
   .addCondition(<ore:blockGold> * 5)
   .setRequiredResearches("stoneMaster")
@@ -76,6 +76,17 @@ ResearchTable.builder("ironchest0", ironCat)
   .setRewardItems(<ironchest:iron_chest> * 1)
   .build();
 
+ResearchTable.builder("hooked1", ironCat)
+  .setIcons(<hooked:hook:1>)
+  .setTitle("Hooked Tier-1")
+  .setDescription("Unlocks more advanced Hook from @hooked.")
+  .addCondition(<minecraft:iron_ingot> * 8)
+  .addCondition(<ore:string> * 8)
+  .setRequiredResearches("ironMaster")
+  .setRewardStages("hooked1")
+  .setRewardItems(<minecraft:gold_nugget> * 25)
+  .build();
+
 /*
   ======================================================================================================================================
 */
@@ -85,7 +96,7 @@ ResearchTable.builder("steamMaster", steamCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Steam Age!")
   .setDescription("YEAR : 1700  |  Wonderful breakthroughs in uses of this heated water, automated machines chug away at our command!
-  Mod Unlocks : Capsule, MultiStorage, Railcraft, StevesCarts, RsGauges, CookingForBlockheads, Cuisine, ViesMachines, JAOPCA, BetterBuildersWands, ImmersiveRuins, TorchMaster")
+  Mod Unlocks : Pneumaticcraft, Capsule, MultiStorage, Railcraft, StevesCarts, RsGauges, CookingForBlockheads, Cuisine, ViesMachines, JAOPCA, BetterBuildersWands, SimilsaxTranstructors, ImmersiveRuins, TorchMaster")
   .addCondition(<ore:blockGold> * 10)
   .addCondition(<ore:blockLapis> * 5)
   .setRequiredResearches("ironMaster")
@@ -117,6 +128,17 @@ ResearchTable.builder("ironchest1", steamCat)
   .setRewardItems(<ironchest:copper_silver_chest_upgrade> * 1)
   .build();
 
+ResearchTable.builder("hooked2", steamCat)
+  .setIcons(<hooked:hook:2>)
+  .setTitle("Hooked Tier-2")
+  .setDescription("Unlocks more advanced Hook from @hooked.")
+  .addCondition(<minecraft:iron_ingot> * 16)
+  .addCondition(<ore:string> * 16)
+  .setRequiredResearches("steamMaster")
+  .setRewardStages("hooked2")
+  .setRewardItems(<minecraft:gold_nugget> * 50)
+  .build();
+
 /*
   ======================================================================================================================================
 */
@@ -126,7 +148,7 @@ ResearchTable.builder("electMaster", electCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Steam Age!")
   .setDescription("YEAR : 1882  |  The electric revolution begins!
-  Mod Unlocks : Immersive (Engineering, Tech), AlternatingFlux, PortableDrill, BetterRecords, BuildingGadgets, Exhcangers, CrayfishFurniture, Engineers (Doors, Decor), IndustrialForegoing, Industrial (Meat, Renewal, Wires), OpenModularPassiveDefence, Woot, WorldControl, ArmourersWorkshop")
+  Mod Unlocks : Immersive (Engineering, Tech), AlternatingFlux, @Charset (AKA Gate Logic and Wires), PortableDrill, BetterRecords, BuildingGadgets, Exhcangers, ThutsElevators, FancyFluidStorage, EnergyMeters, CrayfishFurniture, Engineers (Doors, Decor), IndustrialForegoing, Industrial (Meat, Renewal, Wires), OpenModularPassiveDefence, Woot, WorldControl, ArmourersWorkshop")
   .addCondition(<ore:blockCopper> * 10)
   .addCondition(<ore:blockRedstone> * 5)
   .setRequiredResearches("steamMaster")
@@ -156,6 +178,17 @@ ResearchTable.builder("ironchest2", electCat)
   .setRewardStages("ironchest2")
   .setRewardItems(<minecraft:gold_nugget> * 75)
   .setRewardItems(<ironchest:iron_chest:1> * 1)
+  .build();
+
+ResearchTable.builder("hooked3", electCat)
+  .setIcons(<hooked:hook:3>)
+  .setTitle("Hooked Tier-3")
+  .setDescription("Unlocks more advanced Hook from @hooked.")
+  .addCondition(<minecraft:iron_ingot> * 32)
+  .addCondition(<ore:string> * 32)
+  .setRequiredResearches("electMaster")
+  .setRewardStages("hooked3")
+  .setRewardItems(<minecraft:gold_nugget> * 75)
   .build();
 
 /*
@@ -209,7 +242,7 @@ ResearchTable.builder("atomicMaster", atomicCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Atomic Age!")
   .setDescription("YEAR : 1960  |  This nuclear reaction is super useful, and will never have any downsides, compeltely harmless.
-  Mod Unlocks : NuclearCraft (Fission), Alchemistry, FissionBasedNeutronCollector, Mekanism (+Generators)")
+  Mod Unlocks : NuclearCraft (Fission), DeepResonance, Alchemistry, FissionBasedNeutronCollector, Mekanism (+Generators), Cyberware+Rewired")
   .addCondition(<ore:blockLead> * 10)
   .addCondition(<ore:blockUranium> * 5)
   .setRequiredResearches("compMaster")
@@ -240,7 +273,7 @@ ResearchTable.builder("spaceMaster", spaceCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Space Age!")
   .setDescription("YEAR : 1970  |  One small step for man, one giant leap for mankind!
-  Mod Unlocks : AdvancedRocketry, MatterOverdrive, NetherEx, WitherSkeletons")
+  Mod Unlocks : AdvancedRocketry, MatterOverdrive, NetherEx, WitherSkeletons, FossilsAndArcheology")
   .addCondition(<ore:blockGold> * 30)
   .addCondition(<ore:blockSilver> * 15)
   .setRequiredResearches("atomicMaster")

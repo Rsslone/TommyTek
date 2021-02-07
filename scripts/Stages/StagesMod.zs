@@ -45,7 +45,6 @@ val ironAge = [
     "bibliocraft",
     "harvestcraft",
     "brewcraft",
-    "culinaryconstruct",
     "props",
     "improvedbackpacks",
     "ironchest",
@@ -64,6 +63,7 @@ for s in ironAge{
 
 //Steam Age
 val steamAge = [
+    "pneumaticcraft",
     "capsule",
     "danknull",
     "multistorage",
@@ -76,6 +76,7 @@ val steamAge = [
     "viesmachines",
     "jaopca",
     "betterbuilderswands",
+    "similsaxtranstructors",
     "immersiveruins",
     "torchmaster"
 ] as string[];
@@ -107,7 +108,11 @@ val electricalAge = [
     "ompd",
     "woot",
     "worldcontrol",
-    "armourers_workshop"
+    "armourers_workshop",
+    "thuttech",
+    "ffs",
+    "energymeters",
+    "charset"
 ] as string[];
 
 for s in electricalAge{
@@ -146,7 +151,10 @@ val atomicAge = [
     "alchemistry",
     "fbnc",
     "mekanism",
-    "mekanismgenerators"
+    "mekanismgenerators",
+    "cyberware",
+    "rewired",
+    "deepresonance"
 ] as string[];
 
 for s in atomicAge{
@@ -160,7 +168,8 @@ val spaceAge = [
     "libvulpes",
     "matteroverdrive",
     "netherex",
-    "witherskelefix"
+    "witherskelefix",
+    "fossil"
 ] as string[];
 
 for s in spaceAge{
