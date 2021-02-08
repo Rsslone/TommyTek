@@ -30,7 +30,6 @@ removeAndHide(<nuclearcraft:ore:2>);
 removeAndHide(<nuclearcraft:ore:4>);
 removeAndHide(<railcraft:ore_metal>);
 removeAndHide(<railcraft:ore_metal:1>);
-removeAndHide(<mysticalworld:amethyst_ore>);
 removeAndHide(<libvulpes:ore0:9>);
 removeAndHide(<libvulpes:ore0:5>);
 removeAndHide(<libvulpes:ore0:4>);
@@ -50,7 +49,8 @@ val hideOre = [
     <mysticalworld:silver_dust>,
     <mysticalworld:silver_dust_tiny>,
     <mysticalworld:copper_ore>,
-    <mysticalworld:silver_ore>
+    <mysticalworld:silver_ore>,
+    <mysticalworld:amethyst_ore>,
 ] as IItemStack[];
 
 for i in hideOre{

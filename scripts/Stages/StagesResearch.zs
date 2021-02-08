@@ -170,8 +170,8 @@ ResearchTable.builder("improvedBackpacks2", electCat)
   .build();
 
 ResearchTable.builder("ironchest2", electCat)
-  .setIcons(<ironchest:iron_chest:4>)
-  .setTitle("Iron Chest Tier-1")
+  .setIcons(<ironchest:iron_chest:1>)
+  .setTitle("Iron Chest Tier-2")
   .setDescription("Through ingenuity, you find more ways to store items. A most useful venture indeed.")
   .addCondition(<ore:ingotGold> * 32)
   .setRequiredResearches("electMaster")
@@ -222,7 +222,7 @@ ResearchTable.builder("improvedBackpacks3", compCat)
   .build();
 
 ResearchTable.builder("ironchest3", compCat)
-  .setIcons(<ironchest:iron_chest:4>)
+  .setIcons(<ironchest:iron_chest:2>)
   .setTitle("Iron Chest Tier-3")
   .setDescription("Through ingenuity, you find more ways to store items. A most useful venture indeed.")
   .addCondition(<minecraft:diamond> * 32)

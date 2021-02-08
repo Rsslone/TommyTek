@@ -1,7 +1,15 @@
 #priority 40
+import crafttweaker.item.IItemStack;
 
-//Avarita Recipe Maker
+//Hide in JEI
 if(!dev){
-    mods.jei.JEI.hide(<avaritiarecipemaker:avaritiarecipemakerblock>);
-    mods.jei.JEI.hide(<avaritiarecipemaker:vanillarecipemakerblock>);
+    var devHide = [
+        <avaritiarecipemaker:avaritiarecipemakerblock>,
+        <avaritiarecipemaker:vanillarecipemakerblock>,
+        <aquaculture:admin_fishing_rod>
+    ] as IItemStack[];
+    
+for s in devHide{
+    mods.jei.JEI.hide(s);
+}
 }

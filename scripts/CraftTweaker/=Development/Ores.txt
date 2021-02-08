@@ -1,7 +1,67 @@
-//AE2
-    Quartz
-    Charged Quartz
-//Draconic Evolution
-    Draconium
-//Deep Resonance
-    Resonating Ore
+<industrialrenewal:orevein_hematite>
+
+<matteroverdrive:tritanium_ore>
+
+<mekanism:oreblock> // Osmium
+<mekanism:oreblock:2> // Tin
+
+<mysticalworld:quartz_ore>
+<mysticalworld:granite_quartz_ore>
+
+<netherex:amethyst_ore>
+<netherex:rime_ore>
+
+<minecraft:gold_ore>
+<minecraft:iron_ore>
+<minecraft:coal_ore>
+<minecraft:lapis_ore>
+<minecraft:diamond_ore>
+<minecraft:redstone_ore>
+<minecraft:emerald_ore>
+<minecraft:quartz_ore>
+
+<appliedenergistics2:quartz_ore>
+<appliedenergistics2:charged_quartz_ore>
+
+<biomesoplenty:gem_ore> // Amethyst
+<biomesoplenty:gem_ore:1> // Ruby
+<biomesoplenty:gem_ore:2> // Peridot
+<biomesoplenty:gem_ore:3> // Topaz
+<biomesoplenty:gem_ore:4> // Tanzanite
+<biomesoplenty:gem_ore:5> // Malachite
+<biomesoplenty:gem_ore:6> // Sapphire
+<biomesoplenty:gem_ore:7> // Amber
+
+<deepresonance:resonating_ore>
+
+<fossil:fossil>
+<fossil:amber_ore>
+
+<immersiveengineering:ore> // Copper
+<immersiveengineering:ore:1> // Bauxite (Aluminum)
+<immersiveengineering:ore:2> // Lead
+<immersiveengineering:ore:3> // Silver
+<immersiveengineering:ore:4> // Nickel
+<immersiveengineering:ore:5> // Uranium
+
+<nuclearcraft:ore:3> // Thorium
+<nuclearcraft:ore:5> // Boron
+<nuclearcraft:ore:6> // Lithium
+<nuclearcraft:ore:7> // Magnesium
+
+<pyrotech:dense_nether_coal_ore>
+
+<quark:biotite_ore>
+
+<railcraft:ore> // Sulfur
+<railcraft:ore:1> // Saltpeter
+<railcraft:ore_metal:5> // Zinc
+<railcraft:ore_metal_poor:7> // Zinc Poor
+<railcraft:ore_metal_poor> // Iron Poor
+<railcraft:ore_metal_poor:1> // Gold Poor
+
+<sgcraft:naquadahore>
+
+<libvulpes:ore0> // Dilithium
+<libvulpes:ore0:8> // Rutile (Titanium)
+<libvulpes:ore0:10> // Iridium

@@ -179,7 +179,7 @@ for s in spaceAge{
 
 //Fusion Age
 val fustionAge = [
-    ""
+    "avaritia",
 ] as string[];
 
 for s in fustionAge{
@@ -190,7 +190,6 @@ for s in fustionAge{
 //Draconic Age
 val draconicAge = [
     "draconicevolution",
-    "avaritia"
 ] as string[];
 
 for s in draconicAge{

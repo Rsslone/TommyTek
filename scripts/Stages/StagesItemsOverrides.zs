@@ -34,7 +34,23 @@ for s in stoneAge{
 
 //Iron Age
 val ironAge = [
-    <minecraft:anvil:*>
+    <minecraft:anvil:*>,
+    <minecraft:iron_boots>,
+    <minecraft:iron_leggings>,
+    <minecraft:iron_chestplate>,
+    <minecraft:iron_helmet>,
+    <minecraft:golden_boots>,
+    <minecraft:golden_leggings>,
+    <minecraft:golden_chestplate>,
+    <minecraft:golden_helmet>,
+    <mysticalworld:copper_boots>,
+    <mysticalworld:copper_leggings>,
+    <mysticalworld:copper_chestplate>,
+    <mysticalworld:copper_helmet>,
+    <mysticalworld:silver_boots>,
+    <mysticalworld:silver_leggings>,
+    <mysticalworld:silver_chestplate>,
+    <mysticalworld:silver_helmet>
 ] as IItemStack[];
 
 for s in ironAge{
@@ -48,6 +64,10 @@ val steamAge = [
     <railcraft:track_outfitted>,
     <minecraft:jukebox>,
     <betterbuilderswands:wandunbreakable:*>,
+    <minecraft:diamond_boots>,
+    <minecraft:diamond_leggings>,
+    <minecraft:diamond_chestplate>,
+    <minecraft:diamond_helmet>
 ] as IItemStack[];
 
 for s in steamAge{
@@ -72,7 +92,26 @@ for i in 0 to 15{
 
 val electricalAge = [
     <bibliocraft:bibliodrill>,
-    <charset:logic_gate>
+    <charset:logic_gate>.withTag({logic: "simplelogic:comparator", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:bundled_inverter", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:xor", li: 1 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:xor", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:buffer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:bundled_transceiver", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:nor", li: 1 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:nand", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:multiplexer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:pulse_former", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:buffer", li: 1 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:synchronizer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:repeater", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:bundled_transposer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:nor", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:nand", li: 1 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:randomizer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:timer", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:rs_latch", li: 0 as byte}),
+    <charset:logic_gate>.withTag({logic: "simplelogic:comparator", li: 0 as byte})
 ] as IItemStack[];
 
 for s in electricalAge{

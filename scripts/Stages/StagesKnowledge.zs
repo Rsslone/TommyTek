@@ -28,6 +28,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
 
 //Pet Respawn Knowledge
     //Item Locks
+mods.ItemStages.removeItemStage(<respawnablepets:etheric_gem>);
 mods.ItemStages.addItemStage("petrespawn", <respawnablepets:etheric_gem>);
 mods.recipestages.Recipes.setRecipeStage("petrespawn", <respawnablepets:etheric_gem>);
     //Book Locks + Descriptions
@@ -43,7 +44,10 @@ val torchCandle = [
     <rustic:candle_gold>,
     <rustic:candle_lever_gold>,
     <rustic:candle_silver>,
-    <rustic:candle_lever_silver>
+    <rustic:candle_lever_silver>,
+    <rustic:iron_lantern>,
+    <rustic:silver_lantern>,
+    <rustic:golden_lantern>
 ] as IItemStack[];
 
 for s in torchCandle{
@@ -60,7 +64,7 @@ for i in candles.items{
 }
     //Book Locks + Descriptions
 mods.jei.JEI.addDescription(<gamestagebooks:torchandcandle>,"Candles last longer than burning twigs.");
-<gamestagebooks:torchandcandle>.addTooltip(format.green("Unlocks Candles"));
+<gamestagebooks:torchandcandle>.addTooltip(format.green("Unlocks Candles and Lanterns"));
 
 
 //Bait n Tackle
