@@ -39,5 +39,5 @@ leaderboard {
 }
 report {
     # The maximum range in days of a report. It is recommended to keep this under 365.
-    maximum=100
+    maximum=90
 }

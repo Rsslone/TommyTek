@@ -1,0 +1,7 @@
+//AE2
+    Quartz
+    Charged Quartz
+//Draconic Evolution
+    Draconium
+//Deep Resonance
+    Resonating Ore

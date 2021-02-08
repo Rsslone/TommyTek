@@ -26,7 +26,6 @@ mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
     ====STONE AGE====
 */
 
-
 //Pet Respawn Knowledge
     //Item Locks
 mods.ItemStages.addItemStage("petrespawn", <respawnablepets:etheric_gem>);
@@ -60,7 +59,7 @@ for i in candles.items{
     mods.recipestages.Recipes.setRecipeStage("torchandcandle", i);
 }
     //Book Locks + Descriptions
-mods.jei.JEI.addDescription(<gamestagebooks:torchandcandle>,"Has your pet died? Well bring them back, with some... questionable methods.");
+mods.jei.JEI.addDescription(<gamestagebooks:torchandcandle>,"Candles last longer than burning twigs.");
 <gamestagebooks:torchandcandle>.addTooltip(format.green("Unlocks Candles"));
 
 
