@@ -71,7 +71,8 @@ for i in 0 to 15{
 }
 
 val electricalAge = [
-    <bibliocraft:bibliodrill>
+    <bibliocraft:bibliodrill>,
+    <charset:logic_gate>
 ] as IItemStack[];
 
 for s in electricalAge{

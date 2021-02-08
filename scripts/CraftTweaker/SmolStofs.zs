@@ -1,3 +1,4 @@
+#priority 40
 import crafttweaker.item.IItemStack;
 
 //Hooked

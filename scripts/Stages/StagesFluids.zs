@@ -1,9 +1,18 @@
 import crafttweaker.liquid.ILiquidStack;
+import mod.mekanism.gas.IGasStack;
+import mods.mekatweaks.GasStages;
 
 //Steam Age
 /*
+val fluidsSA = [
+    
+] as ILiquidStack[];
 
+for f in fluidsEA{
+    mods.ItemStages.stageLiquid("stone", f);
+}
 */
+mods.ItemStages.stageLiquid("stone", <liquid:xpjuice>);
 
 //Electrical Age
 val fluidsEA = [
@@ -41,13 +50,61 @@ for f in fluidsEA{
 }
 
 //Atomic Age
+    //Mekanism
+    
+val gasAA = [
+    <gas:brine>,
+    <gas:chlorine>,
+    <gas:cleancopper>,
+    <gas:cleangold>,
+    <gas:cleaniron>,
+    <gas:cleanlead>,
+    <gas:cleanosmium>,
+    <gas:cleansilver>,
+    <gas:cleantin>,
+    <gas:copper>,
+    <gas:deuterium>,
+    <gas:ethene>,
+    <gas:fusionfuel>,
+    <gas:gold>,
+    <gas:hydrogen>,
+    <gas:hydrogenchloride>,
+    <gas:iron>,
+    <gas:lead>,
+    <gas:liquidosmium>,
+    <gas:lithium>,
+    <gas:osmium>,
+    <gas:oxygen>,
+    <gas:silver>,
+    <gas:sodium>,
+    <gas:sulfuricacid>,
+    <gas:sulfurdioxide>,
+    <gas:sulfurtrioxide>,
+    <gas:tin>,
+    <gas:tritium>,
+    <gas:water>
+] as IGasStack[];
+
+for g in gasAA{
+    GasStages.addGasStage("atomic", g);
+}
+
 val fluidsAA = [
     //Mekanism
     <liquid:brine>,
     <liquid:liquidlithium>,
     <liquid:heavywater>,
-    <liquid:hydrogen>,
-    <liquid:oxygen>,
+    <liquid:liquidhydrogen>,
+    <liquid:liquidoxygen>,
+    <liquid:liquidchlorine>,
+    <liquid:liquidsulfurdioxide>,
+    <liquid:liquidsulfurtrioxide>,
+    <liquid:liquidhydrogenchloride>,
+    <liquid:liquidethene>,
+    <liquid:liquidsodium>,
+    <liquid:liquiddeuterium>,
+    <liquid:liquidtritium>,
+    <liquid:liquidfusionfuel>,
     //NuclearCraft
     <liquid:plutonium_238>,
     <liquid:plutonium_238_fluoride>,

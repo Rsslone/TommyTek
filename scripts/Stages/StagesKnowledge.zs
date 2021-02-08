@@ -21,7 +21,6 @@ mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
 <gamestagebooks:STAGEBOOKNAME>.addTooltip(format.green("ITEMTOOLTIPDESCRIPT."));
 */
 
-
 /*
     ==================================================================================================================
     ====STONE AGE====
