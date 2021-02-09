@@ -28,6 +28,8 @@ recipes.removeShaped(<minecraft:chainmail_helmet>, [[<ore:nuggetIron>, <ore:nugg
 //MegaTorch
 recipes.remove(<torchmaster:mega_torch>);
 recipes.addShaped(<torchmaster:mega_torch>, [[<minecraft:torch>, <minecraft:torch>, <minecraft:torch>], [<ore:glowstone>, <avaritia:resource>, <ore:glowstone>], [<ore:blockGold>, <avaritia:resource>, <ore:blockGold>]]);
+recipes.remove(<torchmaster:feral_flare_lantern>);
+recipes.addShaped(<torchmaster:feral_flare_lantern>, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<ore:blockGlass>, <ore:blockCandle>, <ore:blockGlass>],[<immersiveengineering:metal:8>, <ore:ingotGold>, <immersiveengineering:metal:8>]]);
 
 //Seasons
 recipes.remove(<sereneseasons:greenhouse_glass>);

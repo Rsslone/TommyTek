@@ -1,5 +1,6 @@
 #priority 50
 import crafttweaker.item.IItemStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /*
     ====BLUEPRINT====
@@ -211,6 +212,7 @@ mods.ItemStages.addItemStage("steam", <gamestagebooks:experiencedcook>);
 mods.jei.JEI.addDescription(<gamestagebooks:experiencedcook>,"Cooking will become second nature, so much so you'll have entire feasts in seconds.");
 <gamestagebooks:experiencedcook>.addTooltip(format.green("Unlocks @cookingforblockheads crafting table"));
 
+
 // Toolbelt
     //Item Locks
 mods.ItemStages.stageModItems("toolbelt", "toolbelt");
@@ -224,6 +226,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:toolbelt>,"Tools, Tools, and more To
     ==================================================================================================================
     ====ELECTRICAL AGE====
 */
+
 
 //Shield Metalworking
     //Item Locks
@@ -240,3 +243,30 @@ for s in shieldEnergy{
     //Book Locks + Descriptions
 mods.jei.JEI.addDescription(<gamestagebooks:shieldenergy>,"Energy, matter, same thing. Lets use that for a shield!");
 <gamestagebooks:shieldenergy>.addTooltip(format.green("Unlocks @spartanshields Energy Shields"));
+
+
+//solarenergy
+    //Item Locks
+IEMultiBlockStages.addStage("solarenergy", "IE:SolarTower", "If only you knew what you were doing. (SolarEnergy Book Required)");
+IEMultiBlockStages.addStage("solarenergy", "IE:SolarReflector", "If only you knew what you were doing. (SolarEnergy Book Required)");
+    //Book Locks + Descriptions
+mods.jei.JEI.addDescription(<gamestagebooks:solarenergy>,"Make use of the sun to power your death mach... i mean machines of peace.");
+<gamestagebooks:solarenergy>.addTooltip(format.green("Unlocks Immersive Engineering Solar Multiblock Construction."));
+
+
+//petrolenergy
+    //Item Locks
+IEMultiBlockStages.addStage("petrolenergy", "IE:Refinery", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+IEMultiBlockStages.addStage("petrolenergy", "IE:GasTurbine", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+IEMultiBlockStages.addStage("petrolenergy", "IE:HeatExchanger", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+IEMultiBlockStages.addStage("petrolenergy", "IE:DieselGenerator", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+    //Book Locks + Descriptions
+mods.jei.JEI.addDescription(<gamestagebooks:petrolenergy>,"Turn that Dino juice into energy, environmental concerns? Who cares.");
+<gamestagebooks:petrolenergy>.addTooltip(format.green("Unlocks Immersive Petrol Multiblocks."));
+
+/*
+    ==================================================================================================================
+    ====COMPUTER AGE====
+*/
+
+

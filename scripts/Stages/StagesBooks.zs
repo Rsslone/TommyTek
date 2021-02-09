@@ -33,6 +33,8 @@ Book.addBook("toolbelt", "ToolBelts", "Why never leave home without a wrench R.2
 
 //Electrical Age
 Book.addBook("shieldenergy", "Energy Shield", "Theories on Energy Shielding", "spartanshields:shield_flux_ra", 0xffff37);
+Book.addBook("solarenergy", "Solar Energy", "Harnessing the Sun's Energy", "engineersdecor:small_solar_panel", 0xffff37);
+Book.addBook("petrolenergy", "Petroleum Energy", "Uses for Dino Juice", "immersivetech:metal_multiblock1", 0xffff37);
 
 //Computer Age
 //8eff37

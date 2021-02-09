@@ -12,6 +12,8 @@ mods.jei.JEI.removeAndHide(<minecraft:fishing_rod>);
 recipes.addShaped(<minecolonies:blockhutfisherman>, [[<ore:plankWood>, <structurize:sceptergold>.giveBack(<structurize:sceptergold>), <ore:plankWood>], [<ore:plankWood>, <pyrotech:crude_fishing_rod>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:carrot_on_a_stick>, [[<pyrotech:crude_fishing_rod>,null,null],[null,<minecraft:carrot>,null],[null,null,null]]);
 recipes.addShaped(<aquaculture:fishing_rod>, [[null, null, <ore:stickWood>], [null, <ore:stickWood>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
+recipes.replaceAllOccurences(<minecraft:fishing_rod>, <pyrotech:crude_fishing_rod>, <harvestcraft:watertrap>);
+
 
 //Wood Chopping Compat
 recipes.remove(<aquaculture:loot>);
