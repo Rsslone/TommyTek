@@ -1,5 +1,6 @@
 #priority 50
 import crafttweaker.item.IItemStack;
+import mods.ItemStages.removeItemStage;
 
 #Group: PSi Clan
 
@@ -23,10 +24,15 @@ print("Initializing 'Item Stages'...");
 
 val stoneAge = [
     <minecraft:brick_block>,
-    <minecraft:brick_stairs>
+    <minecraft:brick_stairs>,
+    <railcraft:tie>,
+    <railcraft:rail:1>,
+    <railcraft:rail>,
+    <railcraft:railbed>
 ] as IItemStack[];
 
 for s in stoneAge{
+    removeItemStage(s);
     mods.ItemStages.addItemStage("stone", s);
     mods.recipestages.Recipes.setRecipeStage("stone", s);
 }
@@ -50,7 +56,19 @@ val ironAge = [
     <mysticalworld:silver_boots>,
     <mysticalworld:silver_leggings>,
     <mysticalworld:silver_chestplate>,
-    <mysticalworld:silver_helmet>
+    <mysticalworld:silver_helmet>,
+    <minecraft:iron_axe>,
+    <minecraft:iron_hoe>,
+    <minecraft:iron_pickaxe>,
+    <minecraft:golden_axe>,
+    <minecraft:golden_hoe>,
+    <minecraft:golden_pickaxe>,
+    <minecraft:diamond_axe>,
+    <minecraft:diamond_hoe>,
+    <minecraft:diamond_pickaxe>,
+    <minecraft:iron_sword>,
+    <minecraft:golden_sword>,
+    <minecraft:diamond_sword>
 ] as IItemStack[];
 
 for s in ironAge{

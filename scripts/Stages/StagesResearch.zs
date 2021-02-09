@@ -27,23 +27,46 @@ ResearchTable.builder("stoneMaster", stoneCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Stone Age!")
   .setDescription("YEAR : 4000BC  |  OOGA BOOGA! Rock smash, fire hot! 
-  Mod Unlocks : Pyrotech, Rustic, Aquaculture, Ceramics, Chisel + Chisel and Bits + Extra Bit Manipulation, Little Tiles, Hooked, Literal Ascension, MineColonies, Structurize, Quark, Scaling Health, SereneSeasons, Super Sound Muffler, Treasure2, Stupid Things, Spartian Shields, Primitive Mobs, MowzieMobs, Fishes Undead Rising, OpenBlocks, LootGames")
+  Mod Unlocks : Pyrotech, Rustic, Ceramics, Chisel + Chisel and Bits + Extra Bit Manipulation, Little Tiles, Hooked, Literal Ascension, MineColonies, Structurize, Quark, Scaling Health, SereneSeasons, Super Sound Muffler, Treasure2, Stupid Things, Spartian Shields, Primitive Mobs, MowzieMobs, Fishes Undead Rising, OpenBlocks, LootGames")
   .addCondition(<ore:dirt> * 10)
   .setRewardStages("stone")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Stone Age Achieved", TrophyItem: {id: "minecraft:cobblestone", TrophyColorRed: 90, TrophyColorGreen: 90, TrophyColorBlue: 90, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();
 
+ResearchTable.builder("chainmailCrafting", stoneCat)
+  .setIcons(<minecraft:chainmail_chestplate>)
+  .setTitle("Chainmail Armor")
+  .setDescription("Unlock the ability to craft chainmail armors, much better than covering yourself in dirt or dead dry animals.")
+  .addCondition(<minecraft:leather> * 10)
+  .addCondition(<minecraft:iron_ingot> * 5)
+  .setRewardStages("chainmailcrafting")
+  .setRewardItems(<minecraft:gold_nugget> * 15)
+  .build();
+
+ResearchTable.builder("mrLuggage", stoneCat)
+  .setIcons(<openblocks:luggage>)
+  .setTitle("Mr. Luggage")
+  .setDescription("Carrying bags full of ore got you tired? Well meet Mr. Luggage! He'll carry your goods and even save you the trouble of bending over to pick it up. Only 3 easy payments of 998gc")
+  .addCondition(<minecraft:diamond> * 1)
+  .addCondition(<minecraft:chest> * 2)
+  .setRewardStages("mrluggage")
+  .setRewardItems(<minecraft:gold_nugget> * 15)
+  .build();
+
+
 /*
   ======================================================================================================================================
 */
-
 //Iron Age
+
 ResearchTable.builder("ironMaster", ironCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Iron Age!")
   .setDescription("YEAR : 500BC  |  We've found new ways to kill people, with this amazing material we call... IRON!
   Mod Unlocks : Tetra, Malisis Doors, BiblioCraft, Pams Harvest and Brew, Cooking for Blockheads, Cuisine, DecoCraft, Crayfish Furniture, Improved Backpacks, Iron Chest, Bridges, Doors, Roofs, Windows, Storage Drawers, TeaStory")
-  .addCondition(<ore:blockIron> * 10)
+  .addCondition(<rustic:beeswax> * 30)
+  .addCondition(<chisel:block_charcoal> * 5)
+  .addCondition(<ore:blockIron> * 15)
   .addCondition(<ore:blockGold> * 5)
   .setRequiredResearches("stoneMaster")
   .setOptionalStages(2, "petrespawn", "torchandcandle", "baitntackle")
@@ -97,14 +120,15 @@ ResearchTable.builder("steamMaster", steamCat)
   .setTitle("The Steam Age!")
   .setDescription("YEAR : 1700  |  Wonderful breakthroughs in uses of this heated water, automated machines chug away at our command!
   Mod Unlocks : Pneumaticcraft, Capsule, MultiStorage, Railcraft, StevesCarts, RsGauges, CookingForBlockheads, Cuisine, ViesMachines, JAOPCA, BetterBuildersWands, SimilsaxTranstructors, ImmersiveRuins, TorchMaster")
+  .addCondition(<ore:blockIron> * 25)
   .addCondition(<ore:blockGold> * 10)
-  .addCondition(<ore:blockLapis> * 5)
+  .addCondition(<harvestcraft:takoyakiitem>)
+  .addCondition(<harvestcraft:teriyakichickenitem>)
   .setRequiredResearches("ironMaster")
   .setOptionalStages(2, "shieldmetalworking", "sandomaking", "organizeddrawers")
   .setRewardStages("steam")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Steam Age Achieved", TrophyItem: {id: "railcraft:locomotive_steam_solid", TrophyColorRed: 247, TrophyColorGreen: 247, TrophyColorBlue: 247, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();
-
 
 ResearchTable.builder("improvedBackpacks1", steamCat)
   .setIcons(<improvedbackpacks:upgrade:1>)
@@ -139,6 +163,17 @@ ResearchTable.builder("hooked2", steamCat)
   .setRewardItems(<minecraft:gold_nugget> * 50)
   .build();
 
+ResearchTable.builder("danknull1", steamCat)
+  .setIcons(<danknull:dank_null_1>)
+  .setTitle("DankNull Tier-1")
+  .setDescription("Unlocks more advanced Dank/Null, to cram more blocks into.")
+  .addCondition(<ore:blockLapis> * 8)
+  .addCondition(<ore:blockCoal> * 8)
+  .setRequiredResearches("steamMaster")
+  .setRewardStages("danknull1")
+  .setRewardItems(<minecraft:gold_nugget> * 50)
+  .build();
+
 /*
   ======================================================================================================================================
 */
@@ -149,6 +184,10 @@ ResearchTable.builder("electMaster", electCat)
   .setTitle("The Steam Age!")
   .setDescription("YEAR : 1882  |  The electric revolution begins!
   Mod Unlocks : Immersive (Engineering, Tech), AlternatingFlux, @Charset (AKA Gate Logic and Wires), PortableDrill, BetterRecords, BuildingGadgets, Exhcangers, ThutsElevators, FancyFluidStorage, EnergyMeters, CrayfishFurniture, Engineers (Doors, Decor), IndustrialForegoing, Industrial (Meat, Renewal, Wires), OpenModularPassiveDefence, Woot, WorldControl, ArmourersWorkshop")
+  .addCondition(<immersiveruins:scrap> * 20)
+  .addCondition(<immersiveruins:scrap2> * 20)
+  .addCondition(<immersiveruins:scrap3> * 10)
+  .addCondition(<pneumaticcraft:compressed_iron_block> * 10)
   .addCondition(<ore:blockCopper> * 10)
   .addCondition(<ore:blockRedstone> * 5)
   .setRequiredResearches("steamMaster")
@@ -188,6 +227,17 @@ ResearchTable.builder("hooked3", electCat)
   .addCondition(<ore:string> * 32)
   .setRequiredResearches("electMaster")
   .setRewardStages("hooked3")
+  .setRewardItems(<minecraft:gold_nugget> * 75)
+  .build();
+
+ResearchTable.builder("danknull2", electCat)
+  .setIcons(<danknull:dank_null_2>)
+  .setTitle("DankNull Tier-2")
+  .setDescription("Unlocks more advanced Dank/Null, to cram more blocks into.")
+  .addCondition(<ore:blockIron> * 8)
+  .addCondition(<ore:blockCoal> * 8)
+  .setRequiredResearches("electMaster")
+  .setRewardStages("danknull2")
   .setRewardItems(<minecraft:gold_nugget> * 75)
   .build();
 
@@ -233,6 +283,17 @@ ResearchTable.builder("ironchest3", compCat)
   .setRewardItems(<ironchest:iron_chest:2> * 1)
   .build();
 
+ResearchTable.builder("danknull3", compCat)
+  .setIcons(<danknull:dank_null_3>)
+  .setTitle("DankNull Tier-3")
+  .setDescription("Unlocks more advanced Dank/Null, to cram more blocks into.")
+  .addCondition(<ore:blockGold> * 8)
+  .addCondition(<ore:blockCoal> * 8)
+  .setRequiredResearches("compMaster")
+  .setRewardStages("danknull3")
+  .setRewardItems(<minecraft:gold_nugget> * 100)
+  .build();
+
 /*
   ======================================================================================================================================
 */
@@ -264,6 +325,18 @@ ResearchTable.builder("improvedBackpacks4", atomicCat)
   .build();
 
 
+ResearchTable.builder("danknull4", atomicCat)
+  .setIcons(<danknull:dank_null_4>)
+  .setTitle("DankNull Tier-4")
+  .setDescription("Unlocks more advanced Dank/Null, to cram more blocks into.")
+  .addCondition(<ore:blockDiamond> * 8)
+  .addCondition(<ore:blockCoal> * 8)
+  .setRequiredResearches("atomicMaster")
+  .setRewardStages("danknull4")
+  .setRewardItems(<minecraft:gold_nugget> * 125)
+  .build();
+
+
 /*
   ======================================================================================================================================
 */
@@ -280,6 +353,17 @@ ResearchTable.builder("spaceMaster", spaceCat)
 //  .setOptionalStages(1, "shieldmetalworking", "sandomaking")
   .setRewardStages("space")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Space Age Achieved", TrophyItem: {id: "advancedrocketry:satellite", TrophyColorRed: 0, TrophyColorGreen: 131, TrophyColorBlue: 201, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
+  .build();
+
+ResearchTable.builder("danknull5", spaceCat)
+  .setIcons(<danknull:dank_null_5>)
+  .setTitle("DankNull Tier-5")
+  .setDescription("Unlocks more advanced Dank/Null, to cram more blocks into.")
+  .addCondition(<ore:blockEmerald> * 8)
+  .addCondition(<ore:blockCoal> * 8)
+  .setRequiredResearches("spaceMaster")
+  .setRewardStages("danknull5")
+  .setRewardItems(<minecraft:gold_nugget> * 200)
   .build();
 
 

@@ -1,6 +1,8 @@
 #priority 40
 import crafttweaker.item.IItemStack;
 import mods.nuclearcraft.infuser;
+import crafttweaker.oredict.IOreDictEntry;
+
 
 //Building Gadgets
 mods.immersiveengineering.BottlingMachine.addRecipe(<buildinggadgets:constructionpaste> * 2, <buildinggadgets:constructionblockpowder>, <liquid:water>);
@@ -33,6 +35,9 @@ recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<ore:blockGlass>, <ore:sti
 recipes.remove(<sereneseasons:season_clock>);
 recipes.addShaped(<sereneseasons:season_clock>, [[null,<minecraft:iron_nugget>,null], [<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>], [null,<minecraft:gold_ingot>,null]]);
 
+//Scaling Health
+recipes.addShapeless(<scalinghealth:heartdust> * 3, [<scalinghealth:crystalshard>]);
+
 //SGCraft
 recipes.addShaped(<sgcraft:configurator>, [[<minecraft:redstone>, <ore:plateAluminum>, <minecraft:redstone>], [<ore:plateAluminum>, <ore:itemIlluminatedPanel>, <ore:plateAluminum>], [<minecraft:stone_button>, <sgcraft:sgcontrollercrystal>, <minecraft:stone_button>]]);
 
@@ -44,6 +49,14 @@ recipes.remove(<ae2wtlib:infinity_booster_card>);
 //BetterBuilderWands
 recipes.remove(<betterbuilderswands:wanddiamond>);
 recipes.addShaped(<betterbuilderswands:wanddiamond>, [[null, null, <avaritia:resource>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+
+//Pams HarvestCraft Honey OreDict
+val materialWaxcomb = <ore:materialWaxcomb>;
+val materialHoneycomb = <ore:materialHoneycomb>;
+materialWaxcomb.add(<harvestcraft:waxcombitem>);
+materialWaxcomb.add(<biomesoplenty:honeycomb>);
+materialHoneycomb.add(<harvestcraft:honeycombitem>);
+materialHoneycomb.add(<biomesoplenty:filled_honeycomb>);
 
 //Banned Items
 mods.jei.JEI.removeAndHide(<bibliocraft:bell>);
@@ -59,11 +72,13 @@ mods.jei.JEI.removeAndHide(<cd4017be_lib:energy_supp>);
 mods.jei.JEI.removeAndHide(<cd4017be_lib:item_supp>);
 mods.jei.JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
 mods.jei.JEI.removeAndHide(<cd4017be_lib:m>);
+mods.jei.JEI.removeAndHide(<openblocks:heal>);
 
 
 val hideItem = [
     <ironchest:iron_chest:5>,
-    <storagedrawers:upgrade_storage:0>
+    <storagedrawers:upgrade_storage:0>,
+    <biomesoplenty:biome_finder>
 ] as IItemStack[];
 
 for i in hideItem{

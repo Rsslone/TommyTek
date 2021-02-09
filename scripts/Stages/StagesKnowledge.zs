@@ -26,6 +26,29 @@ mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
     ====STONE AGE====
 */
 
+//Chainmail Research
+    //Item Locks
+val chainmailR = [
+    <minecraft:chainmail_boots>,
+    <minecraft:chainmail_leggings>,
+    <minecraft:chainmail_chestplate>,
+    <minecraft:chainmail_helmet>
+] as IItemStack[];
+
+for s in chainmailR{
+    mods.ItemStages.removeItemStage(s);
+    mods.ItemStages.addItemStage("chainmailcrafting", s);
+    mods.recipestages.Recipes.setRecipeStage("chainmailcrafting", s);
+}
+
+
+//Luggage Research
+    //Item Locks
+mods.ItemStages.removeItemStage(<openblocks:luggage>);
+mods.ItemStages.addItemStage("mrluggage", <openblocks:luggage>);
+mods.recipestages.Recipes.setRecipeStage("mrluggage", <openblocks:luggage>);
+
+
 //Pet Respawn Knowledge
     //Item Locks
 mods.ItemStages.removeItemStage(<respawnablepets:etheric_gem>);
@@ -69,18 +92,8 @@ mods.jei.JEI.addDescription(<gamestagebooks:torchandcandle>,"Candles last longer
 
 //Bait n Tackle
     //Item Locks
-val baitTackle = [
-    <aquaculture:fishing_rod>,
-    <aquaculture:iron_fishing_rod>,
-    <aquaculture:diamond_fishing_rod>,
-    <aquaculture:gold_fishing_rod>
-] as IItemStack[];
-
-for s in baitTackle{
-    mods.ItemStages.removeItemStage(s);
-    mods.ItemStages.addItemStage("baitntackle", s);
-    mods.recipestages.Recipes.setRecipeStage("baitntackle", s);
-}
+mods.ItemStages.stageModItems("baitntackle", "aquaculture");
+mods.recipestages.Recipes.setRecipeStageByMod("baitntackle", "aquaculture");
     //Book Locks + Descriptions
 mods.jei.JEI.addDescription(<gamestagebooks:baitntackle>,"Fish? Treasure? Its amazing what you can find at the bottom of the lakes and oceans.");
 <gamestagebooks:baitntackle>.addTooltip(format.green("Unlocks @aquaculture rods"));
@@ -200,9 +213,8 @@ mods.jei.JEI.addDescription(<gamestagebooks:experiencedcook>,"Cooking will becom
 
 // Toolbelt
     //Item Locks
-mods.ItemStages.removeItemStage(<toolbelt:belt>);
-mods.ItemStages.addItemStage("toolbelt", <toolbelt:belt>);
-mods.recipestages.Recipes.setRecipeStage("toolbelt", <toolbelt:belt>);
+mods.ItemStages.stageModItems("toolbelt", "toolbelt");
+mods.recipestages.Recipes.setRecipeStageByMod("toolbelt", "toolbelt");
     //Book Locks + Descriptions
 mods.ItemStages.addItemStage("steam", <gamestagebooks:toolbelt>);
 mods.jei.JEI.addDescription(<gamestagebooks:toolbelt>,"Tools, Tools, and more Tools. Easily accessable from your hip!");

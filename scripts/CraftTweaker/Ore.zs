@@ -2,13 +2,6 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 
 //RemoveAndHide ORE
-val hideItem = [
-    <openblocks:heal>
-] as IItemStack[];
-
-for i in hideItem{
-    removeAndHide(i);
-}
 
 //Unused Ingot and Ores
 //removeAndHide();

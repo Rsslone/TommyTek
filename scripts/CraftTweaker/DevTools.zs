@@ -6,7 +6,8 @@ if(!dev){
     var devHide = [
         <avaritiarecipemaker:avaritiarecipemakerblock>,
         <avaritiarecipemaker:vanillarecipemakerblock>,
-        <aquaculture:admin_fishing_rod>
+        <aquaculture:admin_fishing_rod>,
+        <bountiful:bountyboarditem>
     ] as IItemStack[];
     
 for s in devHide{

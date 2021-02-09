@@ -6,7 +6,6 @@ print("Initializing 'Stages'...");
 val stoneAge = [
     "pyrotech",
     "rustic",
-    "aquaculture",
     "ceramics",
     "chisel",
     "chiselsandbits",
@@ -72,7 +71,6 @@ val steamAge = [
     "rsgauges",
     "cookingforblockheads",
     "cuisine",
-    "toolbelt",
     "viesmachines",
     "jaopca",
     "betterbuilderswands",
