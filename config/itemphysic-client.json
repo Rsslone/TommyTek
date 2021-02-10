@@ -1,7 +1,7 @@
 {
   "rendering": {
     "oldRotation": false,
-    "vanillaRendering": true,
+    "vanillaRendering": false,
     "rotateSpeed": 1.0,
     "showPickupTooltip": true,
     "disableThrowHUD": false
