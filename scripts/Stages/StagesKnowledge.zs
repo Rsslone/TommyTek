@@ -24,7 +24,8 @@ mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
 */
 
 //Knowledge Crafting
-var books = [
+val knowledgeOre = <ore:knowledgeBook>;
+val books = [
     <gamestagebooks:petrespawn>,
     <gamestagebooks:torchandcandle>,
     <gamestagebooks:baitntackle>,
@@ -42,9 +43,13 @@ var books = [
 ] as IItemStack[];
 
 for i in books {
-    recipes.addShapeless(<worldcontrol:remote_panel>.withTag({item_inventory: []}), [i]);
+    knowledgeOre.add(i);
 }
-<worldcontrol:remote_panel>.displayName("Unfocused Knowledge")
+
+recipes.addShapeless(<worldcontrol:remote_panel>.withTag({item_inventory: []}), [<ore:knowledgeBook>]);
+
+<worldcontrol:remote_panel>.displayName = "Unfocused Knowledge";
+<worldcontrol:remote_panel>.addTooltip(format.red("NOT FULLY IMPLEMENTED"));
 
 
 /*
@@ -254,6 +259,13 @@ mods.jei.JEI.addDescription(<gamestagebooks:toolbelt>,"Tools, Tools, and more To
     ==================================================================================================================
     ====ELECTRICAL AGE====
 */
+
+
+//Railgun Research
+    //Item Locks
+mods.ItemStages.removeItemStage(<immersiveengineering:railgun>);
+mods.ItemStages.addItemStage("railgun", <immersiveengineering:railgun>);
+mods.recipestages.Recipes.setRecipeStage("railgun", <immersiveengineering:railgun>);
 
 
 //Shield Metalworking

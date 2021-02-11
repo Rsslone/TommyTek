@@ -245,6 +245,17 @@ ResearchTable.builder("danknull2", electCat)
   .setRewardItems(<minecraft:gold_nugget> * 75)
   .build();
 
+ResearchTable.builder("railgun", electCat)
+  .setIcons(<immersiveengineering:railgun>)
+  .setTitle("Railguns")
+  .setDescription("Unlocks Railguns, blast your foes with high speed rods.")
+  .addCondition(<ore:blockElectrum> * 2)
+  .addCondition(<ore:blockRedstone> * 10)
+  .addEnergyCondition(50000)
+  .setRequiredResearches("electMaster")
+  .setRewardStages("railgun")
+  .setRewardItems(<minecraft:gold_nugget> * 75)
+  .build();
 /*
   ======================================================================================================================================
 */
