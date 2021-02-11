@@ -90,7 +90,6 @@ val electricalAge = [
     "immersiveengineering",
     "immersivepetroleum",
     "immersivetech",
-    "alternatingflux",
     "portabledrill",
     "betterrecords",
     "buildinggadgets",

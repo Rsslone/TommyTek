@@ -18,9 +18,34 @@ for s in VARNAME{
     mods.recipestages.Recipes.setRecipeStage("STAGEBOOKNAME", s);
 }
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("AGE", <gamestagebooks:STAGEBOOKNAME>);
 mods.jei.JEI.addDescription(<gamestagebooks:STAGEBOOKNAME>,"JEIDESCRIPT.");
 <gamestagebooks:STAGEBOOKNAME>.addTooltip(format.green("ITEMTOOLTIPDESCRIPT."));
 */
+
+//Knowledge Crafting
+var books = [
+    <gamestagebooks:petrespawn>,
+    <gamestagebooks:torchandcandle>,
+    <gamestagebooks:baitntackle>,
+    <gamestagebooks:shieldmetalworking>,
+    <gamestagebooks:sandomaking>,
+    <gamestagebooks:organizeddrawers>,
+    <gamestagebooks:improvedtorch>,
+    <gamestagebooks:experiencedcook>,
+    <gamestagebooks:toolbelt>,
+    <gamestagebooks:shieldenergy>,
+    <gamestagebooks:solarenergy>,
+    <gamestagebooks:petrolenergy>,
+    <gamestagebooks:excavator>,
+    <gamestagebooks:alternatingflux>
+] as IItemStack[];
+
+for i in books {
+    recipes.addShapeless(<worldcontrol:remote_panel>.withTag({item_inventory: []}), [i]);
+}
+<worldcontrol:remote_panel>.displayName("Unfocused Knowledge")
+
 
 /*
     ==================================================================================================================
@@ -152,6 +177,7 @@ for s in shieldWorking{
     mods.recipestages.Recipes.setRecipeStage("shieldmetalworking", s);
 }
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("iron", <gamestagebooks:shieldmetalworking>);
 mods.jei.JEI.addDescription(<gamestagebooks:shieldmetalworking>,"Wood makes for a poor shield material don't you think? I wonder if we could use this metal of death to also defend.");
 <gamestagebooks:shieldmetalworking>.addTooltip(format.green("Unlocks @spartanshields Metal Shields"));
 
@@ -163,6 +189,7 @@ mods.ItemStages.removeItemStage(sandoMaking);
 mods.ItemStages.addItemStage("sandomaking", sandoMaking);
 mods.recipestages.Recipes.setRecipeStage("sandomaking", sandoMaking);
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("iron", <gamestagebooks:sandomaking>);
 mods.jei.JEI.addDescription(<gamestagebooks:sandomaking>,"Learn to put things between bread, complex concept I know.");
 <gamestagebooks:sandomaking>.addTooltip(format.green("Unlocks @CulinaryConstruct"));
 
@@ -183,6 +210,7 @@ for s in organizedDrawers{
     mods.recipestages.Recipes.setRecipeStage("organizeddrawers", s);
 }
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("iron", <gamestagebooks:organizeddrawers>);
 mods.jei.JEI.addDescription(<gamestagebooks:organizeddrawers>,"Organized people need less space to store the same stuff, neat.");
 <gamestagebooks:organizeddrawers>.addTooltip(format.green("Unlocks @StorageDrawers 1x2 and 2x2"));
 
@@ -241,6 +269,7 @@ for s in shieldEnergy{
     mods.recipestages.Recipes.setRecipeStage("shieldenergy", s);
 }
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("electrical", <gamestagebooks:shieldenergy>);
 mods.jei.JEI.addDescription(<gamestagebooks:shieldenergy>,"Energy, matter, same thing. Lets use that for a shield!");
 <gamestagebooks:shieldenergy>.addTooltip(format.green("Unlocks @spartanshields Energy Shields"));
 
@@ -250,6 +279,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:shieldenergy>,"Energy, matter, same 
 IEMultiBlockStages.addStage("solarenergy", "IE:SolarTower", "If only you knew what you were doing. (SolarEnergy Book Required)");
 IEMultiBlockStages.addStage("solarenergy", "IE:SolarReflector", "If only you knew what you were doing. (SolarEnergy Book Required)");
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("electrical", <gamestagebooks:solarenergy>);
 mods.jei.JEI.addDescription(<gamestagebooks:solarenergy>,"Make use of the sun to power your death mach... i mean machines of peace.");
 <gamestagebooks:solarenergy>.addTooltip(format.green("Unlocks Immersive Engineering Solar Multiblock Construction."));
 
@@ -261,8 +291,29 @@ IEMultiBlockStages.addStage("petrolenergy", "IE:GasTurbine", "If only you knew w
 IEMultiBlockStages.addStage("petrolenergy", "IE:HeatExchanger", "If only you knew what you were doing. (PetrolEnergy Book Required)");
 IEMultiBlockStages.addStage("petrolenergy", "IE:DieselGenerator", "If only you knew what you were doing. (PetrolEnergy Book Required)");
     //Book Locks + Descriptions
+mods.ItemStages.addItemStage("electrical", <gamestagebooks:petrolenergy>);
 mods.jei.JEI.addDescription(<gamestagebooks:petrolenergy>,"Turn that Dino juice into energy, environmental concerns? Who cares.");
 <gamestagebooks:petrolenergy>.addTooltip(format.green("Unlocks Immersive Petrol Multiblocks."));
+
+
+//Excavator
+IEMultiBlockStages.addStage("excavator", "IE:Excavator", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+IEMultiBlockStages.addStage("excavator", "IE:BucketWheel", "If only you knew what you were doing. (PetrolEnergy Book Required)");
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("electrical", <gamestagebooks:excavator>);
+mods.jei.JEI.addDescription(<gamestagebooks:excavator>,"Dig up precious metals fast and effeciently.");
+<gamestagebooks:excavator>.addTooltip(format.green("Unlocks Immersive Excavator."));
+
+
+//Alternating Current
+    //Item Locks
+mods.ItemStages.stageModItems("alternatingflux", "alternatingflux");
+mods.recipestages.Recipes.setRecipeStageByMod("alternatingflux", "alternatingflux");
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("electrical", <gamestagebooks:alternatingflux>);
+mods.jei.JEI.addDescription(<gamestagebooks:alternatingflux>,"All Hail Nikola Tesla!");
+<gamestagebooks:alternatingflux>.addTooltip(format.green("Unlocks @AlternatingFlux"));
+
 
 /*
     ==================================================================================================================

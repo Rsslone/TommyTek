@@ -35,3 +35,9 @@ nether.addItemEntry(<lodsofemone:coin_big>.withTag({value: 500 as long}), 1);
 simple.addItemEntry(<lodsofemone:coin_small>.withTag({value: 1 as long}), 20);
 simple.addItemEntry(<lodsofemone:coin_small>.withTag({value: 10 as long}), 20);
 simple.addItemEntry(<lodsofemone:coin_small>.withTag({value: 25 as long}), 15);
+
+
+
+
+// Mobs
+
