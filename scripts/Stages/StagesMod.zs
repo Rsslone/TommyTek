@@ -123,17 +123,12 @@ mods.ItemStages.removeItemStage(<ore:oreCopper>);
 val computerAge = [
     "appliedenergistics2",
     "extracells",
-    "ae2wtlib",
-    "wct",
-    "wft",
-    "wpt",
     "immersivecables",
     "opencomputers",
     "openmodularturrets",
     "opensecurity",
     "rs_ctr",
     "cd4017be_lib",
-    "scannable",
     "sgcraft"
 ] as string[];
 

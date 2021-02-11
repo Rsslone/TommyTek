@@ -265,7 +265,7 @@ ResearchTable.builder("compMaster", compCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Computer Age!")
   .setDescription("YEAR : 1950  |  And over here is our calculator room, it tells us 2+2 is indeed 5. Wait what?
-  Mod Unlocks : AppliedEnergistics2, ExtraCells, WirelessTerminals, ImmersiveCables, OpenComputers, OpenModularTurrets, OpenSecurity, RedstoneControl, Scannable, SGcraft")
+  Mod Unlocks : AppliedEnergistics2, ExtraCells, ImmersiveCables, OpenComputers, OpenModularTurrets, OpenSecurity, RedstoneControl, SGcraft")
   .addCondition(<ore:blockSteel> * 50)
   .addCondition(<ore:blockElectrum> * 20)
   .addCondition(<liquid:creosote> * 50000)
@@ -313,6 +313,17 @@ ResearchTable.builder("danknull3", compCat)
   .setRewardItems(<minecraft:gold_nugget> * 100)
   .build();
 
+ResearchTable.builder("aecells1", compCat)
+  .setIcons(<appliedenergistics2:storage_cell_4k>)
+  .setTitle("AE2 Cells T1")
+  .setDescription("Unlocks 4k drives.")
+  .addCondition(<ore:gemCertusQuartz> * 26)
+  .addCondition(<ore:blockRedstone> * 5)
+  .setRequiredResearches("compMaster")
+  .setRewardStages("aecells1")
+  .setRewardItems(<minecraft:gold_nugget> * 100)
+  .build();
+
 /*
   ======================================================================================================================================
 */
@@ -326,7 +337,7 @@ ResearchTable.builder("atomicMaster", atomicCat)
   .addCondition(<ore:blockLead> * 10)
   .addCondition(<ore:blockUranium> * 5)
   .setRequiredResearches("compMaster")
-//  .setOptionalStages(1, "shieldmetalworking", "sandomaking")
+  .setOptionalStages(1, "wirelessterminals", "scannable")
   .setRewardStages("atomic")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Atomic Age Achieved", TrophyItem: {id: "nuclearcraft:radaway", TrophyColorRed: 0, TrophyColorGreen: 143, TrophyColorBlue: 4, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();
@@ -355,6 +366,16 @@ ResearchTable.builder("danknull4", atomicCat)
   .setRewardItems(<minecraft:gold_nugget> * 125)
   .build();
 
+ResearchTable.builder("aecells2", atomicCat)
+  .setIcons(<appliedenergistics2:storage_cell_16k>)
+  .setTitle("AE2 Cells T2")
+  .setDescription("Unlocks 16k drives and spatial drives.")
+  .addCondition(<ore:gemChargedCertusQuartz> * 26)
+  .addCondition(<ore:dustGlowstone> * 26)
+  .setRequiredResearches("atomicMaster")
+  .setRewardStages("aecells2")
+  .setRewardItems(<minecraft:gold_nugget> * 125)
+  .build();
 
 /*
   ======================================================================================================================================
@@ -385,6 +406,16 @@ ResearchTable.builder("danknull5", spaceCat)
   .setRewardItems(<minecraft:gold_nugget> * 200)
   .build();
 
+ResearchTable.builder("aecells3", spaceCat)
+  .setIcons(<appliedenergistics2:storage_cell_64k>)
+  .setTitle("AE2 Cells T3")
+  .setDescription("Unlocks 64k drives and dense spatial drives.")
+  .addCondition(<ore:crystalPureFluix> * 26)
+  .addCondition(<ore:blockGold> * 15)
+  .setRequiredResearches("spaceMaster")
+  .setRewardStages("aecells3")
+  .setRewardItems(<minecraft:gold_nugget> * 200)
+  .build();
 
 /*
   ======================================================================================================================================

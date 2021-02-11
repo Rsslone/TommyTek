@@ -332,4 +332,29 @@ mods.jei.JEI.addDescription(<gamestagebooks:alternatingflux>,"All Hail Nikola Te
     ====COMPUTER AGE====
 */
 
+//Scannable
+mods.ItemStages.stageModItems("scannable", "scannable");
+mods.recipestages.Recipes.setRecipeStageByMod("scannable", "scannable");
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("computer", <gamestagebooks:scannable>);
+mods.jei.JEI.addDescription(<gamestagebooks:scannable>,"Using vibrations we can detect what types of stone or ores are around us!");
+<gamestagebooks:scannable>.addTooltip(format.green("Unlocks @Scannable"));
 
+
+//Wireless Terminals
+    //Item Locks
+val wirelessT = [
+    "ae2wtlib",
+    "wct",
+    "wft",
+    "wpt"
+] as string[];
+
+for s in wirelessT {
+    mods.ItemStages.stageModItems("wirelessterminals", s);
+    mods.recipestages.Recipes.setRecipeStageByMod("wirelessterminals", s);
+}
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("computer", <gamestagebooks:wirelessterminals>);
+mods.jei.JEI.addDescription(<gamestagebooks:wirelessterminals>,"Doing business on the go, link your AE2 system to handheld terminals for easy access!");
+<gamestagebooks:wirelessterminals>.addTooltip(format.green("Unlocks AE2 Terminals @wireless"));
