@@ -120,7 +120,7 @@ ResearchTable.builder("steamMaster", steamCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Steam Age!")
   .setDescription("YEAR : 1700  |  Wonderful breakthroughs in uses of this heated water, automated machines chug away at our command!
-  Mod Unlocks : Pneumaticcraft, Capsule, MultiStorage, Railcraft, StevesCarts, RsGauges, CookingForBlockheads, Cuisine, ViesMachines, JAOPCA, BetterBuildersWands, SimilsaxTranstructors, ImmersiveRuins, TorchMaster")
+  Mod Unlocks : Pneumaticcraft, SGcraft, Capsule, MultiStorage, Railcraft, StevesCarts, RsGauges, CookingForBlockheads, Cuisine, ViesMachines, JAOPCA, BetterBuildersWands, SimilsaxTranstructors, ImmersiveRuins, TorchMaster")
   .addCondition(<ore:blockIron> * 25)
   .addCondition(<ore:blockGold> * 10)
   .addCondition(<harvestcraft:takoyakiitem>)
@@ -256,6 +256,7 @@ ResearchTable.builder("railgun", electCat)
   .setRewardStages("railgun")
   .setRewardItems(<minecraft:gold_nugget> * 75)
   .build();
+
 /*
   ======================================================================================================================================
 */
@@ -265,15 +266,15 @@ ResearchTable.builder("compMaster", compCat)
   .setIcons(<openblocks:info_book>)
   .setTitle("The Computer Age!")
   .setDescription("YEAR : 1950  |  And over here is our calculator room, it tells us 2+2 is indeed 5. Wait what?
-  Mod Unlocks : AppliedEnergistics2, ExtraCells, ImmersiveCables, OpenComputers, OpenModularTurrets, OpenSecurity, RedstoneControl, SGcraft")
+  Mod Unlocks : AppliedEnergistics2, ExtraCells, ImmersiveCables, OpenComputers, OpenModularTurrets, OpenSecurity, RedstoneControl")
   .addCondition(<ore:blockSteel> * 50)
   .addCondition(<ore:blockElectrum> * 20)
   .addCondition(<liquid:creosote> * 50000)
   .addCondition(<ore:electronTube> * 300)
   .addEnergyCondition(1000000)
   .setRequiredResearches("electMaster")
-  .setOptionalStages(2, "shieldenergy", "solarenergy", "petrolenergy", "excavator")
-  .setOptionalStages(3, "improvedBackpacks2", "ironchest2", "hooked3", "danknull2", "alternatingflux")
+  .setOptionalStages(3, "shieldenergy", "solarenergy", "petrolenergy", "excavator", "alternatingflux")
+  .setOptionalStages(3, "improvedBackpacks2", "ironchest2", "hooked3", "danknull2", "railgun")
   .setRewardStages("computer")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Computer Age Achieved", TrophyItem: {id: "opencomputers:storage:1", TrophyColorRed: 142, TrophyColorGreen: 255, TrophyColorBlue: 55, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();
@@ -337,7 +338,7 @@ ResearchTable.builder("atomicMaster", atomicCat)
   .addCondition(<ore:blockLead> * 10)
   .addCondition(<ore:blockUranium> * 5)
   .setRequiredResearches("compMaster")
-  .setOptionalStages(1, "wirelessterminals", "scannable")
+  .setOptionalStages(2, "wirelessterminals", "scannable", "sgconfigurator")
   .setRewardStages("atomic")
   .setRewardItems(<simple_trophies:trophy>.withTag({TrophyName: "Atomic Age Achieved", TrophyItem: {id: "nuclearcraft:radaway", TrophyColorRed: 0, TrophyColorGreen: 143, TrophyColorBlue: 4, TrophyVariant: "classic", TrophyShowsTooltip: 1 as byte, Count: 1 as byte, Damage: 0 as short}}))
   .build();

@@ -173,16 +173,28 @@ for s in spaceAge{
     mods.recipestages.Recipes.setRecipeStage("space", s);
 }*/
 
-/*Fusion Age
+//Fusion Age
 val fusionAge = [
-    
+    <nuclearcraft:fusion_connector>,
+    <nuclearcraft:fusion_core>,
+    <nuclearcraft:fusion_dummy_side>,
+    <nuclearcraft:fusion_dummy_top>,
+    <nuclearcraft:fusion_electromagnet_active>,
+    <nuclearcraft:fusion_electromagnet_idle>,
+    <nuclearcraft:fusion_electromagnet_transparent_active>,
+    <nuclearcraft:fusion_electromagnet_transparent_idle>,
+    <alchemistry:fusion_casing>,
+    <alchemistry:fusion_controller>,
+    <alchemistry:fusion_core>,
+    <mekanismgenerators:reactor:*>,
+    <mekanismgenerators:reactorglass>
 ] as IItemStack[];
 
 for s in fusionAge{
     mods.ItemStages.removeItemStage(s);
     mods.ItemStages.addItemStage("fusion", s);
     mods.recipestages.Recipes.setRecipeStage("fusion", s);
-}*/
+}
 
 /*Draconic Age
 val draconicAge = [

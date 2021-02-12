@@ -76,7 +76,8 @@ val steamAge = [
     "betterbuilderswands",
     "similsaxtranstructors",
     "immersiveruins",
-    "torchmaster"
+    "torchmaster",
+    "sgcraft"
 ] as string[];
 
 for s in steamAge{
@@ -128,8 +129,7 @@ val computerAge = [
     "openmodularturrets",
     "opensecurity",
     "rs_ctr",
-    "cd4017be_lib",
-    "sgcraft"
+    "cd4017be_lib"
 ] as string[];
 
 for s in computerAge{

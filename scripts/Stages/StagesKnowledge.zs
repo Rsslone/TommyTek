@@ -332,6 +332,7 @@ mods.jei.JEI.addDescription(<gamestagebooks:alternatingflux>,"All Hail Nikola Te
     ====COMPUTER AGE====
 */
 
+
 //Scannable
 mods.ItemStages.stageModItems("scannable", "scannable");
 mods.recipestages.Recipes.setRecipeStageByMod("scannable", "scannable");
@@ -358,3 +359,13 @@ for s in wirelessT {
 mods.ItemStages.addItemStage("computer", <gamestagebooks:wirelessterminals>);
 mods.jei.JEI.addDescription(<gamestagebooks:wirelessterminals>,"Doing business on the go, link your AE2 system to handheld terminals for easy access!");
 <gamestagebooks:wirelessterminals>.addTooltip(format.green("Unlocks AE2 Terminals @wireless"));
+
+
+//SG Configurator
+    //Item Locks
+mods.ItemStages.stageModItems("sgconfigurator", <sgcraft:configurator>);
+mods.recipestages.Recipes.setRecipeStageByMod("sgconfigurator", <sgcraft:configurator>);
+    //Book Locks + Descriptions
+mods.ItemStages.addItemStage("computer", <gamestagebooks:sgconfigurator>);
+mods.jei.JEI.addDescription(<gamestagebooks:sgconfigurator>,"These old research papers should be helpful in understanding the alien technology.");
+<gamestagebooks:sgconfigurator>.addTooltip(format.green("Unlocks @sgcraft configurator"));

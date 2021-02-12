@@ -41,10 +41,12 @@ Book.addBook("alternatingflux", "Alternating Flux", "Nikola Tesla's Notes", "alt
 //Computer Age
 Book.addBook("wirelessterminals", "Wireless Terminals", "The Future of Handheld Computing", "wpt:wpt_creative", 0x8eff37);
 Book.addBook("scannable", "Scannable", "The frequency of rocks", "scannable:scanner", 0x8eff37);
+Book.addBook("sgconfigurator", "Configurator", "Old Research Papers", "sgcraft:configurator", 0x8eff37);
 
 //Atomic Age
 //008f04
 // Torch Master Big Torch
+// Digiminer
 
 //Space Age
 //0083c9
